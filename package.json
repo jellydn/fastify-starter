@@ -1,0 +1,44 @@
+{
+  "name": "fastify-starter",
+  "version": "0.0.1",
+  "description": "Fastify Typescript Starter",
+  "main": "app.ts",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "npm run build:ts && tsc -p test/tsconfig.test.json && cross-env TS_NODE_FILES=true tap --ts test/**/*.test.ts",
+    "start": "ts-node src/server.ts",
+    "build:ts": "npm run clean && tsc",
+    "clean": "rimraf dist",
+    "dev": "ts-node-dev src/server.ts"
+  },
+  "keywords": [
+    "fastify",
+    "fastify-starter"
+  ],
+  "author": "Huynh Duc Dung",
+  "license": "MIT",
+  "dependencies": {
+    "@sinclair/typebox": "^0.20.5",
+    "close-with-grace": "^1.1.0",
+    "fastify": "^3.22.1",
+    "fastify-autoload": "^3.9.0",
+    "fastify-cli": "^2.13.0",
+    "fastify-cors": "^6.0.2",
+    "fastify-multipart": "^5.0.2",
+    "fastify-plugin": "^3.0.0",
+    "fastify-sensible": "^3.1.1",
+    "fastify-tsconfig": "^1.0.1",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.4.4"
+  },
+  "devDependencies": {
+    "@types/busboy": "0.3.1",
+    "@types/node": "16.11.4",
+    "@types/tap": "15.0.5",
+    "cross-env": "7.0.3",
+    "tap": "15.0.10",
+    "ts-node-dev": "1.1.8"
+  }
+}
