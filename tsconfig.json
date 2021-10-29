@@ -1,15 +1,13 @@
 {
-    "ts-node": {
-        "compilerOptions": {
-            "esModuleInterop": true
-        }
-    },
-    "extends": "fastify-tsconfig",
+  "ts-node": {
     "compilerOptions": {
-        "outDir": "dist",
-        "esModuleInterop": true
-    },
-    "include": [
-        "src/**/*.ts"
-    ]
+      "esModuleInterop": true
+    }
+  },
+  "extends": "fastify-tsconfig",
+  "compilerOptions": {
+    "outDir": "dist",
+    "esModuleInterop": true
+  },
+  "include": ["src/**/*.ts"]
 }

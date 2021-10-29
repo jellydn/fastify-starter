@@ -3,7 +3,8 @@ import { test } from "tap";
 
 import Support from "../../src/plugins/support";
 
-test("support works standalone", async (t) => {
+void test("support works standalone", async (t) => {
+  // eslint-disable-next-line new-cap
   const fastify = Fastify();
   void fastify.register(Support);
   await fastify.ready();
