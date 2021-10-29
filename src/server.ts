@@ -4,6 +4,7 @@ import closeWithGrace from "close-with-grace";
 import * as dotenv from "dotenv";
 // Require the framework
 import Fastify from "fastify";
+import { initGraphql } from "./graphql";
 
 dotenv.config();
 
@@ -15,6 +16,9 @@ const app = Fastify({
 
 // Register your application as a normal plugin.
 void app.register(import("./app"));
+
+// Init graphql
+initGraphql(app);
 
 // Delay is the number of milliseconds for the graceful close to finish
 const closeListeners = closeWithGrace({ delay: 500 }, async (opts: any) => {
@@ -37,3 +41,5 @@ app.listen(process.env.PORT ?? 3000, "0.0.0.0", (err: any) => {
     process.exit(1);
   }
 });
+
+export { app };
