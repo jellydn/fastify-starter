@@ -1,5 +1,7 @@
  
- 
+/* eslint-disable @typescript-eslint/no-unsafe-assignment */
+import { FastifyInstance } from "fastify";
+import fastifySwagger from "fastify-swagger";
 import { join } from "path";
 import swaggerJsdoc from "swagger-jsdoc";
 
@@ -22,6 +24,14 @@ const options: swaggerJsdoc.Options = {
   apis: [`${apiDirectory}/**/*.js`, `${apiDirectory}/**/*.ts`],
 };
 
-const swaggerSpec = swaggerJsdoc(options);
+export function initSwagger(app: FastifyInstance) {
+  const swaggerSpec = swaggerJsdoc(options);
 
-export { swaggerSpec };
+  void app.register(fastifySwagger, {
+    mode: "static",
+    specification: {
+      document: swaggerSpec as any,
+    },
+    exposeRoute: true,
+  });
+}
