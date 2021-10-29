@@ -1,11 +1,14 @@
-// Read the .env file.
 // Require library to exit fastify process, gracefully (if possible)
 import closeWithGrace from "close-with-grace";
 import * as dotenv from "dotenv";
 // Require the framework
 import Fastify from "fastify";
-import { initGraphql } from "./graphql";
+import fastifySwagger from "fastify-swagger";
 
+import { initGraphql } from "./graphql";
+import { swaggerSpec } from "./swagger";
+
+// Read the .env file.
 dotenv.config();
 
 // Instantiate Fastify with some config
@@ -19,6 +22,18 @@ void app.register(import("./app"));
 
 // Init graphql
 initGraphql(app);
+
+console.log(swaggerSpec);
+
+// Swagger
+void app.register(fastifySwagger, {
+  mode: "static",
+  specification: {
+    // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
+    document: swaggerSpec as any,
+  },
+  exposeRoute: true,
+});
 
 // Delay is the number of milliseconds for the graceful close to finish
 const closeListeners = closeWithGrace({ delay: 500 }, async (opts: any) => {
