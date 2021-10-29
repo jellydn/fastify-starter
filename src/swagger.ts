@@ -1,4 +1,3 @@
- 
 /* eslint-disable @typescript-eslint/no-unsafe-assignment */
 import { FastifyInstance } from "fastify";
 import fastifySwagger from "fastify-swagger";
@@ -25,6 +24,7 @@ const options: swaggerJsdoc.Options = {
 };
 
 export function initSwagger(app: FastifyInstance) {
+   
   const swaggerSpec = swaggerJsdoc(options);
 
   void app.register(fastifySwagger, {

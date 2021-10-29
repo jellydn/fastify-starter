@@ -6,6 +6,14 @@
 
 > Fastify Typescript Starter
 
+## Features
+
+- Swagger documentation generator for Fastify https://github.com/fastify/fastify-swagger
+- Generates swagger/openapi specification based on jsDoc comments and YAML files. https://github.com/Surnet/swagger-jsdoc
+- Mercurius is a GraphQL adapter for Fastify https://mercurius.dev/
+- Code-GraphQL Nexus
+  Declarative, Code-First GraphQL Schemas for JavaScript/TypeScript https://nexusjs.org
+
 ## Install
 
 ```sh
@@ -16,6 +24,30 @@ yarn install
 
 ```sh
 yarn run start
+```
+
+## Swagger UI
+
+http://localhost:3000/documentation
+
+![https://gyazo.com/6cf6c02cb36f9d4fababdde1ad071aba.gif](https://gyazo.com/6cf6c02cb36f9d4fababdde1ad071aba.gif)
+
+## GraphQL
+
+Run below command in your terminal/CLI
+
+```sh
+curl -H "Content-Type:application/graphql" -XPOST -d "query { hello }" http://localhost:3000/graphql | jq .
+```
+
+Output:
+
+```
+{
+  "data": {
+    "hello": "Hello World!"
+  }
+}
 ```
 
 ## Run tests
