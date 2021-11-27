@@ -11,6 +11,7 @@ const UserToken = Type.Object({
 type UserTokenType = Static<typeof UserToken>;
 
 const user: FastifyPluginAsync = async (fastify, _opts): Promise<void> => {
+  // Refer https://swagger.io/docs/specification/describing-request-body/
   /**
    * @swagger
    * tags:
