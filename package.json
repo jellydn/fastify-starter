@@ -21,7 +21,7 @@
   "author": "Huynh Duc Dung",
   "license": "MIT",
   "dependencies": {
-    "@sinclair/typebox": "^0.20.5",
+    "@sinclair/typebox": "^0.22.0",
     "@typescript-eslint/eslint-plugin": "^5.2.0",
     "@typescript-eslint/parser": "^5.2.0",
     "close-with-grace": "^1.1.0",

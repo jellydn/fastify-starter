@@ -767,10 +767,10 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@sinclair/typebox@^0.20.5":
-  version "0.20.5"
-  resolved "https://registry.yarnpkg.com/@sinclair/typebox/-/typebox-0.20.5.tgz#d5828bbb8237876d7937dd229e3dac71d1220771"
-  integrity sha512-WNiVFcS1rdz5KyEutpl3Wmp/AwSQHBUFTyJz7KqMLkpLhOXCj1dnvMytBM6uMS5OTwhwwq877T7EC4vDGrX5Eg==
+"@sinclair/typebox@^0.22.0":
+  version "0.22.0"
+  resolved "https://registry.yarnpkg.com/@sinclair/typebox/-/typebox-0.22.0.tgz#503448f3b76d86f87342739621610e766103a5ee"
+  integrity sha512-KEB7UiEMw43/x2urIAlUD1bu0JUTiTNcEMcGVM0pYq2mAHg8CbVQHMP1xGSCbPWpmoej/oaz3lGLO7XZN9AN9Q==
 
 "@tsconfig/node10@^1.0.7":
   version "1.0.8"
