@@ -3426,10 +3426,15 @@ graphql-tag@^2.11.0:
   dependencies:
     tslib "^2.1.0"
 
-graphql@^15.5.1, graphql@^15.7.2:
+graphql@^15.7.2:
   version "15.7.2"
   resolved "https://registry.yarnpkg.com/graphql/-/graphql-15.7.2.tgz#85ab0eeb83722977151b3feb4d631b5f2ab287ef"
   integrity sha512-AnnKk7hFQFmU/2I9YSQf3xw44ctnSFCfp3zE0N6W174gqe9fWG/2rKaKxROK7CcI3XtERpjEKFqts8o319Kf7A==
+
+graphql@^16.0.0:
+  version "16.2.0"
+  resolved "https://registry.yarnpkg.com/graphql/-/graphql-16.2.0.tgz#de3150e80f1fc009590b92a9d16ab1b46e12b656"
+  integrity sha512-MuQd7XXrdOcmfwuLwC2jNvx0n3rxIuNYOxUtiee5XOmfrWo613ar2U8pE7aHAKh8VwfpifubpD9IP+EdEAEOsA==
 
 har-schema@^2.0.0:
   version "2.0.0"
@@ -4618,10 +4623,10 @@ mercurius-integration-testing@^3.2.0:
     get-port "^5.1.1"
     ws "^7.5.2"
 
-mercurius@^8.10.0:
-  version "8.10.0"
-  resolved "https://registry.yarnpkg.com/mercurius/-/mercurius-8.10.0.tgz#262ba9c2a2a172781bc84fef493d07089bbd833b"
-  integrity sha512-qnbAyO0vJphrpcCmf5pIqt77eeNtvaLRXTMbnicP9YgIZM+HYoX9eYzru7DxjB4LC40VxyKJl7k8Eby/RXtrFA==
+mercurius@^9.0.0:
+  version "9.0.0"
+  resolved "https://registry.yarnpkg.com/mercurius/-/mercurius-9.0.0.tgz#a61a05d59a0f98eba2176c9c714e061a2618b57d"
+  integrity sha512-efPNXx8XgjewxYW4Ay0nP8BzM7zOpETOOS1ACZoKH7xD1WvNiWssXn7PyRscTAcBtvQN3BBkbqRPiFw9NHlMiA==
   dependencies:
     "@types/isomorphic-form-data" "^2.0.0"
     events.on "^1.0.1"
@@ -4629,12 +4634,13 @@ mercurius@^8.10.0:
     fastify-plugin "^3.0.0"
     fastify-static "^4.2.2"
     fastify-websocket "^4.0.0"
-    graphql "^15.5.1"
+    graphql "^16.0.0"
     graphql-jit "^0.7.0"
     mqemitter "^4.4.1"
     p-map "^4.0.0"
     promise.allsettled "^1.0.4"
     readable-stream "^3.6.0"
+    safe-stable-stringify "^2.3.0"
     secure-json-parse "^2.4.0"
     single-user-cache "^0.6.0"
     tiny-lru "^7.0.6"
@@ -5810,6 +5816,11 @@ safe-stable-stringify@^2.0.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/safe-stable-stringify/-/safe-stable-stringify-2.2.0.tgz#26a52f13a6988de16a0d88e20248f38e8a7d840c"
   integrity sha512-C6AuMdYPuPV/P1leplHNu0lgc2LAElq/g3TdoksDCIVtBhr78o/CH03bt/9SKqugFbKU9CUjsNlCu0fjtQzQUw==
+
+safe-stable-stringify@^2.3.0:
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/safe-stable-stringify/-/safe-stable-stringify-2.3.1.tgz#ab67cbe1fe7d40603ca641c5e765cb942d04fc73"
+  integrity sha512-kYBSfT+troD9cDA85VDnHZ1rpHC50O0g1e6WlGHVCz/g+JS+9WKLj+XwFYyR8UbrZN8ll9HUpDAAddY58MGisg==
 
 safer-buffer@^2.0.2, safer-buffer@^2.1.0, safer-buffer@~2.1.0:
   version "2.1.2"
