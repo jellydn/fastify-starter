@@ -33,6 +33,7 @@ const schema = makeSchema({
 });
 
 export function initGraphql(app: FastifyInstance) {
+  // @ts-expect-error     Type 'NexusGraphQLSchema' is not assignable to type 'string | string[] | GraphQLSchema | undefined'.
   void app.register(mercurius, {
     schema,
     graphiql: true,
