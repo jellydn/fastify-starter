@@ -38,7 +38,7 @@
     "fastify-swagger": "^4.12.6",
     "fastify-tsconfig": "^1.0.1",
     "graphql": "^15.7.2",
-    "mercurius": "^8.10.0",
+    "mercurius": "^9.0.0",
     "mercurius-codegen": "^3.2.0",
     "mercurius-integration-testing": "^3.2.0",
     "nexus": "^1.1.0",
