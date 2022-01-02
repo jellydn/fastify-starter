@@ -51,16 +51,16 @@
     "cross-env": "7.0.3",
     "eslint": "8.6.0",
     "eslint-config-prettier": "8.3.0",
-    "eslint-config-xo": "^0.39.0",
+    "eslint-config-xo": "0.39.0",
     "eslint-config-xo-typescript": "0.48.0",
     "husky": "7.0.4",
     "json-schema-to-typescript": "10.1.5",
     "lint-staged": "12.1.4",
     "prettier": "2.5.1",
     "tap": "15.1.5",
-    "ts-node": "^10.4.0",
+    "ts-node": "10.4.0",
     "ts-node-dev": "1.1.8",
-    "typescript": "^4.5.4"
+    "typescript": "4.5.4"
   },
   "lint-staged": {
     "*.{js,ts}": "eslint --cache --fix",
