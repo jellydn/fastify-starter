@@ -2147,10 +2147,10 @@ eslint-config-prettier@8.3.0:
   resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-8.3.0.tgz#f7471b20b6fe8a9a9254cc684454202886a2dd7a"
   integrity sha512-BgZuLUSeKzvlL/VUjx/Yb787VQ26RU3gGjA3iiFvdsp/2bMfVIWUVP7tjxtjS0e+HP409cPlPvNkQloz8C91ew==
 
-eslint-config-xo-typescript@0.48.0:
-  version "0.48.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-xo-typescript/-/eslint-config-xo-typescript-0.48.0.tgz#83a714305a388a03416465a6abda855f4ccf1248"
-  integrity sha512-/PCtmp8g+lZxGGrWYQ14Z1VPD6U/86xlaluT7rMTb3iM02ITWBXmMfgofLmoWZdpbg5v/M8/H+5CpyGqgCrgEw==
+eslint-config-xo-typescript@0.49.0:
+  version "0.49.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-xo-typescript/-/eslint-config-xo-typescript-0.49.0.tgz#c7f1e09a298c9912d0366e1397aab1ea82c0ddd6"
+  integrity sha512-a493Ikqk1Ak2tbcVrfAwegvwFnfMbN+G1o6JnCsdQKVgjFQuAXNqJ8X88+01YKNQ8N3bZwFNACcC25+spZI3/g==
 
 eslint-config-xo@0.39.0:
   version "0.39.0"
