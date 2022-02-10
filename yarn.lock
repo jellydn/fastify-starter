@@ -1733,10 +1733,10 @@ concat-map@0.0.1:
   resolved "https://registry.yarnpkg.com/concat-map/-/concat-map-0.0.1.tgz#d8a96bd77fd68df7793a73036a3ba0d5405d477b"
   integrity sha1-2Klr13/Wjfd5OnMDajug1UBdR3s=
 
-confusing-browser-globals@1.0.10:
-  version "1.0.10"
-  resolved "https://registry.yarnpkg.com/confusing-browser-globals/-/confusing-browser-globals-1.0.10.tgz#30d1e7f3d1b882b25ec4933d1d1adac353d20a59"
-  integrity sha512-gNld/3lySHwuhaVluJUKLePYirM3QNCKzVxqAdhJII9/WXKVX5PURzMVJspS1jTslSqjeuG4KMVTSouit5YPHA==
+confusing-browser-globals@1.0.11:
+  version "1.0.11"
+  resolved "https://registry.yarnpkg.com/confusing-browser-globals/-/confusing-browser-globals-1.0.11.tgz#ae40e9b57cdd3915408a2805ebd3a5585608dc81"
+  integrity sha512-JsPKdmh8ZkmnHxDk55FZ1TqVLvEQTvoByJZRN9jzI0UjxK/QgAmsphz7PGtqgPieQZ/CQcHWXCR7ATDNhGe+YA==
 
 constant-case@^3.0.4:
   version "3.0.4"
@@ -2145,12 +2145,12 @@ eslint-config-xo-typescript@0.50.0:
   resolved "https://registry.yarnpkg.com/eslint-config-xo-typescript/-/eslint-config-xo-typescript-0.50.0.tgz#59a0a704fbd667592ca3ddcc599b9f8c855e4ebe"
   integrity sha512-Ru2tXB8y2w9fFHLm4v2AVfY6P81UbfEuDZuxEpeXlfV65Ezlk0xO4nBaT899ojIFkWfr60rP9Ye4CdVUUT1UYg==
 
-eslint-config-xo@0.39.0:
-  version "0.39.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-xo/-/eslint-config-xo-0.39.0.tgz#a76074270d5ecaa6655a740cbdc86eba621590b7"
-  integrity sha512-QX+ZnQgzy/UtgF8dksIiIBzpYoEKmiL0CmZ8O0Gnby7rGXg8Cny1CXirmHp1zKYIpO7BuTmtWj8eUYOsGr0IGQ==
+eslint-config-xo@0.40.0:
+  version "0.40.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-xo/-/eslint-config-xo-0.40.0.tgz#a95ba5e38de6d1b7563b0dcd48f8435055a629d5"
+  integrity sha512-msI1O0JGxeK2bbExg3U6EGaWKcjhOFzEjwzObywG/DC5GSNZTOyJT+b2l9MZGBeZsVdxfIGwdXTNeWXl8cN9iw==
   dependencies:
-    confusing-browser-globals "1.0.10"
+    confusing-browser-globals "1.0.11"
 
 eslint-scope@^5.1.1:
   version "5.1.1"
