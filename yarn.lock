@@ -3668,10 +3668,10 @@ levn@^0.4.1:
     prelude-ls "^1.2.1"
     type-check "~0.4.0"
 
-libtap@^1.2.2:
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/libtap/-/libtap-1.2.2.tgz#6f5c09f05f311e86585193ad791a4773c76720e4"
-  integrity sha512-GZWH3fipvi6Pgrpy6Bi8unioB3Vu6qQRYQ+h6NxfzwvCm5yut1j4W8AQfX9Yab03CiFGjro55G0SIp6unVdx0g==
+libtap@^1.3.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/libtap/-/libtap-1.3.0.tgz#47c3c885d4f25f8db257965db3170237cdcf80dd"
+  integrity sha512-yU5uSY987sVwpWiR5h84ZM96bxvmCQFZ/bOEJ1M7+Us8oez25fLmmLNGFRFGWi2PzuLqAzqzESH7HCaZ/b9IZA==
   dependencies:
     async-hook-domain "^2.0.4"
     bind-obj-methods "^3.0.0"
@@ -5364,6 +5364,15 @@ tap-parser@^11.0.0:
     minipass "^3.1.6"
     tap-yaml "^1.0.0"
 
+tap-parser@^11.0.1:
+  version "11.0.1"
+  resolved "https://registry.yarnpkg.com/tap-parser/-/tap-parser-11.0.1.tgz#513be88daa179cd5b158bbb939b8613e6125312b"
+  integrity sha512-5ow0oyFOnXVSALYdidMX94u0GEjIlgc/BPFYLx0yRh9hb8+cFGNJqJzDJlUqbLOwx8+NBrIbxCWkIQi7555c0w==
+  dependencies:
+    events-to-array "^1.0.1"
+    minipass "^3.1.6"
+    tap-yaml "^1.0.0"
+
 tap-yaml@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/tap-yaml/-/tap-yaml-1.0.0.tgz#4e31443a5489e05ca8bbb3e36cef71b5dec69635"
@@ -5371,10 +5380,10 @@ tap-yaml@^1.0.0:
   dependencies:
     yaml "^1.5.0"
 
-tap@15.2.2:
-  version "15.2.2"
-  resolved "https://registry.yarnpkg.com/tap/-/tap-15.2.2.tgz#45ff2f696db3119088974d37f5b1f77aaeab2424"
-  integrity sha512-MWU8vdFfTAWlVw73bNDgGCzZ6zHFEOprd2eywAsLJLTtr4IKjk4wWG5Qh8x2zJipKA2hEzxANqS2mJ+k2YMBbQ==
+tap@15.2.3:
+  version "15.2.3"
+  resolved "https://registry.yarnpkg.com/tap/-/tap-15.2.3.tgz#994a8c4604b81b89d424809e0e4df86eb9073211"
+  integrity sha512-EVbovHd/SdevGMUnkNU5JJqC1YC0hzaaZ2jnqs0fKHv9Oudx27qW3Xwox7A6TB92wvR0mqgQPr+Au2w56kD+aQ==
   dependencies:
     "@isaacs/import-jsx" "*"
     "@types/react" "*"
@@ -5388,7 +5397,7 @@ tap@15.2.2:
     isexe "^2.0.0"
     istanbul-lib-processinfo "^2.0.2"
     jackspeak "^1.4.1"
-    libtap "^1.2.2"
+    libtap "^1.3.0"
     minipass "^3.1.1"
     mkdirp "^1.0.4"
     nyc "^15.1.0"
@@ -5398,7 +5407,7 @@ tap@15.2.2:
     signal-exit "^3.0.6"
     source-map-support "^0.5.16"
     tap-mocha-reporter "^5.0.3"
-    tap-parser "^11.0.0"
+    tap-parser "^11.0.1"
     tap-yaml "^1.0.0"
     tcompare "^5.0.7"
     treport "*"
