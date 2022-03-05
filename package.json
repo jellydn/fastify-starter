@@ -55,7 +55,7 @@
     "eslint-config-xo-typescript": "0.50.0",
     "husky": "7.0.4",
     "json-schema-to-typescript": "10.1.5",
-    "lint-staged": "12.3.4",
+    "lint-staged": "12.3.5",
     "prettier": "2.5.1",
     "tap": "15.2.2",
     "ts-node": "10.6.0",
