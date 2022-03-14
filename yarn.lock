@@ -2382,10 +2382,10 @@ fastify-cli@^2.15.0:
     split2 "^4.1.0"
     yargs-parser "^20.0.0"
 
-fastify-cors@^6.0.2:
-  version "6.0.2"
-  resolved "https://registry.yarnpkg.com/fastify-cors/-/fastify-cors-6.0.2.tgz#4fd5102549659e9b34d252fd7ee607b63d021390"
-  integrity sha512-sE0AOyzmj5hLLRRVgenjA6G2iOGX35/1S3QGYB9rr9TXelMZB3lFrXy4CzwYVOMiujJeMiLgO4J7eRm8sQSv8Q==
+fastify-cors@^6.0.3:
+  version "6.0.3"
+  resolved "https://registry.yarnpkg.com/fastify-cors/-/fastify-cors-6.0.3.tgz#1907f92c3f855a18ef6fb6213186c73cf0bbf9e4"
+  integrity sha512-fMbXubKKyBHHCfSBtsCi3+7VyVRdhJQmGes5gM+eGKkRErCdm0NaYO0ozd31BQBL1ycoTIjbqOZhJo4RTF/Vlg==
   dependencies:
     fastify-plugin "^3.0.0"
     vary "^1.1.2"
@@ -2449,10 +2449,10 @@ fastify-static@^4.0.0, fastify-static@^4.2.2:
     readable-stream "^3.4.0"
     send "^0.17.1"
 
-fastify-swagger@^4.15.0:
-  version "4.15.0"
-  resolved "https://registry.yarnpkg.com/fastify-swagger/-/fastify-swagger-4.15.0.tgz#993cb8fe6d818cb7d456f8a9290ad3de39f0228f"
-  integrity sha512-gFHc1FcvYLvhGhQvtb3KlxnF+CeM/0mIDJ6E12/kBTPJ1tYDeqIXwAdKZJ19abcReYEH6J3UAnLXDh7cmhT/IQ==
+fastify-swagger@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/fastify-swagger/-/fastify-swagger-5.0.0.tgz#49d3ad94d91e37d3de9890fe6ebb6858dffe796f"
+  integrity sha512-JdOn5CNKLhVPHDHTEpkmUaWNN/Y51R97TlSOICWT1WB41ZO6oiq9eUZIg0fLJABU6QsrcsiUxUkBBuuEL/g8Vw==
   dependencies:
     fastify-plugin "^3.0.0"
     fastify-static "^4.0.0"
@@ -2500,10 +2500,10 @@ fastify@^3.0.0:
     semver "^7.3.2"
     tiny-lru "^7.0.0"
 
-fastify@^3.27.2:
-  version "3.27.2"
-  resolved "https://registry.yarnpkg.com/fastify/-/fastify-3.27.2.tgz#61fd226dd72b2d8b6b82e6bf71c18e495026545d"
-  integrity sha512-InZSbbfdBV8yfsTzX0Ei7aF3r7FjC+DPIf27IlTP5EIhSsvTjvlRNwxDPYYGi2NX2K654Vh+zCGCy/GaSigIuw==
+fastify@^3.27.4:
+  version "3.27.4"
+  resolved "https://registry.yarnpkg.com/fastify/-/fastify-3.27.4.tgz#67ffd61b5bea74768a7de28dbef5b6bc58f9e953"
+  integrity sha512-SOfnHBxG9zxCSIvt6aHoR/cao8QBddWmGP/mb5KQKRc+KI1kB7b79M2hCDOTSyHdLAF2OX+oI6X3weeLc+MqKg==
   dependencies:
     "@fastify/ajv-compiler" "^1.0.0"
     abstract-logging "^2.0.0"
@@ -3784,10 +3784,10 @@ mercurius-integration-testing@^4.0.0:
     cookie "^0.4.2"
     ws "^8.4.2"
 
-mercurius@^9.3.3:
-  version "9.3.3"
-  resolved "https://registry.yarnpkg.com/mercurius/-/mercurius-9.3.3.tgz#940c6563f909c23bff9ae30c872ffcc7b8568500"
-  integrity sha512-C6OFyu40MeEYrVCZItCliyWO4E4Xplprd0nv8jUTNPDozLKWQUHueXECEvhwH8XFYw0axdtxKAJVDaKkPZTOGg==
+mercurius@^9.3.5:
+  version "9.3.5"
+  resolved "https://registry.yarnpkg.com/mercurius/-/mercurius-9.3.5.tgz#d7508960e844e1c16463bd126bac1739dc239432"
+  integrity sha512-qaIwXFzLZc/s/QCv91FGGbKbsq59GpTehknTto9Xgbv2F6kesI4U7pD3vUsIfD3br+oy7N77Nl8hV1e/hByd+g==
   dependencies:
     "@types/isomorphic-form-data" "^2.0.0"
     events.on "^1.0.1"
@@ -3936,10 +3936,10 @@ next-tick@~1.0.0:
   resolved "https://registry.yarnpkg.com/next-tick/-/next-tick-1.0.0.tgz#ca86d1fe8828169b0120208e3dc8424b9db8342c"
   integrity sha1-yobR/ogoFpsBICCOPchCS524NCw=
 
-nexus@^1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/nexus/-/nexus-1.2.0.tgz#12c4611702184fac170c98c1a2c778a76a9e9827"
-  integrity sha512-7+0240LrQNnKKLTgbxM6KLLdfMgm4wp1TPAULim0lGmHfX7QsJK39i2KmFdMr3WdsAKoybMmwyrJtaYOq0q62g==
+nexus@^1.3.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/nexus/-/nexus-1.3.0.tgz#d7e2671d48bf887e30e2815f509bbf4b0ee2a02b"
+  integrity sha512-w/s19OiNOs0LrtP7pBmD9/FqJHvZLmCipVRt6v1PM8cRUYIbhEswyNKGHVoC4eHZGPSnD+bOf5A3+gnbt0A5/A==
   dependencies:
     iterall "^1.3.0"
     tslib "^2.0.3"
@@ -5156,14 +5156,14 @@ tap@16.0.0:
   resolved "https://registry.yarnpkg.com/tap/-/tap-16.0.0.tgz#867c619ad6fc2b539a6d5bb594284c058be17522"
   integrity sha512-EnrFFUIn+/089C051WYPXxNlAnXJ1TkKerh0Osz9lK0Ynb+X5FWBEZxWcZLVKiucdTnV5g97NL8Xaw1CuAkj4Q==
   dependencies:
-    "@isaacs/import-jsx" "*"
-    "@types/react" "*"
+    "@isaacs/import-jsx" "^4.0.1"
+    "@types/react" "^17"
     chokidar "^3.3.0"
     findit "^2.0.0"
     foreground-child "^2.0.0"
     fs-exists-cached "^1.0.0"
     glob "^7.1.6"
-    ink "*"
+    ink "^3.2.0"
     isexe "^2.0.0"
     istanbul-lib-processinfo "^2.0.2"
     jackspeak "^1.4.1"
@@ -5172,7 +5172,7 @@ tap@16.0.0:
     mkdirp "^1.0.4"
     nyc "^15.1.0"
     opener "^1.5.1"
-    react "*"
+    react "^17.0.2"
     rimraf "^3.0.0"
     signal-exit "^3.0.6"
     source-map-support "^0.5.16"
@@ -5180,7 +5180,7 @@ tap@16.0.0:
     tap-parser "^11.0.1"
     tap-yaml "^1.0.0"
     tcompare "^5.0.7"
-    treport "*"
+    treport "^3.0.3"
     which "^2.0.2"
 
 tcompare@^5.0.6:
