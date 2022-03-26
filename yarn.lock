@@ -747,7 +747,7 @@
   resolved "https://registry.yarnpkg.com/@humanwhocodes/object-schema/-/object-schema-1.2.1.tgz#b520529ec21d8e5945a1851dfd1c32e94e39ff45"
   integrity sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==
 
-"@isaacs/import-jsx@^4.0.1":
+"@isaacs/import-jsx@*", "@isaacs/import-jsx@^4.0.1":
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/@isaacs/import-jsx/-/import-jsx-4.0.1.tgz#493cab5fc543a0703dba7c3f5947d6499028a169"
   integrity sha512-l34FEsEqpdYdGcQjRCxWy+7rHY6euUbOBz9FI+Mq6oQeVhNegHcXFSJxVxrJvOpO31NbnDjS74quKXDlPDearA==
@@ -886,10 +886,10 @@
   resolved "https://registry.yarnpkg.com/@types/prop-types/-/prop-types-15.7.4.tgz#fcf7205c25dff795ee79af1e30da2c9790808f11"
   integrity sha512-rZ5drC/jWjrArrS8BR6SIr4cWpW09RNTYt9AMZo3Jwwif+iacXAqgVjm0B0Bv/S1jhDXKHqRVNCbACkJ89RAnQ==
 
-"@types/react@^17":
-  version "17.0.40"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-17.0.40.tgz#dc010cee6254d5239a138083f3799a16638e6bad"
-  integrity sha512-UrXhD/JyLH+W70nNSufXqMZNuUD2cXHu6UjCllC6pmOQgBX4SGXOH8fjRka0O0Ee0HrFxapDD8Bwn81Kmiz6jQ==
+"@types/react@*":
+  version "17.0.43"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-17.0.43.tgz#4adc142887dd4a2601ce730bc56c3436fdb07a55"
+  integrity sha512-8Q+LNpdxf057brvPu1lMtC5Vn7J119xrP1aq4qiaefNioQUYANF/CYeK4NsKorSZyUGJ66g0IM+4bbjwx45o2A==
   dependencies:
     "@types/prop-types" "*"
     "@types/scheduler" "*"
@@ -3035,7 +3035,7 @@ inherits@2, inherits@2.0.4, inherits@^2.0.3, inherits@~2.0.1:
   resolved "https://registry.yarnpkg.com/inherits/-/inherits-2.0.4.tgz#0fa2c64f932917c3433a0ded55363aae37416b7c"
   integrity sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==
 
-ink@^3.2.0:
+ink@*, ink@^3.2.0:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/ink/-/ink-3.2.0.tgz#434793630dc57d611c8fe8fffa1db6b56f1a16bb"
   integrity sha512-firNp1q3xxTzoItj/eOOSZQnYSlyrWks5llCTVX37nJ59K3eXbQ8PtzCguqo8YI19EELo5QxaKnJd4VxzhU8tg==
@@ -4480,7 +4480,7 @@ react-reconciler@^0.26.2:
     object-assign "^4.1.1"
     scheduler "^0.20.2"
 
-react@^17.0.2:
+react@*:
   version "17.0.2"
   resolved "https://registry.yarnpkg.com/react/-/react-17.0.2.tgz#d0b5cc516d29eb3eee383f75b62864cfb6800037"
   integrity sha512-gnhPt75i/dq/z3/6q/0asP78D0u592D5L1pd7M8P+dck6Fu/jJeL6iVVK23fptSUZj8Vjf++7wXA8UNclGQcbA==
@@ -5157,19 +5157,19 @@ tap-yaml@^1.0.0:
   dependencies:
     yaml "^1.5.0"
 
-tap@16.0.0:
-  version "16.0.0"
-  resolved "https://registry.yarnpkg.com/tap/-/tap-16.0.0.tgz#867c619ad6fc2b539a6d5bb594284c058be17522"
-  integrity sha512-EnrFFUIn+/089C051WYPXxNlAnXJ1TkKerh0Osz9lK0Ynb+X5FWBEZxWcZLVKiucdTnV5g97NL8Xaw1CuAkj4Q==
+tap@16.0.1:
+  version "16.0.1"
+  resolved "https://registry.yarnpkg.com/tap/-/tap-16.0.1.tgz#37b032f60496bb01051fa10e5a114c82186602d1"
+  integrity sha512-y32sc4NFWzeOE1mrNvZoS1kRJADI8MCCSaatVBalCNVgusTf59h3t8mHZ3d0wSTQRs05JTOG52WC3KnWovhjPg==
   dependencies:
-    "@isaacs/import-jsx" "^4.0.1"
-    "@types/react" "^17"
+    "@isaacs/import-jsx" "*"
+    "@types/react" "*"
     chokidar "^3.3.0"
     findit "^2.0.0"
     foreground-child "^2.0.0"
     fs-exists-cached "^1.0.0"
     glob "^7.1.6"
-    ink "^3.2.0"
+    ink "*"
     isexe "^2.0.0"
     istanbul-lib-processinfo "^2.0.2"
     jackspeak "^1.4.1"
@@ -5178,7 +5178,7 @@ tap@16.0.0:
     mkdirp "^1.0.4"
     nyc "^15.1.0"
     opener "^1.5.1"
-    react "^17.0.2"
+    react "*"
     rimraf "^3.0.0"
     signal-exit "^3.0.6"
     source-map-support "^0.5.16"
@@ -5186,7 +5186,7 @@ tap@16.0.0:
     tap-parser "^11.0.1"
     tap-yaml "^1.0.0"
     tcompare "^5.0.7"
-    treport "^3.0.3"
+    treport "*"
     which "^2.0.2"
 
 tcompare@^5.0.6:
@@ -5298,7 +5298,7 @@ tree-kill@^1.2.2:
   resolved "https://registry.yarnpkg.com/tree-kill/-/tree-kill-1.2.2.tgz#4ca09a9092c88b73a7cdc5e8a01b507b0790a0cc"
   integrity sha512-L0Orpi8qGpRG//Nd+H90vFB+3iHnue1zSSGmNOOCh1GLJ7rUKVwV2HvijphGQS2UmhUZewS9VgvxYIdgr+fG1A==
 
-treport@^3.0.3:
+treport@*:
   version "3.0.3"
   resolved "https://registry.yarnpkg.com/treport/-/treport-3.0.3.tgz#0666bb1b00b6ed6e2ba82ae76b79d77fb03c505a"
   integrity sha512-pCg4Bc0Uv0ntAkYjYJAncA6h6Srv1eEFa5vcak8paahgU1TrJ2rZm0RPZ8E8uycz+P55quzsDnACw01jpWfk7Q==
