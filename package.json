@@ -24,7 +24,8 @@
     "prepare": "husky install",
     "start": "ts-node src/server.ts",
     "start:prod": "node dist/server.js",
-    "test": "npm run build:ts && tsc -p test/tsconfig.test.json && cross-env TS_NODE_FILES=true tap --ts test/**/*.test.ts"
+    "test": "npm run build:ts && tsc -p test/tsconfig.test.json && cross-env TS_NODE_FILES=true tap --ts test/**/*.test.ts",
+    "typecheck": "tsc -b"
   },
   "lint-staged": {
     "*.{js,ts}": "eslint --cache --fix",
