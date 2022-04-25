@@ -915,10 +915,10 @@
   resolved "https://registry.yarnpkg.com/@types/swagger-jsdoc/-/swagger-jsdoc-6.0.1.tgz#94a99aca0356cb64ad2a6eb903ed034703453801"
   integrity sha512-+MUpcbyxD528dECUBCEVm6abNuORdbuGjbrUdHDeAQ+rkPuo2a+L4N02WJHF3bonSSE6SJ3dUJwF2V6+cHnf0w==
 
-"@types/tap@15.0.6":
-  version "15.0.6"
-  resolved "https://registry.yarnpkg.com/@types/tap/-/tap-15.0.6.tgz#0ba2500e4a5ffbfba98d88923000e759b737014c"
-  integrity sha512-ScXtRg7oSra4sBmq534voWPNUrbwt8q9kABA6SsEXx1qXnaxf/mf0BzfRPHW4xem7I0PlzrmWIIXP/iDNeoCvw==
+"@types/tap@15.0.7":
+  version "15.0.7"
+  resolved "https://registry.yarnpkg.com/@types/tap/-/tap-15.0.7.tgz#038223b6c7cb96f0727db98b8871b31fffd5b60d"
+  integrity sha512-TTMajw4gxQfFgYbhXhy/Tb2OiNcwS+4oP/9yp1/GdU0pFJo3wtnkYhRgmQy39ksh+rnoa0VrPHJ4Tuv2cLNQ5A==
   dependencies:
     "@types/node" "*"
 
