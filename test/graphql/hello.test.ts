@@ -1,5 +1,5 @@
-import { test } from "tap";
 import { createMercuriusTestClient } from "mercurius-integration-testing";
+import { test } from "tap";
 
 import { app } from "../../src/server";
 

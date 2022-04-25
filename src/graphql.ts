@@ -1,7 +1,7 @@
-import { FastifyRequest, FastifyReply, FastifyInstance } from "fastify";
+import { FastifyInstance, FastifyReply, FastifyRequest } from "fastify";
 import mercurius from "mercurius";
 import mercuriusCodegen from "mercurius-codegen";
-import { queryType, stringArg, makeSchema } from "nexus";
+import { makeSchema, queryType, stringArg } from "nexus";
 
 const buildContext = async (req: FastifyRequest, _reply: FastifyReply) => ({
   authorization: req.headers.authorization,

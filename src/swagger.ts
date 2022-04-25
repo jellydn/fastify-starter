@@ -24,7 +24,6 @@ const options: swaggerJsdoc.Options = {
 };
 
 export function initSwagger(app: FastifyInstance) {
-   
   const swaggerSpec = swaggerJsdoc(options);
 
   void app.register(fastifySwagger, {

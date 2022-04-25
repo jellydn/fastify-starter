@@ -2,26 +2,32 @@
   "name": "fastify-starter",
   "version": "0.0.2",
   "description": "Fastify Typescript Starter",
+  "keywords": [
+    "fastify",
+    "fastify-starter"
+  ],
+  "license": "MIT",
+  "author": "Huynh Duc Dung",
   "main": "app.ts",
   "directories": {
     "test": "test"
   },
   "scripts": {
-    "test": "npm run build:ts && tsc -p test/tsconfig.test.json && cross-env TS_NODE_FILES=true tap --ts test/**/*.test.ts",
-    "start": "ts-node src/server.ts",
-    "build:ts": "npm run clean && tsc",
-    "clean": "rimraf dist",
+    "build:ts": "tsup",
+    "compile-schemas": "json2ts -i src/schemas -o src/types",
     "dev": "yarn compile-schemas && yarn dev:watch",
     "dev:watch": "ts-node-dev src/server.ts",
+    "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
+    "lint": "eslint \"{src,apps,libs,test}/**/*.ts\" --fix",
     "prepare": "husky install",
-    "compile-schemas": "json2ts -i src/schemas -o src/types"
+    "start": "ts-node src/server.ts",
+    "test": "npm run build:ts && tsc -p test/tsconfig.test.json && cross-env TS_NODE_FILES=true tap --ts test/**/*.test.ts"
   },
-  "keywords": [
-    "fastify",
-    "fastify-starter"
-  ],
-  "author": "Huynh Duc Dung",
-  "license": "MIT",
+  "lint-staged": {
+    "*.{js,ts}": "eslint --cache --fix",
+    "*.{js,ts,css,md}": "prettier --write",
+    "package.json": "sort-package-json"
+  },
   "dependencies": {
     "@sinclair/typebox": "^0.23.4",
     "close-with-grace": "^1.1.0",
@@ -43,6 +49,7 @@
     "swagger-jsdoc": "^6.2.1"
   },
   "devDependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^3.2.0",
     "@types/busboy": "1.5.0",
     "@types/node": "16.11.28",
     "@types/swagger-jsdoc": "6.0.1",
@@ -57,14 +64,23 @@
     "husky": "7.0.4",
     "json-schema-to-typescript": "10.1.5",
     "lint-staged": "12.4.0",
-    "prettier": "2.6.2",
+    "prettier": "^2.6.2",
+    "sort-package-json": "^1.55.0",
     "tap": "16.1.0",
     "ts-node": "10.7.0",
     "ts-node-dev": "1.1.8",
+    "tsup": "^5.12.6",
     "typescript": "4.6.3"
   },
-  "lint-staged": {
-    "*.{js,ts}": "eslint --cache --fix",
-    "*.{js,ts,css,md}": "prettier --write"
+  "tsup": {
+    "entry": [
+      "src/**/*.ts"
+    ],
+    "splitting": false,
+    "sourcemap": true,
+    "clean": true,
+    "format": [
+      "cjs"
+    ]
   }
 }
