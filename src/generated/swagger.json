@@ -1,0 +1,69 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Fastify starter",
+    "version": "0.0.1",
+    "description": "A sample API"
+  },
+  "host": "0.0.0.0:3000",
+  "paths": {
+    "/example": {
+      "get": {
+        "tags": [
+          "Example"
+        ],
+        "description": "Returns the hello world",
+        "responses": {
+          "200": {
+            "description": "hello world"
+          }
+        }
+      }
+    },
+    "/user/login": {
+      "post": {
+        "tags": [
+          "Users"
+        ],
+        "requestBody": {
+          "description": "Login to the application",
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "username": {
+                    "type": "string"
+                  },
+                  "password": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "username",
+                  "password"
+                ]
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "login success with token"
+          }
+        }
+      }
+    }
+  },
+  "components": {},
+  "tags": [
+    {
+      "name": "Example",
+      "description": "Hello world end point"
+    },
+    {
+      "name": "Users",
+      "description": "User management and login"
+    }
+  ]
+}

@@ -10,10 +10,10 @@ import { initSwagger } from "./swagger";
 // Read the .env file.
 dotenv.config();
 
+const isProduction = process.env.NODE_ENV === "production";
 // Instantiate Fastify with some config
-// eslint-disable-next-line new-cap
 const app = Fastify({
-  logger: true,
+  logger: !isProduction,
 });
 
 // Register your application as a normal plugin.
