@@ -10,6 +10,7 @@
 	"rules": {
 		"@typescript-eslint/naming-convention": "warn",
 		"@typescript-eslint/no-unsafe-return": "warn",
+		"@typescript-eslint/restrict-template-expressions": "warn",
 		"new-cap": "warn"
 	}
 }
