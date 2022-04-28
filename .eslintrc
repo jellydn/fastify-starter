@@ -9,6 +9,7 @@
 	},
 	"rules": {
 		"@typescript-eslint/naming-convention": "warn",
+		"@typescript-eslint/no-unsafe-return": "warn",
 		"new-cap": "warn"
 	}
 }

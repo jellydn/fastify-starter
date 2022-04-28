@@ -1,5 +1,5 @@
+import fastifySwagger from "@fastify/swagger";
 import { FastifyInstance } from "fastify";
-import fastifySwagger from "fastify-swagger";
 import { writeFileSync } from "fs";
 import { join } from "path";
 import swaggerJsdoc, { SwaggerDefinition } from "swagger-jsdoc";

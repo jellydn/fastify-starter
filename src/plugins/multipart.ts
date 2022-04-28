@@ -1,4 +1,4 @@
-import multipart, { FastifyMultipartOptions } from "fastify-multipart";
+import multipart, { FastifyMultipartOptions } from "@fastify/multipart";
 import fp from "fastify-plugin";
 
 /**
