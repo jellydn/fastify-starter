@@ -62,7 +62,7 @@
     "@typescript-eslint/parser": "5.22.0",
     "cpy-cli": "^4.1.0",
     "cross-env": "7.0.3",
-    "eslint": "8.14.0",
+    "eslint": "8.15.0",
     "eslint-config-prettier": "8.5.0",
     "eslint-config-xo": "0.40.0",
     "eslint-config-xo-typescript": "0.50.0",
