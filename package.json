@@ -35,7 +35,7 @@
   "dependencies": {
     "@fastify/autoload": "^4.0.0",
     "@fastify/cors": "^7.0.0",
-    "@fastify/helmet": "^8.0.0",
+    "@fastify/helmet": "^9.0.0",
     "@fastify/multipart": "^6.0.0",
     "@fastify/sensible": "^4.0.0",
     "@fastify/swagger": "^6.0.0",
