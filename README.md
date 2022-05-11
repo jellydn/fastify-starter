@@ -53,7 +53,7 @@ Output:
 ## Run tests
 
 ```sh
-yarn run test
+yarn test
 ```
 
 ## Deployment
