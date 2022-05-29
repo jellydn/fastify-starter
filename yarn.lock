@@ -802,10 +802,10 @@
   resolved "https://registry.yarnpkg.com/@fastify/error/-/error-2.0.0.tgz#a9f94af56eb934f0ab1ce4ef9f0ced6ebf2319dc"
   integrity sha512-wI3fpfDT0t7p8E6dA2eTECzzOd+bZsZCJ2Hcv+Onn2b7ZwK3RwD27uW2QDaMtQhAfWQQP+WNK7nKf0twLsBf9w==
 
-"@fastify/helmet@^8.0.1":
-  version "8.0.1"
-  resolved "https://registry.yarnpkg.com/@fastify/helmet/-/helmet-8.0.1.tgz#72ff302243ad1da42064641765771791276d02f6"
-  integrity sha512-bHGcbHofY6i1w/Gh7ll2yFZygeaakSn230w4NB6s135yE5n5h5nE7+UjlQAMAt7GRslaW3/3e3u58pKHCtsH7g==
+"@fastify/helmet@^8.1.0":
+  version "8.1.0"
+  resolved "https://registry.yarnpkg.com/@fastify/helmet/-/helmet-8.1.0.tgz#33731dc7ac0c228b7676052b1fffb8089c9a571f"
+  integrity sha512-Y6bx95uKd3wYM8UE9sCfveW3nYTkbmOeAgZWqFuBd/FYgJu5SH3uMRM7NhmHFdiiqtzaLvIC6rId47l7783lTg==
   dependencies:
     fastify-plugin "^3.0.0"
     helmet "^5.0.1"
@@ -2783,10 +2783,10 @@ fast-safe-stringify@^2.0.8:
   resolved "https://registry.yarnpkg.com/fast-safe-stringify/-/fast-safe-stringify-2.1.1.tgz#c406a83b6e70d9e35ce3b30a81141df30aeba884"
   integrity sha512-W+KJc2dmILlPplD/H4K9l9LcAHAfPtP6BY84uVLXQ6Evcz9Lcg33Y2z1IVblT6xdY54PXYVHEv+0Wpq8Io6zkA==
 
-fastify-cli@^3.0.1:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/fastify-cli/-/fastify-cli-3.0.1.tgz#f8a21e0d6cb606f5487a986946f5246f3f3ecb31"
-  integrity sha512-cOxCl5cpM3PTP78EMghAZKAdCrknRDjZ7ZgPVsJqdfYPGLirW9TbbQ7PbKelZsvCbe1cdvQU1x+DTYSZACEEsQ==
+fastify-cli@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/fastify-cli/-/fastify-cli-3.1.0.tgz#6115255cd0fbefa120bd3260da3a46e319c4fd41"
+  integrity sha512-oGm5L2ugU0dV7MZ+wHcu91II3hfBdQSdhZzBTKC5wiIOJKtgWdFTlhY2qsmgKYVH2MtbAIx4WPS49lwmWEZy+w==
   dependencies:
     chalk "^4.1.2"
     chokidar "^3.5.2"
@@ -4120,10 +4120,10 @@ mercurius-integration-testing@^4.0.0:
     cookie "^0.4.2"
     ws "^8.4.2"
 
-mercurius@^9.5.0:
-  version "9.5.0"
-  resolved "https://registry.yarnpkg.com/mercurius/-/mercurius-9.5.0.tgz#75931aceed4a6ab8e813b7396c8538526f363325"
-  integrity sha512-KawMnUZbhpwGaGdccv38F572UpbrxXpDGSK2BZaJ3na+uvmh+xavjNT6bpBFt8LZEACVBqsQeQKpTBZGr/P9zw==
+mercurius@^9.6.0:
+  version "9.6.0"
+  resolved "https://registry.yarnpkg.com/mercurius/-/mercurius-9.6.0.tgz#e3fe589b282eaf8c43c1b63a672f8a2609055e44"
+  integrity sha512-lU2xfc34CZhmZZ/E8QlicUJSktgYZ/VyeufbxI89SbVJy5/OEdzwZLRn5VBPMY+2DoZIFBsTwoUfw6WE2owrvQ==
   dependencies:
     "@fastify/error" "^2.0.0"
     "@fastify/static" "^5.0.0"
