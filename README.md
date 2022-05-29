@@ -6,6 +6,8 @@
 
 > Fastify Typescript Starter
 
+[![Deploy](https://button.deta.dev/1/svg)](https://go.deta.dev/deploy?repo=https://github.com/jellydn/fastify-starter)
+
 ## Features
 
 - Swagger documentation generator for Fastify https://github.com/fastify/fastify-swagger
