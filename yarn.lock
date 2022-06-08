@@ -810,10 +810,10 @@
     fastify-plugin "^3.0.0"
     helmet "^5.0.1"
 
-"@fastify/multipart@^6.0.0":
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/@fastify/multipart/-/multipart-6.0.0.tgz#da7e80b589b3874b3964145ec6e13fd69bd7e6cf"
-  integrity sha512-TwxPH9jE3bEaCdMD1Xqm2YS1aelgJxcNmA/uYAPCzqnVEylDiKCmxCstGulb1W5WdMoyqD5LBGm7AoqDwWTCWQ==
+"@fastify/multipart@^7.0.0":
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/@fastify/multipart/-/multipart-7.0.0.tgz#0c312dbcc42354ab39e17d4216be6ef6b977c046"
+  integrity sha512-Ccb/QPcV10Rm55ehrag4fFAiyAXza/WT7j8Cn2mDAJKsn+bU4qi11iVzKy0uFjQ1zP1JMUkcRCCKq6GGvzgBFg==
   dependencies:
     "@fastify/busboy" "^1.0.0"
     "@fastify/error" "^2.0.0"
