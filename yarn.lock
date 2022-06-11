@@ -837,10 +837,10 @@
     secure-json-parse "^2.4.0"
     stream-wormhole "^1.1.0"
 
-"@fastify/sensible@^4.1.0":
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/@fastify/sensible/-/sensible-4.1.0.tgz#52537ab624304543f6c04cda9bf74c66e9d2d67b"
-  integrity sha512-8TBlmCK055y6WO9jZlndmceB9x8NyNcLEbnJtdu44zelfmY1ebBMSB7MOqyMteyDvpSMq3CVaPknBu35d9FRlA==
+"@fastify/sensible@^5.0.0":
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/@fastify/sensible/-/sensible-5.0.0.tgz#a41b8fcaa783bf5840f1c7ab1b29eccd6afbc580"
+  integrity sha512-JgHXTnjJaiMt3sesAhLeL2KSOCwB7A77L7tUARKpSmJKczGpNPjc2NhLcitTv6YBSgducF3I5H8N46XJdFvFdA==
   dependencies:
     fast-deep-equal "^3.1.1"
     fastify-plugin "^3.0.0"
