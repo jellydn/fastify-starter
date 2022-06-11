@@ -37,7 +37,7 @@
     "@fastify/cors": "^8.0.0",
     "@fastify/helmet": "^8.1.0",
     "@fastify/multipart": "^7.0.0",
-    "@fastify/sensible": "^4.1.0",
+    "@fastify/sensible": "^5.0.0",
     "@fastify/swagger": "^7.0.0",
     "@sinclair/typebox": "^0.23.5",
     "close-with-grace": "^1.1.0",
