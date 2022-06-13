@@ -2790,6 +2790,18 @@ fast-json-stable-stringify@^2.0.0:
   resolved "https://registry.yarnpkg.com/fast-json-stable-stringify/-/fast-json-stable-stringify-2.1.0.tgz#874bf69c6f404c2b5d99c481341399fd55892633"
   integrity sha512-lhd/wF+Lk98HZoTCtlVraHtfh5XYijIjalXck7saUtuanSDyLMxnHhSXEDJqHxD7msR8D0uCmqlkwjCV8xvwHw==
 
+fast-json-stringify@4.2.0:
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/fast-json-stringify/-/fast-json-stringify-4.2.0.tgz#eb49243c79d1deca85eeb488caf69007b7336c7c"
+  integrity sha512-9RWBl82H7jwnPlkZ/ghi0VD5OFZVdwgwVui0nYzjnXbPQxJ3ES1+SQcWIoeCJOgrY7JkBkY/69UNZSroFPDRdQ==
+  dependencies:
+    ajv "^8.10.0"
+    ajv-formats "^2.1.1"
+    deepmerge "^4.2.2"
+    fast-uri "^2.0.0"
+    rfdc "^1.2.0"
+    string-similarity "^4.0.1"
+
 fast-json-stringify@^1.13.0:
   version "1.21.0"
   resolved "https://registry.yarnpkg.com/fast-json-stringify/-/fast-json-stringify-1.21.0.tgz#51bc8c6d77d8c7b2cc7e5fa754f7f909f9e1262f"
@@ -2799,7 +2811,7 @@ fast-json-stringify@^1.13.0:
     deepmerge "^4.2.2"
     string-similarity "^4.0.1"
 
-fast-json-stringify@^4.0.0, fast-json-stringify@^4.1.0:
+fast-json-stringify@^4.0.0:
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/fast-json-stringify/-/fast-json-stringify-4.1.0.tgz#ec88bce52de835ec9ecd5fc9e589d0ee3c0c7b35"
   integrity sha512-yy/5SUALH1LxcVFg/tqaA2a3cfXhpZl5MqdyhSJeAmOZg1nQgU0meg0KuRrFaG3iSrrDMWxTittWb12oIBXOcQ==
