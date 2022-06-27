@@ -2821,10 +2821,10 @@ fast-json-stable-stringify@^2.0.0:
   resolved "https://registry.yarnpkg.com/fast-json-stable-stringify/-/fast-json-stable-stringify-2.1.0.tgz#874bf69c6f404c2b5d99c481341399fd55892633"
   integrity sha512-lhd/wF+Lk98HZoTCtlVraHtfh5XYijIjalXck7saUtuanSDyLMxnHhSXEDJqHxD7msR8D0uCmqlkwjCV8xvwHw==
 
-fast-json-stringify@5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/fast-json-stringify/-/fast-json-stringify-5.0.0.tgz#91e9707339dad9e2f39d0151483546defe0bd34d"
-  integrity sha512-7eMuzUkZq1eF8y441TCaCThu3ZX5tH4IcPsC7tEW3KmfQWA6lIu5uwkdzhkR3H6PfhnVOHQrSff6k8RG9pVAsA==
+fast-json-stringify@5.0.2:
+  version "5.0.2"
+  resolved "https://registry.yarnpkg.com/fast-json-stringify/-/fast-json-stringify-5.0.2.tgz#43818874964ce0cc5f75e5c3ce913f2b7340541b"
+  integrity sha512-G+hqqjqiT+oSwaJyo/Gg3Q+282qN1lmLPNMDex09u32MRyh43N/TA2jmajzFnKzzHKQXvscu8FU3587Ycff6nw==
   dependencies:
     ajv "^8.10.0"
     ajv-formats "^2.1.1"
