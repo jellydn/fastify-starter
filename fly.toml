@@ -4,7 +4,7 @@ kill_timeout = 5
 processes = [ ]
 
 [env]
-PORT = 3000
+PORT = "3000"
 NODE_ENV = "production"
 
 [experimental]
