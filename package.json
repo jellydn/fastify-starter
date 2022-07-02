@@ -68,7 +68,7 @@
     "eslint-config-xo-typescript": "0.51.1",
     "fast-json-stringify": "5.0.5",
     "husky": "8.0.1",
-    "json-schema-to-typescript": "10.1.5",
+    "json-schema-to-typescript": "11.0.1",
     "lint-staged": "13.0.3",
     "prettier": "2.7.1",
     "sort-package-json": "^1.57.0",
