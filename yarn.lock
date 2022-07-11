@@ -831,6 +831,11 @@
     fastify-plugin "^3.0.0"
     vary "^1.1.2"
 
+"@fastify/deepmerge@^1.0.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@fastify/deepmerge/-/deepmerge-1.1.0.tgz#91f0a5a27034ff76b7bece63a5906894940ace82"
+  integrity sha512-E8Hfdvs1bG6u0N4vN5Nty6JONUfTdOciyD5rn8KnEsLKIenvOVcr210BQR9t34PRkNyjqnMLGk3e0BsaxRdL+g==
+
 "@fastify/error@^3.0.0":
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/@fastify/error/-/error-3.0.0.tgz#bfcb7b33cec0196413083a91ef2edc7b2c88455b"
@@ -2845,14 +2850,14 @@ fast-json-stable-stringify@^2.0.0:
   resolved "https://registry.yarnpkg.com/fast-json-stable-stringify/-/fast-json-stable-stringify-2.1.0.tgz#874bf69c6f404c2b5d99c481341399fd55892633"
   integrity sha512-lhd/wF+Lk98HZoTCtlVraHtfh5XYijIjalXck7saUtuanSDyLMxnHhSXEDJqHxD7msR8D0uCmqlkwjCV8xvwHw==
 
-fast-json-stringify@5.0.5:
-  version "5.0.5"
-  resolved "https://registry.yarnpkg.com/fast-json-stringify/-/fast-json-stringify-5.0.5.tgz#9bcec65128303274600d95f74e4814e360346e68"
-  integrity sha512-NGXE7I6dBcSTM1pprcLEIQ6nHp424mDn8ABleM17Sp7XkyPLlbIDed41/VhUiqnLICX7XiOoFsNHx/nnJ8qhig==
+fast-json-stringify@5.1.0:
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/fast-json-stringify/-/fast-json-stringify-5.1.0.tgz#dc184049d7eed4f61e34f65e97c0763fd043977f"
+  integrity sha512-IybGfbUc1DQgyrp9Myhwlr1Z5vjV37mBkdgcbuvsvUxv5fayG+cHlTQQpXH9nMwUPgp+5Y3RT7QDgx5zJ9NS3A==
   dependencies:
+    "@fastify/deepmerge" "^1.0.0"
     ajv "^8.10.0"
     ajv-formats "^2.1.1"
-    deepmerge "^4.2.2"
     fast-uri "^2.1.0"
     rfdc "^1.2.0"
 
