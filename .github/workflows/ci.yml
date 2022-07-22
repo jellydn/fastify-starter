@@ -10,7 +10,8 @@ on:
 
 jobs:
   build:
-    runs-on: ${{ matrix.os }}
+    runs-on: ubuntu-latest
+    name: Git version
     steps:
        - name: 🛑 Cancel Previous Runs
          uses: styfle/cancel-workflow-action@0.9.1
