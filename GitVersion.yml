@@ -1,7 +1,0 @@
-mode: Mainline
-next-version: 0.0.3
-branches: {}
-ignore:
-  sha: []
-merge-message-formats: {}
-rmats: {}
