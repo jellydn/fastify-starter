@@ -42,4 +42,13 @@ app.addHook("onClose", async (_instance, done) => {
 // Start listening.
 void app.listen({ port: Number(process.env.PORT ?? 3000), host: "0.0.0.0" });
 
+app.ready((err: Error) => {
+  if (err) {
+    app.log.error(err);
+    process.exit(1);
+  }
+
+  app.log.info(`Server listening on port ${Number(process.env.PORT ?? 3000)}`);
+});
+
 export { app };

@@ -1017,6 +1017,14 @@
   resolved "https://registry.yarnpkg.com/@fastify/deepmerge/-/deepmerge-1.1.0.tgz#91f0a5a27034ff76b7bece63a5906894940ace82"
   integrity sha512-E8Hfdvs1bG6u0N4vN5Nty6JONUfTdOciyD5rn8KnEsLKIenvOVcr210BQR9t34PRkNyjqnMLGk3e0BsaxRdL+g==
 
+"@fastify/env@^4.0.0":
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/@fastify/env/-/env-4.0.0.tgz#2e6b5bf79168ed75f49697a3eabe6134c857a96d"
+  integrity sha512-ZpvEH6E2dhYaDgxlyQSmTpVDhKFXRF6DH7N9sNsjpn+GIWDbIYTiYf3ttr0wGXgBWIc0bJFpTFTjlNmP2VaZ/w==
+  dependencies:
+    env-schema "^4.0.0"
+    fastify-plugin "^3.0.0"
+
 "@fastify/error@^3.0.0":
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/@fastify/error/-/error-3.0.0.tgz#bfcb7b33cec0196413083a91ef2edc7b2c88455b"
@@ -2560,6 +2568,11 @@ dot-case@^3.0.4:
     no-case "^3.0.4"
     tslib "^2.0.3"
 
+dotenv-expand@^8.0.3:
+  version "8.0.3"
+  resolved "https://registry.yarnpkg.com/dotenv-expand/-/dotenv-expand-8.0.3.tgz#29016757455bcc748469c83a19b36aaf2b83dd6e"
+  integrity sha512-SErOMvge0ZUyWd5B0NXMQlDkN+8r+HhVUsxgOO7IoPDOdDRD2JjExpN6y3KnFR66jsJMwSn1pqIivhU5rcJiNg==
+
 dotenv@^16.0.0:
   version "16.0.1"
   resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-16.0.1.tgz#8f8f9d94876c35dac989876a5d3a82a267fdce1d"
@@ -2616,6 +2629,15 @@ end-of-stream@^1.1.0, end-of-stream@^1.4.1, end-of-stream@^1.4.4:
   integrity sha512-+uw1inIHVPQoaVuHzRyXd21icM+cnt4CzD5rW+NC1wjOUSTOs+Te7FOv7AhN7vS9x/oIyhLP5PR1H+phQAHu5Q==
   dependencies:
     once "^1.4.0"
+
+env-schema@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/env-schema/-/env-schema-4.0.0.tgz#bb51550af5bcd715502c056c44a16dc7b3a91237"
+  integrity sha512-hM5OwjrUPxxrCjC1Ykf+wPld2lbnN3/m9Y9wuMPt0jmYluJpAV3OXc1HiliZxFkxLzw2FcrSOXdw/3uI7PYCFA==
+  dependencies:
+    ajv "^8.0.0"
+    dotenv "^16.0.0"
+    dotenv-expand "^8.0.3"
 
 error-ex@^1.3.1:
   version "1.3.2"
