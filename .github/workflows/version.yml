@@ -19,7 +19,7 @@ jobs:
 
       - name: Git Version
         id: get-version
-        uses: codacy/git-version@2.2.0
+        uses: codacy/git-version@2.5.4
 
       - name: New Version
         run: echo ${{ steps.get-version.outputs.version }}
