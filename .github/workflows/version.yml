@@ -18,4 +18,8 @@ jobs:
           fetch-depth: 0                # fetch the whole repo history
 
       - name: Git Version
-        uses: codacy/git-version@2.5.4
+        id: get-version
+        uses: codacy/git-version@2.2.0
+
+      - name: New Version
+        run: echo ${{ steps.get-version.outputs.version }}
