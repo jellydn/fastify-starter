@@ -1,6 +1,6 @@
 {
   "name": "fastify-starter",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Fastify Typescript Starter",
   "keywords": [
     "fastify",
