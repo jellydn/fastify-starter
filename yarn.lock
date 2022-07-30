@@ -6224,10 +6224,10 @@ tslib@^2.4.0, tslib@~2.4.0:
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.4.0.tgz#7cecaa7f073ce680a05847aa77be941098f36dc3"
   integrity sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ==
 
-tsup@6.2.0:
-  version "6.2.0"
-  resolved "https://registry.yarnpkg.com/tsup/-/tsup-6.2.0.tgz#3ccfc9e4a3dd4bdf4226ce5a73fa5a212f78e8de"
-  integrity sha512-PNRQY/eUrtQgPHITOa9qU1Qss2AKHZl9OJFMsQGF+rpcQBMIYh5i0BUh5Gam8C8J0OuNQOGazqBEQHWMFLJKlQ==
+tsup@6.2.1:
+  version "6.2.1"
+  resolved "https://registry.yarnpkg.com/tsup/-/tsup-6.2.1.tgz#d00875e6141252a6a72ee37b56a61856c70ff3f2"
+  integrity sha512-KhBhCqVA3bHrIWhkcqTUA7R69H05IcBlHEtCVLEu42XDGUzz+bDqCcfu5PwpkKJ8DqK5tpdgM/qmyk4DdUbkZw==
   dependencies:
     bundle-require "^3.0.2"
     cac "^6.7.12"
