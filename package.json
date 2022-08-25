@@ -65,7 +65,7 @@
     "cross-env": "7.0.3",
     "eslint": "8.22.0",
     "eslint-config-prettier": "8.5.0",
-    "eslint-config-xo": "0.41.0",
+    "eslint-config-xo": "0.42.0",
     "eslint-config-xo-typescript": "0.52.0",
     "fast-json-stringify": "5.1.0",
     "husky": "8.0.1",
