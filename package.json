@@ -36,7 +36,7 @@
     "@fastify/autoload": "^5.2.0",
     "@fastify/cors": "^8.1.0",
     "@fastify/env": "^4.1.0",
-    "@fastify/helmet": "^9.1.0",
+    "@fastify/helmet": "^10.0.0",
     "@fastify/multipart": "^7.1.1",
     "@fastify/sensible": "^5.1.1",
     "@fastify/swagger": "^7.4.1",
