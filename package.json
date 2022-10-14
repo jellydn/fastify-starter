@@ -49,7 +49,7 @@
     "graphql": "^16.6.0",
     "mercurius": "^11.0.0",
     "mercurius-codegen": "^4.0.1",
-    "mercurius-integration-testing": "^5.0.0",
+    "mercurius-integration-testing": "^6.0.0",
     "nexus": "^1.3.0",
     "swagger-jsdoc": "^6.2.5"
   },
