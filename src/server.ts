@@ -23,7 +23,7 @@ void app.register(import("./app"));
 initGraphql(app);
 
 // Init Swagger
-initSwagger(app);
+void initSwagger(app);
 
 // Delay is the number of milliseconds for the graceful close to finish
 const closeListeners = closeWithGrace({ delay: 500 }, async (opts: any) => {

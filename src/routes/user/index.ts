@@ -1,8 +1,9 @@
-import { Static, Type } from "@sinclair/typebox";
-import { FastifyPluginAsync } from "fastify";
+import type { Static } from "@sinclair/typebox";
+import { Type } from "@sinclair/typebox";
+import type { FastifyPluginAsync } from "fastify";
 
 import LoginBody from "../../schemas/login_body.json";
-import { LoginBodySchema } from "../../types/login_body";
+import type { LoginBodySchema } from "../../types/login_body";
 
 const UserToken = Type.Object({
   token: Type.String(),

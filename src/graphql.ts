@@ -1,4 +1,4 @@
-import { FastifyInstance, FastifyReply, FastifyRequest } from "fastify";
+import type { FastifyInstance, FastifyReply, FastifyRequest } from "fastify";
 import mercurius from "mercurius";
 import mercuriusCodegen from "mercurius-codegen";
 import { makeSchema, queryType, stringArg } from "nexus";
@@ -10,8 +10,8 @@ const buildContext = async (req: FastifyRequest, _reply: FastifyReply) => ({
 type PromiseType<T> = T extends PromiseLike<infer U> ? U : T;
 
 declare module "mercurius" {
-  interface MercuriusContext
-    extends PromiseType<ReturnType<typeof buildContext>> {}
+  type MercuriusContext = Record<string, unknown> &
+    PromiseType<ReturnType<typeof buildContext>>;
 }
 
 // eslint-disable-next-line @typescript-eslint/naming-convention

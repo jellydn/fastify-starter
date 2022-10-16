@@ -1,7 +1,7 @@
 // This file contains code that we reuse between our tests.
 import Fastify from "fastify";
 import fp from "fastify-plugin";
-import * as tap from "tap";
+import type * as tap from "tap";
 
 import App from "../src/app";
 import { initGraphql } from "../src/graphql";
