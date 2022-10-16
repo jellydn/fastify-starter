@@ -1103,14 +1103,13 @@
     readable-stream "^3.4.0"
     send "^0.18.0"
 
-"@fastify/swagger@^7.5.1":
-  version "7.5.1"
-  resolved "https://registry.yarnpkg.com/@fastify/swagger/-/swagger-7.5.1.tgz#3cae21b705b12c47c009b97201a52d6c5020f1ae"
-  integrity sha512-940WBMPF2ocYZrgLGvVFkggeLxq4A4h/0PEkwsSFDIFGk0YyLS1IxhjwifNsltUVi6HVL5y7TDHqX4Rgt8/GsQ==
+"@fastify/swagger@^8.0.0":
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/@fastify/swagger/-/swagger-8.0.0.tgz#c8c60fe0899928df9b9eef3de52fafeaa26c821a"
+  integrity sha512-e+f8U8vwYXV5aXPLvEegGIFitRJi2Peqop10u7Qo5Eoc6jl/ovgK7RU2RA8jyZdCkgX4X8xx5zgaQM85eDoQlg==
   dependencies:
-    "@fastify/static" "^6.0.0"
     fastify-plugin "^4.0.0"
-    json-schema-resolver "^1.3.0"
+    json-schema-resolver "^2.0.0"
     openapi-types "^12.0.0"
     rfdc "^1.3.0"
     yaml "^2.1.1"
@@ -4190,10 +4189,10 @@ json-parse-even-better-errors@^2.3.0:
   resolved "https://registry.yarnpkg.com/json-parse-even-better-errors/-/json-parse-even-better-errors-2.3.1.tgz#7c47805a94319928e05777405dc12e1f7a4ee02d"
   integrity sha512-xyFwyhro/JEof6Ghe2iz2NcXoj2sloNsWr/XsERDK/oiPCfaNhl5ONfp+jQdAZRQQ0IJWNzH9zIZF7li91kh2w==
 
-json-schema-resolver@^1.3.0:
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/json-schema-resolver/-/json-schema-resolver-1.3.0.tgz#0840864b06780363d31fb03cdfae5047e2f81fbb"
-  integrity sha512-EX7W1r8aZ/T3j8GbbBxPXi60bnsELfT90OiA1QrbGMvwzVSbyMNOAzvMFcFb8m7gKCXZLJpGe+cJOvWgoFl29A==
+json-schema-resolver@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/json-schema-resolver/-/json-schema-resolver-2.0.0.tgz#d17fdf53560e6bc9af084b930fee27f6ce4a03b6"
+  integrity sha512-pJ4XLQP4Q9HTxl6RVDLJ8Cyh1uitSs0CzDBAz1uoJ4sRD/Bk7cFSXL1FUXDW3zJ7YnfliJx6eu8Jn283bpZ4Yg==
   dependencies:
     debug "^4.1.1"
     rfdc "^1.1.4"
