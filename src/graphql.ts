@@ -7,13 +7,6 @@ const buildContext = async (req: FastifyRequest, _reply: FastifyReply) => ({
   authorization: req.headers.authorization,
 });
 
-type PromiseType<T> = T extends PromiseLike<infer U> ? U : T;
-
-declare module "mercurius" {
-  type MercuriusContext = Record<string, unknown> &
-    PromiseType<ReturnType<typeof buildContext>>;
-}
-
 // eslint-disable-next-line @typescript-eslint/naming-convention
 const Query = queryType({
   definition(t) {
