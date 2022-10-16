@@ -1,8 +1,10 @@
 import fastifySwagger from "@fastify/swagger";
-import { FastifyInstance } from "fastify";
+import fastifySwaggerUi from "@fastify/swagger-ui";
+import type { FastifyInstance } from "fastify";
 import { writeFileSync } from "fs";
 import { join } from "path";
-import swaggerJsdoc, { SwaggerDefinition } from "swagger-jsdoc";
+import type { SwaggerDefinition } from "swagger-jsdoc";
+import swaggerJsdoc from "swagger-jsdoc";
 
 // Swagger definition
 // https://github.com/swagger-api/swagger-spec/blob/master/versions/2.0.md
@@ -24,7 +26,7 @@ const options: swaggerJsdoc.Options = {
   apis: [`${apiDirectory}/**/*.js`, `${apiDirectory}/**/*.ts`],
 };
 
-export function initSwagger(app: FastifyInstance) {
+export async function initSwagger(app: FastifyInstance) {
   const swaggerSpec = swaggerJsdoc(options);
 
   // Write to generated swagger file on development
@@ -35,7 +37,7 @@ export function initSwagger(app: FastifyInstance) {
     );
   }
 
-  void app.register(fastifySwagger, {
+  await app.register(fastifySwagger, {
     mode: "static",
     specification: {
       path: join(__dirname, "generated", "swagger.json"),
@@ -44,6 +46,23 @@ export function initSwagger(app: FastifyInstance) {
       },
       baseDir: join(__dirname, "generated"),
     },
-    exposeRoute: true,
+  });
+
+  await app.register(fastifySwaggerUi, {
+    routePrefix: "/documentation",
+    uiConfig: {
+      docExpansion: "full",
+      deepLinking: false,
+    },
+    uiHooks: {
+      onRequest (request, reply, next) {
+        next();
+      },
+      preHandler (request, reply, next) {
+        next();
+      },
+    },
+    staticCSP: true,
+    transformStaticCSP: (header) => header,
   });
 }
