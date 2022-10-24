@@ -43,7 +43,7 @@
     "@fastify/swagger-ui": "^1.0.3",
     "@sinclair/typebox": "^0.24.46",
     "close-with-grace": "^1.1.0",
-    "fastify": "4.8.1",
+    "fastify": "4.9.2",
     "fastify-cli": "^5.5.0",
     "fastify-plugin": "^4.3.0",
     "fastify-tsconfig": "^1.0.1",
