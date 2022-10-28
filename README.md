@@ -31,13 +31,16 @@ yarn start
 
 ## Swagger UI
 
-http://localhost:3000/documentation
+Open below link on your browser with localhost
+http://localhost:3000/documentation or try with demo server https://fastify-starter.fly.dev/documentation
 
 ![https://gyazo.com/6cf6c02cb36f9d4fababdde1ad071aba.gif](https://gyazo.com/6cf6c02cb36f9d4fababdde1ad071aba.gif)
 
 ## GraphQL Client IDE
 
-http://localhost:3000/altair
+Open below link on your browser with localhost
+http://localhost:3000/altair or try with demo server https://fastify-starter.fly.dev/altair
+
 ![https://gyazo.com/49e9af06a6a13390abefd5c58a1296f7.png](https://gyazo.com/49e9af06a6a13390abefd5c58a1296f7.png)
 
 ## GraphQL
@@ -82,7 +85,6 @@ Prior to your first deployment, you'll need to do a few things:
 
   ```sh
   fly create fastify-starter
-  fly create fastify-starter-staging
   ```
 
 - Create a new [GitHub Repository](https://repo.new)
