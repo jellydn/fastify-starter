@@ -35,6 +35,11 @@ http://localhost:3000/documentation
 
 ![https://gyazo.com/6cf6c02cb36f9d4fababdde1ad071aba.gif](https://gyazo.com/6cf6c02cb36f9d4fababdde1ad071aba.gif)
 
+## GraphQL Client IDE
+
+http://localhost:3000/altair
+![https://gyazo.com/49e9af06a6a13390abefd5c58a1296f7.png](https://gyazo.com/49e9af06a6a13390abefd5c58a1296f7.png)
+
 ## GraphQL
 
 Run below command in your terminal/CLI

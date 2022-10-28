@@ -42,6 +42,7 @@
     "@fastify/swagger": "^8.1.0",
     "@fastify/swagger-ui": "^1.1.0",
     "@sinclair/typebox": "^0.24.51",
+    "altair-fastify-plugin": "^5.0.3",
     "close-with-grace": "^1.1.0",
     "fastify": "4.9.2",
     "fastify-cli": "^5.5.1",

@@ -1,3 +1,4 @@
+import AltairFastify from "altair-fastify-plugin";
 import type { FastifyInstance, FastifyReply, FastifyRequest } from "fastify";
 import mercurius from "mercurius";
 import mercuriusCodegen from "mercurius-codegen";
@@ -28,9 +29,18 @@ const schema = makeSchema({
 export function initGraphql(app: FastifyInstance) {
   void app.register(mercurius, {
     schema,
-    graphiql: true,
+    graphiql: false,
+    ide: false,
+    path: "/graphql",
     allowBatchedQueries: true,
     context: buildContext,
+  });
+
+  void app.register(AltairFastify, {
+    path: "/altair",
+    baseURL: "/altair/",
+    // 'endpointURL' should be the same as the mercurius 'path'
+    endpointURL: "/graphql",
   });
 
   mercuriusCodegen(app, {
