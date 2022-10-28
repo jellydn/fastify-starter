@@ -131,18 +131,9 @@ jobs:
           file: "fly.toml"
           field: "app"
 
-      - name: 🚀 Deploy Staging
-        if: ${{ github.ref == 'refs/heads/dev' }}
+      - name: Setup flyctl
         uses: superfly/flyctl-actions/setup-flyctl@master
-        with:
-          args: "deploy --app ${{ steps.app_name.outputs.value }}-staging --image registry.fly.io/${{ steps.app_name.outputs.value }}:${{ github.ref_name }}-${{ github.sha }}"
-        env:
-          FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
-
       - name: 🚀 Deploy Production
-        if: ${{ github.ref == 'refs/heads/main' }}
-        uses: superfly/flyctl-actions/setup-flyctl@master
-        with:
-          args: "deploy --image registry.fly.io/${{ steps.app_name.outputs.value }}:${{ github.ref_name }}-${{ github.sha }}"
+        run: "flyctl deploy --image registry.fly.io/${{ steps.app_name.outputs.value }}:${{ github.ref_name }}-${{ github.sha }}"
         env:
-          FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
+            FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
