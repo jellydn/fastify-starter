@@ -1425,10 +1425,10 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@sinclair/typebox@^0.24.51":
-  version "0.24.51"
-  resolved "https://registry.yarnpkg.com/@sinclair/typebox/-/typebox-0.24.51.tgz#645f33fe4e02defe26f2f5c0410e1c094eac7f5f"
-  integrity sha512-1P1OROm/rdubP5aFDSZQILU0vrLCJ4fvHt6EoqHEM+2D/G5MK3bIaymUKLit8Js9gbns5UyJnkP/TZROLw4tUA==
+"@sinclair/typebox@^0.25.0":
+  version "0.25.1"
+  resolved "https://registry.yarnpkg.com/@sinclair/typebox/-/typebox-0.25.1.tgz#8caa80c24e0be5f909ce2439a0600dae3937c23c"
+  integrity sha512-ij7duiwNUyqplvhAqBXJAHNAT+ozsyUhmC5mLO7PqyHOAk1G91d3ITF2h9LIDbYLP5PSTNYpcxYstU+4Y4i3aQ==
 
 "@trivago/prettier-plugin-sort-imports@3.4.0":
   version "3.4.0"
