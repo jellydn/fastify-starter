@@ -1020,13 +1020,13 @@
   dependencies:
     text-decoding "^1.0.0"
 
-"@fastify/cors@^8.1.0":
-  version "8.1.0"
-  resolved "https://registry.yarnpkg.com/@fastify/cors/-/cors-8.1.0.tgz#af29ddb32675310dfcbbe3aa0af4b7ed29fdb956"
-  integrity sha512-1OmjwyxQZ8GePxa5t1Rpsn2qS56+1ouKMvZufpgJWhXtoCeM/ffA+PsNW8pyslPr4W0E27gVoFqtvHwhXW1U2w==
+"@fastify/cors@^8.1.1":
+  version "8.1.1"
+  resolved "https://registry.yarnpkg.com/@fastify/cors/-/cors-8.1.1.tgz#b4e65275d84bd534a5c5f3ed908211f81fcaa8b7"
+  integrity sha512-YpkNonoJtn7Zcq2uyh0bFPcjW+njWZ9rz5gl8o5NDUvpBIPjg5m/3IHvsq91Pp/fFhLL7XgVOUyk+gMl8tb5FQ==
   dependencies:
     fastify-plugin "^4.0.0"
-    mnemonist "0.39.2"
+    mnemonist "0.39.4"
 
 "@fastify/deepmerge@^1.0.0":
   version "1.1.0"
@@ -1068,10 +1068,10 @@
     fastify-plugin "^4.2.1"
     helmet "^6.0.0"
 
-"@fastify/multipart@^7.2.0":
-  version "7.2.0"
-  resolved "https://registry.yarnpkg.com/@fastify/multipart/-/multipart-7.2.0.tgz#72d396d72beba085afaa84e953aa4a96aa1f2925"
-  integrity sha512-LwfwbCLy30Be1pa5q7F8xCTygxJdEWkfkQhD4OWZ13+vMH4tP/6Bu3OkSTlFatxLAmbEl2UpHLf7CU7w7csRIw==
+"@fastify/multipart@^7.3.0":
+  version "7.3.0"
+  resolved "https://registry.yarnpkg.com/@fastify/multipart/-/multipart-7.3.0.tgz#152908c32fbca9fbe55ee6ca114b818d4c9d1e9b"
+  integrity sha512-tbzQiRFxoADCn0G10CqiQ/nDWWcfegtwg826Pfz2h7+XvuqJhGnko0TbafrWIY7hnGD+sNCGMdiTVsxxs6zigA==
   dependencies:
     "@fastify/busboy" "^1.0.0"
     "@fastify/deepmerge" "^1.0.0"
@@ -1108,19 +1108,19 @@
     readable-stream "^3.4.0"
     send "^0.18.0"
 
-"@fastify/swagger-ui@^1.0.3":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@fastify/swagger-ui/-/swagger-ui-1.0.3.tgz#439428b6e96564924d727b6a5051ee33b25cc4ce"
-  integrity sha512-P3G2s1eOwhxvvxsl5zHFGuiQgT/C4IU+rFxSftiPhn9s0qZBCTuNBmE0CX0wHCm/pSVP+JHqb+zBw67nUZw4XA==
+"@fastify/swagger-ui@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@fastify/swagger-ui/-/swagger-ui-1.1.0.tgz#8fe45a2a688c374ca0747d0e81f01f4067fbd075"
+  integrity sha512-LIWlnWsNXCnVs7ybE+in4WyiwU7ZJs44HM2osK8qnvQPDI6jgls+z/P/vv2D8IgKVSDws/2hJULmHckBUBqQ0g==
   dependencies:
     "@fastify/static" "^6.0.0"
     fastify-plugin "^4.0.0"
     openapi-types "^12.0.2"
 
-"@fastify/swagger@^8.0.0":
-  version "8.0.0"
-  resolved "https://registry.yarnpkg.com/@fastify/swagger/-/swagger-8.0.0.tgz#c8c60fe0899928df9b9eef3de52fafeaa26c821a"
-  integrity sha512-e+f8U8vwYXV5aXPLvEegGIFitRJi2Peqop10u7Qo5Eoc6jl/ovgK7RU2RA8jyZdCkgX4X8xx5zgaQM85eDoQlg==
+"@fastify/swagger@^8.1.0":
+  version "8.1.0"
+  resolved "https://registry.yarnpkg.com/@fastify/swagger/-/swagger-8.1.0.tgz#dc3608317ba26406e1d04e0c94d83e96110d8afe"
+  integrity sha512-i0keOF4O8x/02vk2QV2raWEB4TdSnEob5IWpOerq2VRyIV0W2jtq2Ujr5bSzmlg3ZiGM/t6rBfkfRTIez7YAXA==
   dependencies:
     fastify-plugin "^4.0.0"
     json-schema-resolver "^2.0.0"
@@ -1407,10 +1407,10 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@sinclair/typebox@^0.24.46":
-  version "0.24.46"
-  resolved "https://registry.yarnpkg.com/@sinclair/typebox/-/typebox-0.24.46.tgz#57501b58023776dbbae9e25619146286440be34c"
-  integrity sha512-ng4ut1z2MCBhK/NwDVwIQp3pAUOCs/KNaW3cBxdFB2xTDrOuo1xuNmpr/9HHFhxqIvHrs1NTH3KJg6q+JSy1Kw==
+"@sinclair/typebox@^0.24.51":
+  version "0.24.51"
+  resolved "https://registry.yarnpkg.com/@sinclair/typebox/-/typebox-0.24.51.tgz#645f33fe4e02defe26f2f5c0410e1c094eac7f5f"
+  integrity sha512-1P1OROm/rdubP5aFDSZQILU0vrLCJ4fvHt6EoqHEM+2D/G5MK3bIaymUKLit8Js9gbns5UyJnkP/TZROLw4tUA==
 
 "@trivago/prettier-plugin-sort-imports@3.4.0":
   version "3.4.0"
@@ -3361,10 +3361,10 @@ fast-uri@^2.0.0, fast-uri@^2.1.0:
   resolved "https://registry.yarnpkg.com/fast-uri/-/fast-uri-2.1.0.tgz#9279432d6b53675c90116b947ed2bbba582d6fb5"
   integrity sha512-qKRta6N7BWEFVlyonVY/V+BMLgFqktCUV0QjT259ekAIlbVrMaFnFLxJ4s/JPl4tou56S1BzPufI60bLe29fHA==
 
-fastify-cli@^5.5.0:
-  version "5.5.0"
-  resolved "https://registry.yarnpkg.com/fastify-cli/-/fastify-cli-5.5.0.tgz#6d25c3e08454fdde2e5a56b34e3338964caeaa89"
-  integrity sha512-iIzmM2VFOIaDd5o/01y6iSxk4HTNG68VzSwXUC/4sNP09Piv8/EtsvXIrZ/Wf+7Cjdc71NJ4ZoYxo7ZIG3Ff7g==
+fastify-cli@^5.5.1:
+  version "5.5.1"
+  resolved "https://registry.yarnpkg.com/fastify-cli/-/fastify-cli-5.5.1.tgz#f543074535e296adacb933655027b505109f6b72"
+  integrity sha512-ChxBQmobWZIRMVCAv6gqHosDoqm2rePEVcUSscQDc6s3HkTYMtGNYdeTsf28XKViUQI+Gty2YHItTkFt/X9uog==
   dependencies:
     chalk "^4.1.2"
     chokidar "^3.5.2"
@@ -4656,19 +4656,19 @@ mercurius-codegen@^4.0.1:
     chokidar "^3.5.3"
     mkdirp "^1.0.4"
 
-mercurius-integration-testing@^6.0.0:
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/mercurius-integration-testing/-/mercurius-integration-testing-6.0.0.tgz#f6c175be4b71b347104c733b3b9e591e1c5be1e7"
-  integrity sha512-GxlKvMh0hM59+33+TJOXFeUrh5aQZjcHHhPfl2sq5GXW04oaNrFhtc97/rkDq1jA5BYCKFjMI1T3uQoFdXaIWw==
+mercurius-integration-testing@^6.0.1:
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/mercurius-integration-testing/-/mercurius-integration-testing-6.0.1.tgz#758d4447fff27a0061c7503989693bf40de7a3de"
+  integrity sha512-YBjsR0KtjtnlGIuyOpg40PD57eq9XKSSsyisrsGUAY2Ql4nY6nP8oM3JN2zjk7j8zYlZRnIiZKovsTOddqXZdA==
   dependencies:
     "@graphql-typed-document-node/core" "^3.1.1"
     cookie "^0.5.0"
     ws "^8.9.0"
 
-mercurius@^11.0.1:
-  version "11.0.1"
-  resolved "https://registry.yarnpkg.com/mercurius/-/mercurius-11.0.1.tgz#5e97252dbc7606e6777200cdda0d363e8ff44494"
-  integrity sha512-gas4uY4QaUi98icFOYT3oGVYqg0QZNGpaO9Nz/K148vD9/PcYLdVLnuzbjciqO5DpxHK0PpgoQywdNLt+A371A==
+mercurius@^11.2.0:
+  version "11.2.0"
+  resolved "https://registry.yarnpkg.com/mercurius/-/mercurius-11.2.0.tgz#40997faf0307b23c7d3ac682d17669b0e6d5e6c7"
+  integrity sha512-xKqNx/QzJpW+FBsSHUTwBS+QPoevZ/o1jgMTxmIIBio0+wgINtlWNaoX2asUwTHoB3BG1IkNgY+PDsxra3y9iA==
   dependencies:
     "@fastify/error" "^3.0.0"
     "@fastify/static" "^6.0.0"
@@ -4797,10 +4797,10 @@ mkdirp@^1.0.4:
   resolved "https://registry.yarnpkg.com/mkdirp/-/mkdirp-1.0.4.tgz#3eb5ed62622756d79a5f0e2a221dfebad75c2f7e"
   integrity sha512-vVqVZQyf3WLx2Shd0qJ9xuvqgAyKPLAiqITEtqW0oIUjzo3PePDd6fW9iFz30ef7Ysp/oiWqbhszeGWW2T6Gzw==
 
-mnemonist@0.39.2:
-  version "0.39.2"
-  resolved "https://registry.yarnpkg.com/mnemonist/-/mnemonist-0.39.2.tgz#7e6a0bd5c7199460ee12a651103c7007adc6225a"
-  integrity sha512-n3ZCEosuMH03DVivZ9N0fcXPWiZrBLEdfSlEJ+S/mJxmk3zuo1ur0dj9URDczFyP1VS3wfiyKzqLLDXoPJ6rPA==
+mnemonist@0.39.4:
+  version "0.39.4"
+  resolved "https://registry.yarnpkg.com/mnemonist/-/mnemonist-0.39.4.tgz#62bfd347a5fe1e44aaedf8b44f21d324a16f8ec9"
+  integrity sha512-WlE2Ugow1ENH5un0OthjsjpJb/nbkUQ/jUOHtZUqh58JNzEHNxkm0tIFRAoExsANW/fTN/rxBUMFY/7jPDvxdQ==
   dependencies:
     obliterator "^2.0.1"
 
