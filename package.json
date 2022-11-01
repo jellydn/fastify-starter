@@ -1,6 +1,6 @@
 {
   "name": "fastify-starter",
-  "version": "0.3.0",
+  "version": "0.2.1",
   "description": "Fastify Typescript Starter",
   "keywords": [
     "fastify",
@@ -41,7 +41,7 @@
     "@fastify/sensible": "^5.1.1",
     "@fastify/swagger": "^8.1.0",
     "@fastify/swagger-ui": "^1.1.0",
-    "@sinclair/typebox": "^0.25.0",
+    "@sinclair/typebox": "^0.25.2",
     "altair-fastify-plugin": "^5.0.3",
     "close-with-grace": "^1.1.0",
     "fastify": "4.9.2",
@@ -58,11 +58,11 @@
   "devDependencies": {
     "@trivago/prettier-plugin-sort-imports": "3.4.0",
     "@types/busboy": "1.5.0",
-    "@types/node": "18.11.7",
+    "@types/node": "18.11.9",
     "@types/swagger-jsdoc": "6.0.1",
     "@types/tap": "15.0.7",
-    "@typescript-eslint/eslint-plugin": "5.41.0",
-    "@typescript-eslint/parser": "5.41.0",
+    "@typescript-eslint/eslint-plugin": "5.42.0",
+    "@typescript-eslint/parser": "5.42.0",
     "cpy-cli": "4.2.0",
     "cross-env": "7.0.3",
     "eslint": "8.26.0",
