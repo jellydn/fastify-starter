@@ -69,3 +69,7 @@ dist
 
 # Eslint cache
 .eslintcache
+
+# .envrc file
+.envrc
+

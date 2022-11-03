@@ -8,6 +8,7 @@ RUN apk upgrade --no-cache -U && \
 
 COPY package.json yarn.lock tsconfig.json ./
 COPY src src
+COPY public public
 
 RUN yarn install
 ENV NODE_ENV=production
