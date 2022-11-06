@@ -6,7 +6,7 @@
 
 > Fastify Typescript Starter
 
-[![Deploy](https://button.deta.dev/1/svg)](https://go.deta.dev/deploy?repo=https://github.com/jellydn/fastify-starter)
+<!-- [![Deploy](https://button.deta.dev/1/svg)](https://go.deta.dev/deploy?repo=https://github.com/jellydn/fastify-starter) -->
 
 ## Features
 
@@ -72,7 +72,7 @@ yarn test
 
 ## Deployment
 
-This template comes with two GitHub Actions that handle automatically deploying your app to production and staging environments.
+This template comes with two GitHub Actions that handle automatically deploying your app to production environment.
 
 Prior to your first deployment, you'll need to do a few things:
 
@@ -84,7 +84,7 @@ Prior to your first deployment, you'll need to do a few things:
   fly auth signup
   ```
 
-- Create two apps on Fly, one for staging and one for production:
+- Create a new app on Fly:
 
   ```sh
   fly create fastify-starter
@@ -94,11 +94,11 @@ Prior to your first deployment, you'll need to do a few things:
 
 - Add a `FLY_API_TOKEN` to your GitHub repo. To do this, go to your user settings on Fly and create a new [token](https://web.fly.io/user/personal_access_tokens/new), then add it to [your repo secrets](https://docs.github.com/en/actions/security-guides/encrypted-secrets) with the name `FLY_API_TOKEN`.
 
-Now that every is set up you can commit and push your changes to your repo. Every commit to your `main` branch will trigger a deployment to your production environment, and every commit to your `dev` branch will trigger a deployment to your staging environment.
+Now that every is set up you can commit and push your changes to your repo. Every commit to your `main` branch will trigger a deployment to your production environment.
 
 ## GitHub Actions
 
-We use GitHub Actions for continuous integration and deployment. Anything that gets into the `main` branch will be deployed to production after running tests/build/etc. Anything in the `dev` branch will be deployed to staging.
+We use GitHub Actions for continuous integration and deployment. Anything that gets into the `main` branch will be deployed to production after running tests/build/etc.
 
 ## Author
 
