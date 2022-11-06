@@ -18,4 +18,5 @@ FROM jellydn/alpine-nodejs:18
 WORKDIR /app
 COPY --from=builder /app .
 
+EXPOSE 8080
 CMD ["yarn", "start:prod"]
