@@ -45,6 +45,9 @@ http://localhost:3000/altair or try with demo server https://fastify-starter.fly
 
 ## GraphQL
 
+If you are new to GraphQL, please watch the below video for more information.
+[![IT Man - Talk #27 - GraphQL 2022 Report Insights [Vietnamese]](https://i.ytimg.com/vi/_wmldiEdwPM/hqdefault.jpg)](https://www.youtube.com/watch?v=_wmldiEdwPM)
+
 Run below command in your terminal/CLI
 
 ```sh
