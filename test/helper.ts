@@ -25,7 +25,7 @@ async function build(t: Test) {
   void app.register(fp(App), await config());
 
   // Init graphql
-  initGraphql(app);
+  void initGraphql(app);
 
   await app.ready();
 

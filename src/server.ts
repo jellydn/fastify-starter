@@ -20,7 +20,7 @@ const app = Fastify({
 void app.register(import("./app"));
 
 // Init graphql
-initGraphql(app);
+void initGraphql(app);
 
 // Init Swagger
 void initSwagger(app);
@@ -40,7 +40,10 @@ app.addHook("onClose", async (_instance, done) => {
 });
 
 // Start listening.
-void app.listen({ port: Number(process.env.PORT ?? 3000), host: "0.0.0.0" });
+void app.listen({
+  port: Number(process.env.PORT ?? 3000),
+  host: process.env.SERVER_HOSTNAME ?? "127.0.0.1",
+});
 
 app.ready((err: Error) => {
   if (err) {

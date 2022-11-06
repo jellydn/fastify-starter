@@ -26,25 +26,29 @@ const schema = makeSchema({
   },
 });
 
-export function initGraphql(app: FastifyInstance) {
-  void app.register(mercurius, {
-    schema,
-    graphiql: false,
-    ide: false,
-    path: "/graphql",
-    allowBatchedQueries: true,
-    context: buildContext,
-  });
+export async function initGraphql(app: FastifyInstance) {
+  try {
+    await app.register(mercurius, {
+      schema,
+      graphiql: false,
+      ide: false,
+      path: "/graphql",
+      allowBatchedQueries: true,
+      context: buildContext,
+    });
 
-  void app.register(AltairFastify, {
-    path: "/altair",
-    baseURL: "/altair/",
-    // 'endpointURL' should be the same as the mercurius 'path'
-    endpointURL: "/graphql",
-  });
+    await app.register(AltairFastify, {
+      path: "/altair",
+      baseURL: "/altair/",
+      // 'endpointURL' should be the same as the mercurius 'path'
+      endpointURL: "/graphql",
+    });
 
-  mercuriusCodegen(app, {
-    // Commonly relative to your root package.json
-    targetPath: `${__dirname}/generated/graphql.ts`,
-  }).catch(console.error);
+    await mercuriusCodegen(app, {
+      // Commonly relative to your root package.json
+      targetPath: `${__dirname}/generated/graphql.ts`,
+    });
+  } catch (err: unknown) {
+    app.log.error(err);
+  }
 }
