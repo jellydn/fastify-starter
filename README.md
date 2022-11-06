@@ -6,7 +6,7 @@
 
 > Fastify Typescript Starter
 
-[![Deploy](https://button.deta.dev/1/svg)](https://go.deta.dev/deploy?repo=https://github.com/jellydn/fastify-starter)
+<!-- [![Deploy](https://button.deta.dev/1/svg)](https://go.deta.dev/deploy?repo=https://github.com/jellydn/fastify-starter) -->
 
 ## Features
 
