@@ -66,6 +66,7 @@ dist
 
 # .env file
 .env
+.envrc
 
 # Eslint cache
 .eslintcache
