@@ -3095,10 +3095,10 @@ eslint-config-prettier@8.5.0:
   resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-8.5.0.tgz#5a81680ec934beca02c7b1a61cf8ca34b66feab1"
   integrity sha512-obmWKLUNCnhtQRKc+tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX+AuPj1YSGSQIHl1pnDHZR0Q==
 
-eslint-config-xo-typescript@0.53.0:
-  version "0.53.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-xo-typescript/-/eslint-config-xo-typescript-0.53.0.tgz#702be21ea0dfcb124903c5f723d023b1fdeb0da2"
-  integrity sha512-IJ1n70egMPTou/41HoGGFbLf/2WCsVW5lSUxOSklrR8T1221fMRPVJxIVZ3evr8R+N5wR6uzg/0uzSymwWA5Bg==
+eslint-config-xo-typescript@0.54.1:
+  version "0.54.1"
+  resolved "https://registry.yarnpkg.com/eslint-config-xo-typescript/-/eslint-config-xo-typescript-0.54.1.tgz#2af7ee9e3458891cba66eddac3115ab950f4a53b"
+  integrity sha512-IfxkS6D4H6s+7g87L8OjiOSycOKkwy0eInTImOam3hea0+aLwIG8e29bLkCd0KMQAYku+8aEIPbrIy6eBuYegQ==
 
 eslint-config-xo@0.42.0:
   version "0.42.0"
