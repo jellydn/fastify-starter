@@ -110,6 +110,8 @@ We use GitHub Actions for continuous integration and deployment. Anything that g
 
 ## Show your support
 
+[![Stargazers repo roster for @jellydn/fastify-starter](https://reporoster.com/stars/jellydn/fastify-starter)](https://github.com/jellydn/fastify-starter/stargazers)
+
 Give a ⭐️ if this project helped you!
 
 ---
