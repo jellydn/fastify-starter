@@ -653,7 +653,7 @@
     ajv-formats "^2.1.1"
     fast-uri "^2.0.0"
 
-"@fastify/autoload@^5.4.1":
+"@fastify/autoload@5.4.1":
   version "5.4.1"
   resolved "https://registry.yarnpkg.com/@fastify/autoload/-/autoload-5.4.1.tgz#79323e54eabc0fd1e1a155c56094598d250c45b6"
   integrity sha512-BiNyQ7FnM5zlVDC4JhbxKsMa9QxxUMgoMFrZ86l8m3HpHX3cvNWDdwMWmA32TDJJkzWnKoZE6HHBFPb0+Fu1Rw==
@@ -667,7 +667,7 @@
   dependencies:
     text-decoding "^1.0.0"
 
-"@fastify/cors@^8.2.0":
+"@fastify/cors@8.2.0":
   version "8.2.0"
   resolved "https://registry.yarnpkg.com/@fastify/cors/-/cors-8.2.0.tgz#44ce6b28bc111e12679cb02f980f0ce865ff4877"
   integrity sha512-qDgwpmg6C4D0D3nh8MTMuRXWyEwPnDZDBODaJv90FP2o9ukbahJByW4FtrM5Bpod5KbTf1oIExBmpItbUTQmHg==
@@ -680,7 +680,7 @@
   resolved "https://registry.yarnpkg.com/@fastify/deepmerge/-/deepmerge-1.1.0.tgz#91f0a5a27034ff76b7bece63a5906894940ace82"
   integrity sha512-E8Hfdvs1bG6u0N4vN5Nty6JONUfTdOciyD5rn8KnEsLKIenvOVcr210BQR9t34PRkNyjqnMLGk3e0BsaxRdL+g==
 
-"@fastify/env@^4.1.0":
+"@fastify/env@4.1.0":
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/@fastify/env/-/env-4.1.0.tgz#016c18f74c0c7d2502c08ca28dc805edefd78583"
   integrity sha512-9l+JTUiFWSwb9dGSeR46aDWBjrAg8lJeqMjbotG5/8Ho90+qzRbt8kdSnVhLm5k6HcqXcBaBAT/6cImRhRq0VQ==
@@ -700,7 +700,7 @@
   dependencies:
     fast-json-stringify "^5.0.0"
 
-"@fastify/helmet@^10.0.2":
+"@fastify/helmet@10.0.2":
   version "10.0.2"
   resolved "https://registry.yarnpkg.com/@fastify/helmet/-/helmet-10.0.2.tgz#197a448c9a606f38355b57a19522095761e46788"
   integrity sha512-gljMbmHJbH85DUfZKN982Pg1hwzX/5Bcizduf1pdjh2uuOqjsqEc49ExSk6U3VNqqTlpm8e+hMaVDSJg2AUrGQ==
@@ -708,7 +708,7 @@
     fastify-plugin "^4.2.1"
     helmet "^6.0.0"
 
-"@fastify/multipart@^7.3.0":
+"@fastify/multipart@7.3.0":
   version "7.3.0"
   resolved "https://registry.yarnpkg.com/@fastify/multipart/-/multipart-7.3.0.tgz#152908c32fbca9fbe55ee6ca114b818d4c9d1e9b"
   integrity sha512-tbzQiRFxoADCn0G10CqiQ/nDWWcfegtwg826Pfz2h7+XvuqJhGnko0TbafrWIY7hnGD+sNCGMdiTVsxxs6zigA==
@@ -722,7 +722,7 @@
     secure-json-parse "^2.4.0"
     stream-wormhole "^1.1.0"
 
-"@fastify/sensible@^5.1.1":
+"@fastify/sensible@5.1.1":
   version "5.1.1"
   resolved "https://registry.yarnpkg.com/@fastify/sensible/-/sensible-5.1.1.tgz#7f639466dd00c5216b268b606936e8b89f73f907"
   integrity sha512-zMn3MDb++nTdnQVHMtKPvEsx+gOf213HDYD8iWPnketvtUUcbuHTloYFleXZ0YWR9XCgJdN0RRE3smqzl4Q2gg==
@@ -748,7 +748,7 @@
     readable-stream "^4.0.0"
     send "^0.18.0"
 
-"@fastify/swagger-ui@^1.2.0":
+"@fastify/swagger-ui@1.2.0":
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/@fastify/swagger-ui/-/swagger-ui-1.2.0.tgz#29b9ecbb8c36362ca31737bbc8bc361aeea1892f"
   integrity sha512-6ciMuZ/D0Hm2zwRIk5hGxpu4tmgMoBnPwIA4jMCoZngE9kvwg3avXAFZORyTENBJQYwncAFT43z+itW1ubp77Q==
@@ -759,7 +759,7 @@
     rfdc "^1.3.0"
     yaml "^2.1.3"
 
-"@fastify/swagger@^8.1.0":
+"@fastify/swagger@8.1.0":
   version "8.1.0"
   resolved "https://registry.yarnpkg.com/@fastify/swagger/-/swagger-8.1.0.tgz#dc3608317ba26406e1d04e0c94d83e96110d8afe"
   integrity sha512-i0keOF4O8x/02vk2QV2raWEB4TdSnEob5IWpOerq2VRyIV0W2jtq2Ujr5bSzmlg3ZiGM/t6rBfkfRTIez7YAXA==
@@ -1063,7 +1063,7 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@sinclair/typebox@^0.25.8":
+"@sinclair/typebox@0.25.8":
   version "0.25.8"
   resolved "https://registry.yarnpkg.com/@sinclair/typebox/-/typebox-0.25.8.tgz#882d969dfc433cbd362f1876f8ea29b743dc32d3"
   integrity sha512-/7GXgMOCfnxpIov52cPetqQ7bxRBaTBJAgp04Se2UQB1J0vUfEOIMpn63cLc3S5JXDUflCWxELKDV8eiPpmUTQ==
@@ -1404,7 +1404,7 @@ ajv@^8.0.0, ajv@^8.10.0, ajv@^8.11.0:
     require-from-string "^2.0.2"
     uri-js "^4.2.2"
 
-altair-fastify-plugin@^5.0.4:
+altair-fastify-plugin@5.0.4:
   version "5.0.4"
   resolved "https://registry.yarnpkg.com/altair-fastify-plugin/-/altair-fastify-plugin-5.0.4.tgz#8fe1eff453438e7f9c1bdd1d3af925deb1e0f45c"
   integrity sha512-PGMJlbU2BnJsN9ftDw48Gu8yx5SrDFGQrU6vm8ZXi8S1FsHwuA2gv+/NiDxJ9vb3o1d5pwlfZb17MlyCaMuFBA==
@@ -1911,7 +1911,7 @@ cliui@^7.0.4:
     strip-ansi "^6.0.0"
     wrap-ansi "^7.0.0"
 
-close-with-grace@^1.1.0:
+close-with-grace@1.1.0, close-with-grace@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/close-with-grace/-/close-with-grace-1.1.0.tgz#91a48cf2019b5ae6e67b0255a32abcfd9bbca233"
   integrity sha512-6cCp71Y5tKw1o9sGVBOa9OwY4vJ+YoLpFcWiTt9YCBhYlcQi0z68EiiN9mJ6/401Za6TZ5YOZg012IHHZt15lw==
@@ -2766,7 +2766,7 @@ fast-uri@^2.0.0, fast-uri@^2.1.0:
   resolved "https://registry.yarnpkg.com/fast-uri/-/fast-uri-2.1.0.tgz#9279432d6b53675c90116b947ed2bbba582d6fb5"
   integrity sha512-qKRta6N7BWEFVlyonVY/V+BMLgFqktCUV0QjT259ekAIlbVrMaFnFLxJ4s/JPl4tou56S1BzPufI60bLe29fHA==
 
-fastify-cli@^5.5.1:
+fastify-cli@5.5.1:
   version "5.5.1"
   resolved "https://registry.yarnpkg.com/fastify-cli/-/fastify-cli-5.5.1.tgz#f543074535e296adacb933655027b505109f6b72"
   integrity sha512-ChxBQmobWZIRMVCAv6gqHosDoqm2rePEVcUSscQDc6s3HkTYMtGNYdeTsf28XKViUQI+Gty2YHItTkFt/X9uog==
@@ -2787,6 +2787,11 @@ fastify-cli@^5.5.1:
     semver "^7.3.5"
     yargs-parser "^21.1.1"
 
+fastify-plugin@4.3.0, fastify-plugin@^4.0.0, fastify-plugin@^4.2.0, fastify-plugin@^4.2.1:
+  version "4.3.0"
+  resolved "https://registry.yarnpkg.com/fastify-plugin/-/fastify-plugin-4.3.0.tgz#c6eaa87a7a0d6d1d16129e43e31d6bc1d8868e53"
+  integrity sha512-M3+i368lV0OYTJ5TfClIoPKEKSOF7112iiPdwgfSR0gN98BjA1Nk+c6oBHtfcVt9KiMxl+EQKHC1QNWo3ZOpYQ==
+
 fastify-plugin@^2.3.4:
   version "2.3.4"
   resolved "https://registry.yarnpkg.com/fastify-plugin/-/fastify-plugin-2.3.4.tgz#b17abdc36a97877d88101fb86ad8a07f2c07de87"
@@ -2794,12 +2799,7 @@ fastify-plugin@^2.3.4:
   dependencies:
     semver "^7.3.2"
 
-fastify-plugin@^4.0.0, fastify-plugin@^4.2.0, fastify-plugin@^4.2.1, fastify-plugin@^4.3.0:
-  version "4.3.0"
-  resolved "https://registry.yarnpkg.com/fastify-plugin/-/fastify-plugin-4.3.0.tgz#c6eaa87a7a0d6d1d16129e43e31d6bc1d8868e53"
-  integrity sha512-M3+i368lV0OYTJ5TfClIoPKEKSOF7112iiPdwgfSR0gN98BjA1Nk+c6oBHtfcVt9KiMxl+EQKHC1QNWo3ZOpYQ==
-
-fastify-tsconfig@^1.0.1:
+fastify-tsconfig@1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/fastify-tsconfig/-/fastify-tsconfig-1.0.1.tgz#ec90e45fa8aa72b81178757bd5940c7875037639"
   integrity sha512-BXkTG3JYcjJb3xX5R5FcE9ciscV/h7YtmnkiSaNAONd1g6ooMSN/4GWfhA8hnS6SRZFYBBxsn8719Mj9lbCOtA==
@@ -3158,7 +3158,7 @@ graphql-tag@^2.11.0:
   dependencies:
     tslib "^2.1.0"
 
-graphql@^16.0.0, graphql@^16.6.0:
+graphql@16.6.0, graphql@^16.0.0:
   version "16.6.0"
   resolved "https://registry.yarnpkg.com/graphql/-/graphql-16.6.0.tgz#c2dcffa4649db149f6282af726c8c83f1c7c5fdb"
   integrity sha512-KPIBPDlW7NxrbT/eh4qPXz5FiFdL5UbaA0XUNz2Rp3Z3hqBSkbj0GVjwFDztsWVauZUWsbKHgMg++sk8UX0bkw==
@@ -3963,7 +3963,7 @@ meow@^10.1.2:
     type-fest "^1.2.2"
     yargs-parser "^20.2.9"
 
-mercurius-codegen@^5.0.0:
+mercurius-codegen@5.0.0:
   version "5.0.0"
   resolved "https://registry.yarnpkg.com/mercurius-codegen/-/mercurius-codegen-5.0.0.tgz#e40480439c5a447fe974d4e5041134f9a8e070b7"
   integrity sha512-q7bxeIcdarCRIwUXyFXL0vmGbXXtjijCm2qLz3xpvuZH1l0FFZoZakx3S6PSvjvkUUxI4Nc6zD4HqL2zeSkV/Q==
@@ -3980,7 +3980,7 @@ mercurius-codegen@^5.0.0:
     chokidar "^3.5.3"
     mkdirp "^1.0.4"
 
-mercurius-integration-testing@^6.0.1:
+mercurius-integration-testing@6.0.1:
   version "6.0.1"
   resolved "https://registry.yarnpkg.com/mercurius-integration-testing/-/mercurius-integration-testing-6.0.1.tgz#758d4447fff27a0061c7503989693bf40de7a3de"
   integrity sha512-YBjsR0KtjtnlGIuyOpg40PD57eq9XKSSsyisrsGUAY2Ql4nY6nP8oM3JN2zjk7j8zYlZRnIiZKovsTOddqXZdA==
@@ -3989,7 +3989,7 @@ mercurius-integration-testing@^6.0.1:
     cookie "^0.5.0"
     ws "^8.9.0"
 
-mercurius@^11.3.0:
+mercurius@11.3.0:
   version "11.3.0"
   resolved "https://registry.yarnpkg.com/mercurius/-/mercurius-11.3.0.tgz#bfe9eb1692bc8ae15d2f1cecd19367d55803a167"
   integrity sha512-W/Yi4fEP9Mma9lWTm9ijZPmQNm4vij+TplnJ2w1/bjjH7unP9LkU5M1SSiDJSUNPhVmjneZRBqA2f5N0tUsfwg==
@@ -4165,7 +4165,7 @@ next-tick@1, next-tick@^1.1.0:
   resolved "https://registry.yarnpkg.com/next-tick/-/next-tick-1.1.0.tgz#1836ee30ad56d67ef281b22bd199f709449b35eb"
   integrity sha512-CXdUiJembsNjuToQvxayPZF9Vqht7hewsvy2sOWafLvi2awflj9mOC6bHIg50orX8IJvWKY9wYQ/zB2kogPslQ==
 
-nexus@^1.3.0:
+nexus@1.3.0:
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/nexus/-/nexus-1.3.0.tgz#d7e2671d48bf887e30e2815f509bbf4b0ee2a02b"
   integrity sha512-w/s19OiNOs0LrtP7pBmD9/FqJHvZLmCipVRt6v1PM8cRUYIbhEswyNKGHVoC4eHZGPSnD+bOf5A3+gnbt0A5/A==
@@ -5351,7 +5351,7 @@ supports-color@^7.1.0:
   dependencies:
     has-flag "^4.0.0"
 
-swagger-jsdoc@^6.2.5:
+swagger-jsdoc@6.2.5:
   version "6.2.5"
   resolved "https://registry.yarnpkg.com/swagger-jsdoc/-/swagger-jsdoc-6.2.5.tgz#65bffa142276436b2b131255f59a6b55384a0e8e"
   integrity sha512-l+cdsKS2y+QDhrH1TJSUiE0y9XKuf5xaGSatjf0hR/wjTlMpO8WfubBK9d/nASdbHPMtj9iJZLBH2ogBEhL7Sw==
