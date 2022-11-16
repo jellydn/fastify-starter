@@ -45,7 +45,7 @@
     "altair-fastify-plugin": "5.0.4",
     "close-with-grace": "1.1.0",
     "fastify": "4.9.2",
-    "fastify-cli": "5.5.1",
+    "fastify-cli": "5.6.0",
     "fastify-plugin": "4.3.0",
     "fastify-tsconfig": "1.0.1",
     "graphql": "16.6.0",
@@ -61,8 +61,8 @@
     "@types/node": "18.11.9",
     "@types/swagger-jsdoc": "6.0.1",
     "@types/tap": "15.0.7",
-    "@typescript-eslint/eslint-plugin": "5.42.1",
-    "@typescript-eslint/parser": "5.42.1",
+    "@typescript-eslint/eslint-plugin": "5.43.0",
+    "@typescript-eslint/parser": "5.43.0",
     "cpy-cli": "4.2.0",
     "cross-env": "7.0.3",
     "eslint": "8.27.0",
@@ -75,11 +75,11 @@
     "lint-staged": "13.0.3",
     "prettier": "2.7.1",
     "sort-package-json": "2.1.0",
-    "tap": "16.3.0",
+    "tap": "16.3.1",
     "ts-node": "10.9.1",
-    "tsup": "6.4.0",
+    "tsup": "6.5.0",
     "tsx": "3.12.1",
-    "typescript": "4.8.4"
+    "typescript": "4.9.3"
   },
   "tsup": {
     "entry": [
