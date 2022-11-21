@@ -1407,9 +1407,9 @@ altair-fastify-plugin@5.0.4:
     fastify-plugin "^2.3.4"
 
 altair-static@^5.0.4:
-  version "5.0.4"
-  resolved "https://registry.yarnpkg.com/altair-static/-/altair-static-5.0.4.tgz#662d2d0f20b3080492556e45d4478e6ed7729c62"
-  integrity sha512-aWoSxQ+LSOdLZbXFrBDn46BcYFSxZisnyPxz1OReIarbcI5ajYoA0RKNQWUmVJiCm1w7EXJJStw9qtes2r4xbg==
+  version "5.0.5"
+  resolved "https://registry.yarnpkg.com/altair-static/-/altair-static-5.0.5.tgz#d1f6cdc4a9689fafc0d4a2a9af0ff9e5e667eb26"
+  integrity sha512-xs8lQqyM5iMD9QOFHTWFZeTZSV2D37/gwIOgOP/yo/5ueP9+po4OlvXNkjHUZvRIpNqk5x61oUthzD4DhJ04Qw==
 
 ansi-escapes@^4.2.1, ansi-escapes@^4.3.0:
   version "4.3.2"
