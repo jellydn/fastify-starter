@@ -653,10 +653,10 @@
     ajv-formats "^2.1.1"
     fast-uri "^2.0.0"
 
-"@fastify/autoload@5.4.1":
-  version "5.4.1"
-  resolved "https://registry.yarnpkg.com/@fastify/autoload/-/autoload-5.4.1.tgz#79323e54eabc0fd1e1a155c56094598d250c45b6"
-  integrity sha512-BiNyQ7FnM5zlVDC4JhbxKsMa9QxxUMgoMFrZ86l8m3HpHX3cvNWDdwMWmA32TDJJkzWnKoZE6HHBFPb0+Fu1Rw==
+"@fastify/autoload@5.5.0":
+  version "5.5.0"
+  resolved "https://registry.yarnpkg.com/@fastify/autoload/-/autoload-5.5.0.tgz#0a6be3cf7e5d6ebaa5d7086ac38f9b4fd8628654"
+  integrity sha512-lWx4SvPBL9PI5j/I4A0zkDI+KyvMSo5rJeVMCsT7eeiJ2TzM8+l1ZGK/9RCmq3AycHeOTU7WB5JYmOOIW4iCsA==
   dependencies:
     pkg-up "^3.1.0"
 
@@ -1149,7 +1149,7 @@
   resolved "https://registry.yarnpkg.com/@types/prop-types/-/prop-types-15.7.5.tgz#5f19d2b85a98e9558036f6a3cacc8819420f05cf"
   integrity sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w==
 
-"@types/react@^17":
+"@types/react@^17.0.52":
   version "17.0.52"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-17.0.52.tgz#10d8b907b5c563ac014a541f289ae8eaa9bf2e9b"
   integrity sha512-vwk8QqVODi0VaZZpDXQCmEmiOuyjEFPY7Ttaw5vjM112LOq37yz1CDJGrRJwA1fYEq4Iitd5rnjd1yWAc/bT+A==
@@ -1338,16 +1338,16 @@ ajv@^8.0.0, ajv@^8.10.0, ajv@^8.11.0:
     require-from-string "^2.0.2"
     uri-js "^4.2.2"
 
-altair-fastify-plugin@5.0.4:
-  version "5.0.4"
-  resolved "https://registry.yarnpkg.com/altair-fastify-plugin/-/altair-fastify-plugin-5.0.4.tgz#8fe1eff453438e7f9c1bdd1d3af925deb1e0f45c"
-  integrity sha512-PGMJlbU2BnJsN9ftDw48Gu8yx5SrDFGQrU6vm8ZXi8S1FsHwuA2gv+/NiDxJ9vb3o1d5pwlfZb17MlyCaMuFBA==
+altair-fastify-plugin@5.0.5:
+  version "5.0.5"
+  resolved "https://registry.yarnpkg.com/altair-fastify-plugin/-/altair-fastify-plugin-5.0.5.tgz#c3f52b493a3ee57eb62d0afee5b66df6dbf6467a"
+  integrity sha512-23B0im0QIB7PQxN9n5IknXCuFw6+zQ5krGXA60AvI+kgrCN+xAaPOAB/bUNF2bZuflNYv+qhBBAmB5pR0QZb3Q==
   dependencies:
     "@fastify/static" "^6.4.0"
-    altair-static "^5.0.4"
+    altair-static "^5.0.5"
     fastify-plugin "^2.3.4"
 
-altair-static@^5.0.4:
+altair-static@^5.0.5:
   version "5.0.5"
   resolved "https://registry.yarnpkg.com/altair-static/-/altair-static-5.0.5.tgz#d1f6cdc4a9689fafc0d4a2a9af0ff9e5e667eb26"
   integrity sha512-xs8lQqyM5iMD9QOFHTWFZeTZSV2D37/gwIOgOP/yo/5ueP9+po4OlvXNkjHUZvRIpNqk5x61oUthzD4DhJ04Qw==
@@ -2413,10 +2413,10 @@ eslint-config-prettier@8.5.0:
   resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-8.5.0.tgz#5a81680ec934beca02c7b1a61cf8ca34b66feab1"
   integrity sha512-obmWKLUNCnhtQRKc+tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX+AuPj1YSGSQIHl1pnDHZR0Q==
 
-eslint-config-xo-typescript@0.54.1:
-  version "0.54.1"
-  resolved "https://registry.yarnpkg.com/eslint-config-xo-typescript/-/eslint-config-xo-typescript-0.54.1.tgz#2af7ee9e3458891cba66eddac3115ab950f4a53b"
-  integrity sha512-IfxkS6D4H6s+7g87L8OjiOSycOKkwy0eInTImOam3hea0+aLwIG8e29bLkCd0KMQAYku+8aEIPbrIy6eBuYegQ==
+eslint-config-xo-typescript@0.55.0:
+  version "0.55.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-xo-typescript/-/eslint-config-xo-typescript-0.55.0.tgz#84b008cb927ec43f57ad0d7969fb30fe8ba1968a"
+  integrity sha512-JJbuUbkgDWjN0o6i2Olpw8teP8mq81aMH0vSzEssDS4k1fRvUtsHQNVFb4Q0XyvO0FU9fD4wsqcPv2w1n/AulQ==
 
 eslint-config-xo@0.43.1:
   version "0.43.1"
@@ -2458,10 +2458,10 @@ eslint-visitor-keys@^3.3.0:
   resolved "https://registry.yarnpkg.com/eslint-visitor-keys/-/eslint-visitor-keys-3.3.0.tgz#f6480fa6b1f30efe2d1968aa8ac745b862469826"
   integrity sha512-mQ+suqKJVyeuwGYHAdjMFqjCyfl8+Ldnxuyp3ldiMBFKkvytrXUZWaiPCEav8qDHKty44bD+qV1IP4T+w+xXRA==
 
-eslint@8.27.0:
-  version "8.27.0"
-  resolved "https://registry.yarnpkg.com/eslint/-/eslint-8.27.0.tgz#d547e2f7239994ad1faa4bb5d84e5d809db7cf64"
-  integrity sha512-0y1bfG2ho7mty+SiILVf9PfuRA49ek4Nc60Wmmu62QlobNR+CeXa4xXIJgcuwSQgZiWaPH+5BDsctpIW0PR/wQ==
+eslint@8.28.0:
+  version "8.28.0"
+  resolved "https://registry.yarnpkg.com/eslint/-/eslint-8.28.0.tgz#81a680732634677cc890134bcdd9fdfea8e63d6e"
+  integrity sha512-S27Di+EVyMxcHiwDrFzk8dJYAaD+/5SoWKxL1ri/71CRHsnJnRDPNt2Kzj24+MT9FDupf4aqqyqPrvI8MvQ4VQ==
   dependencies:
     "@eslint/eslintrc" "^1.3.3"
     "@humanwhocodes/config-array" "^0.11.6"
@@ -2733,27 +2733,7 @@ fastify-tsconfig@1.0.1:
   resolved "https://registry.yarnpkg.com/fastify-tsconfig/-/fastify-tsconfig-1.0.1.tgz#ec90e45fa8aa72b81178757bd5940c7875037639"
   integrity sha512-BXkTG3JYcjJb3xX5R5FcE9ciscV/h7YtmnkiSaNAONd1g6ooMSN/4GWfhA8hnS6SRZFYBBxsn8719Mj9lbCOtA==
 
-fastify@4.9.2:
-  version "4.9.2"
-  resolved "https://registry.yarnpkg.com/fastify/-/fastify-4.9.2.tgz#0f5cfb3e1960320a9cae920efb59c3605c5577c7"
-  integrity sha512-Mk3hv7ZRet2huMYN6IJ8RGy1TAAC7LJsCEjxLf808zafAADNu43xRzbl7FSEIBxKyhntTM0F626Oc34LUNcUxQ==
-  dependencies:
-    "@fastify/ajv-compiler" "^3.3.1"
-    "@fastify/error" "^3.0.0"
-    "@fastify/fast-json-stringify-compiler" "^4.1.0"
-    abstract-logging "^2.0.1"
-    avvio "^8.2.0"
-    find-my-way "^7.3.0"
-    light-my-request "^5.6.1"
-    pino "^8.5.0"
-    process-warning "^2.0.0"
-    proxy-addr "^2.0.7"
-    rfdc "^1.3.0"
-    secure-json-parse "^2.5.0"
-    semver "^7.3.7"
-    tiny-lru "^9.0.2"
-
-fastify@^4.0.0:
+fastify@4.10.0, fastify@^4.0.0:
   version "4.10.0"
   resolved "https://registry.yarnpkg.com/fastify/-/fastify-4.10.0.tgz#9edc2bffcd36875aef2243f3d7d1fe6486610f6a"
   integrity sha512-8yQPT+c/EbETjNxwM9PHeu2U4eXMoXTva0L9zoVgv7/ZCBtovWpfK4RKexhyh5Va3Jg82HovnfCxoZmwcZDfsQ==
@@ -3019,7 +2999,7 @@ glob@7.1.6:
     once "^1.3.0"
     path-is-absolute "^1.0.0"
 
-glob@^7.0.5, glob@^7.1.1, glob@^7.1.3, glob@^7.1.4, glob@^7.1.6:
+glob@^7.0.5, glob@^7.1.1, glob@^7.1.3, glob@^7.1.4, glob@^7.1.6, glob@^7.2.3:
   version "7.2.3"
   resolved "https://registry.yarnpkg.com/glob/-/glob-7.2.3.tgz#b8df0fb802bbfa8e89bd1d938b4e16578ed44f2b"
   integrity sha512-nFR0zLpU2YCaRxwoCJvL6UvCH2JFyFVIvwTLsIf21AuHlMskA1hhTdk+LlYJtOlYt9v6dvszD2BGRqBL+iQK9Q==
@@ -3474,7 +3454,7 @@ istanbul-lib-instrument@^4.0.0:
     istanbul-lib-coverage "^3.0.0"
     semver "^6.3.0"
 
-istanbul-lib-processinfo@^2.0.2:
+istanbul-lib-processinfo@^2.0.2, istanbul-lib-processinfo@^2.0.3:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/istanbul-lib-processinfo/-/istanbul-lib-processinfo-2.0.3.tgz#366d454cd0dcb7eb6e0e419378e60072c8626169"
   integrity sha512-NkwHbo3E00oybX6NGJi6ar0B29vxyvNwoC7eJ4G4Yq28UfY758Hgn/heV8VRFhevPED4LXfFz0DQ8z/0kw9zMg==
@@ -3517,7 +3497,7 @@ iterall@^1.3.0:
   resolved "https://registry.yarnpkg.com/iterall/-/iterall-1.3.0.tgz#afcb08492e2915cbd8a0884eb93a8c94d0d72fea"
   integrity sha512-QZ9qOMdF+QLHxy1QIpUHUU1D5pS2CG2P69LF6L6CPjPYA/XMOmKV3PZpawHoAjHNyB0swdVTRxdYT4tbBbxqwg==
 
-jackspeak@^1.4.1:
+jackspeak@^1.4.2:
   version "1.4.2"
   resolved "https://registry.yarnpkg.com/jackspeak/-/jackspeak-1.4.2.tgz#30ad5e4b7b36f9f3ae580e23272b1a386b4f6b93"
   integrity sha512-GHeGTmnuaHnvS+ZctRB01bfxARuu9wW83ENbuiweu07SFcVlZrJpcshSre/keGT7YGBhLHg/+rXCNSrsEHKU4Q==
@@ -4031,7 +4011,7 @@ minimist@^1.2.6:
   resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.7.tgz#daa1c4d91f507390437c6a8bc01078e7000c4d18"
   integrity sha512-bzfL1YUZsP41gmu/qjrEk0Q6i2ix/cVeAhbCbqH9u3zYutS1cLg00qhrD0M2MVdCcx4Sc0UpP2eBWo9rotpq6g==
 
-minipass@^3.1.1, minipass@^3.1.5, minipass@^3.1.6:
+minipass@^3.1.5, minipass@^3.1.6, minipass@^3.3.4:
   version "3.3.4"
   resolved "https://registry.yarnpkg.com/minipass/-/minipass-3.3.4.tgz#ca99f95dd77c43c7a76bf51e6d200025eee0ffae"
   integrity sha512-I9WPbWHCGu8W+6k1ZiGpPu0GkoKBeorkfKNuAFBNS1HNFJvke82sxvI5bzcCNpWPorkOO5QQ+zomzzwRxejXiw==
@@ -5309,7 +5289,7 @@ tap-mocha-reporter@^5.0.3:
     tap-yaml "^1.0.0"
     unicode-length "^2.0.2"
 
-tap-parser@^11.0.0, tap-parser@^11.0.1:
+tap-parser@^11.0.0, tap-parser@^11.0.2:
   version "11.0.2"
   resolved "https://registry.yarnpkg.com/tap-parser/-/tap-parser-11.0.2.tgz#5d3e76e2cc521e23a8c50201487b273ca0fba800"
   integrity sha512-6qGlC956rcORw+fg7Fv1iCRAY8/bU9UabUAhs3mXRH6eRmVZcNPLheSXCYaVaYeSwx5xa/1HXZb1537YSvwDZg==
@@ -5318,31 +5298,31 @@ tap-parser@^11.0.0, tap-parser@^11.0.1:
     minipass "^3.1.6"
     tap-yaml "^1.0.0"
 
-tap-yaml@^1.0.0:
+tap-yaml@^1.0.0, tap-yaml@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/tap-yaml/-/tap-yaml-1.0.2.tgz#62032a459e5524e10661c19ee9df5d33d78812fa"
   integrity sha512-GegASpuqBnRNdT1U+yuUPZ8rEU64pL35WPBpCISWwff4dErS2/438barz7WFJl4Nzh3Y05tfPidZnH+GaV1wMg==
   dependencies:
     yaml "^1.10.2"
 
-tap@16.3.1:
-  version "16.3.1"
-  resolved "https://registry.yarnpkg.com/tap/-/tap-16.3.1.tgz#dbade2d7a9b5f006aae2fc87abb2fe3c743139b4"
-  integrity sha512-B4+R/fY7hXuwDQOIpnT8rbXYYKUxX1Mu9e1axeoYtm5loyZRa2eYIL0zz8NaOg6h/dd+J8t25okCVg1RLDM8Yw==
+tap@16.3.2:
+  version "16.3.2"
+  resolved "https://registry.yarnpkg.com/tap/-/tap-16.3.2.tgz#84350bce6fbe490f1befbcd53d5caddb8892feac"
+  integrity sha512-4MWMObR8unbv5gAHHVW9F0MNk3opQMnLusSWvt4KBAnKmkwpBRKIfNF64fimQbcR4y9a7U9ISV7pCldlV3J8Pw==
   dependencies:
     "@isaacs/import-jsx" "^4.0.1"
-    "@types/react" "^17"
+    "@types/react" "^17.0.52"
     chokidar "^3.3.0"
     findit "^2.0.0"
     foreground-child "^2.0.0"
     fs-exists-cached "^1.0.0"
-    glob "^7.1.6"
+    glob "^7.2.3"
     ink "^3.2.0"
     isexe "^2.0.0"
-    istanbul-lib-processinfo "^2.0.2"
-    jackspeak "^1.4.1"
+    istanbul-lib-processinfo "^2.0.3"
+    jackspeak "^1.4.2"
     libtap "^1.4.0"
-    minipass "^3.1.1"
+    minipass "^3.3.4"
     mkdirp "^1.0.4"
     nyc "^15.1.0"
     opener "^1.5.1"
@@ -5351,10 +5331,10 @@ tap@16.3.1:
     signal-exit "^3.0.6"
     source-map-support "^0.5.16"
     tap-mocha-reporter "^5.0.3"
-    tap-parser "^11.0.1"
-    tap-yaml "^1.0.0"
+    tap-parser "^11.0.2"
+    tap-yaml "^1.0.2"
     tcompare "^5.0.7"
-    treport "^3.0.3"
+    treport "^3.0.4"
     which "^2.0.2"
 
 tcompare@^5.0.6, tcompare@^5.0.7:
@@ -5427,11 +5407,6 @@ tiny-lru@^8.0.1:
   resolved "https://registry.yarnpkg.com/tiny-lru/-/tiny-lru-8.0.2.tgz#812fccbe6e622ded552e3ff8a4c3b5ff34a85e4c"
   integrity sha512-ApGvZ6vVvTNdsmt676grvCkUCGwzG9IqXma5Z07xJgiC5L7akUMof5U8G2JTI9Rz/ovtVhJBlY6mNhEvtjzOIg==
 
-tiny-lru@^9.0.2:
-  version "9.0.3"
-  resolved "https://registry.yarnpkg.com/tiny-lru/-/tiny-lru-9.0.3.tgz#f6a2121f433607a7f338881a23090829c1ea8cae"
-  integrity sha512-/i9GruRjXsnDgehxvy6iZ4AFNVxngEFbwzirhdulomMNPGPVV3ECMZOWSw0w4sRMZ9Al9m4jy08GPvRxRUGYlw==
-
 title-case@^3.0.3:
   version "3.0.3"
   resolved "https://registry.yarnpkg.com/title-case/-/title-case-3.0.3.tgz#bc689b46f02e411f1d1e1d081f7c3deca0489982"
@@ -5478,7 +5453,7 @@ tree-kill@^1.2.2:
   resolved "https://registry.yarnpkg.com/tree-kill/-/tree-kill-1.2.2.tgz#4ca09a9092c88b73a7cdc5e8a01b507b0790a0cc"
   integrity sha512-L0Orpi8qGpRG//Nd+H90vFB+3iHnue1zSSGmNOOCh1GLJ7rUKVwV2HvijphGQS2UmhUZewS9VgvxYIdgr+fG1A==
 
-treport@^3.0.3:
+treport@^3.0.4:
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/treport/-/treport-3.0.4.tgz#05247fa7820ad3afe92355e4cf08fe41a933084b"
   integrity sha512-zUw1sfJypuoZi0I54woo6CNsfvMrv+OwLBD0/wc4LhMW8MA0MbSE+4fNObn22JSR8x9lOYccuAzfBfZ2IemzoQ==
