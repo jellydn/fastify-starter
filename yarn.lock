@@ -3986,10 +3986,10 @@ mercurius-integration-testing@6.0.1:
     cookie "^0.5.0"
     ws "^8.9.0"
 
-mercurius@11.4.0:
-  version "11.4.0"
-  resolved "https://registry.yarnpkg.com/mercurius/-/mercurius-11.4.0.tgz#e77e21b39196414a02528504ea842c17edd03737"
-  integrity sha512-w3MsYMJE57eSvPm9tVo1uW4J9Woy0jSHC44RrNf7AQID40hflQ9Cm49u1kYnPBqF6903In8kaXzpW3ykhGRJOw==
+mercurius@12.0.0:
+  version "12.0.0"
+  resolved "https://registry.yarnpkg.com/mercurius/-/mercurius-12.0.0.tgz#b998606145426a7510289de11e981f22fa91ed2f"
+  integrity sha512-ORe/0eFuUq5lFMF1c8hdEQz44MdK4A8gMbJr8US3BakHBeYbbFDWGskhHkYmaZkx2ka0NJh+iMasWiL07kAoHg==
   dependencies:
     "@fastify/error" "^3.0.0"
     "@fastify/static" "^6.0.0"
@@ -4001,9 +4001,9 @@ mercurius@11.4.0:
     p-map "^4.0.0"
     readable-stream "^4.0.0"
     safe-stable-stringify "^2.3.0"
-    secure-json-parse "^2.4.0"
+    secure-json-parse "^2.7.0"
     single-user-cache "^0.6.0"
-    tiny-lru "^8.0.1"
+    tiny-lru "^10.0.0"
     undici "^5.0.0"
     ws "^8.2.2"
 
@@ -4945,7 +4945,7 @@ scheduler@^0.20.2:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
 
-secure-json-parse@^2.4.0, secure-json-parse@^2.5.0:
+secure-json-parse@^2.4.0, secure-json-parse@^2.5.0, secure-json-parse@^2.7.0:
   version "2.7.0"
   resolved "https://registry.yarnpkg.com/secure-json-parse/-/secure-json-parse-2.7.0.tgz#5a5f9cd6ae47df23dba3151edd06855d47e09862"
   integrity sha512-6aU+Rwsezw7VR8/nyvKTx8QpWH9FrcYiXXlqC4z5d5XQBDRqtbfsRjnwGyqbi3gddNtWHuEk9OANUotL26qKUw==
@@ -5456,11 +5456,6 @@ tiny-lru@^10.0.0:
   version "10.0.1"
   resolved "https://registry.yarnpkg.com/tiny-lru/-/tiny-lru-10.0.1.tgz#aaf5d22207e641ed1b176ac2e616d6cc2fc9ef66"
   integrity sha512-Vst+6kEsWvb17Zpz14sRJV/f8bUWKhqm6Dc+v08iShmIJ/WxqWytHzCTd6m88pS33rE2zpX34TRmOpAJPloNCA==
-
-tiny-lru@^8.0.1:
-  version "8.0.2"
-  resolved "https://registry.yarnpkg.com/tiny-lru/-/tiny-lru-8.0.2.tgz#812fccbe6e622ded552e3ff8a4c3b5ff34a85e4c"
-  integrity sha512-ApGvZ6vVvTNdsmt676grvCkUCGwzG9IqXma5Z07xJgiC5L7akUMof5U8G2JTI9Rz/ovtVhJBlY6mNhEvtjzOIg==
 
 title-case@^3.0.3:
   version "3.0.3"
