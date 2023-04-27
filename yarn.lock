@@ -877,10 +877,10 @@
     rfdc "^1.3.0"
     yaml "^2.1.1"
 
-"@fastify/websocket@^7.0.0":
-  version "7.2.0"
-  resolved "https://registry.yarnpkg.com/@fastify/websocket/-/websocket-7.2.0.tgz#3b39cc0c821c1334cb8ddac93d9673ce52084742"
-  integrity sha512-vhWQCT0I5a1JIKc34LXHQ2earW7kViYvhGn5x+lZr8TIOJKmx6NJk0Bw9zGWakulXhMsu/0y89QnsUnHiII9ag==
+"@fastify/websocket@^8.0.0":
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/@fastify/websocket/-/websocket-8.0.0.tgz#1295acdaf4ee3869a6089d4e4409a33364924ffd"
+  integrity sha512-7NnTJVbpWkAHwuAw9tGKJP5RBOUqLhU50xP5FMlfShWvWPZeCGioy22v8noqw1KFi+Mdo5guCMmfQRGrFfIR1w==
   dependencies:
     fastify-plugin "^4.0.0"
     ws "^8.0.0"
@@ -3902,14 +3902,14 @@ mercurius-integration-testing@8.0.0:
     cookie "^0.5.0"
     ws "^8.12.1"
 
-mercurius@12.2.0:
-  version "12.2.0"
-  resolved "https://registry.yarnpkg.com/mercurius/-/mercurius-12.2.0.tgz#ce27f4dd50037ba37cb524dc1392c2b2fb96d428"
-  integrity sha512-S1/j+MSJA11A0rW/TM+31qq7PTf9EQVDtq+XJQMaebtqEP5JhhUmQnTLzCh9NhHkh7YIFH72gEY03Phr3Cs8xQ==
+mercurius@13.0.0:
+  version "13.0.0"
+  resolved "https://registry.yarnpkg.com/mercurius/-/mercurius-13.0.0.tgz#b8c7354546806ec67b554eaf9f488d6e8f73cf9c"
+  integrity sha512-gPJGw9qymc2JSee5lUgg5OeQLM7EtLzEWMY7dV2sMwUdh3k8iO3Y22iy6B8TnIX2atpVt2xSpWHRvfiUvH6wuQ==
   dependencies:
     "@fastify/error" "^3.0.0"
     "@fastify/static" "^6.0.0"
-    "@fastify/websocket" "^7.0.0"
+    "@fastify/websocket" "^8.0.0"
     fastify-plugin "^4.2.0"
     graphql "^16.0.0"
     graphql-jit "^0.8.0"
@@ -3919,7 +3919,7 @@ mercurius@12.2.0:
     safe-stable-stringify "^2.3.0"
     secure-json-parse "^2.7.0"
     single-user-cache "^0.6.0"
-    tiny-lru "^10.0.0"
+    tiny-lru "^11.0.0"
     undici "^5.0.0"
     ws "^8.2.2"
 
@@ -5361,6 +5361,11 @@ tiny-lru@^10.0.0:
   version "10.4.1"
   resolved "https://registry.yarnpkg.com/tiny-lru/-/tiny-lru-10.4.1.tgz#dec67a62115a4cb31d2065b8116d010daac362fe"
   integrity sha512-buLIzw7ppqymuO3pt10jHk/6QMeZLbidihMQU+N6sogF6EnBzG0qtDWIHuhw1x3dyNgVL/KTGIZsTK81+yCzLg==
+
+tiny-lru@^11.0.0:
+  version "11.0.1"
+  resolved "https://registry.yarnpkg.com/tiny-lru/-/tiny-lru-11.0.1.tgz#629d6ddd88bd03c0929722680167f1feadf576f2"
+  integrity sha512-iNgFugVuQgBKrqeO/mpiTTgmBsTP0WL6yeuLfLs/Ctf0pI/ixGqIRm8sDCwMcXGe9WWvt2sGXI5mNqZbValmJg==
 
 title-case@^3.0.3:
   version "3.0.3"
