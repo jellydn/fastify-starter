@@ -907,13 +907,13 @@
   dependencies:
     fast-json-stringify "^5.7.0"
 
-"@fastify/helmet@10.1.1":
-  version "10.1.1"
-  resolved "https://registry.yarnpkg.com/@fastify/helmet/-/helmet-10.1.1.tgz#3028fa5ab4100214a9dec1fea27ebcd983e58e9b"
-  integrity sha512-z9abyIlCHPU25llOTyo3uz8F8TJ+uDqtOC4+38dxODPw8Ro9sTZjbm2U7ZIF0IAv3/E0ke6vbUQ4sB376WuKJA==
+"@fastify/helmet@11.0.0":
+  version "11.0.0"
+  resolved "https://registry.yarnpkg.com/@fastify/helmet/-/helmet-11.0.0.tgz#e38849750f8811614444ca89b963bae231f61464"
+  integrity sha512-YSFhJFR4Pk2azmTkX54f0Z/O7h5j4ruCQUlagf/Rw1P45u5/2u+F+I83DRyIKryM6prXl++X2yY0Ib0RXAlZ7Q==
   dependencies:
     fastify-plugin "^4.2.1"
-    helmet "^6.0.0"
+    helmet "^7.0.0"
 
 "@fastify/multipart@7.7.0":
   version "7.7.0"
@@ -4419,10 +4419,10 @@ header-case@^2.0.4:
     capital-case "^1.0.4"
     tslib "^2.0.3"
 
-helmet@^6.0.0:
-  version "6.2.0"
-  resolved "https://registry.yarnpkg.com/helmet/-/helmet-6.2.0.tgz#c29d62014be4c70b8ef092c9c5e54c8c26b8e16e"
-  integrity sha512-DWlwuXLLqbrIOltR6tFQXShj/+7Cyp0gLi6uAb8qMdFh/YBBFbKSgQ6nbXmScYd8emMctuthmgIa7tUfo9Rtyg==
+helmet@^7.0.0:
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/helmet/-/helmet-7.0.0.tgz#ac3011ba82fa2467f58075afa58a49427ba6212d"
+  integrity sha512-MsIgYmdBh460ZZ8cJC81q4XJknjG567wzEmv46WOBblDb6TUd3z8/GhgmsM9pn8g2B80tAJ4m5/d3Bi1KrSUBQ==
 
 help-me@^4.0.1:
   version "4.2.0"
