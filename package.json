@@ -96,7 +96,8 @@
     "sourcemap": true,
     "clean": true,
     "format": [
-      "cjs"
+      "cjs",
+      "esm"
     ],
     "target": "es2018",
     "onSuccess": "npm run copy:assets"
