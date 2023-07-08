@@ -1,5 +1,7 @@
 {
   "importOrder": [
+    "^@fastify/(.*)$",
+    "^@opentelemetry/(.*)$",
     "^@core/(.*)$",
     "^@server/(.*)$",
     "^@ui/(.*)$",

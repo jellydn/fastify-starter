@@ -80,7 +80,7 @@
     "husky": "8.0.3",
     "json-schema-to-typescript": "13.0.2",
     "lint-staged": "13.2.3",
-    "prettier": "3.0.0",
+    "prettier": "2.8.8",
     "sort-package-json": "2.5.0",
     "tap": "16.3.7",
     "ts-node": "10.9.1",
