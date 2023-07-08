@@ -28,6 +28,7 @@ const schema = makeSchema({
 
 export async function initGraphql(app: FastifyInstance) {
   try {
+    // @ts-expect-error not fixed type yet
     await app.register(mercurius, {
       schema,
       graphiql: false,

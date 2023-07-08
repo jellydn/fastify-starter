@@ -1,6 +1,7 @@
+import fp from "fastify-plugin";
+
 import type { fastifyEnvOpt } from "@fastify/env";
 import env from "@fastify/env";
-import fp from "fastify-plugin";
 
 const schema = {
   type: "object",

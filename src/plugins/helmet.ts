@@ -1,6 +1,7 @@
+import fp from "fastify-plugin";
+
 import type { FastifyHelmetOptions } from "@fastify/helmet";
 import helmet from "@fastify/helmet";
-import fp from "fastify-plugin";
 
 /**
  * @fastify/helmet enables the use of helmet in a Fastify application.
