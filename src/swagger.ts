@@ -1,10 +1,11 @@
-import fastifySwagger from "@fastify/swagger";
-import fastifySwaggerUi from "@fastify/swagger-ui";
 import type { FastifyInstance } from "fastify";
 import { writeFileSync } from "fs";
 import { join } from "path";
 import type { SwaggerDefinition } from "swagger-jsdoc";
 import swaggerJsdoc from "swagger-jsdoc";
+
+import fastifySwagger from "@fastify/swagger";
+import fastifySwaggerUi from "@fastify/swagger-ui";
 
 // Swagger definition
 // https://github.com/swagger-api/swagger-spec/blob/master/versions/2.0.md
@@ -55,10 +56,10 @@ export async function initSwagger(app: FastifyInstance) {
       deepLinking: false,
     },
     uiHooks: {
-      onRequest (request, reply, next) {
+      onRequest(request, reply, next) {
         next();
       },
-      preHandler (request, reply, next) {
+      preHandler(request, reply, next) {
         next();
       },
     },
