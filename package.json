@@ -99,6 +99,7 @@
       "cjs",
       "esm"
     ],
+    "legacyOutput": true,
     "target": "es2018",
     "onSuccess": "npm run copy:assets"
   }
