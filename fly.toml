@@ -4,16 +4,16 @@ kill_timeout = 5
 processes = [ ]
 
 [env]
-  NODE_ENV = "production"
-  PORT = 8080
+  NODE_ENV = "staging"
+  PORT = 8888
   SERVER_HOSTNAME = "0.0.0.0"
 
 [experimental]
-allowed_public_ports = ["8080"]
+allowed_public_ports = ["8888"]
 auto_rollback = true
 
 [[services]]
-internal_port = 8_080
+internal_port = 8_888
 processes = [ "app" ]
 protocol = "tcp"
 script_checks = [ ]

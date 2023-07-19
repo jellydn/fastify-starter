@@ -18,5 +18,9 @@ FROM jellydn/alpine-nodejs:20
 WORKDIR /app
 COPY --from=builder /app .
 
-EXPOSE 8080
+# Copy certs to dist folder
+COPY src/certs ./dist/certs
+
+# Export 8888 for health check with fly.io
+EXPOSE 8888
 CMD ["yarn", "start:prod"]
