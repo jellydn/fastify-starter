@@ -4,9 +4,9 @@ import type { FastifyEtagOptions } from "@fastify/etag";
 import etag from "@fastify/etag";
 
 /**
- * This plugins adds rate limiter for your routes.
+ * This plugins adds etag to your routes.
  *
- * @see https://github.com/fastify/fastify-rate-limit
+ * @see https://github.com/fastify/fastify-etag
  */
 export default fp<FastifyEtagOptions>(
   async (
@@ -16,7 +16,7 @@ export default fp<FastifyEtagOptions>(
       weak: false,
     }
   ) => {
-    void fastify.register(etag, {
+    await fastify.register(etag, {
       ...opts,
     });
   }

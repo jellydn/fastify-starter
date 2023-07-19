@@ -9,7 +9,7 @@ import helmet from "@fastify/helmet";
  * @see https://github.com/fastify/fastify-helmet
  */
 export default fp<FastifyHelmetOptions>(async (fastify, opts) => {
-  void fastify.register(helmet, {
+  await fastify.register(helmet, {
     ...opts,
   });
 });

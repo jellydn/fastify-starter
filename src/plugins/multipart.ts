@@ -9,7 +9,7 @@ import multipart from "@fastify/multipart";
  * @link https://github.com/fastify/fastify-multipart
  */
 export default fp<FastifyMultipartOptions>(async (fastify, _opts) => {
-  void fastify.register(multipart, {
+  await fastify.register(multipart, {
     attachFieldsToBody: true,
   });
 });

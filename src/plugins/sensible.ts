@@ -9,7 +9,7 @@ import sensible from "@fastify/sensible";
  * @see https://github.com/fastify/fastify-sensible
  */
 export default fp<SensibleOptions>(async (fastify, opts) => {
-  void fastify.register(sensible, {
+  await fastify.register(sensible, {
     ...opts,
   });
 });

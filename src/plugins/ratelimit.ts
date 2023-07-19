@@ -16,7 +16,7 @@ export default fp<RateLimitOptions>(
       timeWindow: "1 minute",
     }
   ) => {
-    void fastify.register(rateLimit, {
+    await fastify.register(rateLimit, {
       ...opts,
     });
   }

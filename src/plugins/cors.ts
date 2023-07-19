@@ -9,7 +9,7 @@ import cors from "@fastify/cors";
  * @see https://github.com/fastify/fastify-cors
  */
 export default fp<FastifyCorsOptions>(async (fastify, opts) => {
-  void fastify.register(cors, {
+  await fastify.register(cors, {
     ...opts,
   });
 });
