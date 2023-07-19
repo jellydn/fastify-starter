@@ -1,48 +1,49 @@
+# fly.toml app configuration file generated for fastify-starter on 2023-07-19T23:25:24+08:00
+#
+# See https://fly.io/docs/reference/configuration/ for information about how to use this file.
+#
+
 app = "fastify-starter"
+primary_region = "sin"
 kill_signal = "SIGINT"
-kill_timeout = 5
-processes = [ ]
+kill_timeout = "5s"
+
+[experimental]
+  auto_rollback = true
 
 [env]
   NODE_ENV = "staging"
-  PORT = 8888
+  PORT = "8888"
   SERVER_HOSTNAME = "0.0.0.0"
 
-[experimental]
-allowed_public_ports = ["8888"]
-auto_rollback = true
-
 [[services]]
-internal_port = 8_888
-processes = [ "app" ]
-protocol = "tcp"
-script_checks = [ ]
+  protocol = "tcp"
+  internal_port = 8888
+  processes = ["app"]
 
+  [[services.ports]]
+    port = 80
+    handlers = ["http"]
+
+  [[services.ports]]
+    port = 443
+    handlers = ["tls", "http"]
   [services.concurrency]
-  hard_limit = 25
-  soft_limit = 20
-  type = "connections"
-
-  [[services.ports]]
-  handlers = [ "http" ]
-  port = 80
-
-  [[services.ports]]
-  handlers = [ "tls", "http" ]
-  port = 443
+    type = "connections"
+    hard_limit = 25
+    soft_limit = 20
 
   [[services.tcp_checks]]
-  grace_period = "1s"
-  interval = "15s"
-  restart_limit = 0
-  timeout = "2s"
+    interval = "15s"
+    timeout = "2s"
+    grace_period = "1s"
+    restart_limit = 0
 
   [[services.http_checks]]
-  interval = 10_000
-  grace_period = "5s"
-  method = "get"
-  path = "/health/check"
-  protocol = "http"
-  timeout = 2_000
-  tls_skip_verify = false
-  headers = { }
+    interval = "10s"
+    timeout = "2s"
+    grace_period = "5s"
+    restart_limit = 0
+    method = "get"
+    path = "/health/check"
+    protocol = "http"
