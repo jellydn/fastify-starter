@@ -899,7 +899,7 @@
   resolved "https://registry.yarnpkg.com/@fastify/error/-/error-3.3.0.tgz#eba790082e1144bfc8def0c2c8ef350064bc537b"
   integrity sha512-dj7vjIn1Ar8sVXj2yAXiMNCJDmS9MQ9XMlIecX2dIzzhjSHCyKo4DdXjXMs7wKW2kj6yvVRSpuQjOZ3YLrh56w==
 
-"@fastify/etag@^4.2.0":
+"@fastify/etag@4.2.0":
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/@fastify/etag/-/etag-4.2.0.tgz#1d6543b7b14305cf0aa3c6142eb538f9dcf39708"
   integrity sha512-stvRYricpLAAcDsLFi6gUvFtU8sK+EnygajcgAVhvjw4MabTINNIuh35wu3r4x5JmfD1unh4YCQAFPK2H9vuVQ==
@@ -936,7 +936,7 @@
     secure-json-parse "^2.4.0"
     stream-wormhole "^1.1.0"
 
-"@fastify/rate-limit@^8.0.3":
+"@fastify/rate-limit@8.0.3":
   version "8.0.3"
   resolved "https://registry.yarnpkg.com/@fastify/rate-limit/-/rate-limit-8.0.3.tgz#b63b7c6122cec424da7fc5d64da5aedb4228fa9a"
   integrity sha512-7wbSKXGKKLI1VkpW2XvS7SFg4n4/uzYt0YA5O2pfCcM6PYaBSV3VhSKGJ9/hJceCSH+zNEDRrWpufqxbcDkTZg==
