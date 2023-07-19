@@ -11,6 +11,10 @@ kill_timeout = "5s"
 [experimental]
   auto_rollback = true
 
+[build]
+  builder = "paketobuildpacks/builder:base"
+  buildpacks = ["gcr.io/paketo-buildpacks/nodejs"]
+
 [env]
   NODE_ENV = "staging"
   PORT = "8888"
