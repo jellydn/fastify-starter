@@ -1,4 +1,4 @@
-FROM jellydn/alpine-nodejs:20 as builder
+FROM jellydn/alpine-nodejs:18 as builder
 # Build the image
 RUN mkdir /app
 WORKDIR /app
@@ -14,12 +14,9 @@ ENV NODE_ENV=production
 RUN yarn build
 
 # Copy the build output
-FROM jellydn/alpine-nodejs:20
+FROM jellydn/alpine-nodejs:18
 WORKDIR /app
 COPY --from=builder /app .
-
-# Copy certs to dist folder
-COPY src/certs ./dist/certs
 
 # Export 8888 for health check with fly.io
 EXPOSE 8888
