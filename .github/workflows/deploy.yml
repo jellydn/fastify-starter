@@ -20,13 +20,16 @@ jobs:
       - name: ⎔ Setup node
         uses: actions/setup-node@v3
         with:
-          node-version: 16
+          node-version: 18
+
+      - name: 📥 Install pnpm
+        run: npm install -g pnpm
 
       - name: 📥 Download deps
-        uses: bahmutov/npm-install@v1
+        run: pnpm install
 
       - name: 🔎 Type check
-        run: npm run typecheck --if-present
+        run: pnpm run typecheck --if-present
 
   lint:
     name: ⬣ ESLint
@@ -43,13 +46,16 @@ jobs:
       - name: 🛠 Setup node
         uses: actions/setup-node@v2
         with:
-          node-version: 16
+          node-version: 18
+
+      - name: 📥 Install pnpm
+        run: npm install -g pnpm
 
       - name: 📥 Download deps
-        uses: bahmutov/npm-install@v1
+        run: pnpm install
 
       - name: 🔬 Lint
-        run: npm run lint
+        run: pnpm run lint
 
   build:
     name: 🐳 Build
@@ -136,4 +142,4 @@ jobs:
       - name: 🚀 Deploy Production
         run: "flyctl deploy --image registry.fly.io/${{ steps.app_name.outputs.value }}:${{ github.ref_name }}-${{ github.sha }}"
         env:
-            FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
+          FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
