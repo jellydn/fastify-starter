@@ -29,7 +29,7 @@ jobs:
         run: pnpm install
 
       - name: 🔎 Type check
-        run: pnpm run typecheck --if-present
+        run: pnpm typecheck
 
   lint:
     name: ⬣ ESLint
