@@ -15,6 +15,7 @@
 - Mercurius is a GraphQL adapter for Fastify https://mercurius.dev/
 - Code-GraphQL Nexus
   Declarative, Code-First GraphQL Schemas for JavaScript/TypeScript https://nexusjs.org
+- Log and tracking with [hyperdxio/hyperdx](https://github.com/hyperdxio/hyperdx)
 - And some useful plugins as https://github.com/fastify/fastify-env, https://github.com/fastify/fastify-cors, https://github.com/fastify/fastify-helmet
 
 ## Install
