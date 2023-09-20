@@ -1,23 +1,32 @@
-FROM jellydn/alpine-nodejs:20 as builder
-# Build the image
+# Use Node.js 20 alpine image as builder
+FROM node:20-alpine as builder
+
+# Set up working directory
 RUN mkdir /app
 WORKDIR /app
 
-RUN apk upgrade --no-cache -U && \
-  apk add --no-cache git
+# Upgrade and install git
+RUN apk --no-cache add git
 
-COPY package.json yarn.lock tsconfig.json ./
+# Copy essential files
+COPY package.json pnpm-lock.yaml tsconfig.json ./
 COPY src src
 
-RUN yarn install
+# Install dependencies and build
+RUN npm install -g pnpm
+RUN pnpm install
 ENV NODE_ENV=production
-RUN yarn build
+RUN pnpm run build
 
-# Copy the build output
-FROM jellydn/alpine-nodejs:20
+# Set up the production image
+FROM node:20-alpine
 WORKDIR /app
+
+# Copy build output from builder
 COPY --from=builder /app .
 
-# Export 8888 for health check with fly.io
+# Expose port for health check with fly.io
 EXPOSE 8888
-CMD ["yarn", "start:prod"]
+
+# Start the application
+CMD ["pnpm", "start:prod"]
