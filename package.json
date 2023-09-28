@@ -38,7 +38,7 @@
     "@fastify/env": "4.2.0",
     "@fastify/etag": "4.2.0",
     "@fastify/helmet": "11.1.1",
-    "@fastify/multipart": "7.7.3",
+    "@fastify/multipart": "8.0.0",
     "@fastify/rate-limit": "8.0.3",
     "@fastify/sensible": "5.3.0",
     "@fastify/swagger": "8.10.1",
