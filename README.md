@@ -101,6 +101,10 @@ Now that every is set up you can commit and push your changes to your repo. Ever
 
 We use GitHub Actions for continuous integration and deployment. Anything that gets into the `main` branch will be deployed to production after running tests/build/etc.
 
+## References
+
+- [jellydn/platformatic-starter: Platformatic starter template](https://github.com/jellydn/platformatic-starter)
+
 ## Author
 
 👤 **Huynh Duc Dung**
