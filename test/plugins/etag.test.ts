@@ -7,20 +7,18 @@ void test("etag plugin", async (t) => {
   const res = await app.inject({
     url: "/",
   });
-
   t.ok(res.headers.etag, "Etag header is present");
 });
 
 void test("etag plugin with weak option set to false", async (t) => {
-  const app = await build(t, {
-    etag: {
-      weak: false,
-    },
-  });
+  const app = await build(t);
 
   const res = await app.inject({
     url: "/",
   });
 
-  t.ok(!res.headers.etag.startsWith('W/'), "Etag is not weak");
+  t.ok(
+    res.headers.etag && !res.headers.etag.startsWith("W/"),
+    "Etag is not weak",
+  );
 });
