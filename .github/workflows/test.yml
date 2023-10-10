@@ -1,0 +1,32 @@
+name: Test
+on:
+  push:
+    branches:
+      - main
+      - dev
+  pull_request: {}
+
+jobs:
+  test:
+    name: Run Test
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🛑 Cancel Previous Runs
+        uses: styfle/cancel-workflow-action@0.12.0
+
+      - name: ⬇️ Checkout repo
+        uses: actions/checkout@v4
+
+      - name: ⎔ Setup node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      - name: 📥 Install pnpm
+        run: npm install -g pnpm
+
+      - name: 📥 Download deps
+        run: pnpm install
+
+      - name: Run test
+        run: pnpm test
