@@ -30,12 +30,7 @@ void test("default rate limit settings", async (t) => {
 });
 
 void test("custom rate limit settings", async (t) => {
-  const app = await build(t, {
-    rateLimit: {
-      max: 50,
-      timeWindow: "1 minute",
-    },
-  });
+  const app = await build(t);
 
   const res = await app.inject({
     url: "/",
