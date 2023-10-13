@@ -61,7 +61,7 @@ dependencies:
     version: 0.31.17
   altair-fastify-plugin:
     specifier: 5.2.5
-    version: 5.2.5(fastify@4.24.0)
+    version: 5.2.5(fastify@4.24.1)
   close-with-grace:
     specifier: 1.2.0
     version: 1.2.0
@@ -69,8 +69,8 @@ dependencies:
     specifier: 16.3.1
     version: 16.3.1
   fastify:
-    specifier: 4.24.0
-    version: 4.24.0
+    specifier: 4.24.1
+    version: 4.24.1
   fastify-cli:
     specifier: 5.8.0
     version: 5.8.0
@@ -88,10 +88,10 @@ dependencies:
     version: 13.1.0(graphql@16.8.1)
   mercurius-codegen:
     specifier: 5.0.3
-    version: 5.0.3(fastify@4.24.0)(graphql@16.8.1)(mercurius@13.1.0)(prettier@3.0.3)
+    version: 5.0.3(fastify@4.24.1)(graphql@16.8.1)(mercurius@13.1.0)(prettier@3.0.3)
   mercurius-integration-testing:
     specifier: 8.1.1
-    version: 8.1.1(fastify@4.24.0)(graphql@16.8.1)(mercurius@13.1.0)
+    version: 8.1.1(fastify@4.24.1)(graphql@16.8.1)(mercurius@13.1.0)
   nexus:
     specifier: 1.3.0
     version: 1.3.0(graphql@16.8.1)
@@ -1113,6 +1113,10 @@ packages:
 
   /@fastify/error@3.3.0:
     resolution: {integrity: sha512-dj7vjIn1Ar8sVXj2yAXiMNCJDmS9MQ9XMlIecX2dIzzhjSHCyKo4DdXjXMs7wKW2kj6yvVRSpuQjOZ3YLrh56w==}
+    dev: false
+
+  /@fastify/error@3.4.0:
+    resolution: {integrity: sha512-e/mafFwbK3MNqxUcFBLgHhgxsF8UT1m8aj0dAlqEa2nJEgPsRtpHTZ3ObgrgkZ2M1eJHPTwgyUl/tXkvabsZdQ==}
     dev: false
 
   /@fastify/etag@4.2.0:
@@ -4587,14 +4591,14 @@ packages:
       require-from-string: 2.0.2
       uri-js: 4.4.1
 
-  /altair-fastify-plugin@5.2.5(fastify@4.24.0):
+  /altair-fastify-plugin@5.2.5(fastify@4.24.1):
     resolution: {integrity: sha512-1QyRahge1afWmkop08m2+okCcno5ga6VdI6io0oal6BK2RYAoinHtPQqn/O000V6pKS2YQy3AEwyRJioRou8hw==}
     peerDependencies:
       fastify: ^4.0.3
     dependencies:
       '@fastify/static': 6.11.2
       altair-static: 5.2.5
-      fastify: 4.24.0
+      fastify: 4.24.1
       fastify-plugin: 2.3.4
     dev: false
 
@@ -6141,7 +6145,7 @@ packages:
       close-with-grace: 1.2.0
       commist: 3.2.0
       dotenv: 16.3.1
-      fastify: 4.24.0
+      fastify: 4.24.1
       fastify-plugin: 4.5.1
       generify: 4.2.0
       help-me: 4.2.0
@@ -6171,11 +6175,11 @@ packages:
     engines: {node: '>=18.0.0'}
     dev: false
 
-  /fastify@4.24.0:
-    resolution: {integrity: sha512-6Uu2cCAV1UgexPnWKchgRt77lng9ivNmyFhPMcgUbJ4VaVBE1l6aYluiYZiVsgOBFpHrmdj7FD6n1aHswln4yQ==}
+  /fastify@4.24.1:
+    resolution: {integrity: sha512-uMthXpH0DjWWxb3/ERmBsVkFm5cllozjbOFkhsD4Xlw+OUg5wGASRBjVRcp2XeYZa91W2BbwgIWJrnGGPWY2dQ==}
     dependencies:
       '@fastify/ajv-compiler': 3.5.0
-      '@fastify/error': 3.3.0
+      '@fastify/error': 3.4.0
       '@fastify/fast-json-stringify-compiler': 4.3.0
       abstract-logging: 2.0.1
       avvio: 8.2.1
@@ -6183,13 +6187,13 @@ packages:
       fast-json-stringify: 5.8.0
       find-my-way: 7.7.0
       light-my-request: 5.11.0
-      pino: 8.15.1
+      pino: 8.16.0
       process-warning: 2.2.0
       proxy-addr: 2.0.7
       rfdc: 1.3.0
       secure-json-parse: 2.7.0
       semver: 7.5.4
-      toad-cache: 3.2.0
+      toad-cache: 3.3.0
     transitivePeerDependencies:
       - supports-color
     dev: false
@@ -7592,7 +7596,7 @@ packages:
     engines: {node: '>=16.10'}
     dev: true
 
-  /mercurius-codegen@5.0.3(fastify@4.24.0)(graphql@16.8.1)(mercurius@13.1.0)(prettier@3.0.3):
+  /mercurius-codegen@5.0.3(fastify@4.24.1)(graphql@16.8.1)(mercurius@13.1.0)(prettier@3.0.3):
     resolution: {integrity: sha512-j3vEECuRU1Oxaftvolkq4fsXtBUXVfgq59B6STchLTwuQRgvzwAYUSEden9IplqFIEeRfPROaCaYw69lcds3Jg==}
     engines: {pnpm: '>=8.5.0'}
     peerDependencies:
@@ -7612,7 +7616,7 @@ packages:
       '@graphql-tools/utils': 9.2.1(graphql@16.8.1)
       '@graphql-typed-document-node/core': 3.2.0(graphql@16.8.1)
       chokidar: 3.5.3
-      fastify: 4.24.0
+      fastify: 4.24.1
       graphql: 16.8.1
       mercurius: 13.1.0(graphql@16.8.1)
       mkdirp: 2.1.6
@@ -7622,7 +7626,7 @@ packages:
       - supports-color
     dev: false
 
-  /mercurius-integration-testing@8.1.1(fastify@4.24.0)(graphql@16.8.1)(mercurius@13.1.0):
+  /mercurius-integration-testing@8.1.1(fastify@4.24.1)(graphql@16.8.1)(mercurius@13.1.0):
     resolution: {integrity: sha512-JyyKGw4pXe+Hy8huDIMjIO1B0DIJkQDXuWX9+gtAQXKlwICQrTzUAfQGtqVMFypsvV8W15TUCxZraIqt01mFGg==}
     engines: {node: '>=14'}
     peerDependencies:
@@ -7639,7 +7643,7 @@ packages:
     dependencies:
       '@graphql-typed-document-node/core': 3.2.0(graphql@16.8.1)
       cookie: 0.5.0
-      fastify: 4.24.0
+      fastify: 4.24.1
       graphql: 16.8.1
       mercurius: 13.1.0(graphql@16.8.1)
       ws: 8.14.2
@@ -8283,8 +8287,8 @@ packages:
     resolution: {integrity: sha512-cHjPPsE+vhj/tnhCy/wiMh3M3z3h/j15zHQX+S9GkTBgqJuTuJzYJ4gUyACLhDaJ7kk9ba9iRDmbH2tJU03OiA==}
     dev: false
 
-  /pino@8.15.1:
-    resolution: {integrity: sha512-Cp4QzUQrvWCRJaQ8Lzv0mJzXVk4z2jlq8JNKMGaixC2Pz5L4l2p95TkuRvYbrEbe85NQsDKrAd4zalf7Ml6WiA==}
+  /pino@8.16.0:
+    resolution: {integrity: sha512-UUmvQ/7KTZt/vHjhRrnyS7h+J7qPBQnpG80V56xmIC+o9IqYmQOw/UIny9S9zYDfRBR0ClouCr464EkBMIT7Fw==}
     hasBin: true
     dependencies:
       atomic-sleep: 1.0.0
@@ -8296,7 +8300,7 @@ packages:
       quick-format-unescaped: 4.0.4
       real-require: 0.2.0
       safe-stable-stringify: 2.4.3
-      sonic-boom: 3.3.0
+      sonic-boom: 3.7.0
       thread-stream: 2.4.0
     dev: false
 
@@ -8802,6 +8806,12 @@ packages:
       atomic-sleep: 1.0.0
     dev: false
 
+  /sonic-boom@3.7.0:
+    resolution: {integrity: sha512-IudtNvSqA/ObjN97tfgNmOKyDOs4dNcg4cUUsHDebqsgb8wGBBwb31LIgShNO8fye0dFI52X1+tFoKKI6Rq1Gg==}
+    dependencies:
+      atomic-sleep: 1.0.0
+    dev: false
+
   /sort-object-keys@1.1.3:
     resolution: {integrity: sha512-855pvK+VkU7PaKYPc+Jjnmt4EzejQHyhhF33q31qG8x7maDzkeFhAAThdCYay11CISO+qAMwjOBP+fPZe0IPyg==}
     dev: true
@@ -9244,8 +9254,8 @@ packages:
     dependencies:
       is-number: 7.0.0
 
-  /toad-cache@3.2.0:
-    resolution: {integrity: sha512-Hj5zSqBS6OHbZoQk9IU8VqIr+0JUpwzunnwSlFJhG8aJSInYUMEuzItl3kJsGteTPd1qtflafdRHlRtUazYeqg==}
+  /toad-cache@3.3.0:
+    resolution: {integrity: sha512-3oDzcogWGHZdkwrHyvJVpPjA7oNzY6ENOV3PsWJY9XYPZ6INo94Yd47s5may1U+nleBPwDhrRiTPMIvKaa3MQg==}
     engines: {node: '>=12'}
     dev: false
 
