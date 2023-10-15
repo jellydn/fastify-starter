@@ -61,7 +61,7 @@ dependencies:
     version: 0.31.17
   altair-fastify-plugin:
     specifier: 5.2.5
-    version: 5.2.5(fastify@4.24.1)
+    version: 5.2.5(fastify@4.24.2)
   close-with-grace:
     specifier: 1.2.0
     version: 1.2.0
@@ -69,8 +69,8 @@ dependencies:
     specifier: 16.3.1
     version: 16.3.1
   fastify:
-    specifier: 4.24.1
-    version: 4.24.1
+    specifier: 4.24.2
+    version: 4.24.2
   fastify-cli:
     specifier: 5.8.0
     version: 5.8.0
@@ -88,10 +88,10 @@ dependencies:
     version: 13.1.0(graphql@16.8.1)
   mercurius-codegen:
     specifier: 5.0.3
-    version: 5.0.3(fastify@4.24.1)(graphql@16.8.1)(mercurius@13.1.0)(prettier@3.0.3)
+    version: 5.0.3(fastify@4.24.2)(graphql@16.8.1)(mercurius@13.1.0)(prettier@3.0.3)
   mercurius-integration-testing:
     specifier: 8.1.1
-    version: 8.1.1(fastify@4.24.1)(graphql@16.8.1)(mercurius@13.1.0)
+    version: 8.1.1(fastify@4.24.2)(graphql@16.8.1)(mercurius@13.1.0)
   nexus:
     specifier: 1.3.0
     version: 1.3.0(graphql@16.8.1)
@@ -4591,14 +4591,14 @@ packages:
       require-from-string: 2.0.2
       uri-js: 4.4.1
 
-  /altair-fastify-plugin@5.2.5(fastify@4.24.1):
+  /altair-fastify-plugin@5.2.5(fastify@4.24.2):
     resolution: {integrity: sha512-1QyRahge1afWmkop08m2+okCcno5ga6VdI6io0oal6BK2RYAoinHtPQqn/O000V6pKS2YQy3AEwyRJioRou8hw==}
     peerDependencies:
       fastify: ^4.0.3
     dependencies:
       '@fastify/static': 6.11.2
       altair-static: 5.2.5
-      fastify: 4.24.1
+      fastify: 4.24.2
       fastify-plugin: 2.3.4
     dev: false
 
@@ -6145,7 +6145,7 @@ packages:
       close-with-grace: 1.2.0
       commist: 3.2.0
       dotenv: 16.3.1
-      fastify: 4.24.1
+      fastify: 4.24.2
       fastify-plugin: 4.5.1
       generify: 4.2.0
       help-me: 4.2.0
@@ -6175,8 +6175,8 @@ packages:
     engines: {node: '>=18.0.0'}
     dev: false
 
-  /fastify@4.24.1:
-    resolution: {integrity: sha512-uMthXpH0DjWWxb3/ERmBsVkFm5cllozjbOFkhsD4Xlw+OUg5wGASRBjVRcp2XeYZa91W2BbwgIWJrnGGPWY2dQ==}
+  /fastify@4.24.2:
+    resolution: {integrity: sha512-V/7fdhFas7HoAyjD8ha8wPCeiRLUzPgwwM5dSSUx/eBUv7GvG61YzjggqOchMOsa7Sw32MNN4uCCoFrl+9ccJA==}
     dependencies:
       '@fastify/ajv-compiler': 3.5.0
       '@fastify/error': 3.4.0
@@ -7596,7 +7596,7 @@ packages:
     engines: {node: '>=16.10'}
     dev: true
 
-  /mercurius-codegen@5.0.3(fastify@4.24.1)(graphql@16.8.1)(mercurius@13.1.0)(prettier@3.0.3):
+  /mercurius-codegen@5.0.3(fastify@4.24.2)(graphql@16.8.1)(mercurius@13.1.0)(prettier@3.0.3):
     resolution: {integrity: sha512-j3vEECuRU1Oxaftvolkq4fsXtBUXVfgq59B6STchLTwuQRgvzwAYUSEden9IplqFIEeRfPROaCaYw69lcds3Jg==}
     engines: {pnpm: '>=8.5.0'}
     peerDependencies:
@@ -7616,7 +7616,7 @@ packages:
       '@graphql-tools/utils': 9.2.1(graphql@16.8.1)
       '@graphql-typed-document-node/core': 3.2.0(graphql@16.8.1)
       chokidar: 3.5.3
-      fastify: 4.24.1
+      fastify: 4.24.2
       graphql: 16.8.1
       mercurius: 13.1.0(graphql@16.8.1)
       mkdirp: 2.1.6
@@ -7626,7 +7626,7 @@ packages:
       - supports-color
     dev: false
 
-  /mercurius-integration-testing@8.1.1(fastify@4.24.1)(graphql@16.8.1)(mercurius@13.1.0):
+  /mercurius-integration-testing@8.1.1(fastify@4.24.2)(graphql@16.8.1)(mercurius@13.1.0):
     resolution: {integrity: sha512-JyyKGw4pXe+Hy8huDIMjIO1B0DIJkQDXuWX9+gtAQXKlwICQrTzUAfQGtqVMFypsvV8W15TUCxZraIqt01mFGg==}
     engines: {node: '>=14'}
     peerDependencies:
@@ -7643,7 +7643,7 @@ packages:
     dependencies:
       '@graphql-typed-document-node/core': 3.2.0(graphql@16.8.1)
       cookie: 0.5.0
-      fastify: 4.24.1
+      fastify: 4.24.2
       graphql: 16.8.1
       mercurius: 13.1.0(graphql@16.8.1)
       ws: 8.14.2
@@ -8279,7 +8279,7 @@ packages:
       pump: 3.0.0
       readable-stream: 4.4.2
       secure-json-parse: 2.7.0
-      sonic-boom: 3.3.0
+      sonic-boom: 3.7.0
       strip-json-comments: 3.1.1
     dev: false
 
@@ -8798,12 +8798,6 @@ packages:
     dependencies:
       dot-case: 3.0.4
       tslib: 2.6.2
-    dev: false
-
-  /sonic-boom@3.3.0:
-    resolution: {integrity: sha512-LYxp34KlZ1a2Jb8ZQgFCK3niIHzibdwtwNUWKg0qQRzsDoJ3Gfgkf8KdBTFU3SkejDEIlWwnSnpVdOZIhFMl/g==}
-    dependencies:
-      atomic-sleep: 1.0.0
     dev: false
 
   /sonic-boom@3.7.0:
