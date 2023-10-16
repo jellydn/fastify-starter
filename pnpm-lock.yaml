@@ -42,8 +42,8 @@ dependencies:
     specifier: 1.6.0
     version: 1.6.0
   '@opentelemetry/auto-instrumentations-node':
-    specifier: 0.39.3
-    version: 0.39.3(@opentelemetry/api@1.6.0)
+    specifier: 0.39.4
+    version: 0.39.4(@opentelemetry/api@1.6.0)
   '@opentelemetry/exporter-metrics-otlp-proto':
     specifier: 0.44.0
     version: 0.44.0(@opentelemetry/api@1.6.0)
@@ -1799,8 +1799,8 @@ packages:
       - supports-color
     dev: false
 
-  /@opentelemetry/auto-instrumentations-node@0.39.3(@opentelemetry/api@1.6.0):
-    resolution: {integrity: sha512-ecOmYx0s5w/uGREd220JVZ83znzUJ4P283q0ETtgn4vxpZXvfdP2CZ8l/YxQBS9ZZjRhJJl4nGZCkmo54Z+/hg==}
+  /@opentelemetry/auto-instrumentations-node@0.39.4(@opentelemetry/api@1.6.0):
+    resolution: {integrity: sha512-1bOMl+7qPe0RJeNaCo9UwNftl/cE0N81EEfxL0BJhPY4dHfCwQLMVoGpXrW8TxRy8ccjS1l1rwYIMnRHJseFqA==}
     engines: {node: '>=14'}
     peerDependencies:
       '@opentelemetry/api': ^1.4.1
@@ -1838,7 +1838,7 @@ packages:
       '@opentelemetry/instrumentation-pg': 0.36.2(@opentelemetry/api@1.6.0)
       '@opentelemetry/instrumentation-pino': 0.34.2(@opentelemetry/api@1.6.0)
       '@opentelemetry/instrumentation-redis': 0.35.2(@opentelemetry/api@1.6.0)
-      '@opentelemetry/instrumentation-redis-4': 0.35.2(@opentelemetry/api@1.6.0)
+      '@opentelemetry/instrumentation-redis-4': 0.35.3(@opentelemetry/api@1.6.0)
       '@opentelemetry/instrumentation-restify': 0.34.1(@opentelemetry/api@1.6.0)
       '@opentelemetry/instrumentation-router': 0.33.2(@opentelemetry/api@1.6.0)
       '@opentelemetry/instrumentation-socket.io': 0.34.2(@opentelemetry/api@1.6.0)
@@ -2199,7 +2199,7 @@ packages:
       '@opentelemetry/api': ^1.3.0
     dependencies:
       '@opentelemetry/api': 1.4.1
-      '@opentelemetry/core': 1.15.2(@opentelemetry/api@1.4.1)
+      '@opentelemetry/core': 1.17.1(@opentelemetry/api@1.4.1)
       '@opentelemetry/instrumentation': 0.40.0(@opentelemetry/api@1.4.1)
       '@opentelemetry/semantic-conventions': 1.17.1
     transitivePeerDependencies:
@@ -2259,7 +2259,7 @@ packages:
       '@opentelemetry/api': ^1.3.0
     dependencies:
       '@opentelemetry/api': 1.4.1
-      '@opentelemetry/core': 1.15.2(@opentelemetry/api@1.4.1)
+      '@opentelemetry/core': 1.17.1(@opentelemetry/api@1.4.1)
       '@opentelemetry/instrumentation': 0.40.0(@opentelemetry/api@1.4.1)
       '@opentelemetry/propagation-utils': 0.29.5(@opentelemetry/api@1.4.1)
       '@opentelemetry/semantic-conventions': 1.17.1
@@ -2341,7 +2341,7 @@ packages:
       '@opentelemetry/api': ^1.3.0
     dependencies:
       '@opentelemetry/api': 1.4.1
-      '@opentelemetry/core': 1.15.2(@opentelemetry/api@1.4.1)
+      '@opentelemetry/core': 1.17.1(@opentelemetry/api@1.4.1)
       '@opentelemetry/instrumentation': 0.40.0(@opentelemetry/api@1.4.1)
       '@opentelemetry/semantic-conventions': 1.17.1
       '@types/connect': 3.4.35
@@ -2436,7 +2436,7 @@ packages:
       '@opentelemetry/api': ^1.3.0
     dependencies:
       '@opentelemetry/api': 1.4.1
-      '@opentelemetry/core': 1.15.2(@opentelemetry/api@1.4.1)
+      '@opentelemetry/core': 1.17.1(@opentelemetry/api@1.4.1)
       '@opentelemetry/instrumentation': 0.40.0(@opentelemetry/api@1.4.1)
       '@opentelemetry/semantic-conventions': 1.17.1
       '@types/express': 4.17.13
@@ -2466,7 +2466,7 @@ packages:
       '@opentelemetry/api': ^1.3.0
     dependencies:
       '@opentelemetry/api': 1.4.1
-      '@opentelemetry/core': 1.15.2(@opentelemetry/api@1.4.1)
+      '@opentelemetry/core': 1.17.1(@opentelemetry/api@1.4.1)
       '@opentelemetry/instrumentation': 0.40.0(@opentelemetry/api@1.4.1)
       '@opentelemetry/semantic-conventions': 1.17.1
     transitivePeerDependencies:
@@ -2494,7 +2494,7 @@ packages:
       '@opentelemetry/api': ^1.3.0
     dependencies:
       '@opentelemetry/api': 1.4.1
-      '@opentelemetry/core': 1.15.2(@opentelemetry/api@1.4.1)
+      '@opentelemetry/core': 1.17.1(@opentelemetry/api@1.4.1)
       '@opentelemetry/instrumentation': 0.40.0(@opentelemetry/api@1.4.1)
       '@opentelemetry/semantic-conventions': 1.17.1
     transitivePeerDependencies:
@@ -2600,7 +2600,7 @@ packages:
       '@opentelemetry/api': ^1.3.0
     dependencies:
       '@opentelemetry/api': 1.4.1
-      '@opentelemetry/core': 1.15.2(@opentelemetry/api@1.4.1)
+      '@opentelemetry/core': 1.17.1(@opentelemetry/api@1.4.1)
       '@opentelemetry/instrumentation': 0.40.0(@opentelemetry/api@1.4.1)
       '@opentelemetry/semantic-conventions': 1.17.1
       '@types/hapi__hapi': 20.0.9
@@ -2716,7 +2716,7 @@ packages:
       '@opentelemetry/api': ^1.3.0
     dependencies:
       '@opentelemetry/api': 1.4.1
-      '@opentelemetry/core': 1.15.2(@opentelemetry/api@1.4.1)
+      '@opentelemetry/core': 1.17.1(@opentelemetry/api@1.4.1)
       '@opentelemetry/instrumentation': 0.40.0(@opentelemetry/api@1.4.1)
       '@opentelemetry/semantic-conventions': 1.17.1
       '@types/koa': 2.13.6
@@ -2828,7 +2828,7 @@ packages:
       '@opentelemetry/api': ^1.3.0
     dependencies:
       '@opentelemetry/api': 1.4.1
-      '@opentelemetry/core': 1.15.2(@opentelemetry/api@1.4.1)
+      '@opentelemetry/core': 1.17.1(@opentelemetry/api@1.4.1)
       '@opentelemetry/instrumentation': 0.40.0(@opentelemetry/api@1.4.1)
       '@opentelemetry/semantic-conventions': 1.17.1
     transitivePeerDependencies:
@@ -2963,7 +2963,7 @@ packages:
       '@opentelemetry/api': ^1.3.0
     dependencies:
       '@opentelemetry/api': 1.4.1
-      '@opentelemetry/core': 1.15.2(@opentelemetry/api@1.4.1)
+      '@opentelemetry/core': 1.17.1(@opentelemetry/api@1.4.1)
       '@opentelemetry/instrumentation': 0.40.0(@opentelemetry/api@1.4.1)
       '@opentelemetry/semantic-conventions': 1.17.1
       '@types/pg': 8.6.1
@@ -3027,8 +3027,8 @@ packages:
       - supports-color
     dev: false
 
-  /@opentelemetry/instrumentation-redis-4@0.35.2(@opentelemetry/api@1.6.0):
-    resolution: {integrity: sha512-hpfGsV2z819GcPKpjTnx9NFGMbkmQw3eOUknS3iK/LCiN53ezHZy5XWKUzCqXhIV+JUOqIfb6/rJj8JsX3gbkQ==}
+  /@opentelemetry/instrumentation-redis-4@0.35.3(@opentelemetry/api@1.6.0):
+    resolution: {integrity: sha512-fWMqJpEGLcE1Z76CTwhZPaFU7EGBZ/pNFKCLdHALddvud/9AxKbxLIn73QGh7sLU8MwhCBkTbuipj5UAy8g8TA==}
     engines: {node: '>=14'}
     peerDependencies:
       '@opentelemetry/api': ^1.3.0
@@ -3076,7 +3076,7 @@ packages:
       '@opentelemetry/api': ^1.3.0
     dependencies:
       '@opentelemetry/api': 1.4.1
-      '@opentelemetry/core': 1.15.2(@opentelemetry/api@1.4.1)
+      '@opentelemetry/core': 1.17.1(@opentelemetry/api@1.4.1)
       '@opentelemetry/instrumentation': 0.40.0(@opentelemetry/api@1.4.1)
       '@opentelemetry/semantic-conventions': 1.17.1
     transitivePeerDependencies:
@@ -3582,7 +3582,7 @@ packages:
       '@opentelemetry/api': ^1.0.0
     dependencies:
       '@opentelemetry/api': 1.4.1
-      '@opentelemetry/core': 1.15.2(@opentelemetry/api@1.4.1)
+      '@opentelemetry/core': 1.17.1(@opentelemetry/api@1.4.1)
       '@opentelemetry/resources': 1.17.1(@opentelemetry/api@1.4.1)
       '@opentelemetry/semantic-conventions': 1.17.1
       gcp-metadata: 5.3.0
@@ -4243,7 +4243,7 @@ packages:
   /@types/koa__router@8.0.7:
     resolution: {integrity: sha512-OB3Ax75nmTP+WR9AgdzA42DI7YmBtiNKN2g1Wxl+d5Dyek9SWt740t+ukwXSmv/jMBCUPyV3YEI93vZHgdP7UQ==}
     dependencies:
-      '@types/koa': 2.13.6
+      '@types/koa': 2.13.9
     dev: false
 
   /@types/lodash@4.14.199:

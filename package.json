@@ -45,7 +45,7 @@
     "@fastify/swagger-ui": "1.10.1",
     "@hyperdx/node-opentelemetry": "0.3.3",
     "@opentelemetry/api": "1.6.0",
-    "@opentelemetry/auto-instrumentations-node": "0.39.3",
+    "@opentelemetry/auto-instrumentations-node": "0.39.4",
     "@opentelemetry/exporter-metrics-otlp-proto": "0.44.0",
     "@opentelemetry/exporter-trace-otlp-proto": "0.44.0",
     "@opentelemetry/sdk-metrics": "1.17.1",
