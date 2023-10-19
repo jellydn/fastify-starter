@@ -33,7 +33,7 @@
     "package.json": "sort-package-json"
   },
   "dependencies": {
-    "@fastify/autoload": "5.7.1",
+    "@fastify/autoload": "5.8.0",
     "@fastify/cors": "8.4.0",
     "@fastify/env": "4.2.0",
     "@fastify/etag": "4.2.0",
@@ -54,7 +54,7 @@
     "altair-fastify-plugin": "5.2.5",
     "close-with-grace": "1.2.0",
     "dotenv": "16.3.1",
-    "fastify": "4.24.2",
+    "fastify": "4.24.3",
     "fastify-cli": "5.8.0",
     "fastify-plugin": "4.5.1",
     "fastify-tsconfig": "2.0.0",
@@ -81,7 +81,7 @@
     "fast-json-stringify": "5.8.0",
     "husky": "8.0.3",
     "json-schema-to-typescript": "13.1.1",
-    "lint-staged": "15.0.1",
+    "lint-staged": "15.0.2",
     "prettier": "3.0.3",
     "sort-package-json": "2.6.0",
     "tap": "16.3.9",
