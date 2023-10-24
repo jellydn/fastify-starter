@@ -70,3 +70,4 @@ dist
 
 # Eslint cache
 .eslintcache
+.tap
