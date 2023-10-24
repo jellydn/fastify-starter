@@ -19,6 +19,7 @@ void test("hello query without name argument", async (t) => {
       hello: "Hello World!",
     },
   });
+  client.close();
 });
 
 void test("hello query with name argument", async (t) => {
@@ -37,4 +38,5 @@ void test("hello query with name argument", async (t) => {
       hello: "Hello Test!",
     },
   });
+  client.close();
 });
