@@ -60,8 +60,8 @@ dependencies:
     specifier: 0.31.23
     version: 0.31.23
   altair-fastify-plugin:
-    specifier: 5.2.5
-    version: 5.2.5(fastify@4.24.3)
+    specifier: 5.2.6
+    version: 5.2.6(fastify@4.24.3)
   close-with-grace:
     specifier: 1.2.0
     version: 1.2.0
@@ -104,8 +104,8 @@ devDependencies:
     specifier: 1.3.16
     version: 1.3.16(@tapjs/core@1.4.5)(@types/node@20.9.0)(react-dom@18.2.0)(react@18.2.0)
   '@trivago/prettier-plugin-sort-imports':
-    specifier: 4.2.1
-    version: 4.2.1(prettier@3.0.3)
+    specifier: 4.3.0
+    version: 4.3.0(prettier@3.0.3)
   '@types/busboy':
     specifier: 1.5.3
     version: 1.5.3
@@ -296,7 +296,7 @@ packages:
     resolution: {integrity: sha512-oLcVCTeIFadUoArDTwpluncplrYBmTCCZZgXCbgNGvOBBiSDDK3eWO4b/+eOTli5tKv1lg+a5/NAXg+nTcei1w==}
     engines: {node: '>=6.9.0'}
     dependencies:
-      '@babel/types': 7.17.0
+      '@babel/types': 7.23.0
       jsesc: 2.5.2
       source-map: 0.5.7
     dev: true
@@ -472,7 +472,7 @@ packages:
     engines: {node: '>=6.0.0'}
     hasBin: true
     dependencies:
-      '@babel/types': 7.17.0
+      '@babel/types': 7.23.0
 
   /@babel/plugin-proposal-class-properties@7.18.6(@babel/core@7.23.2):
     resolution: {integrity: sha512-cumfXOF0+nzZrrN8Rf0t7M+tF6sZc7vhQwYQck9q1/5w2OExlD+b4v4RpMJFaV1Z7WcDRgO6FqvxqxGlwo+RHQ==}
@@ -796,6 +796,7 @@ packages:
     dependencies:
       '@babel/helper-validator-identifier': 7.22.20
       to-fast-properties: 2.0.0
+    dev: true
 
   /@babel/types@7.23.0:
     resolution: {integrity: sha512-0oIyUfKoI3mSqMvsxBdclDwxXKXAUA8v/apZbc+iSyARYou1o8ZGDxbUYyLFoW2arqS2jDGqJuZvv1d/io1axg==}
@@ -4816,8 +4817,8 @@ packages:
       '@tapjs/core': 1.4.5(@types/node@20.9.0)(react-dom@18.2.0)(react@18.2.0)
     dev: true
 
-  /@trivago/prettier-plugin-sort-imports@4.2.1(prettier@3.0.3):
-    resolution: {integrity: sha512-iuy2MPVURGdxILTchHr15VAioItuYBejKfcTmQFlxIuqA7jeaT6ngr5aUIG6S6U096d6a6lJCgaOwlRrPLlOPg==}
+  /@trivago/prettier-plugin-sort-imports@4.3.0(prettier@3.0.3):
+    resolution: {integrity: sha512-r3n0onD3BTOVUNPhR4lhVK4/pABGpbA7bW3eumZnYdKaHkf1qEC+Mag6DPbGNuuh0eG8AaYj+YqmVHSiGslaTQ==}
     peerDependencies:
       '@vue/compiler-sfc': 3.x
       prettier: 2.x - 3.x
@@ -5478,19 +5479,19 @@ packages:
       require-from-string: 2.0.2
       uri-js: 4.4.1
 
-  /altair-fastify-plugin@5.2.5(fastify@4.24.3):
-    resolution: {integrity: sha512-1QyRahge1afWmkop08m2+okCcno5ga6VdI6io0oal6BK2RYAoinHtPQqn/O000V6pKS2YQy3AEwyRJioRou8hw==}
+  /altair-fastify-plugin@5.2.6(fastify@4.24.3):
+    resolution: {integrity: sha512-INRHaF5voPox3HuKYj7Hlabu8LXBCiYwOGYRmbIV3516M4uBVycZL7Vntjfj747yTYeQ3YMXFDBv1+d24qU1tw==}
     peerDependencies:
       fastify: ^4.0.3
     dependencies:
       '@fastify/static': 6.12.0
-      altair-static: 5.2.5
+      altair-static: 5.2.6
       fastify: 4.24.3
       fastify-plugin: 2.3.4
     dev: false
 
-  /altair-static@5.2.5:
-    resolution: {integrity: sha512-MYjAFshXSe2T+2EVym14Zir4I2k1IX3AoYMCH/7CfxLwFWNYtTNl3GXe+l6SCE13NFAY2jH2Xsq/R/J+wWWJNQ==}
+  /altair-static@5.2.6:
+    resolution: {integrity: sha512-o3MS+OGrIr08ppUVJW/g9s3CnU6USX/I3YKgqCQKKU0TXJYAF+7AdikUywD5LGb3B5hqHRxpcupzhlmv43lOzA==}
     engines: {node: '>= 6.9.1'}
     dev: false
 
