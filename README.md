@@ -21,13 +21,13 @@
 ## Install
 
 ```sh
-yarn install
+pnpm install
 ```
 
 ## Usage
 
 ```sh
-yarn start
+pnpm start
 ```
 
 ## Swagger UI
@@ -68,7 +68,7 @@ Output:
 ## Run tests
 
 ```sh
-yarn test
+pnpm test
 ```
 
 ## Deployment
