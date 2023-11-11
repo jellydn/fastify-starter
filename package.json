@@ -17,7 +17,7 @@
     "build:ts": "tsup --env.NODE_ENV production",
     "compile-schemas": "json2ts -i src/schemas -o src/types",
     "copy:assets": "cpy 'src/generated/*.json' dist/generated",
-    "dev": "yarn compile-schemas && yarn dev:watch",
+    "dev": "pnpm compile-schemas && pnpm dev:watch",
     "dev:watch": "tsx watch src/server.ts",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
     "lint": "eslint \"{src,apps,libs,test}/**/*.ts\" --fix",
@@ -88,9 +88,10 @@
     "tap": "18.5.7",
     "ts-node": "10.9.1",
     "tsup": "7.2.0",
-    "tsx": "4.1.0",
+    "tsx": "4.1.1",
     "typescript": "5.2.2"
   },
+  "packageManager": "pnpm@8.10.2",
   "engines": {
     "node": ">=18.17.0"
   },

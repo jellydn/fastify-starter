@@ -54,6 +54,12 @@ server.ready((err: Error) => {
   }
 
   server.log.info(
+    "All routes loaded! Check your console for the route details.",
+  );
+
+  console.log(server.printRoutes());
+
+  server.log.info(
     `Server listening on port ${Number(process.env.PORT ?? 3000)}`,
   );
 });
