@@ -1,0 +1,22 @@
+{
+  "$schema": "https://raw.githubusercontent.com/streetsidesoftware/cspell/main/cspell.schema.json",
+  "version": "0.2",
+  "language": "en",
+  "globRoot": ".",
+  "dictionaryDefinitions": [
+    {
+      "name": "fastify-starter",
+      "path": "./fastify-starter.txt",
+      "addWords": true
+    }
+  ],
+  "dictionaries": [
+    "fastify-starter"
+  ],
+  "ignorePaths": [
+    "node_modules",
+    "dist",
+    "build",
+    "/fastify-starter.txt"
+  ]
+}
