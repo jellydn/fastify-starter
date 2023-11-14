@@ -88,10 +88,10 @@
     "tap": "18.5.8",
     "ts-node": "10.9.1",
     "tsup": "7.2.0",
-    "tsx": "4.1.1",
+    "tsx": "4.1.2",
     "typescript": "5.2.2"
   },
-  "packageManager": "pnpm@8.10.4",
+  "packageManager": "pnpm@8.10.5",
   "engines": {
     "node": ">=18.17.0"
   },
