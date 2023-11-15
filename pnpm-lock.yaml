@@ -24,8 +24,8 @@ dependencies:
     specifier: 8.0.0
     version: 8.0.0
   '@fastify/rate-limit':
-    specifier: 8.0.3
-    version: 8.0.3
+    specifier: 8.1.1
+    version: 8.1.1
   '@fastify/sensible':
     specifier: 5.5.0
     version: 5.5.0
@@ -57,11 +57,11 @@ dependencies:
     specifier: 0.45.1
     version: 0.45.1(@opentelemetry/api@1.7.0)
   '@sinclair/typebox':
-    specifier: 0.31.23
-    version: 0.31.23
+    specifier: 0.31.25
+    version: 0.31.25
   altair-fastify-plugin:
-    specifier: 5.2.7
-    version: 5.2.7(fastify@4.24.3)
+    specifier: 5.2.8
+    version: 5.2.8(fastify@4.24.3)
   close-with-grace:
     specifier: 1.2.0
     version: 1.2.0
@@ -1181,8 +1181,8 @@ packages:
       - supports-color
     dev: false
 
-  /@fastify/rate-limit@8.0.3:
-    resolution: {integrity: sha512-7wbSKXGKKLI1VkpW2XvS7SFg4n4/uzYt0YA5O2pfCcM6PYaBSV3VhSKGJ9/hJceCSH+zNEDRrWpufqxbcDkTZg==}
+  /@fastify/rate-limit@8.1.1:
+    resolution: {integrity: sha512-kTaIBuG7hS26rUPermw1RYsobNHxLcqA9AFUbWR8dEyRR8wknZnpfuD3VaJkrtfxyWLW8xZ5b6/GmQ/gNoEfWA==}
     dependencies:
       fastify-plugin: 4.5.1
       ms: 2.1.3
@@ -4165,8 +4165,8 @@ packages:
       - supports-color
     dev: true
 
-  /@sinclair/typebox@0.31.23:
-    resolution: {integrity: sha512-ZzrzE8yCrWWU4mcBstBgdlBMjB8My3ESY9nZ/v996GptIJb4+MU1p7s1Qxrc2xvZeOiDDnAheLLmdHjPgZV79g==}
+  /@sinclair/typebox@0.31.25:
+    resolution: {integrity: sha512-tc075wfx6qCftSuNHq7kPNVTNhb5qBDf7B+c7pBdLkzxGsXdsqeinlRZQuGzrSowSh7nxEKvZKRUdbRGqy0GCA==}
     dev: false
 
   /@tapjs/after-each@1.1.16(@tapjs/core@1.4.5):
@@ -5179,19 +5179,19 @@ packages:
       require-from-string: 2.0.2
       uri-js: 4.4.1
 
-  /altair-fastify-plugin@5.2.7(fastify@4.24.3):
-    resolution: {integrity: sha512-NUMogGFtrYFMYBNau6f0hNvdzm2JpTyvYDneIxUsv9S3jJ6oLUlLT0XRx6vV/0oqJC3mM4LLDeF24/B0F/I19Q==}
+  /altair-fastify-plugin@5.2.8(fastify@4.24.3):
+    resolution: {integrity: sha512-1BqFSOxTNCsiuUVsP3/zx6qPf3aW0fsJQFemP10HkGm6zXpXBuirWmbOsxSTMKR8OHz4AamwjEbD1unEhLPytw==}
     peerDependencies:
       fastify: ^4.0.3
     dependencies:
       '@fastify/static': 6.12.0
-      altair-static: 5.2.7
+      altair-static: 5.2.8
       fastify: 4.24.3
       fastify-plugin: 2.3.4
     dev: false
 
-  /altair-static@5.2.7:
-    resolution: {integrity: sha512-lzPRzl0DRxJrn4Cwy0DQ1A1sVwv1Vr7DR3ySNGktoHSKTqCuOzD63NXZoeKowCNqb3QEEoG5wy9BUnpcDxbcVw==}
+  /altair-static@5.2.8:
+    resolution: {integrity: sha512-dxqFiOp5GN9rU4WaSIbwPEnyInRRbr91LJocdbT3GkxLxqkqY/tsxj5Y/4+Oj954Qxt/AhLbgFL37qyu3ra+SQ==}
     engines: {node: '>= 6.9.1'}
     dev: false
 
