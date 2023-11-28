@@ -2,24 +2,61 @@ import AltairFastify from "altair-fastify-plugin";
 import type { FastifyInstance, FastifyReply, FastifyRequest } from "fastify";
 import mercurius from "mercurius";
 import mercuriusCodegen from "mercurius-codegen";
-import { makeSchema, queryType, stringArg } from "nexus";
+import { makeSchema, queryType, stringArg, objectType, idArg, inputObjectType, mutationType } from "nexus";
 
 const buildContext = async (req: FastifyRequest, _reply: FastifyReply) => ({
   authorization: req.headers.authorization,
 });
 
 // eslint-disable-next-line @typescript-eslint/naming-convention
+const User = objectType({
+  name: "User",
+  definition(t) {
+    t.id("id");
+    t.string("name");
+  },
+});
+
+const UserInput = inputObjectType({
+  name: "UserInput",
+  definition(t) {
+    t.nonNull.string("name");
+  },
+});
+
 const Query = queryType({
   definition(t) {
     t.string("hello", {
       args: { name: stringArg() },
       resolve: (_parent, { name }) => `Hello ${name ?? "World"}!`,
     });
+
+    t.field("user", {
+      type: "User",
+      args: { id: idArg() },
+      resolve: (_parent, { id }) => {
+        // TODO: Implement user fetching logic
+        return null;
+      },
+    });
+  },
+});
+
+const Mutation = mutationType({
+  definition(t) {
+    t.field("createUser", {
+      type: "User",
+      args: { input: "UserInput" },
+      resolve: (_parent, { input }) => {
+        // TODO: Implement user creation logic
+        return null;
+      },
+    });
   },
 });
 
 const schema = makeSchema({
-  types: [Query],
+  types: [Query, Mutation, User, UserInput],
   outputs: {
     schema: `${__dirname}/generated/schema.graphql`,
     typegen: `${__dirname}/generated/typings.ts`,
