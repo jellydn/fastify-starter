@@ -17,14 +17,14 @@ const User = objectType({
   },
 });
 
-const UserInput = inputObjectType({
+const userInput = inputObjectType({
   name: "UserInput",
   definition(t) {
     t.nonNull.string("name");
   },
 });
 
-const Query = queryType({
+const query = queryType({
   definition(t) {
     t.string("hello", {
       args: { name: stringArg() },
@@ -76,9 +76,9 @@ export async function initGraphql(app: FastifyInstance) {
 
     await app.register(AltairFastify, {
       path: "/altair",
-      baseURL: "/altair/",
-      // 'endpointURL' should be the same as the mercurius 'path'
-      endpointURL: "/graphql",
+      baseUrl: "/altair/",
+      // 'endpointUrl' should be the same as the mercurius 'path'
+      endpointUrl: "/graphql",
     });
 
     await mercuriusCodegen(app, {
