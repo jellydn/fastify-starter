@@ -16,7 +16,7 @@ void test("example route - invalid method", async (t) => {
   const app = await build(t);
 
   const res = await app.inject({
-    method: 'PUT',
+    method: "PUT",
     url: "/example",
   });
 
@@ -27,7 +27,7 @@ void test("example route - missing required query parameter", async (t) => {
   const app = await build(t);
 
   const res = await app.inject({
-    method: 'GET',
+    method: "GET",
     url: "/example?missingParam=value",
   });
 
@@ -38,7 +38,7 @@ void test("example route - invalid query parameter value", async (t) => {
   const app = await build(t);
 
   const res = await app.inject({
-    method: 'GET',
+    method: "GET",
     url: "/example?param=invalidValue",
   });
 
@@ -49,11 +49,11 @@ void test("example route - middleware", async (t) => {
   const app = await build(t);
 
   const res = await app.inject({
-    method: 'GET',
+    method: "GET",
     url: "/example",
     headers: {
-      'X-Custom-Header': 'invalid'
-    }
+      "X-Custom-Header": "invalid",
+    },
   });
 
   t.equal(res.statusCode, 400);
