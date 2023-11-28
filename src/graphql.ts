@@ -42,7 +42,7 @@ const query = queryType({
   },
 });
 
-const Mutation = mutationType({
+const mutation = mutationType({
   definition(t) {
     t.field("createUser", {
       type: "User",
