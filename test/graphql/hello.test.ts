@@ -21,10 +21,11 @@ void test("hello query", async (t) => {
   });
 });
 void test("user query", async (t) => {
-  t.plan(2);
+  t.plan(4);
 
   const client = createMercuriusTestClient(app);
 
+  // Simulate fetching a user by ID from a data source
   const response = await client.query(
     `query {
     user(id: "1") {
@@ -43,7 +44,26 @@ void test("user query", async (t) => {
     },
   });
 
-  const nullResponse = await client.query(
+  // Test for invalid ID
+  const invalidIdResponse = await client.query(
+    `query {
+    user(id: "invalid") {
+      id
+      name
+    }
+   }`,
+  );
+
+  t.same(invalidIdResponse, {
+    errors: [
+      {
+        message: "Invalid ID",
+      },
+    ],
+  });
+
+  // Test for nonexistent ID
+  const nonexistentIdResponse = await client.query(
     `query {
     user(id: "nonexistent") {
       id
@@ -52,7 +72,7 @@ void test("user query", async (t) => {
    }`,
   );
 
-  t.same(nullResponse, {
+  t.same(nonexistentIdResponse, {
     data: {
       user: null,
     },
@@ -80,5 +100,42 @@ void test("createUser mutation", async (t) => {
         name: "Jane Doe",
       },
     },
+  });
+});
+
+  // Test for missing required input fields
+  const missingFieldsResponse = await client.mutate(
+    `mutation {
+    createUser(input: {}) {
+      id
+      name
+    }
+   }`,
+  );
+
+  t.same(missingFieldsResponse, {
+    errors: [
+      {
+        message: "Missing required input fields",
+      },
+    ],
+  });
+
+  // Test for invalid input fields
+  const invalidFieldsResponse = await client.mutate(
+    `mutation {
+    createUser(input: {name: 123}) {
+      id
+      name
+    }
+   }`,
+  );
+
+  t.same(invalidFieldsResponse, {
+    errors: [
+      {
+        message: "Invalid input fields",
+      },
+    ],
   });
 });
