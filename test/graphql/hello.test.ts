@@ -43,7 +43,7 @@ void test("user query", async (t) => {
     },
   });
 
-  const errorResponse = await client.query(
+  const nullResponse = await client.query(
     `query {
     user(id: "nonexistent") {
       id
@@ -52,7 +52,11 @@ void test("user query", async (t) => {
    }`
   );
 
-  t.ok(errorResponse.errors);
+  t.same(nullResponse, {
+    data: {
+      user: null,
+    },
+  });
 });
 
 void test("createUser mutation", async (t) => {
