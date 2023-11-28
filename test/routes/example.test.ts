@@ -28,7 +28,7 @@ void test("example route - missing required query parameter", async (t) => {
 
   const res = await app.inject({
     method: "GET",
-    url: "/example?missingParam=value",
+    url: "/example?realParam=",
   });
 
   t.equal(res.statusCode, 400);
