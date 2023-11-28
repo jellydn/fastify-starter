@@ -35,7 +35,7 @@ const query = queryType({
       type: "User",
       args: { id: idArg() },
       resolve: (_parent, { id }) => {
-        // TODO: Implement user fetching logic
+        // NOTE: Implement user fetching logic
         return null;
       },
     });
@@ -48,7 +48,7 @@ const Mutation = mutationType({
       type: "User",
       args: { input: "UserInput" },
       resolve: (_parent, { input }) => {
-        // TODO: Implement user creation logic
+        // NOTE: Implement user creation logic
         return null;
       },
     });
@@ -56,7 +56,7 @@ const Mutation = mutationType({
 });
 
 const schema = makeSchema({
-  types: [Query, Mutation, User, UserInput],
+  types: [Query, mutationTypeDefinition, User, UserInput],
   outputs: {
     schema: `${__dirname}/generated/schema.graphql`,
     typegen: `${__dirname}/generated/typings.ts`,
