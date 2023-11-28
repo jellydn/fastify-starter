@@ -64,7 +64,7 @@ const mutation = mutationType({
 });
 
 const schema = makeSchema({
-  types: [Query, mutationTypeDefinition, User, UserInput],
+  types: [query, mutation, User, userInput],
   outputs: {
     schema: `${__dirname}/generated/schema.graphql`,
     typegen: `${__dirname}/generated/typings.ts`,
