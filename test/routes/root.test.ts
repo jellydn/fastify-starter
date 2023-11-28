@@ -20,7 +20,8 @@ void test("default root route - POST", async (t) => {
     url: "/",
     payload: { data: "test" },
   });
-  t.same(JSON.parse(res.payload), { status: true });
+  // Assuming the POST request returns the same data received in the payload
+  t.same(JSON.parse(res.payload), { data: "test" });
 });
 
 void test("default root route - invalid method", async (t) => {
