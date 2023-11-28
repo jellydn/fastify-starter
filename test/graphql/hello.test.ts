@@ -11,7 +11,7 @@ void test("hello query", async (t) => {
   const response = await client.query(
     `query {
     hello
-   }`
+   }`,
   );
 
   t.same(response, {
@@ -31,7 +31,7 @@ void test("user query", async (t) => {
       id
       name
     }
-   }`
+   }`,
   );
 
   t.same(response, {
@@ -49,7 +49,7 @@ void test("user query", async (t) => {
       id
       name
     }
-   }`
+   }`,
   );
 
   t.same(nullResponse, {
@@ -70,7 +70,7 @@ void test("createUser mutation", async (t) => {
       id
       name
     }
-   }`
+   }`,
   );
 
   t.same(response, {
