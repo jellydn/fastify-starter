@@ -2,7 +2,15 @@ import AltairFastify from "altair-fastify-plugin";
 import type { FastifyInstance, FastifyReply, FastifyRequest } from "fastify";
 import mercurius from "mercurius";
 import mercuriusCodegen from "mercurius-codegen";
-import { makeSchema, queryType, stringArg, objectType, idArg, inputObjectType, mutationType } from "nexus";
+import {
+  makeSchema,
+  queryType,
+  stringArg,
+  objectType,
+  idArg,
+  inputObjectType,
+  mutationType,
+} from "nexus";
 
 const buildContext = async (req: FastifyRequest, _reply: FastifyReply) => ({
   authorization: req.headers.authorization,
@@ -34,7 +42,7 @@ const query = queryType({
     t.field("user", {
       type: "User",
       args: { id: idArg() },
-      resolve: (_parent, { id }) => {
+      resolve(_parent, { id }) {
         // NOTE: Implement user fetching logic
         return null;
       },
@@ -47,7 +55,7 @@ const mutation = mutationType({
     t.field("createUser", {
       type: "User",
       args: { input: "UserInput" },
-      resolve: (_parent, { input }) => {
+      resolve(_parent, { input }) {
         // NOTE: Implement user creation logic
         return null;
       },
