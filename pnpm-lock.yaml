@@ -15,8 +15,8 @@ dependencies:
     specifier: 4.3.0
     version: 4.3.0
   '@fastify/etag':
-    specifier: 5.0.0
-    version: 5.0.0
+    specifier: 5.1.0
+    version: 5.1.0
   '@fastify/helmet':
     specifier: 11.1.1
     version: 11.1.1
@@ -1345,8 +1345,8 @@ packages:
     resolution: {integrity: sha512-wWSvph+29GR783IhmvdwWnN4bUxTD01Vm5Xad4i7i1VuAOItLvbPAb69sb0IQ2N57yprvhNIwAP5B6xfKTmjmQ==}
     dev: false
 
-  /@fastify/etag@5.0.0:
-    resolution: {integrity: sha512-0K3acXY38cPoBU1ihecjC08lmVMEuMPFtAyHyvHg4xxbhBaCsXi2YhgRfhVbtTBWDGzfp0rRUTmFgxKfq46rFA==}
+  /@fastify/etag@5.1.0:
+    resolution: {integrity: sha512-j/huE8baxgF22idzY35a579b6uP+9ykE9Jt02xY4ZApELNr2KGZmQOKTQsZS94TfKMLfPHwkoM8FfZRq8OZDXg==}
     dependencies:
       fastify-plugin: 4.5.1
     dev: false
