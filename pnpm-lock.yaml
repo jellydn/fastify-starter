@@ -33,8 +33,8 @@ dependencies:
     specifier: 8.12.0
     version: 8.12.0
   '@fastify/swagger-ui':
-    specifier: 1.10.1
-    version: 1.10.1
+    specifier: 1.10.2
+    version: 1.10.2
   '@hyperdx/node-opentelemetry':
     specifier: 0.3.3
     version: 0.3.3
@@ -1371,7 +1371,7 @@ packages:
       '@fastify/deepmerge': 1.3.0
       '@fastify/error': 3.4.1
       '@fastify/swagger': 8.12.0
-      '@fastify/swagger-ui': 1.10.1
+      '@fastify/swagger-ui': 1.10.2
       fastify-plugin: 4.5.1
       secure-json-parse: 2.7.0
       stream-wormhole: 1.1.0
@@ -1420,8 +1420,8 @@ packages:
       p-limit: 3.1.0
     dev: false
 
-  /@fastify/swagger-ui@1.10.1:
-    resolution: {integrity: sha512-u3EJqNKvVr3X+6jY5i6pbs6/tXCrSlqc2Y+PVjnHBTOGh/d36uHMz+z4jPFy9gie2my6iHUrAdM8itlVmoUjog==}
+  /@fastify/swagger-ui@1.10.2:
+    resolution: {integrity: sha512-f2mRqtblm6eRAFQ3e8zSngxVNEtiYY7rISKQVjPA++ZsWc5WYlPVTb6Bx0G/zy0BIoucNqDr/Q2Vb/kTYkOq1A==}
     dependencies:
       '@fastify/static': 6.12.0
       fastify-plugin: 4.5.1
