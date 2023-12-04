@@ -51,7 +51,7 @@
     "@opentelemetry/sdk-metrics": "1.18.1",
     "@opentelemetry/sdk-node": "0.45.1",
     "@sinclair/typebox": "0.31.28",
-    "altair-fastify-plugin": "5.2.12",
+    "altair-fastify-plugin": "5.2.13",
     "close-with-grace": "1.2.0",
     "dotenv": "16.3.1",
     "fastify": "4.24.3",
