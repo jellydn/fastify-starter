@@ -42,7 +42,7 @@
     "@fastify/rate-limit": "9.0.1",
     "@fastify/sensible": "5.5.0",
     "@fastify/swagger": "8.12.1",
-    "@fastify/swagger-ui": "1.10.2",
+    "@fastify/swagger-ui": "2.0.1",
     "@hyperdx/node-opentelemetry": "0.3.3",
     "@opentelemetry/api": "1.7.0",
     "@opentelemetry/auto-instrumentations-node": "0.40.1",
