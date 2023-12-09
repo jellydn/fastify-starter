@@ -36,8 +36,8 @@ dependencies:
     specifier: 2.0.1
     version: 2.0.1
   '@hyperdx/node-opentelemetry':
-    specifier: 0.4.0
-    version: 0.4.0
+    specifier: 0.4.1
+    version: 0.4.1
   '@opentelemetry/api':
     specifier: 1.7.0
     version: 1.7.0
@@ -1782,8 +1782,8 @@ packages:
     resolution: {integrity: sha512-dvuCeX5fC9dXgJn9t+X5atfmgQAzUOWqS1254Gh0m6i8wKd10ebXkfNKiRK+1GWi/yTvvLDHpoxLr0xxxeslWw==}
     dev: true
 
-  /@hyperdx/node-logger@0.2.8:
-    resolution: {integrity: sha512-28XGm/tn7bORvHH69iouO6Uq6tEwYpMPH8PWc7ROje2RmUE0/Hlg/TfH0l2YJojb/hRbx/M6yP/Yn+J9AsOoCA==}
+  /@hyperdx/node-logger@0.2.9:
+    resolution: {integrity: sha512-5lYdM2APjMJMLkBXOFDJZwiv2zJSCW/e2AiLRDNnsK3G1J7lO6efeYIfMwMMAgYlHa5Ol7AgBu/2caN11qJgLA==}
     dependencies:
       '@nestjs/common': 9.4.3(reflect-metadata@0.1.13)(rxjs@7.8.1)
       axios: 0.27.2(debug@4.3.4)
@@ -1805,11 +1805,11 @@ packages:
       - supports-color
     dev: false
 
-  /@hyperdx/node-opentelemetry@0.4.0:
-    resolution: {integrity: sha512-qgUGeTJiXf7c8tpGkrOnH/563FPlbW4srRGBxbDv25skrmXUu6LHsIUWLYVPYA9e3Iem3ARXUzyCAPd0AimuEg==}
+  /@hyperdx/node-opentelemetry@0.4.1:
+    resolution: {integrity: sha512-PXkrXlZU+Ox9Gr/3+e7HiWJPbNDJy5mudSXs3eQ+uHal8a0rcLV1NkrFiXH638yQtPRYFV70VW/D5bfHDqRBXQ==}
     hasBin: true
     dependencies:
-      '@hyperdx/node-logger': 0.2.8
+      '@hyperdx/node-logger': 0.2.9
       '@opentelemetry/api': 1.7.0
       '@opentelemetry/auto-instrumentations-node': 0.37.1(@opentelemetry/api@1.7.0)
       '@opentelemetry/core': 1.15.2(@opentelemetry/api@1.7.0)
