@@ -47,7 +47,7 @@ void server.listen({
   host: process.env.SERVER_HOSTNAME ?? "127.0.0.1",
 });
 
-server.ready((err: Error) => {
+void server.ready((err) => {
   if (err) {
     server.log.error(err);
     process.exit(1);
