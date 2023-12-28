@@ -41,7 +41,7 @@
     "@fastify/multipart": "8.0.0",
     "@fastify/rate-limit": "9.0.1",
     "@fastify/sensible": "5.5.0",
-    "@fastify/swagger": "8.12.2",
+    "@fastify/swagger": "8.13.0",
     "@fastify/swagger-ui": "2.0.1",
     "@hyperdx/node-opentelemetry": "0.4.2",
     "@opentelemetry/api": "1.7.0",
