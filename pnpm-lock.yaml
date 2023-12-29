@@ -57,8 +57,8 @@ dependencies:
     specifier: 0.46.0
     version: 0.46.0(@opentelemetry/api@1.7.0)
   '@sinclair/typebox':
-    specifier: 0.32.3
-    version: 0.32.3
+    specifier: 0.32.4
+    version: 0.32.4
   altair-fastify-plugin:
     specifier: 6.1.0
     version: 6.1.0(fastify@4.25.2)
@@ -4520,8 +4520,8 @@ packages:
       - supports-color
     dev: true
 
-  /@sinclair/typebox@0.32.3:
-    resolution: {integrity: sha512-o1OzDySkCSEobAEAVS1SGrzznes9KqPOC3arGfH5rQhOIeokLQYLKQmy68lr979BmPr43v4m9d85ttUSRpHdFA==}
+  /@sinclair/typebox@0.32.4:
+    resolution: {integrity: sha512-Q2Pex6H+HGuyxIGuFadkpqwtjZFXiVZlvy1rVX9XgAzUrDmUDEM69M2c4CkWUgMJ1NaFPvUf+cMBljY96GJVNQ==}
     dev: false
 
   /@tapjs/after-each@1.1.17(@tapjs/core@1.4.6):
