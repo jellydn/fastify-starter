@@ -24,8 +24,8 @@ dependencies:
     specifier: 8.0.0
     version: 8.0.0
   '@fastify/rate-limit':
-    specifier: 9.0.1
-    version: 9.0.1
+    specifier: 9.1.0
+    version: 9.1.0
   '@fastify/sensible':
     specifier: 5.5.0
     version: 5.5.0
@@ -1191,8 +1191,8 @@ packages:
       - supports-color
     dev: false
 
-  /@fastify/rate-limit@9.0.1:
-    resolution: {integrity: sha512-BNKWtMHyJV+f3TUAQxWacq8dVfJLeTzBOthKpTpkYEBdBRY0cYn2UTPGpHglwZ84o0V+U7pS3wfO4mzF8eXFzg==}
+  /@fastify/rate-limit@9.1.0:
+    resolution: {integrity: sha512-h5dZWCkuZXN0PxwqaFQLxeln8/LNwQwH9popywmDCFdKfgpi4b/HoMH1lluy6P+30CG9yzzpSpwTCIPNB9T1JA==}
     dependencies:
       '@lukeed/ms': 2.0.2
       fastify-plugin: 4.5.1
