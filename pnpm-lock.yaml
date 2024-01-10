@@ -72,8 +72,8 @@ dependencies:
     specifier: 4.25.2
     version: 4.25.2
   fastify-cli:
-    specifier: 5.9.0
-    version: 5.9.0
+    specifier: 6.0.1
+    version: 6.0.1
   fastify-plugin:
     specifier: 4.5.1
     version: 4.5.1
@@ -6865,8 +6865,8 @@ packages:
   /fast-uri@2.3.0:
     resolution: {integrity: sha512-eel5UKGn369gGEWOqBShmFJWfq/xSJvsgDzgLYC845GneayWvXBf0lJCBn5qTABfewy1ZDPoaR5OZCP+kssfuw==}
 
-  /fastify-cli@5.9.0:
-    resolution: {integrity: sha512-CaIte5SwkLuvlzpdd1Al1VRVVwm2TQVV4bfVP4oz/Z54KVSo6pqNTgnxWOmyzdcNUbFnhJ3Z4vRjzvHoymP5cQ==}
+  /fastify-cli@6.0.1:
+    resolution: {integrity: sha512-iGN4ULaftZr1qR7OTOQT4tbsduneQWXeF85EUnMeYGmxo5PPfrJ/o9r+X7hMgdnUGCDu2STCYDlMKNYtYYGdgA==}
     hasBin: true
     dependencies:
       '@fastify/deepmerge': 1.3.0
