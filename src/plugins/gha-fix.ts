@@ -10,10 +10,10 @@ const ghaFixPlugin: FastifyPluginCallback = (fastify: FastifyInstance, _opts, do
     // Code block with potential error
     // Add the necessary code to fix the potential error
   
-    // Code block with potential error
+    // Call the done() function here
     done()
   } catch (error) {
-    console.log(error) // Log the error
+    console.error(error) // Log the error message and stack trace
   
     console.log(error) // Log the error
   }
