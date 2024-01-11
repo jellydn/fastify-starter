@@ -8,7 +8,6 @@ const ghaFixPlugin: FastifyPluginCallback = (fastify: FastifyInstance, _opts, do
   try {
     // Import the necessary modules for error handling and debugging
     const require = createRequire(import.meta.url);
-    const require = createRequire(import.meta.url);
     const { inspect } = require('util');
     
     // Add error handling and debugging to fix the failing GitHub Actions run
@@ -25,3 +24,6 @@ const ghaFixPlugin: FastifyPluginCallback = (fastify: FastifyInstance, _opts, do
 };
 
 export default ghaFixPlugin;
+const logError = (error) => {
+  console.error('Error:', inspect(error));
+};
