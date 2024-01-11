@@ -10,7 +10,7 @@ import { initSwagger } from "./swagger";
 import app from "./app";
 
 // Read the .env file.
-dotenv.config();
+dotenv.config({ path: '.env' });
 
 const isProduction = process.env.NODE_ENV === "production";
 // Instantiate Fastify with some config
@@ -47,7 +47,7 @@ void server.listen({
   host: process.env.SERVER_HOSTNAME ?? "127.0.0.1",
 });
 
-void server.ready((err) => {
+void server.ready((err: Error | undefined) => {
   if (err) {
     server.log.error(err);
     process.exit(1);
