@@ -1,7 +1,7 @@
 // src/plugins/gha-fix.ts
 
 import { FastifyInstance, FastifyPluginCallback } from "fastify";
-import { createRequire } from 'module';
+
 
 
 const ghaFixPlugin: FastifyPluginCallback = (fastify: FastifyInstance, _opts, done) => {
