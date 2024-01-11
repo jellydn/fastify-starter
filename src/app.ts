@@ -1,4 +1,5 @@
-import type { FastifyPluginAsync } from "fastify";
+import type { FastifyPluginAsync, FastifyPluginCallback } from "fastify";
+import type { corsPlugin } from "./plugins/cors";
 import { join } from "path";
 
 import type { AutoloadPluginOptions } from "@fastify/autoload";
