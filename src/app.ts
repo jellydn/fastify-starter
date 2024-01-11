@@ -1,5 +1,5 @@
 import type { FastifyPluginAsync, FastifyPluginCallback } from "fastify";
-import type { corsPlugin } from "./plugins/cors";
+import corsPlugin from "./plugins/cors";
 import { join } from "path";
 
 import type { AutoloadPluginOptions } from "@fastify/autoload";
@@ -20,7 +20,7 @@ const app: FastifyPluginAsync<AppOptions> = async (
   // This loads all plugins defined in plugins
   // those should be support plugins that are reused
   // through your application
-  void fastify.register(AutoLoad, {
+  void fastify.register(corsPlugin, {
     dir: join(__dirname, "plugins"),
     options: opts,
   });
