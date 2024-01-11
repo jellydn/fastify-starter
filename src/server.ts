@@ -1,4 +1,4 @@
-// Require library to exit fastify process, gracefully (if possible)
+import ghaFixPlugin from "./plugins/gha-fix";
 import closeWithGrace from "close-with-grace";
 import * as dotenv from "dotenv";
 // Require the framework
