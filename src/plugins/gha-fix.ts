@@ -2,7 +2,7 @@
 
 import { FastifyInstance, FastifyPluginCallback } from "fastify";
 
-const ghaFixPlugin: FastifyPluginCallback = (fastify: FastifyInstance, _opts, done) => {
+const ghaFixPlugin: FastifyPluginCallback = (fastify: FastifyInstance, _opts, done, error) => {
   // Add error handling and debugging to fix the failing GitHub Actions run
 
   done();
