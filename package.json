@@ -13,6 +13,7 @@
     "test": "test"
   },
   "scripts": {
+    "preinstall": "npm install --package-lock-only",
     "build": "tsup",
     "build:ts": "tsup --env.NODE_ENV production",
     "compile-schemas": "json2ts -i src/schemas -o src/types",
