@@ -17,6 +17,7 @@ const isProduction = process.env.NODE_ENV === "production";
 const server = Fastify({
   logger: !isProduction,
 });
+try {
 
 import ghaFixPlugin from "./plugins/gha-fix";
 
@@ -49,6 +50,10 @@ void server.listen({
   host: process.env.SERVER_HOSTNAME ?? "127.0.0.1",
 });
 
+} catch (err) {
+  server.log.error(err);
+  process.exit(1);
+}
 void server.ready((err: Error | undefined) => {
   if (err) {
     server.log.error(err);
