@@ -9,8 +9,8 @@ WORKDIR /app
 RUN apk --no-cache add git
 
 # Copy essential files
-COPY package.json pnpm-lock.yaml tsconfig.json ./
-COPY src src
+COPY package.json pnpm-lock.yaml tsconfig.json package-lock.json ./
+COPY package-lock.json ./
 
 # Install dependencies and build
 RUN npm install -g pnpm
