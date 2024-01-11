@@ -72,7 +72,7 @@ void server.ready((err: Error | undefined) => {
   }
 
   server.log.info(
-    "All routes loaded! Check your console for the route details.",
+    'Routes are being loaded.',
   );
 
   console.log(server.printRoutes());
