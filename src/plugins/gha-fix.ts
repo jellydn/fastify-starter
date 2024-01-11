@@ -8,7 +8,12 @@ const ghaFixPlugin: FastifyPluginCallback = (fastify: FastifyInstance, _opts, do
 
   try {
     // Add error handling and debugging code here
+    try {
     done()
+  } catch (error) {
+    fastify.log.error('Error occurred:', error)
+    done(error)
+  }
 } catch (error) {
     fastify.log.error('Error occurred:', error)
     done(error)
