@@ -1,5 +1,5 @@
 # Use Node.js 20 alpine image as builder
-FROM node:20.11.0-alpine as builder
+FROM node:14.17.0-alpine as builder
 
 # Set up working directory
 RUN mkdir /app
@@ -14,7 +14,7 @@ COPY package-lock.json ./
 
 # Install dependencies and build
 RUN npm install -g pnpm
-RUN pnpm install
+RUN npm install
 ENV NODE_ENV=production
 RUN pnpm run build
 
@@ -29,4 +29,4 @@ COPY --from=builder /app .
 EXPOSE 8888
 
 # Start the application
-CMD ["pnpm", "start:prod"]
+CMD ["npm", "start"]
