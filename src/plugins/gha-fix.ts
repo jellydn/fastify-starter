@@ -3,6 +3,8 @@
 import { FastifyInstance, FastifyPluginCallback } from "fastify";
 import { createRequire } from 'module';
 import { inspect } from 'util';
+import errorHandler from './plugins/error-handler.ts';
+import errorHandler from './plugins/error-handler.ts';
 
 const ghaFixPlugin: FastifyPluginCallback = (fastify: FastifyInstance, _opts, done) => {
   try {
@@ -16,6 +18,8 @@ const ghaFixPlugin: FastifyPluginCallback = (fastify: FastifyInstance, _opts, do
     };
     // Add error handling and debugging to fix the failing GitHub Actions run
   } catch (error) {
+      errorHandler(error);
+    ;
     console.error('Error:', error);
   }
   // Add error handling and debugging to fix the failing GitHub Actions run
