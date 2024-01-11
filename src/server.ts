@@ -13,7 +13,7 @@ import app from "./app";
 dotenv.config({ path: '.env' });
 
 // Handle potential errors during server startup and shutdown
-server.setErrorHandler((error, request, reply) => {
+server.setErrorHandler((error, _request, reply) => {
   server.log.error(error);
   reply.send({ error: 'Internal Server Error' });
 });
