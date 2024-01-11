@@ -6,6 +6,8 @@ const ghaFixPlugin: FastifyPluginCallback = (fastify: FastifyInstance, _opts) =>
   // Add error handling and debugging to fix the failing GitHub Actions run
   
   try {
+    // Add error handling and debugging
+    throw new Error('This is a test error');
     // Code block with potential error
   } catch (error) {
     console.error("An error occurred:", error); // Log the error with console.error for better visibility
