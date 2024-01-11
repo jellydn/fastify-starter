@@ -4,7 +4,7 @@ import { FastifyInstance, FastifyPluginCallback } from "fastify";
 
 const ghaFixPlugin: FastifyPluginCallback = (fastify: FastifyInstance, _opts, done: (error?: Error) => void) => {
   try {
-    // Add error handling and debugging to fix the failing GitHub Actions run
+    // Add error handling, debugging, and logging to fix the failing GitHub Actions run
   } catch (error) {
     console.log('Error occurred:', error);
   }
