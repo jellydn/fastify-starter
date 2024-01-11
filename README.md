@@ -119,6 +119,31 @@ We use GitHub Actions for continuous integration and deployment. Anything that g
 [![paypal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/dunghd)
 [![buymeacoffee](https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://www.buymeacoffee.com/dunghd)
 
-Give a ⭐️ if this project helped you!
+Give a ⭐️ if this project helped you! 
+
+## Deployment
+
+### Setting Up Environment Variables
+
+Follow these steps to set up the necessary environment variables for GitHub Actions:
+1. Open your GitHub repository.
+2. Go to the "Settings" tab and navigate to the "Secrets" section.
+3. Click on "New repository secret".
+4. Add a new secret with the name `FLY_API_TOKEN` and the value of your Fly API token.
+
+### Configuring the Deployment Process
+
+To configure the deployment process for GitHub Actions, follow these steps:
+1. Create a new GitHub Actions workflow file, or locate the existing one in the `.github/workflows` directory.
+2. Add the necessary workflow configuration for your deployment process.
+3. Use the `FLY_API_TOKEN` secret in your workflow to authenticate with Fly for deployment.
+
+### Troubleshooting GitHub Actions and Deployment
+
+If you encounter any issues with GitHub Actions or deployment, consider the following troubleshooting steps:
+- Check the GitHub Actions workflow file for errors and misconfigurations.
+- Verify that the necessary environment variables, including the `FLY_API_TOKEN`, are correctly set as repository secrets.
+- Review the error logs and actions output to identify specific deployment issues.
+- Consult the Fly documentation and community resources for assistance with Fly-specific deployment problems.
 
 [![Stargazers repo roster for @jellydn/fastify-starter](https://reporoster.com/stars/jellydn/fastify-starter)](https://github.com/jellydn/fastify-starter/stargazers)
