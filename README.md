@@ -81,7 +81,7 @@ Prior to your first deployment, you'll need to do a few things:
 
 - Sign up and log in to Fly
 
-  ```sh
+  ```bash
   fly auth signup
   ```
 
@@ -93,7 +93,10 @@ Prior to your first deployment, you'll need to do a few things:
 
 - Create a new [GitHub Repository](https://repo.new)
 
-- Add a `FLY_API_TOKEN` to your GitHub repo. To do this, go to your user settings on Fly and create a new [token](https://web.fly.io/user/personal_access_tokens/new), then add it to [your repo secrets](https://docs.github.com/en/actions/security-guides/encrypted-secrets) with the name `FLY_API_TOKEN`.
+- Add a `FLY_API_TOKEN` to your GitHub repo. To do this, follow the steps below:
+
+1. Go to your user settings on Fly and create a new [token](https://web.fly.io/user/personal_access_tokens/new)
+2. Add the token to [your repo secrets](https://docs.github.com/en/actions/security-guides/encrypted-secrets) with the name `FLY_API_TOKEN`.
 
 Now that every is set up you can commit and push your changes to your repo. Every commit to your `main` branch will trigger a deployment to your production environment.
 
