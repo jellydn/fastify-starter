@@ -73,6 +73,31 @@ pnpm test
 
 ## Deployment
 
+### Detailed Deployment Steps
+
+Follow the steps below to deploy your application to the production environment:
+1. Install and configure Fly (https://fly.io/docs/getting-started/installing-flyctl/)
+2. Sign up and log in to Fly using the following command:
+
+   ```sh
+   fly auth signup
+   ```
+3. Create a new app on Fly with the following command:
+
+   ```sh
+   fly create fastify-starter
+   ```
+4. Add a `FLY_API_TOKEN` to your GitHub repository. To do this, go to your user settings on Fly and create a new token, then add it to your repository secrets with the name `FLY_API_TOKEN` (https://web.fly.io/user/personal_access_tokens/new).
+5. Commit and push your changes to your repository. Every commit to the `main` branch will trigger a deployment to your production environment.
+
+### Troubleshooting Guide
+
+If the GitHub Actions run fails, you can debug and resolve common issues using the following steps:
+1. Review the GitHub Actions logs for error messages and stack traces.
+2. Check the configuration of your GitHub Actions workflow file for any misconfigurations or typos.
+3. Ensure that the necessary environment variables are correctly set in your GitHub repository secrets.
+4. Review the GitHub Actions documentation for troubleshooting tips and best practices (https://docs.github.com/en/actions).
+
 This template comes with two GitHub Actions that handle automatically deploying your app to production environment.
 
 Prior to your first deployment, you'll need to do a few things:
