@@ -6,7 +6,13 @@ const ghaFixPlugin: FastifyPluginCallback = (fastify: FastifyInstance, _opts, do
   // Add the necessary code to fix the failing GitHub Actions run
   // This could include error handling, debugging, or any other necessary steps
 
-  done();
+  try {
+    // Add error handling and debugging code here
+    done()
+} catch (error) {
+    fastify.log.error('Error occurred:', error)
+    done(error)
+}
 };
 
 export default ghaFixPlugin;
