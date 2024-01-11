@@ -12,6 +12,12 @@ import app from "./app";
 // Read the .env file.
 dotenv.config({ path: '.env' });
 
+// Handle potential errors during server startup and shutdown
+server.setErrorHandler((error, request, reply) => {
+  server.log.error(error);
+  reply.send({ error: 'Internal Server Error' });
+});
+
 const isProduction = process.env.NODE_ENV === "production";
 // Instantiate Fastify with some config
 const server = Fastify({
@@ -36,6 +42,16 @@ const closeListeners = closeWithGrace({ delay: 500 }, async (opts: any) => {
   }
 
   await server.close();
+});
+
+// Handle potential errors during server listen
+server.listen(Number(process.env.PORT ?? 3000), process.env.SERVER_HOSTNAME ?? '127.0.0.1', (err) => {
+  if (err) {
+    server.log.error(err);
+    process.exit(1);
+  }
+
+  server.log.info('Server listening on port ' + Number(process.env.PORT ?? 3000));
 });
 
 server.addHook("onClose", (_instance, done) => {
