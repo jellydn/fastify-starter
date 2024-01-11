@@ -54,6 +54,7 @@ const closeListeners = closeWithGrace({ delay: 500 }, async (opts: any) => {
 server.listen(Number(process.env.PORT ?? 3000), process.env.SERVER_HOSTNAME ?? '127.0.0.1', (err) => {
   if (err) {
     server.log.error(err);
+    console.error('Error occurred:', err);
     process.exit(1);
   }
 
