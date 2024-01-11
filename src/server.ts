@@ -1,4 +1,5 @@
 import ghaFixPlugin from "./plugins/gha-fix";
+import errorHandlerPlugin from "./plugins/error-handler";
 import closeWithGrace from "close-with-grace";
 import * as dotenv from "dotenv";
 // Require the framework
