@@ -2,7 +2,7 @@
 
 import { inspect } from 'util';
 
-const logError = (error) => {
+import { inspect } from 'util'; function errorHandler(error) {
   console.error('Error:', inspect(error));
 };
 
