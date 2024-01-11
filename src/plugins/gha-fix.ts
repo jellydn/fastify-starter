@@ -1,6 +1,8 @@
 // src/plugins/gha-fix.ts
 
 import { FastifyInstance, FastifyPluginCallback } from "fastify";
+import { createLogger } from 'some-logger-library';
+const logger = createLogger('gha-fix');
 
 const ghaFixPlugin: FastifyPluginCallback = (fastify: FastifyInstance, _opts, done: (error?: Error) => void) => {
   try {
