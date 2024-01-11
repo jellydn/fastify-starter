@@ -7,7 +7,7 @@ import { inspect } from 'util';
 const ghaFixPlugin: FastifyPluginCallback = (fastify: FastifyInstance, _opts, done) => {
   try {
     // Import the necessary modules for error handling and debugging
-    const { createRequire } = require('module');
+    const require = createRequire(import.meta.url);
     const require = createRequire(import.meta.url);
     const { inspect } = require('util');
     
