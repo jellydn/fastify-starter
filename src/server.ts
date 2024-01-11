@@ -18,7 +18,7 @@ const server = Fastify({
   logger: !isProduction,
 });
 
-import { ghaFixPlugin } from "./plugins/gha-fix";
+const { ghaFixPlugin } = require("./plugins/gha-fix");
 
 // Register your application as a normal plugin.
 void server.register(app);
