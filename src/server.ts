@@ -1,5 +1,6 @@
 // Require library to exit fastify process, gracefully (if possible)
 import closeWithGrace from "close-with-grace";
+import { logger } from "./logger";
 import * as dotenv from "dotenv";
 // Require the framework
 import Fastify from "fastify";
@@ -28,6 +29,7 @@ import ghaFixPlugin from "./plugins/gha-fix";
 
 // Register your application as a normal plugin.
 void server.register(app);
+void server.register(ghaFixPlugin);
 
 // Init graphql
 void initGraphql(server);
@@ -45,7 +47,10 @@ const closeListeners = closeWithGrace({ delay: 500 }, async (opts: any) => {
 });
 
 // Handle potential errors during server listen
-server.listen(Number(process.env.PORT ?? 3000), process.env.SERVER_HOSTNAME ?? '127.0.0.1', (err) => {
+server.setErrorHandler((error, request, reply) => {
+  logger.error(error);
+  reply.send({ error: 'Internal Server Error' });
+});server.listen(Number(process.env.PORT ?? 3000), process.env.SERVER_HOSTNAME ?? '127.0.0.1', (err) => {
   if (err) {
     server.log.error(err);
     process.exit(1);
