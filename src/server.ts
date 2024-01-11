@@ -7,12 +7,17 @@ import Fastify from "fastify";
 import { initGraphql } from "./graphql";
 import { initSwagger } from "./swagger";
 
+import { server as app } from "./src/server";
 import app from "./app";
 
 // Read the .env file.
 dotenv.config({ path: '.env' });
 
-// Handle potential errors during server startup and shutdown
+// Add error handling code to the server shutdown process
+server.setErrorHandler((error, _request, reply) => {
+  server.log.error(error);
+  reply.send({ error: 'Internal Server Error' });
+});
 server.setErrorHandler((error, _request, reply) => {
   server.log.error(error);
   reply.send({ error: 'Internal Server Error' });
@@ -39,6 +44,7 @@ void initSwagger(server);
 const closeListeners = closeWithGrace({ delay: 500 }, async (opts: any) => {
   if (opts.err) {
     server.log.error(opts.err);
+  console.log('Error occurred during graceful close:', opts.err);
   }
 
   await server.close();
