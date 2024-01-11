@@ -5,7 +5,8 @@ import * as debugModule from "debug";
 
 const ghaFixPlugin: FastifyPluginCallback = (fastify: FastifyInstance, _opts, done) => {
   try {
-  // Import necessary modules for error handling and debugging
+  import * as util from 'util';
+import * as debugModule from 'debug';
   // Add error handling and debugging to fix the failing GitHub Actions run
 fastify.log.error(`Error: ${error}`);
   const debug = debugModule('gha-fix');
