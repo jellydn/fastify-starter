@@ -42,8 +42,8 @@ kill_timeout = "5s"
 
   [[services.tcp_checks]]
     interval = "15s"
-    timeout = "2s"
-    grace_period = "1s"
+    timeout = "10s"
+    grace_period = "10s"
     restart_limit = 0
 
   [[services.http_checks]]
