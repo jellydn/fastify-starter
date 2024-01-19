@@ -57,8 +57,8 @@ dependencies:
     specifier: 0.47.0
     version: 0.47.0(@opentelemetry/api@1.7.0)
   '@sinclair/typebox':
-    specifier: 0.32.9
-    version: 0.32.9
+    specifier: 0.32.10
+    version: 0.32.10
   altair-fastify-plugin:
     specifier: 6.1.0
     version: 6.1.0(fastify@4.25.2)
@@ -66,8 +66,8 @@ dependencies:
     specifier: 1.2.0
     version: 1.2.0
   dotenv:
-    specifier: 16.3.1
-    version: 16.3.1
+    specifier: 16.3.2
+    version: 16.3.2
   fastify:
     specifier: 4.25.2
     version: 4.25.2
@@ -88,7 +88,7 @@ dependencies:
     version: 13.3.3(graphql@16.8.1)
   mercurius-codegen:
     specifier: 5.0.3
-    version: 5.0.3(fastify@4.25.2)(graphql@16.8.1)(mercurius@13.3.3)(prettier@3.2.3)
+    version: 5.0.3(fastify@4.25.2)(graphql@16.8.1)(mercurius@13.3.3)(prettier@3.2.4)
   mercurius-integration-testing:
     specifier: 8.1.1
     version: 8.1.1(fastify@4.25.2)(graphql@16.8.1)(mercurius@13.3.3)
@@ -105,7 +105,7 @@ devDependencies:
     version: 1.3.17(@tapjs/core@1.4.6)(@types/node@20.11.5)(react-dom@18.2.0)(react@18.2.0)
   '@trivago/prettier-plugin-sort-imports':
     specifier: 4.3.0
-    version: 4.3.0(prettier@3.2.3)
+    version: 4.3.0(prettier@3.2.4)
   '@types/busboy':
     specifier: 1.5.3
     version: 1.5.3
@@ -138,7 +138,7 @@ devDependencies:
     version: 8.56.0
   eslint-config-productsway:
     specifier: 1.3.1
-    version: 1.3.1(@typescript-eslint/eslint-plugin@6.19.0)(@typescript-eslint/parser@6.19.0)(eslint@8.56.0)(prettier@3.2.3)(typescript@5.3.3)
+    version: 1.3.1(@typescript-eslint/eslint-plugin@6.19.0)(@typescript-eslint/parser@6.19.0)(eslint@8.56.0)(prettier@3.2.4)(typescript@5.3.3)
   fast-json-stringify:
     specifier: 5.10.0
     version: 5.10.0
@@ -152,8 +152,8 @@ devDependencies:
     specifier: 15.2.0
     version: 15.2.0
   prettier:
-    specifier: 3.2.3
-    version: 3.2.3
+    specifier: 3.2.4
+    version: 3.2.4
   sort-package-json:
     specifier: 2.6.0
     version: 2.6.0
@@ -4520,8 +4520,8 @@ packages:
       '@sigstore/protobuf-specs': 0.2.1
     dev: true
 
-  /@sinclair/typebox@0.32.9:
-    resolution: {integrity: sha512-6oeJJPTIb0y3cs713HmXmXSx3WRWgid74KICYL9blOhNFuAcAB18dDWfATgcgzynfpF5xDzHGxEVbDYYr6nvgg==}
+  /@sinclair/typebox@0.32.10:
+    resolution: {integrity: sha512-CZwwK09fdC/uKPD/cCJbNBLPQww3gYl5bYu86cqfziPXTVatUGU/o+vqu84gDGuIDoQRIvCB0Uj0MvcgsCsb8g==}
     dev: false
 
   /@tapjs/after-each@1.1.17(@tapjs/core@1.4.6):
@@ -4888,7 +4888,7 @@ packages:
       '@tapjs/core': 1.4.6(@types/node@20.11.5)(react-dom@18.2.0)(react@18.2.0)
     dev: true
 
-  /@trivago/prettier-plugin-sort-imports@4.3.0(prettier@3.2.3):
+  /@trivago/prettier-plugin-sort-imports@4.3.0(prettier@3.2.4):
     resolution: {integrity: sha512-r3n0onD3BTOVUNPhR4lhVK4/pABGpbA7bW3eumZnYdKaHkf1qEC+Mag6DPbGNuuh0eG8AaYj+YqmVHSiGslaTQ==}
     peerDependencies:
       '@vue/compiler-sfc': 3.x
@@ -4903,7 +4903,7 @@ packages:
       '@babel/types': 7.17.0
       javascript-natural-sort: 0.7.1
       lodash: 4.17.21
-      prettier: 3.2.3
+      prettier: 3.2.4
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -5027,7 +5027,7 @@ packages:
     resolution: {integrity: sha512-ylSC9GhfRH7m1EUXBXofhgx4lUWmFeQDINW5oLuS+gxWdfUeW4zJdeVTYVkexEW+e2VUvlZR2kGnGGipAWR7kw==}
     deprecated: This is a stub types definition. dotenv provides its own type definitions, so you do not need this installed.
     dependencies:
-      dotenv: 16.3.1
+      dotenv: 16.3.2
     dev: true
 
   /@types/estree@1.0.5:
@@ -6455,8 +6455,8 @@ packages:
     engines: {node: '>=12'}
     dev: false
 
-  /dotenv@16.3.1:
-    resolution: {integrity: sha512-IPzF4w4/Rd94bA9imS68tZBaYyBWSCE47V1RGuMrB94iyTOIEwRmVL2x/4An+6mETpLrKJ5hQkB8W4kFAadeIQ==}
+  /dotenv@16.3.2:
+    resolution: {integrity: sha512-HTlk5nmhkm8F6JcdXvHIzaorzCoziNQT9mGxLPVXW8wJF1TiGSL60ZGB4gHWabHOaMmWmhvk2/lPHfnBiT78AQ==}
     engines: {node: '>=12'}
 
   /eastasianwidth@0.2.0:
@@ -6505,7 +6505,7 @@ packages:
     resolution: {integrity: sha512-gWMNrQ3dVHAZcCx7epiFwgXcyfBh4heD/6+OK3bEbke3uL+KqwYA9nUOwzJyRZh1cJOFcwdPuY1n0GKSFlSWAg==}
     dependencies:
       ajv: 8.12.0
-      dotenv: 16.3.1
+      dotenv: 16.3.2
       dotenv-expand: 10.0.0
     dev: false
 
@@ -6709,7 +6709,7 @@ packages:
       eslint: 8.56.0
     dev: true
 
-  /eslint-config-productsway@1.3.1(@typescript-eslint/eslint-plugin@6.19.0)(@typescript-eslint/parser@6.19.0)(eslint@8.56.0)(prettier@3.2.3)(typescript@5.3.3):
+  /eslint-config-productsway@1.3.1(@typescript-eslint/eslint-plugin@6.19.0)(@typescript-eslint/parser@6.19.0)(eslint@8.56.0)(prettier@3.2.4)(typescript@5.3.3):
     resolution: {integrity: sha512-8OYAmktcxBoUaZwWYpck4ciIeRr78MsK2vLeO8rbWlf2owAtRP9q1aM1CPI+1dPU7/SNZslTq2kDkzg44ZTweg==}
     engines: {node: '>=18'}
     peerDependencies:
@@ -6730,7 +6730,7 @@ packages:
       eslint-plugin-react: 7.33.2(eslint@8.56.0)
       eslint-plugin-react-hooks: 4.6.0(eslint@8.56.0)
       eslint-plugin-tsdoc: 0.2.17
-      prettier: 3.2.3
+      prettier: 3.2.4
     transitivePeerDependencies:
       - eslint-import-resolver-typescript
       - eslint-import-resolver-webpack
@@ -7149,7 +7149,7 @@ packages:
       chokidar: 3.5.3
       close-with-grace: 1.2.0
       commist: 3.2.0
-      dotenv: 16.3.1
+      dotenv: 16.3.2
       fastify: 4.25.2
       fastify-plugin: 4.5.1
       generify: 4.2.0
@@ -8747,7 +8747,7 @@ packages:
     engines: {node: '>=16.10'}
     dev: true
 
-  /mercurius-codegen@5.0.3(fastify@4.25.2)(graphql@16.8.1)(mercurius@13.3.3)(prettier@3.2.3):
+  /mercurius-codegen@5.0.3(fastify@4.25.2)(graphql@16.8.1)(mercurius@13.3.3)(prettier@3.2.4):
     resolution: {integrity: sha512-j3vEECuRU1Oxaftvolkq4fsXtBUXVfgq59B6STchLTwuQRgvzwAYUSEden9IplqFIEeRfPROaCaYw69lcds3Jg==}
     engines: {pnpm: '>=8.5.0'}
     peerDependencies:
@@ -8771,7 +8771,7 @@ packages:
       graphql: 16.8.1
       mercurius: 13.3.3(graphql@16.8.1)
       mkdirp: 2.1.6
-      prettier: 3.2.3
+      prettier: 3.2.4
     transitivePeerDependencies:
       - encoding
       - supports-color
@@ -9678,8 +9678,8 @@ packages:
     hasBin: true
     dev: true
 
-  /prettier@3.2.3:
-    resolution: {integrity: sha512-QNhUTBq+mqt1oH1dTfY3phOKNhcDdJkfttHI6u0kj7M2+c+7fmNKlgh2GhnHiqMcbxJ+a0j2igz/2jfl9QKLuw==}
+  /prettier@3.2.4:
+    resolution: {integrity: sha512-FWu1oLHKCrtpO1ypU6J0SbK2d9Ckwysq6bHj/uaCP26DxrPpppCLQRGVuqAxSTvhF00AcvDRyYrLNW7ocBhFFQ==}
     engines: {node: '>=14'}
     hasBin: true
 
