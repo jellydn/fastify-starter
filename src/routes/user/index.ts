@@ -69,3 +69,15 @@ const user: FastifyPluginAsync = async (fastify, _opts): Promise<void> => {
 };
 
 export default user;
+import { authenticate } from "../../services/authentication";
+
+interface AuthenticationResult {
+  success: boolean;
+  token?: string;
+}
+import { authenticate } from "../../services/authentication";
+
+interface AuthenticationResult {
+  success: boolean;
+  token?: string;
+}
