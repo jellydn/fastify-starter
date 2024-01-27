@@ -34,7 +34,7 @@
   },
   "dependencies": {
     "@fastify/autoload": "5.8.0",
-    "@fastify/cors": "8.5.0",
+    "@fastify/cors": "9.0.0",
     "@fastify/env": "4.3.0",
     "@fastify/etag": "5.1.0",
     "@fastify/helmet": "11.1.1",
