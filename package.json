@@ -70,7 +70,7 @@
     "@trivago/prettier-plugin-sort-imports": "4.3.0",
     "@types/busboy": "1.5.3",
     "@types/dotenv": "8.2.0",
-    "@types/node": "20.11.7",
+    "@types/node": "20.11.8",
     "@types/swagger-jsdoc": "6.0.4",
     "@types/tap": "15.0.11",
     "@typescript-eslint/eslint-plugin": "6.19.1",
@@ -91,7 +91,7 @@
     "tsx": "4.7.0",
     "typescript": "5.3.3"
   },
-  "packageManager": "pnpm@8.14.3",
+  "packageManager": "pnpm@8.15.0",
   "engines": {
     "node": ">=18.17.0"
   },
