@@ -82,7 +82,7 @@
     "fast-json-stringify": "5.10.0",
     "husky": "9.0.7",
     "json-schema-to-typescript": "13.1.2",
-    "lint-staged": "15.2.0",
+    "lint-staged": "15.2.1",
     "prettier": "3.2.4",
     "sort-package-json": "2.7.0",
     "tap": "18.7.0",
