@@ -88,7 +88,7 @@ dependencies:
     version: 13.3.3(graphql@16.8.1)
   mercurius-codegen:
     specifier: 5.0.3
-    version: 5.0.3(fastify@4.26.0)(graphql@16.8.1)(mercurius@13.3.3)(prettier@3.2.4)
+    version: 5.0.3(fastify@4.26.0)(graphql@16.8.1)(mercurius@13.3.3)(prettier@3.2.5)
   mercurius-integration-testing:
     specifier: 8.1.1
     version: 8.1.1(fastify@4.26.0)(graphql@16.8.1)(mercurius@13.3.3)
@@ -105,7 +105,7 @@ devDependencies:
     version: 1.4.0(@tapjs/core@1.5.0)(@types/node@20.11.16)(react-dom@18.2.0)(react@18.2.0)
   '@trivago/prettier-plugin-sort-imports':
     specifier: 4.3.0
-    version: 4.3.0(prettier@3.2.4)
+    version: 4.3.0(prettier@3.2.5)
   '@types/busboy':
     specifier: 1.5.3
     version: 1.5.3
@@ -138,7 +138,7 @@ devDependencies:
     version: 8.56.0
   eslint-config-productsway:
     specifier: 1.3.1
-    version: 1.3.1(@typescript-eslint/eslint-plugin@6.20.0)(@typescript-eslint/parser@6.20.0)(eslint@8.56.0)(prettier@3.2.4)(typescript@5.3.3)
+    version: 1.3.1(@typescript-eslint/eslint-plugin@6.20.0)(@typescript-eslint/parser@6.20.0)(eslint@8.56.0)(prettier@3.2.5)(typescript@5.3.3)
   fast-json-stringify:
     specifier: 5.11.1
     version: 5.11.1
@@ -152,8 +152,8 @@ devDependencies:
     specifier: 15.2.1
     version: 15.2.1
   prettier:
-    specifier: 3.2.4
-    version: 3.2.4
+    specifier: 3.2.5
+    version: 3.2.5
   sort-package-json:
     specifier: 2.7.0
     version: 2.7.0
@@ -4683,7 +4683,7 @@ packages:
       '@tapjs/core': 1.5.0(@types/node@20.11.16)(react-dom@18.2.0)(react@18.2.0)
     dev: true
 
-  /@trivago/prettier-plugin-sort-imports@4.3.0(prettier@3.2.4):
+  /@trivago/prettier-plugin-sort-imports@4.3.0(prettier@3.2.5):
     resolution: {integrity: sha512-r3n0onD3BTOVUNPhR4lhVK4/pABGpbA7bW3eumZnYdKaHkf1qEC+Mag6DPbGNuuh0eG8AaYj+YqmVHSiGslaTQ==}
     peerDependencies:
       '@vue/compiler-sfc': 3.x
@@ -4698,7 +4698,7 @@ packages:
       '@babel/types': 7.17.0
       javascript-natural-sort: 0.7.1
       lodash: 4.17.21
-      prettier: 3.2.4
+      prettier: 3.2.5
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -6517,7 +6517,7 @@ packages:
       eslint: 8.56.0
     dev: true
 
-  /eslint-config-productsway@1.3.1(@typescript-eslint/eslint-plugin@6.20.0)(@typescript-eslint/parser@6.20.0)(eslint@8.56.0)(prettier@3.2.4)(typescript@5.3.3):
+  /eslint-config-productsway@1.3.1(@typescript-eslint/eslint-plugin@6.20.0)(@typescript-eslint/parser@6.20.0)(eslint@8.56.0)(prettier@3.2.5)(typescript@5.3.3):
     resolution: {integrity: sha512-8OYAmktcxBoUaZwWYpck4ciIeRr78MsK2vLeO8rbWlf2owAtRP9q1aM1CPI+1dPU7/SNZslTq2kDkzg44ZTweg==}
     engines: {node: '>=18'}
     peerDependencies:
@@ -6538,7 +6538,7 @@ packages:
       eslint-plugin-react: 7.33.2(eslint@8.56.0)
       eslint-plugin-react-hooks: 4.6.0(eslint@8.56.0)
       eslint-plugin-tsdoc: 0.2.17
-      prettier: 3.2.4
+      prettier: 3.2.5
     transitivePeerDependencies:
       - eslint-import-resolver-typescript
       - eslint-import-resolver-webpack
@@ -8546,7 +8546,7 @@ packages:
     engines: {node: '>=16.10'}
     dev: true
 
-  /mercurius-codegen@5.0.3(fastify@4.26.0)(graphql@16.8.1)(mercurius@13.3.3)(prettier@3.2.4):
+  /mercurius-codegen@5.0.3(fastify@4.26.0)(graphql@16.8.1)(mercurius@13.3.3)(prettier@3.2.5):
     resolution: {integrity: sha512-j3vEECuRU1Oxaftvolkq4fsXtBUXVfgq59B6STchLTwuQRgvzwAYUSEden9IplqFIEeRfPROaCaYw69lcds3Jg==}
     engines: {pnpm: '>=8.5.0'}
     peerDependencies:
@@ -8570,7 +8570,7 @@ packages:
       graphql: 16.8.1
       mercurius: 13.3.3(graphql@16.8.1)
       mkdirp: 2.1.6
-      prettier: 3.2.4
+      prettier: 3.2.5
     transitivePeerDependencies:
       - encoding
       - supports-color
@@ -9477,8 +9477,8 @@ packages:
     hasBin: true
     dev: true
 
-  /prettier@3.2.4:
-    resolution: {integrity: sha512-FWu1oLHKCrtpO1ypU6J0SbK2d9Ckwysq6bHj/uaCP26DxrPpppCLQRGVuqAxSTvhF00AcvDRyYrLNW7ocBhFFQ==}
+  /prettier@3.2.5:
+    resolution: {integrity: sha512-3/GWa9aOC0YeD7LUfvOG2NiDyhOWRvt1k+rcKhOuYnMY24iiCphgneUfJDyFXd6rZCAnuLBv6UeAULtrhT/F4A==}
     engines: {node: '>=14'}
     hasBin: true
 
