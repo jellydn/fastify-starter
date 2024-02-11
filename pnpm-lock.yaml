@@ -60,14 +60,14 @@ dependencies:
     specifier: 0.32.13
     version: 0.32.13
   altair-fastify-plugin:
-    specifier: 6.2.0
-    version: 6.2.0(fastify@4.26.0)
+    specifier: 6.3.0
+    version: 6.3.0(fastify@4.26.0)
   close-with-grace:
     specifier: 1.2.0
     version: 1.2.0
   dotenv:
-    specifier: 16.4.1
-    version: 16.4.1
+    specifier: 16.4.2
+    version: 16.4.2
   fastify:
     specifier: 4.26.0
     version: 4.26.0
@@ -4809,7 +4809,7 @@ packages:
     resolution: {integrity: sha512-ylSC9GhfRH7m1EUXBXofhgx4lUWmFeQDINW5oLuS+gxWdfUeW4zJdeVTYVkexEW+e2VUvlZR2kGnGGipAWR7kw==}
     deprecated: This is a stub types definition. dotenv provides its own type definitions, so you do not need this installed.
     dependencies:
-      dotenv: 16.4.1
+      dotenv: 16.4.2
     dev: true
 
   /@types/estree@1.0.5:
@@ -5327,19 +5327,19 @@ packages:
       require-from-string: 2.0.2
       uri-js: 4.4.1
 
-  /altair-fastify-plugin@6.2.0(fastify@4.26.0):
-    resolution: {integrity: sha512-Q8lrUAZNAXwQ3hbssg3MsaVn6cG1p8S2j9VDsIMlv1jZ9A+mxBoA4GD6fFj2C9UXPp4yCjMbrD76gAY1D7nAEw==}
+  /altair-fastify-plugin@6.3.0(fastify@4.26.0):
+    resolution: {integrity: sha512-RpUVg6GZYvFN2oGHs2tFtasPQGlGAfGpfoG9NfO/dY7nvm+gE3Y/8C6k3PIijmlDRXJG7EOPczbUZQbcNcNfeQ==}
     peerDependencies:
       fastify: ^4.0.3
     dependencies:
       '@fastify/static': 6.12.0
-      altair-static: 6.2.0
+      altair-static: 6.3.0
       fastify: 4.26.0
       fastify-plugin: 2.3.4
     dev: false
 
-  /altair-static@6.2.0:
-    resolution: {integrity: sha512-F1fZitqi1hK4BFHnOAp8eHZde3LdV5/n2Rp0fchgVKeuslVj7olLYjk9IYJ4RyGSAxyb0+Iw/0CCH1/GZk0Urw==}
+  /altair-static@6.3.0:
+    resolution: {integrity: sha512-r9mAJW0BPlDWZPWB/Y9WvKSHwXxq1rx7NDI9Hf5km2/F+P8uf5dnI9OhEuyP+BfFdZu9QN6EeHEpfZJsNytNyQ==}
     engines: {node: '>= 6.9.1'}
     dev: false
 
@@ -6245,8 +6245,8 @@ packages:
     engines: {node: '>=12'}
     dev: false
 
-  /dotenv@16.4.1:
-    resolution: {integrity: sha512-CjA3y+Dr3FyFDOAMnxZEGtnW9KBR2M0JvvUtXNW+dYJL5ROWxP9DUHCwgFqpMk0OXCc0ljhaNTr2w/kutYIcHQ==}
+  /dotenv@16.4.2:
+    resolution: {integrity: sha512-rZSSFxke7d9nYQ5NeMIwp5PP+f8wXgKNljpOb7KtH6SKW1cEqcXAz9VSJYVLKe7Jhup/gUYOkaeSVyK8GJ+nBg==}
     engines: {node: '>=12'}
 
   /dset@3.1.3:
@@ -6300,7 +6300,7 @@ packages:
     resolution: {integrity: sha512-gWMNrQ3dVHAZcCx7epiFwgXcyfBh4heD/6+OK3bEbke3uL+KqwYA9nUOwzJyRZh1cJOFcwdPuY1n0GKSFlSWAg==}
     dependencies:
       ajv: 8.12.0
-      dotenv: 16.4.1
+      dotenv: 16.4.2
       dotenv-expand: 10.0.0
     dev: false
 
@@ -6949,7 +6949,7 @@ packages:
       chokidar: 3.5.3
       close-with-grace: 1.2.0
       commist: 3.2.0
-      dotenv: 16.4.1
+      dotenv: 16.4.2
       fastify: 4.26.0
       fastify-plugin: 4.5.1
       generify: 4.2.0
