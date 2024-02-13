@@ -66,8 +66,8 @@ dependencies:
     specifier: 1.2.0
     version: 1.2.0
   dotenv:
-    specifier: 16.4.3
-    version: 16.4.3
+    specifier: 16.4.4
+    version: 16.4.4
   fastify:
     specifier: 4.26.1
     version: 4.26.1
@@ -4809,7 +4809,7 @@ packages:
     resolution: {integrity: sha512-ylSC9GhfRH7m1EUXBXofhgx4lUWmFeQDINW5oLuS+gxWdfUeW4zJdeVTYVkexEW+e2VUvlZR2kGnGGipAWR7kw==}
     deprecated: This is a stub types definition. dotenv provides its own type definitions, so you do not need this installed.
     dependencies:
-      dotenv: 16.4.3
+      dotenv: 16.4.4
     dev: true
 
   /@types/estree@1.0.5:
@@ -6261,8 +6261,8 @@ packages:
     engines: {node: '>=12'}
     dev: false
 
-  /dotenv@16.4.3:
-    resolution: {integrity: sha512-II98GFrje5psQTSve0E7bnwMFybNLqT8Vu8JIFWRjsE3khyNUm/loZupuy5DVzG2IXf/ysxvrixYOQnM6mjD3A==}
+  /dotenv@16.4.4:
+    resolution: {integrity: sha512-XvPXc8XAQThSjAbY6cQ/9PcBXmFoWuw1sQ3b8HqUCR6ziGXjkTi//kB9SWa2UwqlgdAIuRqAa/9hVljzPehbYg==}
     engines: {node: '>=12'}
 
   /dset@3.1.3:
@@ -6316,7 +6316,7 @@ packages:
     resolution: {integrity: sha512-gWMNrQ3dVHAZcCx7epiFwgXcyfBh4heD/6+OK3bEbke3uL+KqwYA9nUOwzJyRZh1cJOFcwdPuY1n0GKSFlSWAg==}
     dependencies:
       ajv: 8.12.0
-      dotenv: 16.4.3
+      dotenv: 16.4.4
       dotenv-expand: 10.0.0
     dev: false
 
@@ -6971,7 +6971,7 @@ packages:
       chokidar: 3.6.0
       close-with-grace: 1.2.0
       commist: 3.2.0
-      dotenv: 16.4.3
+      dotenv: 16.4.4
       fastify: 4.26.1
       fastify-plugin: 4.5.1
       generify: 4.2.0
