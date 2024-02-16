@@ -1,5 +1,5 @@
 # Use Node.js 20 alpine image as builder
-FROM node:20.11.0-alpine as builder
+FROM node:20.11.1-alpine as builder
 
 # Set up working directory
 RUN mkdir /app
@@ -19,7 +19,7 @@ ENV NODE_ENV=production
 RUN pnpm run build
 
 # Set up the production image
-FROM node:20.11.0-alpine
+FROM node:20.11.1-alpine
 WORKDIR /app
 
 # Copy build output from builder
