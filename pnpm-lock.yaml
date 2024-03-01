@@ -57,8 +57,8 @@ dependencies:
     specifier: 0.49.1
     version: 0.49.1(@opentelemetry/api@1.8.0)
   '@sinclair/typebox':
-    specifier: 0.32.14
-    version: 0.32.14
+    specifier: 0.32.15
+    version: 0.32.15
   altair-fastify-plugin:
     specifier: 6.3.0
     version: 6.3.0(fastify@4.26.1)
@@ -4284,8 +4284,8 @@ packages:
       '@sigstore/protobuf-specs': 0.3.0
     dev: true
 
-  /@sinclair/typebox@0.32.14:
-    resolution: {integrity: sha512-EC77Mw8huT2z9YlYbWfpIQgN6shZE1tH4NP4/Trig8UBel9FZNMZRJ42ubJI8PLor2uIU+waLml1dce5ReCOPg==}
+  /@sinclair/typebox@0.32.15:
+    resolution: {integrity: sha512-5Lrwo7VOiWEBJBhHmqNmf3TPB9ll8gcEshvYJyAIJyCZ2PF48MFOtiDHJNj8+FsNcqImaQYmxVkKBCBlyAa/wg==}
     dev: false
 
   /@tapjs/after-each@1.1.18(@tapjs/core@1.5.0):
