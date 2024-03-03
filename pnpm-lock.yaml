@@ -61,7 +61,7 @@ dependencies:
     version: 0.32.15
   altair-fastify-plugin:
     specifier: 6.3.1
-    version: 6.3.1(fastify@4.26.1)
+    version: 6.3.1(fastify@4.26.2)
   close-with-grace:
     specifier: 1.3.0
     version: 1.3.0
@@ -69,8 +69,8 @@ dependencies:
     specifier: 16.4.5
     version: 16.4.5
   fastify:
-    specifier: 4.26.1
-    version: 4.26.1
+    specifier: 4.26.2
+    version: 4.26.2
   fastify-cli:
     specifier: 6.1.1
     version: 6.1.1
@@ -88,10 +88,10 @@ dependencies:
     version: 13.3.3(graphql@16.8.1)
   mercurius-codegen:
     specifier: 5.0.4
-    version: 5.0.4(fastify@4.26.1)(graphql@16.8.1)(mercurius@13.3.3)(prettier@3.2.5)
+    version: 5.0.4(fastify@4.26.2)(graphql@16.8.1)(mercurius@13.3.3)(prettier@3.2.5)
   mercurius-integration-testing:
     specifier: 8.1.1
-    version: 8.1.1(fastify@4.26.1)(graphql@16.8.1)(mercurius@13.3.3)
+    version: 8.1.1(fastify@4.26.2)(graphql@16.8.1)(mercurius@13.3.3)
   nexus:
     specifier: 1.3.0
     version: 1.3.0(graphql@16.8.1)
@@ -5224,14 +5224,14 @@ packages:
       require-from-string: 2.0.2
       uri-js: 4.4.1
 
-  /altair-fastify-plugin@6.3.1(fastify@4.26.1):
+  /altair-fastify-plugin@6.3.1(fastify@4.26.2):
     resolution: {integrity: sha512-bAYGJMbOdfDt6JDHMQKg5PJSyw5gP/7HmyeGz5uEaaTK0v8pZYtf0JGwb1idH70trrtC+mF22hrLxm0b9Y9wyA==}
     peerDependencies:
       fastify: ^4.0.3
     dependencies:
       '@fastify/static': 6.12.0
       altair-static: 6.3.1
-      fastify: 4.26.1
+      fastify: 4.26.2
       fastify-plugin: 2.3.4
     dev: false
 
@@ -6870,7 +6870,7 @@ packages:
       close-with-grace: 1.3.0
       commist: 3.2.0
       dotenv: 16.4.5
-      fastify: 4.26.1
+      fastify: 4.26.2
       fastify-plugin: 4.5.1
       generify: 4.2.0
       help-me: 4.2.0
@@ -6900,8 +6900,8 @@ packages:
     engines: {node: '>=18.0.0'}
     dev: false
 
-  /fastify@4.26.1:
-    resolution: {integrity: sha512-tznA/G55dsxzM5XChBfcvVSloG2ejeeotfPPJSFaWmHyCDVGMpvf3nRNbsCb/JTBF9RmQFBfuujWt3Nphjesng==}
+  /fastify@4.26.2:
+    resolution: {integrity: sha512-90pjTuPGrfVKtdpLeLzND5nyC4woXZN5VadiNQCicj/iJU4viNHKhsAnb7jmv1vu2IzkLXyBiCzdWuzeXgQ5Ug==}
     dependencies:
       '@fastify/ajv-compiler': 3.5.0
       '@fastify/error': 3.4.1
@@ -8389,7 +8389,7 @@ packages:
     engines: {node: '>=16.10'}
     dev: true
 
-  /mercurius-codegen@5.0.4(fastify@4.26.1)(graphql@16.8.1)(mercurius@13.3.3)(prettier@3.2.5):
+  /mercurius-codegen@5.0.4(fastify@4.26.2)(graphql@16.8.1)(mercurius@13.3.3)(prettier@3.2.5):
     resolution: {integrity: sha512-ssOO8XVZ8Zxstr3jwXkJrP4MBCDvdnk5QUJ9YYhOkvXvZtujWHDNOEh8QomdXg7HanzHO/MlwJJZPN7NBc4zJA==}
     engines: {pnpm: '>=8.15.0'}
     peerDependencies:
@@ -8409,7 +8409,7 @@ packages:
       '@graphql-tools/utils': 10.1.0(graphql@16.8.1)
       '@graphql-typed-document-node/core': 3.2.0(graphql@16.8.1)
       chokidar: 3.6.0
-      fastify: 4.26.1
+      fastify: 4.26.2
       graphql: 16.8.1
       mercurius: 13.3.3(graphql@16.8.1)
       mkdirp: 2.1.6
@@ -8419,7 +8419,7 @@ packages:
       - supports-color
     dev: false
 
-  /mercurius-integration-testing@8.1.1(fastify@4.26.1)(graphql@16.8.1)(mercurius@13.3.3):
+  /mercurius-integration-testing@8.1.1(fastify@4.26.2)(graphql@16.8.1)(mercurius@13.3.3):
     resolution: {integrity: sha512-JyyKGw4pXe+Hy8huDIMjIO1B0DIJkQDXuWX9+gtAQXKlwICQrTzUAfQGtqVMFypsvV8W15TUCxZraIqt01mFGg==}
     engines: {node: '>=14'}
     peerDependencies:
@@ -8436,7 +8436,7 @@ packages:
     dependencies:
       '@graphql-typed-document-node/core': 3.2.0(graphql@16.8.1)
       cookie: 0.5.0
-      fastify: 4.26.1
+      fastify: 4.26.2
       graphql: 16.8.1
       mercurius: 13.3.3(graphql@16.8.1)
       ws: 8.16.0
