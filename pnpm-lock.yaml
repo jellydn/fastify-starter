@@ -84,14 +84,14 @@ dependencies:
     specifier: 16.8.1
     version: 16.8.1
   mercurius:
-    specifier: 13.4.1
-    version: 13.4.1(graphql@16.8.1)
+    specifier: 14.0.0
+    version: 14.0.0(graphql@16.8.1)
   mercurius-codegen:
     specifier: 5.0.4
-    version: 5.0.4(fastify@4.26.2)(graphql@16.8.1)(mercurius@13.4.1)(prettier@3.2.5)
+    version: 5.0.4(fastify@4.26.2)(graphql@16.8.1)(mercurius@14.0.0)(prettier@3.2.5)
   mercurius-integration-testing:
     specifier: 8.1.1
-    version: 8.1.1(fastify@4.26.2)(graphql@16.8.1)(mercurius@13.4.1)
+    version: 8.1.1(fastify@4.26.2)(graphql@16.8.1)(mercurius@14.0.0)
   nexus:
     specifier: 1.3.0
     version: 1.3.0(graphql@16.8.1)
@@ -1266,9 +1266,10 @@ packages:
       - supports-color
     dev: false
 
-  /@fastify/websocket@8.3.1:
-    resolution: {integrity: sha512-hsQYHHJme/kvP3ZS4v/WMUznPBVeeQHHwAoMy1LiN6m/HuPfbdXq1MBJ4Nt8qX1YI+eVbog4MnOsU7MTozkwYA==}
+  /@fastify/websocket@10.0.1:
+    resolution: {integrity: sha512-8/pQIxTPRD8U94aILTeJ+2O3el/r19+Ej5z1O1mXlqplsUH7KzCjAI0sgd5DM/NoPjAi5qLFNIjgM5+9/rGSNw==}
     dependencies:
+      duplexify: 4.1.3
       fastify-plugin: 4.5.1
       ws: 8.16.0
     transitivePeerDependencies:
@@ -5954,6 +5955,15 @@ packages:
     engines: {node: '>=4'}
     dev: false
 
+  /duplexify@4.1.3:
+    resolution: {integrity: sha512-M3BmBhwJRZsSx38lZyhE53Csddgzl5R7xGJNk7CVddZD6CcmwMCH8J+7AprIrQKH7TonKxaCjcv27Qmf+sQ+oA==}
+    dependencies:
+      end-of-stream: 1.4.4
+      inherits: 2.0.4
+      readable-stream: 3.6.2
+      stream-shift: 1.0.3
+    dev: false
+
   /eastasianwidth@0.2.0:
     resolution: {integrity: sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==}
 
@@ -8258,7 +8268,7 @@ packages:
     engines: {node: '>=16.10'}
     dev: true
 
-  /mercurius-codegen@5.0.4(fastify@4.26.2)(graphql@16.8.1)(mercurius@13.4.1)(prettier@3.2.5):
+  /mercurius-codegen@5.0.4(fastify@4.26.2)(graphql@16.8.1)(mercurius@14.0.0)(prettier@3.2.5):
     resolution: {integrity: sha512-ssOO8XVZ8Zxstr3jwXkJrP4MBCDvdnk5QUJ9YYhOkvXvZtujWHDNOEh8QomdXg7HanzHO/MlwJJZPN7NBc4zJA==}
     engines: {pnpm: '>=8.15.0'}
     peerDependencies:
@@ -8280,7 +8290,7 @@ packages:
       chokidar: 3.6.0
       fastify: 4.26.2
       graphql: 16.8.1
-      mercurius: 13.4.1(graphql@16.8.1)
+      mercurius: 14.0.0(graphql@16.8.1)
       mkdirp: 2.1.6
       prettier: 3.2.5
     transitivePeerDependencies:
@@ -8288,7 +8298,7 @@ packages:
       - supports-color
     dev: false
 
-  /mercurius-integration-testing@8.1.1(fastify@4.26.2)(graphql@16.8.1)(mercurius@13.4.1):
+  /mercurius-integration-testing@8.1.1(fastify@4.26.2)(graphql@16.8.1)(mercurius@14.0.0):
     resolution: {integrity: sha512-JyyKGw4pXe+Hy8huDIMjIO1B0DIJkQDXuWX9+gtAQXKlwICQrTzUAfQGtqVMFypsvV8W15TUCxZraIqt01mFGg==}
     engines: {node: '>=14'}
     peerDependencies:
@@ -8307,22 +8317,22 @@ packages:
       cookie: 0.5.0
       fastify: 4.26.2
       graphql: 16.8.1
-      mercurius: 13.4.1(graphql@16.8.1)
+      mercurius: 14.0.0(graphql@16.8.1)
       ws: 8.16.0
     transitivePeerDependencies:
       - bufferutil
       - utf-8-validate
     dev: false
 
-  /mercurius@13.4.1(graphql@16.8.1):
-    resolution: {integrity: sha512-fN7nfkuq1iB/S5J4PxG9F4nKeEsdbIUCT2CPdKDEPQUzJ9voXIxM5Zwm086MHEsiBa80mE+pvxgodiVLRgaOGQ==}
+  /mercurius@14.0.0(graphql@16.8.1):
+    resolution: {integrity: sha512-eGqBuc8ZfnBbJDnnedZWx0mPJ2ZQZz2HLmPCxRdMa5RZnRP9Uxn4Ew1x1OQ49MvNbut9xfvHCXKlr8uI6GOyZg==}
     engines: {node: '>=14.19.3'}
     peerDependencies:
       graphql: ^16.0.0
     dependencies:
       '@fastify/error': 3.4.1
       '@fastify/static': 7.0.1
-      '@fastify/websocket': 8.3.1
+      '@fastify/websocket': 10.0.1
       fastify-plugin: 4.5.1
       graphql: 16.8.1
       graphql-jit: 0.8.4(graphql@16.8.1)
@@ -9927,6 +9937,10 @@ packages:
   /statuses@2.0.1:
     resolution: {integrity: sha512-RwNA9Z/7PrK06rYLIzFMlaF+l73iwpzsqRIFgbMLbTcLD6cOao82TaWefPXQvB2fOC4AjuYSEndS7N/mTCbkdQ==}
     engines: {node: '>= 0.8'}
+    dev: false
+
+  /stream-shift@1.0.3:
+    resolution: {integrity: sha512-76ORR0DO1o1hlKwTbi/DM3EXWGf3ZJYO8cXX5RJwnul2DEg2oyoZyjLNoQM8WsvZiFKCRfC1O0J7iCvie3RZmQ==}
     dev: false
 
   /stream-wormhole@1.1.0:
