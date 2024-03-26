@@ -1,56 +1,31 @@
-# fly.toml app configuration file generated for fastify-starter on 2023-07-19T23:25:24+08:00
+# fly.toml app configuration file generated for fastify-starter on 2024-03-26T21:05:45+08:00
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = "fastify-starter"
-primary_region = "sin"
-kill_signal = "SIGINT"
-kill_timeout = "5s"
-
-[experimental]
-  auto_rollback = true
-
-[deploy]
-  strategy = "bluegreen"
+app = 'fastify-starter'
+primary_region = 'sin'
 
 [build]
-  builder = "paketobuildpacks/builder:base"
-  buildpacks = ["gcr.io/paketo-buildpacks/nodejs"]
 
-[env]
-  NODE_ENV = "staging"
-  PORT = "8888"
-  SERVER_HOSTNAME = "0.0.0.0"
+[http_service]
+internal_port = 3000
+force_https = true
+auto_stop_machines = true
+auto_start_machines = true
+min_machines_running = 0
+processes = ['app']
 
-[[services]]
-  protocol = "tcp"
-  internal_port = 8888
-  processes = ["app"]
+[checks]
+[checks.api_health_check]
+grace_period = "30s"
+interval = "15s"
+method = "get"
+path = "/health/check"
+port = 3000
+timeout = "10s"
+type = "http"
 
-  [[services.ports]]
-    port = 80
-    handlers = ["http"]
 
-  [[services.ports]]
-    port = 443
-    handlers = ["tls", "http"]
-  [services.concurrency]
-    type = "connections"
-    hard_limit = 25
-    soft_limit = 20
-
-  [[services.tcp_checks]]
-    interval = "15s"
-    timeout = "2s"
-    grace_period = "1s"
-    restart_limit = 0
-
-  [[services.http_checks]]
-    interval = "10s"
-    timeout = "2s"
-    grace_period = "5s"
-    restart_limit = 0
-    method = "get"
-    path = "/health/check"
-    protocol = "http"
+[[vm]]
+size = 'shared-cpu-1x'

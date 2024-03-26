@@ -26,7 +26,11 @@ WORKDIR /app
 COPY --from=builder /app .
 
 # Expose port for health check with fly.io
-EXPOSE 8888
+EXPOSE 3000/tcp
+
+# Set SERVER_HOSTNAME environment variable
+ENV SERVER_HOSTNAME=0.0.0.0
+ENV PORT=3000
 
 # Start the application
-CMD ["pnpm", "start:prod"]
+CMD ["npm", "run", "start:prod"]
