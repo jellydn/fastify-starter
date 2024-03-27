@@ -66,7 +66,7 @@
     "swagger-jsdoc": "6.2.8"
   },
   "devDependencies": {
-    "@tapjs/test": "1.4.1",
+    "@tapjs/test": "1.4.2",
     "@trivago/prettier-plugin-sort-imports": "4.3.0",
     "@types/busboy": "1.5.3",
     "@types/dotenv": "8.2.0",
@@ -85,7 +85,7 @@
     "lint-staged": "15.2.2",
     "prettier": "3.2.5",
     "sort-package-json": "2.9.0",
-    "tap": "18.7.1",
+    "tap": "18.7.2",
     "ts-node": "10.9.2",
     "tsup": "8.0.2",
     "tsx": "4.7.1",
