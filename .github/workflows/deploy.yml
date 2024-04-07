@@ -32,7 +32,7 @@ jobs:
         run: pnpm typecheck
 
   lint:
-    name: ⬣ ESLint
+    name: ⬣ Lint
     runs-on: ubuntu-latest
     steps:
       - name: 🛑 Cancel Previous Runs

@@ -1,4 +1,4 @@
-import type { FastifyPluginAsync } from "fastify";
+import type { FastifyPluginAsync } from 'fastify'
 
 const example: FastifyPluginAsync = async (fastify, _opts): Promise<void> => {
   /**
@@ -18,9 +18,9 @@ const example: FastifyPluginAsync = async (fastify, _opts): Promise<void> => {
    *       200:
    *         description: hello world
    */
-  fastify.get("/", async (_request, reply) => {
-    void reply.send({ hello: "world" });
-  });
-};
+  fastify.get('/', async (_request, reply) => {
+    void reply.send({ hello: 'world' })
+  })
+}
 
-export default example;
+export default example

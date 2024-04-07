@@ -6,7 +6,7 @@
  */
 
 export interface LoginBodySchema {
-  username: string;
-  password: string;
-  [k: string]: unknown;
+  username: string
+  password: string
+  [k: string]: unknown
 }

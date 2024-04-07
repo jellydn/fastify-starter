@@ -1,7 +1,7 @@
-import fp from "fastify-plugin";
+import fp from 'fastify-plugin'
 
-import type { RateLimitOptions } from "@fastify/rate-limit";
-import rateLimit from "@fastify/rate-limit";
+import type { RateLimitOptions } from '@fastify/rate-limit'
+import rateLimit from '@fastify/rate-limit'
 
 /**
  * This plugins adds rate limiter for your routes.
@@ -13,11 +13,11 @@ export default fp<RateLimitOptions>(
     fastify,
     opts = {
       max: 100,
-      timeWindow: "1 minute",
-    }
+      timeWindow: '1 minute',
+    },
   ) => {
     await fastify.register(rateLimit, {
       ...opts,
-    });
-  }
-);
+    })
+  },
+)
