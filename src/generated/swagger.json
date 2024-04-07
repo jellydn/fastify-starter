@@ -9,9 +9,7 @@
   "paths": {
     "/example": {
       "get": {
-        "tags": [
-          "Example"
-        ],
+        "tags": ["Example"],
         "description": "Returns the hello world",
         "responses": {
           "200": {
@@ -22,9 +20,7 @@
     },
     "/user/login": {
       "post": {
-        "tags": [
-          "Users"
-        ],
+        "tags": ["Users"],
         "requestBody": {
           "description": "Login to the application",
           "content": {
@@ -39,10 +35,7 @@
                     "type": "string"
                   }
                 },
-                "required": [
-                  "username",
-                  "password"
-                ]
+                "required": ["username", "password"]
               }
             }
           }

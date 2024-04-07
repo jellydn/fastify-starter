@@ -71,6 +71,14 @@ Output:
 pnpm test
 ```
 
+## Pre-commit hooks
+
+This project uses [Pre-commit](https://pre-commit.com/) to enforce code quality. You can install it by running:
+
+```sh
+pre-commit install
+```
+
 ## Deployment
 
 This template comes with two GitHub Actions that handle automatically deploying your app to production environment.

@@ -1,7 +1,7 @@
-import fp from "fastify-plugin";
+import fp from 'fastify-plugin'
 
-import type { FastifyEtagOptions } from "@fastify/etag";
-import etag from "@fastify/etag";
+import type { FastifyEtagOptions } from '@fastify/etag'
+import etag from '@fastify/etag'
 
 /**
  * This plugins adds etag to your routes.
@@ -14,10 +14,10 @@ export default fp<FastifyEtagOptions>(
     opts = {
       // Generates weak ETags by default
       weak: false,
-    }
+    },
   ) => {
     await fastify.register(etag, {
       ...opts,
-    });
-  }
-);
+    })
+  },
+)

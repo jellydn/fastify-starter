@@ -1,13 +1,13 @@
-import { test } from "tap";
+import { test } from 'tap'
 
-import { build } from "../helper";
+import { build } from '../helper'
 
-void test("example is loaded", async (t) => {
-  const app = await build(t);
+void test('example is loaded', async (t) => {
+  const app = await build(t)
 
   const res = await app.inject({
-    url: "/example",
-  });
+    url: '/example',
+  })
 
-  t.equal(res.payload, '{"hello":"world"}');
-});
+  t.equal(res.payload, '{"hello":"world"}')
+})
