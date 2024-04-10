@@ -141,19 +141,19 @@ devDependencies:
     version: 2.10.0
   tap:
     specifier: 18.7.2
-    version: 18.7.2(@types/node@20.12.7)(react-dom@18.2.0)(react@18.2.0)(typescript@5.4.4)
+    version: 18.7.2(@types/node@20.12.7)(react-dom@18.2.0)(react@18.2.0)(typescript@5.4.5)
   ts-node:
     specifier: 10.9.2
-    version: 10.9.2(@types/node@20.12.7)(typescript@5.4.4)
+    version: 10.9.2(@types/node@20.12.7)(typescript@5.4.5)
   tsup:
     specifier: 8.0.2
-    version: 8.0.2(ts-node@10.9.2)(typescript@5.4.4)
+    version: 8.0.2(ts-node@10.9.2)(typescript@5.4.5)
   tsx:
     specifier: 4.7.2
     version: 4.7.2
   typescript:
-    specifier: 5.4.4
-    version: 5.4.4
+    specifier: 5.4.5
+    version: 5.4.5
 
 packages:
 
@@ -1662,7 +1662,7 @@ packages:
       v8-compile-cache-lib: 3.0.1
     dev: true
 
-  /@isaacs/ts-node-temp-fork-for-pr-2009@10.9.5(@types/node@20.12.7)(typescript@5.4.4):
+  /@isaacs/ts-node-temp-fork-for-pr-2009@10.9.5(@types/node@20.12.7)(typescript@5.4.5):
     resolution: {integrity: sha512-hEDlwpHhIabtB+Urku8muNMEkGui0LVGlYLS3KoB9QBDf0Pw3r7q0RrfoQmFuk8CvRpGzErO3/vLQd9Ys+/g4g==}
     hasBin: true
     peerDependencies:
@@ -1687,7 +1687,7 @@ packages:
       arg: 4.1.3
       diff: 4.0.2
       make-error: 1.3.6
-      typescript: 5.4.4
+      typescript: 5.4.5
       v8-compile-cache-lib: 3.0.1
     dev: true
 
@@ -4373,13 +4373,13 @@ packages:
       - typescript
     dev: true
 
-  /@tapjs/typescript@1.4.2(@tapjs/core@1.5.2)(@types/node@20.12.7)(typescript@5.4.4):
+  /@tapjs/typescript@1.4.2(@tapjs/core@1.5.2)(@types/node@20.12.7)(typescript@5.4.5):
     resolution: {integrity: sha512-JUSd3c+aly+xP0FLkcw/afYWGeobZ3//f12MUias5f0tLj7AaxpKePGyLeY1f0QvcuzPF/UKjk3BLd1Fh4u86g==}
     engines: {node: 16 >=16.17.0 || 18 >= 18.6.0 || >=20}
     peerDependencies:
       '@tapjs/core': 1.5.2
     dependencies:
-      '@isaacs/ts-node-temp-fork-for-pr-2009': 10.9.5(@types/node@20.12.7)(typescript@5.4.4)
+      '@isaacs/ts-node-temp-fork-for-pr-2009': 10.9.5(@types/node@20.12.7)(typescript@5.4.5)
       '@tapjs/core': 1.5.2(@types/node@20.12.7)(react-dom@18.2.0)(react@18.2.0)
     transitivePeerDependencies:
       - '@swc/core'
@@ -7689,7 +7689,7 @@ packages:
         optional: true
     dependencies:
       lilconfig: 3.1.1
-      ts-node: 10.9.2(@types/node@20.12.7)(typescript@5.4.4)
+      ts-node: 10.9.2(@types/node@20.12.7)(typescript@5.4.5)
       yaml: 2.4.1
     dev: true
 
@@ -8494,7 +8494,7 @@ packages:
       yaml-types: 0.3.0(yaml@2.4.1)
     dev: true
 
-  /tap@18.7.2(@types/node@20.12.7)(react-dom@18.2.0)(react@18.2.0)(typescript@5.4.4):
+  /tap@18.7.2(@types/node@20.12.7)(react-dom@18.2.0)(react@18.2.0)(typescript@5.4.5):
     resolution: {integrity: sha512-cGrB6laenHPOj3VaExITM54VjM9bR6fd0DK6Co9cm0/eJBog8XL05MX8TLxVPZSJtCu3nUESGjFhpATE8obxcw==}
     engines: {node: 16 >=16.17.0 || 18 >= 18.6.0 || >=20}
     hasBin: true
@@ -8515,7 +8515,7 @@ packages:
       '@tapjs/spawn': 1.1.20(@tapjs/core@1.5.2)
       '@tapjs/stdin': 1.1.20(@tapjs/core@1.5.2)
       '@tapjs/test': 1.4.2(@tapjs/core@1.5.2)(@types/node@20.12.7)(react-dom@18.2.0)(react@18.2.0)
-      '@tapjs/typescript': 1.4.2(@tapjs/core@1.5.2)(@types/node@20.12.7)(typescript@5.4.4)
+      '@tapjs/typescript': 1.4.2(@tapjs/core@1.5.2)(@types/node@20.12.7)(typescript@5.4.5)
       '@tapjs/worker': 1.1.20(@tapjs/core@1.5.2)
       resolve-import: 1.4.5
     transitivePeerDependencies:
@@ -8660,7 +8660,7 @@ packages:
     resolution: {integrity: sha512-Y/arvbn+rrz3JCKl9C4kVNfTfSm2/mEp5FSz5EsZSANGPSlQrpRI5M4PKF+mJnE52jOO90PnPSc3Ur3bTQw0gA==}
     dev: true
 
-  /ts-node@10.9.2(@types/node@20.12.7)(typescript@5.4.4):
+  /ts-node@10.9.2(@types/node@20.12.7)(typescript@5.4.5):
     resolution: {integrity: sha512-f0FFpIdcHgn8zcPSbf1dRevwt047YMnaiJM3u2w2RewrB+fob/zePZcrOyQoLMMO7aBIddLcQIEK5dYjkLnGrQ==}
     hasBin: true
     peerDependencies:
@@ -8686,7 +8686,7 @@ packages:
       create-require: 1.1.1
       diff: 4.0.2
       make-error: 1.3.6
-      typescript: 5.4.4
+      typescript: 5.4.5
       v8-compile-cache-lib: 3.0.1
       yn: 3.1.1
     dev: true
@@ -8715,7 +8715,7 @@ packages:
     resolution: {integrity: sha512-AEYxH93jGFPn/a2iVAwW87VuUIkR1FVUKB77NwMF7nBTDkDrrT/Hpt/IrCJ0QXhW27jTBDcf5ZY7w6RiqTMw2Q==}
     dev: false
 
-  /tsup@8.0.2(ts-node@10.9.2)(typescript@5.4.4):
+  /tsup@8.0.2(ts-node@10.9.2)(typescript@5.4.5):
     resolution: {integrity: sha512-NY8xtQXdH7hDUAZwcQdY/Vzlw9johQsaqf7iwZ6g1DOUlFYQ5/AtVAjTvihhEyeRlGo4dLRVHtrRaL35M1daqQ==}
     engines: {node: '>=18'}
     hasBin: true
@@ -8748,7 +8748,7 @@ packages:
       source-map: 0.8.0-beta.0
       sucrase: 3.35.0
       tree-kill: 1.2.2
-      typescript: 5.4.4
+      typescript: 5.4.5
     transitivePeerDependencies:
       - supports-color
       - ts-node
@@ -8799,8 +8799,8 @@ packages:
     hasBin: true
     dev: true
 
-  /typescript@5.4.4:
-    resolution: {integrity: sha512-dGE2Vv8cpVvw28v8HCPqyb08EzbBURxDpuhJvTrusShUfGnhHBafDsLdS1EhhxyL6BJQE+2cT3dDPAv+MQ6oLw==}
+  /typescript@5.4.5:
+    resolution: {integrity: sha512-vcI4UpRgg81oIRUFwR0WSIHKt11nJ7SAVlYNIu+QpqeyXP+gpQJy/Z4+F0aGxSE4MqwjyXvW/TzgkLAx2AGHwQ==}
     engines: {node: '>=14.17'}
     hasBin: true
     dev: true
