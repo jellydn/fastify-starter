@@ -6,9 +6,8 @@ import { app } from '../../src/server'
 void test('hello query', async (t) => {
   t.plan(1)
 
-  const client = createMercuriusTestClient(app)
-
-  const response = await client.query(
+  const testClient = createMercuriusTestClient(app)
+  const response = await testClient.query(
     `query {
     hello
    }`,
