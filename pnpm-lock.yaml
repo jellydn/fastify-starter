@@ -130,8 +130,8 @@ importers:
         specifier: 7.0.3
         version: 7.0.3
       fast-json-stringify:
-        specifier: 5.15.1
-        version: 5.15.1
+        specifier: 5.16.0
+        version: 5.16.0
       husky:
         specifier: 9.0.11
         version: 9.0.11
@@ -2497,8 +2497,8 @@ packages:
     resolution: {integrity: sha512-oX2ruAFQwf/Orj8m737Y5adxDQO0LAB7/S5MnxCdTNDd4p6BsyIVsv9JQsATbTSq8KHRpLwIHbVlUNatxd+1Ow==}
     engines: {node: '>=8.6.0'}
 
-  fast-json-stringify@5.15.1:
-    resolution: {integrity: sha512-JopGtkvvguRqrS4gHXSSA2jf4pDgOZkeBAkLO1LbzOpiOMo7/kugoR+KiWifpLpluaVeYDkAuxCJOj4Gyc6L9A==}
+  fast-json-stringify@5.16.0:
+    resolution: {integrity: sha512-A4bg6E15QrkuVO3f0SwIASgzMzR6XC4qTyTqhf3hYXy0iazbAdZKwkE+ox4WgzKyzM6ygvbdq3r134UjOaaAnA==}
 
   fast-querystring@1.1.2:
     resolution: {integrity: sha512-g6KuKWmFXc0fID8WWH0jit4g0AGBoJhCkJMb1RmbsSEUNvQ+ZC8D6CUZ+GtF8nMzSPXnhiePyyqqipzNNEnHjg==}
@@ -4956,7 +4956,7 @@ snapshots:
 
   '@fastify/fast-json-stringify-compiler@4.3.0':
     dependencies:
-      fast-json-stringify: 5.15.1
+      fast-json-stringify: 5.16.0
 
   '@fastify/helmet@11.1.1':
     dependencies:
@@ -7146,7 +7146,7 @@ snapshots:
       merge2: 1.4.1
       micromatch: 4.0.5
 
-  fast-json-stringify@5.15.1:
+  fast-json-stringify@5.16.0:
     dependencies:
       '@fastify/merge-json-schemas': 0.1.1
       ajv: 8.13.0
@@ -7204,7 +7204,7 @@ snapshots:
       abstract-logging: 2.0.1
       avvio: 8.3.0
       fast-content-type-parse: 1.1.0
-      fast-json-stringify: 5.15.1
+      fast-json-stringify: 5.16.0
       find-my-way: 8.2.0
       light-my-request: 5.13.0
       pino: 9.1.0
@@ -7424,7 +7424,7 @@ snapshots:
   graphql-jit@0.8.4(graphql@16.8.1):
     dependencies:
       '@graphql-typed-document-node/core': 3.2.0(graphql@16.8.1)
-      fast-json-stringify: 5.15.1
+      fast-json-stringify: 5.16.0
       generate-function: 2.3.1
       graphql: 16.8.1
       lodash.memoize: 4.1.2
