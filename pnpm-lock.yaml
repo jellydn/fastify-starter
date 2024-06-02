@@ -136,8 +136,8 @@ importers:
         specifier: 9.0.11
         version: 9.0.11
       json-schema-to-typescript:
-        specifier: 14.0.4
-        version: 14.0.4
+        specifier: 14.0.5
+        version: 14.0.5
       sort-package-json:
         specifier: 2.10.0
         version: 2.10.0
@@ -2965,8 +2965,8 @@ packages:
     resolution: {integrity: sha512-pJ4XLQP4Q9HTxl6RVDLJ8Cyh1uitSs0CzDBAz1uoJ4sRD/Bk7cFSXL1FUXDW3zJ7YnfliJx6eu8Jn283bpZ4Yg==}
     engines: {node: '>=10'}
 
-  json-schema-to-typescript@14.0.4:
-    resolution: {integrity: sha512-covPOp3hrbD+oEcMvDxP5Rh6xNZj7lOTZkXAeQoDyu1PuEl1A6oRZ3Sy05HN11vXXmdJ6gLh5P3Qz0mgMPTzzw==}
+  json-schema-to-typescript@14.0.5:
+    resolution: {integrity: sha512-JmHsbgY0KKo8Pw0HRXpGzAlZYxlu+M5kFhSzhNkUSrVJ4sCXPdAGIdSpzva5ev2/Kybz10S6AfnNdF4o3Pzt3A==}
     engines: {node: '>=16.0.0'}
     hasBin: true
 
@@ -7652,7 +7652,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  json-schema-to-typescript@14.0.4:
+  json-schema-to-typescript@14.0.5:
     dependencies:
       '@apidevtools/json-schema-ref-parser': 11.6.2
       '@types/json-schema': 7.0.15
