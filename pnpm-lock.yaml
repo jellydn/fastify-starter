@@ -24,8 +24,8 @@ importers:
         specifier: 11.1.1
         version: 11.1.1
       '@fastify/multipart':
-        specifier: 8.2.0
-        version: 8.2.0
+        specifier: 8.3.0
+        version: 8.3.0
       '@fastify/rate-limit':
         specifier: 9.1.0
         version: 9.1.0
@@ -151,8 +151,8 @@ importers:
         specifier: 8.1.0
         version: 8.1.0(ts-node@10.9.2(@types/node@20.14.2)(typescript@5.4.5))(typescript@5.4.5)
       tsx:
-        specifier: 4.12.0
-        version: 4.12.0
+        specifier: 4.13.2
+        version: 4.13.2
       typescript:
         specifier: 5.4.5
         version: 5.4.5
@@ -852,8 +852,8 @@ packages:
   '@fastify/merge-json-schemas@0.1.1':
     resolution: {integrity: sha512-fERDVz7topgNjtXsJTTW1JKLy0rhuLRcquYqNR9rF7OcVpCa2OVW49ZPDIhaRRCaUuvVxI+N416xUoF76HNSXA==}
 
-  '@fastify/multipart@8.2.0':
-    resolution: {integrity: sha512-OZ8nsyyoS2TV7Yeu3ZdrdDGsKUTAbfjrKC9jSxGgT2qdgek+BxpWX31ZubTrWMNZyU5xwk4ox6AvTjAbYWjrWg==}
+  '@fastify/multipart@8.3.0':
+    resolution: {integrity: sha512-A8h80TTyqUzaMVH0Cr9Qcm6RxSkVqmhK/MVBYHYeRRSUbUYv08WecjWKSlG2aSnD4aGI841pVxAjC+G1GafUeQ==}
 
   '@fastify/rate-limit@9.1.0':
     resolution: {integrity: sha512-h5dZWCkuZXN0PxwqaFQLxeln8/LNwQwH9popywmDCFdKfgpi4b/HoMH1lluy6P+30CG9yzzpSpwTCIPNB9T1JA==}
@@ -4513,8 +4513,8 @@ packages:
       typescript:
         optional: true
 
-  tsx@4.12.0:
-    resolution: {integrity: sha512-642NAWAbDqPZINjmL32Lh/B+pd8vbVj6LHPsWm09IIHqQuWhCrNfcPTjRlHFWvv3FfM4vt9NLReBIjUNj5ZhDg==}
+  tsx@4.13.2:
+    resolution: {integrity: sha512-s+WGqChkA77uU8xij1IdO9jQnwJAiWJto0bF5yJLbAZpLtNs82Qa5CwMBxWjJ7QOYU9MzBf4MCNt6lZduwkQ+g==}
     engines: {node: '>=18.0.0'}
     hasBin: true
 
@@ -5359,7 +5359,7 @@ snapshots:
     dependencies:
       fast-deep-equal: 3.1.3
 
-  '@fastify/multipart@8.2.0':
+  '@fastify/multipart@8.3.0':
     dependencies:
       '@fastify/busboy': 2.1.1
       '@fastify/deepmerge': 1.3.0
@@ -9932,7 +9932,7 @@ snapshots:
       - supports-color
       - ts-node
 
-  tsx@4.12.0:
+  tsx@4.13.2:
     dependencies:
       esbuild: 0.20.2
       get-tsconfig: 4.7.5
