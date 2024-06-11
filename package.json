@@ -39,7 +39,7 @@
     "@fastify/swagger-ui": "3.1.0",
     "@hyperdx/node-opentelemetry": "0.7.0",
     "@opentelemetry/api": "1.9.0",
-    "@opentelemetry/auto-instrumentations-node": "0.47.0",
+    "@opentelemetry/auto-instrumentations-node": "0.47.1",
     "@opentelemetry/exporter-metrics-otlp-proto": "0.52.0",
     "@opentelemetry/exporter-trace-otlp-proto": "0.52.0",
     "@opentelemetry/sdk-metrics": "1.25.0",
@@ -60,8 +60,8 @@
     "swagger-jsdoc": "6.2.8"
   },
   "devDependencies": {
-    "@biomejs/biome": "1.8.0",
-    "@tapjs/test": "2.2.2",
+    "@biomejs/biome": "1.8.1",
+    "@tapjs/test": "2.2.3",
     "@types/busboy": "1.5.4",
     "@types/dotenv": "8.2.0",
     "@types/node": "20.14.2",
@@ -73,13 +73,13 @@
     "husky": "9.0.11",
     "json-schema-to-typescript": "14.0.5",
     "sort-package-json": "2.10.0",
-    "tap": "19.2.3",
+    "tap": "19.2.4",
     "ts-node": "10.9.2",
     "tsup": "8.1.0",
-    "tsx": "4.15.1",
+    "tsx": "4.15.2",
     "typescript": "5.4.5"
   },
-  "packageManager": "pnpm@9.2.0",
+  "packageManager": "pnpm@9.3.0",
   "engines": {
     "node": ">=18.17.0"
   },
