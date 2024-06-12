@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@fastify/autoload':
-        specifier: 5.8.3
-        version: 5.8.3
+        specifier: 5.9.0
+        version: 5.9.0
       '@fastify/cors':
         specifier: 9.0.1
         version: 9.0.1
@@ -75,8 +75,8 @@ importers:
         specifier: 4.27.0
         version: 4.27.0
       fastify-cli:
-        specifier: 6.1.1
-        version: 6.1.1
+        specifier: 6.2.1
+        version: 6.2.1
       fastify-plugin:
         specifier: 4.5.1
         version: 4.5.1
@@ -683,8 +683,8 @@ packages:
   '@fastify/ajv-compiler@3.5.0':
     resolution: {integrity: sha512-ebbEtlI7dxXF5ziNdr05mOY8NnDiPB1XvAlLHctRt/Rc+C3LCOVW5imUVX+mhvUhnNzmPBHewUkOFgGlCxgdAA==}
 
-  '@fastify/autoload@5.8.3':
-    resolution: {integrity: sha512-QR/bd/4EfGwWfk/3kmG8vj2iIXjoDt71AlYVujjJWYBjBh7oIFvxmT25jeVxkIK1ttmM3ycwsWwpg2MLObb54g==}
+  '@fastify/autoload@5.9.0':
+    resolution: {integrity: sha512-EM/2QKQW2oym0gwuPjhculnqbpqu0mWblxRJvYMTvb7SVRGWBh/SFWTtrNAb46fYIOirJUH95mc+dhYuFq99pg==}
 
   '@fastify/busboy@2.1.1':
     resolution: {integrity: sha512-vBZP4NlzfOlerQTnba4aqZoMhE/a9HY7HRqoOPaETQcSQuWEIyZMHGfVu6w9wGtGK5fED5qRs2DteVCjOH60sA==}
@@ -2747,8 +2747,8 @@ packages:
   fast-uri@2.3.1:
     resolution: {integrity: sha512-iC7SLdMJx2KGdBkhJ6UulbNfpeIGTMS3/OIJpPa1JkZu9DKVQmPtBBme9Esoa4XP2eLGaHBv4vzRqlolXKo9cg==}
 
-  fastify-cli@6.1.1:
-    resolution: {integrity: sha512-3TinVuHxcEOhwjRLoE9rTeH1IXa73B5fS21amNyTgF2kOnC72sHzp1p6y2RsbPES1NGf2A7+4S11jbfdTOchVQ==}
+  fastify-cli@6.2.1:
+    resolution: {integrity: sha512-i8CJZWD/5P0Vfx0HPLw7XMA7cyaYQDrKehWIUxmcueJsnd5KNsX6TTVn997dOiQvlmDU33di0AoBLDBf8zxBoA==}
     hasBin: true
 
   fastify-plugin@2.3.4:
@@ -3326,9 +3326,6 @@ packages:
     resolution: {integrity: sha512-cKTUFc/rbKUd/9meOvgrpJ2WrNzymt6jfRDdwg5UCnVzv9dTpEj9JS5m3wtziXVCjluIXyL8pcaukYqezIzZQA==}
     engines: {node: ^16.14.0 || >=18.0.0}
 
-  make-promises-safe@5.1.0:
-    resolution: {integrity: sha512-AfdZ49rtyhQR/6cqVKGoH7y4ql7XkS5HJI1lZm0/5N6CQosy1eYbBJ/qbhkKHzo17UH7M918Bysf6XB9f3kS1g==}
-
   makeerror@1.0.12:
     resolution: {integrity: sha512-JmqCvUhmt43madlpFzG4BQzG2Z3m6tvQDNKdClZnO3VbIudJYmxsT0FNJMeiB2+JTSlTQTSbU8QdesVmwJcmLg==}
 
@@ -3745,8 +3742,8 @@ packages:
   pino-abstract-transport@1.2.0:
     resolution: {integrity: sha512-Guhh8EZfPCfH+PMXAb6rKOjGQEoy0xlAIn+irODG5kgfYV+BQ0rGYYWTIel3P5mmyXqkYkPmdIkywsn6QKUR1Q==}
 
-  pino-pretty@10.3.1:
-    resolution: {integrity: sha512-az8JbIYeN/1iLj2t0jR9DV48/LQ3RC6hZPpapKPkb84Q+yTidMCpgWxIT3N0flnBDilyBQ1luWNpOeJptjdp/g==}
+  pino-pretty@11.2.1:
+    resolution: {integrity: sha512-O05NuD9tkRasFRWVaF/uHLOvoRDFD7tb5VMertr78rbsYFjYp48Vg3477EshVAF5eZaEw+OpDl/tu+B0R5o+7g==}
     hasBin: true
 
   pino-std-serializers@7.0.0:
@@ -4089,9 +4086,6 @@ packages:
   socks@2.8.3:
     resolution: {integrity: sha512-l5x7VUUWbjVFbafGLxPWkYsHIhEvmF85tbIeFZWc8ZPtoMyybuEhL7Jye/ooC4/d48FgOjSJXgsF/AJPYCW8Zw==}
     engines: {node: '>= 10.0.0', npm: '>= 3.0.0'}
-
-  sonic-boom@3.8.1:
-    resolution: {integrity: sha512-y4Z8LCDBuum+PBP3lSV7RHrXscqksve/bi0as7mhwVnBW+/wUqKT/2Kb7um8yqcFy0duYbbPxzt89Zy2nOCaxg==}
 
   sonic-boom@4.0.1:
     resolution: {integrity: sha512-hTSD/6JMLyT4r9zeof6UtuBDpjJ9sO08/nmS5djaA9eozT9oOlNdpXSnzcgj4FTqpk3nkLrs61l4gip9r1HCrQ==}
@@ -5123,7 +5117,7 @@ snapshots:
       ajv-formats: 2.1.1(ajv@8.16.0)
       fast-uri: 2.3.1
 
-  '@fastify/autoload@5.8.3': {}
+  '@fastify/autoload@5.9.0': {}
 
   '@fastify/busboy@2.1.1': {}
 
@@ -7899,7 +7893,7 @@ snapshots:
 
   fast-uri@2.3.1: {}
 
-  fastify-cli@6.1.1:
+  fastify-cli@6.2.1:
     dependencies:
       '@fastify/deepmerge': 1.3.0
       chalk: 4.1.2
@@ -7912,8 +7906,7 @@ snapshots:
       generify: 4.2.0
       help-me: 4.2.0
       is-docker: 2.2.1
-      make-promises-safe: 5.1.0
-      pino-pretty: 10.3.1
+      pino-pretty: 11.2.1
       pkg-up: 3.1.0
       resolve-from: 5.0.0
       semver: 7.6.2
@@ -8546,8 +8539,6 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  make-promises-safe@5.1.0: {}
-
   makeerror@1.0.12:
     dependencies:
       tmpl: 1.0.5
@@ -8993,7 +8984,7 @@ snapshots:
       readable-stream: 4.5.2
       split2: 4.2.0
 
-  pino-pretty@10.3.1:
+  pino-pretty@11.2.1:
     dependencies:
       colorette: 2.0.20
       dateformat: 4.6.3
@@ -9007,7 +8998,7 @@ snapshots:
       pump: 3.0.0
       readable-stream: 4.5.2
       secure-json-parse: 2.7.0
-      sonic-boom: 3.8.1
+      sonic-boom: 4.0.1
       strip-json-comments: 3.1.1
 
   pino-std-serializers@7.0.0: {}
@@ -9356,10 +9347,6 @@ snapshots:
     dependencies:
       ip-address: 9.0.5
       smart-buffer: 4.2.0
-
-  sonic-boom@3.8.1:
-    dependencies:
-      atomic-sleep: 1.0.0
 
   sonic-boom@4.0.1:
     dependencies:
