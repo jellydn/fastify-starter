@@ -8303,7 +8303,7 @@ snapshots:
 
   is-lower-case@2.0.2:
     dependencies:
-      tslib: 2.5.3
+      tslib: 2.6.3
 
   is-number@7.0.0: {}
 
@@ -8327,7 +8327,7 @@ snapshots:
 
   is-upper-case@2.0.2:
     dependencies:
-      tslib: 2.5.3
+      tslib: 2.6.3
 
   is-windows@1.0.2: {}
 
