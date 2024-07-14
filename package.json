@@ -61,7 +61,7 @@
   },
   "devDependencies": {
     "@biomejs/biome": "1.8.3",
-    "@tapjs/test": "3.0.3",
+    "@tapjs/test": "4.0.0",
     "@types/busboy": "1.5.4",
     "@types/dotenv": "8.2.0",
     "@types/node": "20.14.10",
