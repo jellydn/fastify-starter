@@ -64,7 +64,7 @@
     "@tapjs/test": "4.0.0",
     "@types/busboy": "1.5.4",
     "@types/dotenv": "8.2.0",
-    "@types/node": "20.14.11",
+    "@types/node": "20.14.12",
     "@types/swagger-jsdoc": "6.0.4",
     "@types/tap": "15.0.11",
     "cpy-cli": "5.0.0",
