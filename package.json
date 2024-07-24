@@ -75,7 +75,7 @@
     "sort-package-json": "2.10.0",
     "tap": "21.0.0",
     "ts-node": "10.9.2",
-    "tsup": "8.2.2",
+    "tsup": "8.2.3",
     "tsx": "4.16.2",
     "typescript": "5.5.4"
   },
