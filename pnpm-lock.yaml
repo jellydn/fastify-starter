@@ -63,8 +63,8 @@ importers:
         specifier: 0.32.35
         version: 0.32.35
       altair-fastify-plugin:
-        specifier: 7.3.0
-        version: 7.3.0(fastify@4.28.1)
+        specifier: 7.3.3
+        version: 7.3.3(fastify@4.28.1)
       close-with-grace:
         specifier: 1.3.0
         version: 1.3.0
@@ -75,8 +75,8 @@ importers:
         specifier: 4.28.1
         version: 4.28.1
       fastify-cli:
-        specifier: 6.2.1
-        version: 6.2.1
+        specifier: 6.3.0
+        version: 6.3.0
       fastify-plugin:
         specifier: 4.5.1
         version: 4.5.1
@@ -133,8 +133,8 @@ importers:
         specifier: 6.0.0
         version: 6.0.0
       husky:
-        specifier: 9.1.1
-        version: 9.1.1
+        specifier: 9.1.2
+        version: 9.1.2
       json-schema-to-typescript:
         specifier: 14.1.0
         version: 14.1.0
@@ -839,6 +839,9 @@ packages:
 
   '@fastify/deepmerge@1.3.0':
     resolution: {integrity: sha512-J8TOSBq3SoZbDhM9+R/u77hP93gz/rajSA+K2kGyijPpORPWUXHUpTaleoj+92As0S9uPRP7Oi8IqMf0u+ro6A==}
+
+  '@fastify/deepmerge@2.0.0':
+    resolution: {integrity: sha512-fsaybTGDyQ5KpPsplQqb9yKdCf2x/pbNpMNk8Tvp3rRz7lVcupKysH4b2ELMN2P4Hak1+UqTYdTj/u4FNV2p0g==}
 
   '@fastify/env@4.4.0':
     resolution: {integrity: sha512-JEg6wo05KOhmRJ1lBTjJ8zQVUJmxInaavsMkfO1cfYWXOfdQXO48k01LneOmM5Y8dwwQ6ff7WUEi/dHl8YidIQ==}
@@ -2383,13 +2386,13 @@ packages:
   ajv@8.17.1:
     resolution: {integrity: sha512-B/gBuNg5SiMTrPkC+A2+cW0RszwxYmn6VYxB/inlBStS5nx6xHIt/ehKRhIMhqusl7a8LjQoZnjCs5vhwxOQ1g==}
 
-  altair-fastify-plugin@7.3.0:
-    resolution: {integrity: sha512-mAqdp3GPXeutwfZbljHDWfUW5hLETgxKKzTg4e8iDQDKYCTYg/KQQdih5p5wDqBPYQqxrD0f2GZ5LH8mr4PKJQ==}
+  altair-fastify-plugin@7.3.3:
+    resolution: {integrity: sha512-IQgzDTRkNXuw7pgf0aik11DNxTlysjCxAwyYIYh8hL7lbw+qIdRovGrN4JfmlSkVmlPT38gN5+Fo3pRIiW9wTQ==}
     peerDependencies:
       fastify: ^4.0.3
 
-  altair-static@7.3.0:
-    resolution: {integrity: sha512-5b2kCdKojJ+99iVaYTIS7taeLJmbyRd8UC2vXPUQv3uvsckYWhOfqgd0LSVcxgH2HtHIYCcqPBvKRDHTSID5Nw==}
+  altair-static@7.3.3:
+    resolution: {integrity: sha512-karnwEmiUlACeoMQ0jFscuhG220mTBHXotOa2wjVUoUnW0h3fx3xBe2RjGDf9/BtxXU0dIRD3ddt0EARgkVsbA==}
     engines: {node: '>= 6.9.1'}
 
   ansi-escapes@7.0.0:
@@ -2955,8 +2958,8 @@ packages:
   fast-uri@3.0.1:
     resolution: {integrity: sha512-MWipKbbYiYI0UC7cl8m/i/IWTqfC8YXsqjzybjddLsFjStroQzsHXkc73JutMvBiXmOvapk+axIl79ig5t55Bw==}
 
-  fastify-cli@6.2.1:
-    resolution: {integrity: sha512-i8CJZWD/5P0Vfx0HPLw7XMA7cyaYQDrKehWIUxmcueJsnd5KNsX6TTVn997dOiQvlmDU33di0AoBLDBf8zxBoA==}
+  fastify-cli@6.3.0:
+    resolution: {integrity: sha512-FORXCwuBiNAArMMxp5hTthQCU9Xa7oO1wnCsGSgvuWC2k5ZarEEIXNm5RekcO9koZDQ0NACU6gGRF96Tf7ZI7Q==}
     hasBin: true
 
   fastify-plugin@2.3.4:
@@ -3199,8 +3202,8 @@ packages:
     resolution: {integrity: sha512-B4FFZ6q/T2jhhksgkbEW3HBvWIfDW85snkQgawt07S7J5QXTk6BkNV+0yAeZrM5QpMAdYlocGoljn0sJ/WQkFw==}
     engines: {node: '>=10.17.0'}
 
-  husky@9.1.1:
-    resolution: {integrity: sha512-fCqlqLXcBnXa/TJXmT93/A36tJsjdJkibQ1MuIiFyCCYUlpYpIaj2mv1w+3KR6Rzu1IC3slFTje5f6DUp2A2rg==}
+  husky@9.1.2:
+    resolution: {integrity: sha512-1/aDMXZdhr1VdJJTLt6e7BipM0Jd9qkpubPiIplon1WmCeOy3nnzsCMeBqS9AsL5ioonl8F8y/F2CLOmk19/Pw==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -5470,6 +5473,8 @@ snapshots:
 
   '@fastify/deepmerge@1.3.0': {}
 
+  '@fastify/deepmerge@2.0.0': {}
+
   '@fastify/env@4.4.0':
     dependencies:
       env-schema: 6.0.0
@@ -7693,14 +7698,14 @@ snapshots:
       json-schema-traverse: 1.0.0
       require-from-string: 2.0.2
 
-  altair-fastify-plugin@7.3.0(fastify@4.28.1):
+  altair-fastify-plugin@7.3.3(fastify@4.28.1):
     dependencies:
       '@fastify/static': 6.12.0
-      altair-static: 7.3.0
+      altair-static: 7.3.3
       fastify: 4.28.1
       fastify-plugin: 2.3.4
 
-  altair-static@7.3.0: {}
+  altair-static@7.3.3: {}
 
   ansi-escapes@7.0.0:
     dependencies:
@@ -8351,9 +8356,9 @@ snapshots:
 
   fast-uri@3.0.1: {}
 
-  fastify-cli@6.2.1:
+  fastify-cli@6.3.0:
     dependencies:
-      '@fastify/deepmerge': 1.3.0
+      '@fastify/deepmerge': 2.0.0
       chalk: 4.1.2
       chokidar: 3.6.0
       close-with-grace: 1.3.0
@@ -8671,7 +8676,7 @@ snapshots:
 
   human-signals@2.1.0: {}
 
-  husky@9.1.1: {}
+  husky@9.1.2: {}
 
   iconv-lite@0.6.3:
     dependencies:
