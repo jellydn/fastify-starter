@@ -39,8 +39,8 @@ importers:
         specifier: 4.0.1
         version: 4.0.1
       '@hyperdx/node-opentelemetry':
-        specifier: 0.8.0
-        version: 0.8.0(encoding@0.1.13)
+        specifier: 0.8.1
+        version: 0.8.1(encoding@0.1.13)
       '@opentelemetry/api':
         specifier: 1.9.0
         version: 1.9.0
@@ -973,8 +973,8 @@ packages:
     peerDependencies:
       '@opentelemetry/api': ^1.3.0
 
-  '@hyperdx/node-opentelemetry@0.8.0':
-    resolution: {integrity: sha512-2z1jQqg2czctHOgo17WETUJOX2BJJ2jqg50R/z4o4ADRCS7Ynp4n3eVMLtsJHypQeDdrInUDE0VtVoXN5b+6hw==}
+  '@hyperdx/node-opentelemetry@0.8.1':
+    resolution: {integrity: sha512-wNw0yQf54j/9KXVWeEOu8G6C5FT5EFlrz4dcmscTkwCvo6fQOLRZa/NbGcqugt0LSFMc0/6/Q5RDWVqDpEn0LQ==}
     hasBin: true
 
   '@isaacs/cliui@8.0.2':
@@ -5649,19 +5649,19 @@ snapshots:
     dependencies:
       '@graphql-tools/utils': 9.2.1(graphql@16.9.0)
       graphql: 16.9.0
-      tslib: 2.5.3
+      tslib: 2.6.3
 
   '@graphql-tools/optimize@1.4.0(graphql@16.9.0)':
     dependencies:
       graphql: 16.9.0
-      tslib: 2.5.3
+      tslib: 2.6.3
 
   '@graphql-tools/relay-operation-optimizer@6.5.18(encoding@0.1.13)(graphql@16.9.0)':
     dependencies:
       '@ardatan/relay-compiler': 12.0.0(encoding@0.1.13)(graphql@16.9.0)
       '@graphql-tools/utils': 9.2.1(graphql@16.9.0)
       graphql: 16.9.0
-      tslib: 2.5.3
+      tslib: 2.6.3
     transitivePeerDependencies:
       - encoding
       - supports-color
@@ -5671,7 +5671,7 @@ snapshots:
       '@graphql-tools/merge': 8.4.2(graphql@16.9.0)
       '@graphql-tools/utils': 9.2.1(graphql@16.9.0)
       graphql: 16.9.0
-      tslib: 2.5.3
+      tslib: 2.6.3
       value-or-promise: 1.0.12
 
   '@graphql-tools/utils@10.3.2(graphql@16.9.0)':
@@ -5686,7 +5686,7 @@ snapshots:
     dependencies:
       '@graphql-typed-document-node/core': 3.2.0(graphql@16.9.0)
       graphql: 16.9.0
-      tslib: 2.5.3
+      tslib: 2.6.3
 
   '@graphql-typed-document-node/core@3.2.0(graphql@16.9.0)':
     dependencies:
@@ -5732,7 +5732,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@hyperdx/node-opentelemetry@0.8.0(encoding@0.1.13)':
+  '@hyperdx/node-opentelemetry@0.8.1(encoding@0.1.13)':
     dependencies:
       '@hyperdx/instrumentation-exception': 0.1.0(@opentelemetry/api@1.9.0)
       '@hyperdx/instrumentation-sentry-node': 0.1.0(@opentelemetry/api@1.9.0)
@@ -5757,6 +5757,7 @@ snapshots:
       lodash.isobject: 3.0.2
       lodash.isplainobject: 4.0.6
       lodash.isstring: 4.0.1
+      node-fetch: 2.7.0(encoding@0.1.13)
       open: 8.4.2
       ora: 5.4.1
       pino-abstract-transport: 1.2.0
@@ -7858,7 +7859,7 @@ snapshots:
   camel-case@4.1.2:
     dependencies:
       pascal-case: 3.1.2
-      tslib: 2.5.3
+      tslib: 2.6.3
 
   camelcase@5.3.1: {}
 
@@ -7867,7 +7868,7 @@ snapshots:
   capital-case@1.0.4:
     dependencies:
       no-case: 3.0.4
-      tslib: 2.5.3
+      tslib: 2.6.3
       upper-case-first: 2.0.2
 
   chalk@2.4.2:
@@ -7909,7 +7910,7 @@ snapshots:
       path-case: 3.0.4
       sentence-case: 3.0.4
       snake-case: 3.0.4
-      tslib: 2.5.3
+      tslib: 2.6.3
 
   chokidar@3.6.0:
     dependencies:
@@ -8010,7 +8011,7 @@ snapshots:
   constant-case@3.0.4:
     dependencies:
       no-case: 3.0.4
-      tslib: 2.5.3
+      tslib: 2.6.3
       upper-case: 2.0.2
 
   content-disposition@0.5.4:
@@ -8113,7 +8114,7 @@ snapshots:
   dot-case@3.0.4:
     dependencies:
       no-case: 3.0.4
-      tslib: 2.5.3
+      tslib: 2.6.3
 
   dotenv-expand@10.0.0: {}
 
@@ -8597,7 +8598,7 @@ snapshots:
   graphql-tag@2.12.6(graphql@16.9.0):
     dependencies:
       graphql: 16.9.0
-      tslib: 2.5.3
+      tslib: 2.6.3
 
   graphql@16.9.0: {}
 
@@ -8612,7 +8613,7 @@ snapshots:
   header-case@2.0.4:
     dependencies:
       capital-case: 1.0.4
-      tslib: 2.5.3
+      tslib: 2.6.3
 
   helmet@7.1.0: {}
 
@@ -8784,7 +8785,7 @@ snapshots:
 
   is-lower-case@2.0.2:
     dependencies:
-      tslib: 2.5.3
+      tslib: 2.6.3
 
   is-number@7.0.0: {}
 
@@ -8810,7 +8811,7 @@ snapshots:
 
   is-upper-case@2.0.2:
     dependencies:
-      tslib: 2.5.3
+      tslib: 2.6.3
 
   is-windows@1.0.2: {}
 
@@ -8975,11 +8976,11 @@ snapshots:
 
   lower-case-first@2.0.2:
     dependencies:
-      tslib: 2.5.3
+      tslib: 2.6.3
 
   lower-case@2.0.2:
     dependencies:
-      tslib: 2.5.3
+      tslib: 2.6.3
 
   lru-cache@10.4.3: {}
 
@@ -9208,7 +9209,7 @@ snapshots:
   no-case@3.0.4:
     dependencies:
       lower-case: 2.0.2
-      tslib: 2.5.3
+      tslib: 2.6.3
 
   node-domexception@1.0.0: {}
 
@@ -9412,7 +9413,7 @@ snapshots:
   param-case@3.0.4:
     dependencies:
       dot-case: 3.0.4
-      tslib: 2.5.3
+      tslib: 2.6.3
 
   parse-filepath@1.0.2:
     dependencies:
@@ -9423,14 +9424,14 @@ snapshots:
   pascal-case@3.1.2:
     dependencies:
       no-case: 3.0.4
-      tslib: 2.5.3
+      tslib: 2.6.3
 
   patch-console@2.0.0: {}
 
   path-case@3.0.4:
     dependencies:
       dot-case: 3.0.4
-      tslib: 2.5.3
+      tslib: 2.6.3
 
   path-exists@3.0.0: {}
 
@@ -9765,7 +9766,7 @@ snapshots:
   sentence-case@3.0.4:
     dependencies:
       no-case: 3.0.4
-      tslib: 2.5.3
+      tslib: 2.6.3
       upper-case-first: 2.0.2
 
   set-blocking@2.0.0: {}
@@ -9824,7 +9825,7 @@ snapshots:
   snake-case@3.0.4:
     dependencies:
       dot-case: 3.0.4
-      tslib: 2.5.3
+      tslib: 2.6.3
 
   socks-proxy-agent@8.0.4:
     dependencies:
@@ -9882,7 +9883,7 @@ snapshots:
 
   sponge-case@1.0.1:
     dependencies:
-      tslib: 2.5.3
+      tslib: 2.6.3
 
   sprintf-js@1.1.3: {}
 
@@ -9977,7 +9978,7 @@ snapshots:
 
   swap-case@2.0.2:
     dependencies:
-      tslib: 2.5.3
+      tslib: 2.6.3
 
   sync-content@2.0.1:
     dependencies:
@@ -10078,7 +10079,7 @@ snapshots:
 
   title-case@3.0.3:
     dependencies:
-      tslib: 2.5.3
+      tslib: 2.6.3
 
   tmpl@1.0.5: {}
 
@@ -10224,11 +10225,11 @@ snapshots:
 
   upper-case-first@2.0.2:
     dependencies:
-      tslib: 2.5.3
+      tslib: 2.6.3
 
   upper-case@2.0.2:
     dependencies:
-      tslib: 2.5.3
+      tslib: 2.6.3
 
   uri-js@4.4.1:
     dependencies:
