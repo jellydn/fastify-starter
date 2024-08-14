@@ -60,8 +60,8 @@ importers:
         specifier: 0.52.1
         version: 0.52.1(@opentelemetry/api@1.9.0)
       '@sinclair/typebox':
-        specifier: 0.33.5
-        version: 0.33.5
+        specifier: 0.33.6
+        version: 0.33.6
       altair-fastify-plugin:
         specifier: 7.3.4
         version: 7.3.4(fastify@4.28.1)
@@ -1902,8 +1902,8 @@ packages:
     resolution: {integrity: sha512-8iKx79/F73DKbGfRf7+t4dqrc0bRr0thdPrxAtCKWRm/F0tG71i6O1rvlnScncJLLBZHn3h8M3c1BSUAb9yu8g==}
     engines: {node: ^16.14.0 || >=18.0.0}
 
-  '@sinclair/typebox@0.33.5':
-    resolution: {integrity: sha512-Su72K2ckxefWQiDKzvykqah4Mg7k3uFX3qjFDsQ8NRfH/EMk+bUQsZJznaXSxmJoP50eSSqLWbX8I8TJfHC0gg==}
+  '@sinclair/typebox@0.33.6':
+    resolution: {integrity: sha512-9Q3DMNtaLN053foIr1lCR+2BjDzdNLgLruvbIHQwPPLcllGbjmp9Ns69rQQJbg4YZoMmaBVNtDOCq626aGO78g==}
 
   '@tapjs/after-each@4.0.0':
     resolution: {integrity: sha512-RrkYMB3SpXKFJAijbgNkOexiClX5aygkCIHKHPIfnfqsPozkwjYbtVQs6d1/tG8ytiJtH5rvybuNJMRRNDcfBQ==}
@@ -7016,7 +7016,7 @@ snapshots:
       '@sigstore/core': 1.1.0
       '@sigstore/protobuf-specs': 0.3.2
 
-  '@sinclair/typebox@0.33.5': {}
+  '@sinclair/typebox@0.33.6': {}
 
   '@tapjs/after-each@4.0.0(@tapjs/core@4.0.0(@types/node@20.14.15)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))':
     dependencies:
