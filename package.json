@@ -73,7 +73,7 @@
     "husky": "9.1.4",
     "json-schema-to-typescript": "15.0.0",
     "sort-package-json": "2.10.0",
-    "tap": "21.0.0",
+    "tap": "21.0.1",
     "ts-node": "10.9.2",
     "tsup": "8.2.4",
     "tsx": "4.17.0",
