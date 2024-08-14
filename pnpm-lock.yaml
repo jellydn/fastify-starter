@@ -142,8 +142,8 @@ importers:
         specifier: 2.10.0
         version: 2.10.0
       tap:
-        specifier: 21.0.0
-        version: 21.0.0(@types/node@20.14.15)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.5.4)
+        specifier: 21.0.1
+        version: 21.0.1(@types/node@20.14.15)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.5.4)
       ts-node:
         specifier: 10.9.2
         version: 10.9.2(@types/node@20.14.15)(typescript@5.5.4)
@@ -1990,14 +1990,14 @@ packages:
     resolution: {integrity: sha512-FIriEB+qqArPhmVYc1PZwRHD99myRdl7C9Oe/uts04Q2LOxQ5MEmqP9XOP8vVYzpDOYwmL8OmL6eOYt9eZlQKQ==}
     engines: {node: '>=16.17'}
 
-  '@tapjs/reporter@4.0.0':
-    resolution: {integrity: sha512-NCWPEtRQUziPzpYmy1HsB8d3zRgV+Uzy9yd5dnQ8JmKqixjtBY9bhQLVXJmQ3x3DB0mjJjv8pVcA/XZJasQmjQ==}
+  '@tapjs/reporter@4.0.1':
+    resolution: {integrity: sha512-bS7pOGV99GAhYY/LxNxL4Qq0Ldi4k8DZDC25gonVQrNUW2zYpSBerhrnsz1KDXdaD2OKDtSR8oW2FxUyL6n83A==}
     engines: {node: 20 || >=22}
     peerDependencies:
       '@tapjs/core': 4.0.0
 
-  '@tapjs/run@4.0.0':
-    resolution: {integrity: sha512-GPZ28g+G5aGzOl6Vik8fB+4oeJQbdKDa6vdZzTGiMCpTQM0ysvBMwBo6yZ84YzZDlOkXEOuj08LSZC3ikNeRDA==}
+  '@tapjs/run@4.0.1':
+    resolution: {integrity: sha512-jll1tiMhxFajfHIGBF/eK+Ob0uEqXBnQq/ONNc9heqcCtcXhC4iYGzhoK+sw03MxwrbRtNomQ7dRqiT0IOjS6w==}
     engines: {node: 20 || >=22}
     hasBin: true
     peerDependencies:
@@ -4340,8 +4340,8 @@ packages:
     resolution: {integrity: sha512-CjMbq8hhT5TvzyvHRnzbGp00wmb4TZjSscCRCCJCdCzRb+Pb56HaMlBHNBn1/GZ6UqwUgDKdF18+9VAFnQ4F0g==}
     engines: {node: 20 || >=22}
 
-  tap@21.0.0:
-    resolution: {integrity: sha512-iQHgScpN6VeAnKot3ZgafKvoE0VQfYGaKXSZfSLeHo3P9qKqcwYQdDW2VkVXm6TF10f1/TSYFYoMV0Th+7mieg==}
+  tap@21.0.1:
+    resolution: {integrity: sha512-FE8H5Nt2mKU96DX4XgjqBkKzMcxvVkmbKhaNWOk2lUNRpqJNKqBOO5R6q7shr7JoUh1DHwdNWmppg8vWXQh2lQ==}
     engines: {node: 20 || >=22}
     hasBin: true
 
@@ -7126,7 +7126,7 @@ snapshots:
       signal-exit: 4.1.0
       uuid: 8.3.2
 
-  '@tapjs/reporter@4.0.0(@tapjs/core@4.0.0(@types/node@20.14.15)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@tapjs/test@4.0.0(@tapjs/core@4.0.0(@types/node@20.14.15)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/node@20.14.15)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))':
+  '@tapjs/reporter@4.0.1(@tapjs/core@4.0.0(@types/node@20.14.15)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@tapjs/test@4.0.0(@tapjs/core@4.0.0(@types/node@20.14.15)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/node@20.14.15)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))':
     dependencies:
       '@tapjs/config': 5.0.0(@tapjs/core@4.0.0(@types/node@20.14.15)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@tapjs/test@4.0.0(@tapjs/core@4.0.0(@types/node@20.14.15)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/node@20.14.15)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
       '@tapjs/core': 4.0.0(@types/node@20.14.15)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -7150,14 +7150,14 @@ snapshots:
       - react-dom
       - utf-8-validate
 
-  '@tapjs/run@4.0.0(@tapjs/core@4.0.0(@types/node@20.14.15)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/node@20.14.15)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+  '@tapjs/run@4.0.1(@tapjs/core@4.0.0(@types/node@20.14.15)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/node@20.14.15)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
       '@tapjs/after': 3.0.0(@tapjs/core@4.0.0(@types/node@20.14.15)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
       '@tapjs/before': 4.0.0(@tapjs/core@4.0.0(@types/node@20.14.15)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
       '@tapjs/config': 5.0.0(@tapjs/core@4.0.0(@types/node@20.14.15)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@tapjs/test@4.0.0(@tapjs/core@4.0.0(@types/node@20.14.15)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/node@20.14.15)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
       '@tapjs/core': 4.0.0(@types/node@20.14.15)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@tapjs/processinfo': 3.1.8
-      '@tapjs/reporter': 4.0.0(@tapjs/core@4.0.0(@types/node@20.14.15)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@tapjs/test@4.0.0(@tapjs/core@4.0.0(@types/node@20.14.15)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/node@20.14.15)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))
+      '@tapjs/reporter': 4.0.1(@tapjs/core@4.0.0(@types/node@20.14.15)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@tapjs/test@4.0.0(@tapjs/core@4.0.0(@types/node@20.14.15)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/node@20.14.15)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))
       '@tapjs/spawn': 4.0.0(@tapjs/core@4.0.0(@types/node@20.14.15)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
       '@tapjs/stdin': 4.0.0(@tapjs/core@4.0.0(@types/node@20.14.15)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
       '@tapjs/test': 4.0.0(@tapjs/core@4.0.0(@types/node@20.14.15)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/node@20.14.15)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -9772,7 +9772,7 @@ snapshots:
       yaml: 2.5.0
       yaml-types: 0.4.0(yaml@2.5.0)
 
-  tap@21.0.0(@types/node@20.14.15)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.5.4):
+  tap@21.0.1(@types/node@20.14.15)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.5.4):
     dependencies:
       '@tapjs/after': 3.0.0(@tapjs/core@4.0.0(@types/node@20.14.15)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
       '@tapjs/after-each': 4.0.0(@tapjs/core@4.0.0(@types/node@20.14.15)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
@@ -9786,7 +9786,7 @@ snapshots:
       '@tapjs/intercept': 4.0.0(@tapjs/core@4.0.0(@types/node@20.14.15)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
       '@tapjs/mock': 4.0.0(@tapjs/core@4.0.0(@types/node@20.14.15)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
       '@tapjs/node-serialize': 4.0.0(@tapjs/core@4.0.0(@types/node@20.14.15)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
-      '@tapjs/run': 4.0.0(@tapjs/core@4.0.0(@types/node@20.14.15)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/node@20.14.15)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@tapjs/run': 4.0.1(@tapjs/core@4.0.0(@types/node@20.14.15)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/node@20.14.15)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@tapjs/snapshot': 4.0.0(@tapjs/core@4.0.0(@types/node@20.14.15)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@tapjs/spawn': 4.0.0(@tapjs/core@4.0.0(@types/node@20.14.15)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
       '@tapjs/stdin': 4.0.0(@tapjs/core@4.0.0(@types/node@20.14.15)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
