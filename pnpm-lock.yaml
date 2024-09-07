@@ -66,8 +66,8 @@ importers:
         specifier: 7.3.5
         version: 7.3.5(fastify@4.28.1)
       close-with-grace:
-        specifier: 1.3.0
-        version: 1.3.0
+        specifier: 2.1.0
+        version: 2.1.0
       dotenv:
         specifier: 16.4.5
         version: 16.4.5
@@ -2535,6 +2535,9 @@ packages:
 
   close-with-grace@1.3.0:
     resolution: {integrity: sha512-lvm0rmLIR5bNz4CRKW6YvCfn9Wg5Wb9A8PJ3Bb+hjyikgC1RO1W3J4z9rBXQYw97mAte7dNSQI8BmUsxdlXQyw==}
+
+  close-with-grace@2.1.0:
+    resolution: {integrity: sha512-rME1AtzKc9dfpLr8XBVhXqhVZDvtaIA7FIpjPaO+DmDsomaTNtuEBZMoNDgIvjHYK5q8/Afxy34YTXInUBsT1A==}
 
   code-excerpt@4.0.0:
     resolution: {integrity: sha512-xxodCmBen3iy2i0WtAK8FlFNrRzjUqjRsMfho58xT/wvZU1YTM3fCnRjcy1gJPMepaRlgm/0e6w8SpWHpn3/cA==}
@@ -7824,6 +7827,8 @@ snapshots:
   clone@1.0.4: {}
 
   close-with-grace@1.3.0: {}
+
+  close-with-grace@2.1.0: {}
 
   code-excerpt@4.0.0:
     dependencies:
