@@ -70,7 +70,7 @@
     "cpy-cli": "5.0.0",
     "cross-env": "7.0.3",
     "fast-json-stringify": "6.0.0",
-    "husky": "9.1.5",
+    "husky": "9.1.6",
     "json-schema-to-typescript": "15.0.2",
     "sort-package-json": "2.10.1",
     "tap": "21.0.1",
