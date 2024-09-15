@@ -45,7 +45,7 @@
     "@opentelemetry/sdk-metrics": "1.26.0",
     "@opentelemetry/sdk-node": "0.53.0",
     "@sinclair/typebox": "0.33.11",
-    "altair-fastify-plugin": "7.3.5",
+    "altair-fastify-plugin": "7.3.6",
     "close-with-grace": "2.1.0",
     "dotenv": "16.4.5",
     "fastify": "4.28.1",
@@ -60,7 +60,7 @@
     "swagger-jsdoc": "6.2.8"
   },
   "devDependencies": {
-    "@biomejs/biome": "1.9.0",
+    "@biomejs/biome": "1.9.1",
     "@tapjs/test": "4.0.0",
     "@types/busboy": "1.5.4",
     "@types/dotenv": "8.2.0",
