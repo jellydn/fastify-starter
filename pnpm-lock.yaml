@@ -93,8 +93,8 @@ importers:
         specifier: 5.0.5
         version: 5.0.5(encoding@0.1.13)(fastify@4.28.1)(graphql@16.9.0)(mercurius@15.1.0(graphql@16.9.0))(prettier@3.3.3)
       mercurius-integration-testing:
-        specifier: 8.2.0
-        version: 8.2.0(fastify@4.28.1)(graphql@16.9.0)(mercurius@15.1.0(graphql@16.9.0))
+        specifier: 9.0.0
+        version: 9.0.0(fastify@4.28.1)(graphql@16.9.0)(mercurius@15.1.0(graphql@16.9.0))
       nexus:
         specifier: 1.3.0
         version: 1.3.0(graphql@16.9.0)
@@ -3672,15 +3672,15 @@ packages:
       mercurius: ^11.0.0 || ^12.0.0 || ^13.0.0 || ^14.0.0
       prettier: ^2.8.8
 
-  mercurius-integration-testing@8.2.0:
-    resolution: {integrity: sha512-ew677oij/lTiLXECZsVIZfLxIFnur9Q+rKb20kP3OJmlxFqJH0IqawDW+CfHXBFqZPi19FSEGzzde2zr0ceiDw==}
+  mercurius-integration-testing@9.0.0:
+    resolution: {integrity: sha512-N2GRMPOZ2BjgnTUH3QKcv9INd3AXb7u7GYQQ8EeakBTqZ68PkWppM32RwNTRMKuxJblUBbTEOJ5diAwo0ETP9A==}
     engines: {node: '>=14'}
     peerDependencies:
       '@mercuriusjs/federation': ^1 || ^2
       '@mercuriusjs/gateway': ^1.2.0
-      fastify: ^4.0.0
+      fastify: ^4.0.0 || ^5.0.0
       graphql: '*'
-      mercurius: ^12 || ^13 || ^14
+      mercurius: ^12 || ^13 || ^14 || ^15
     peerDependenciesMeta:
       '@mercuriusjs/federation':
         optional: true
@@ -9240,7 +9240,7 @@ snapshots:
       - encoding
       - supports-color
 
-  mercurius-integration-testing@8.2.0(fastify@4.28.1)(graphql@16.9.0)(mercurius@15.1.0(graphql@16.9.0)):
+  mercurius-integration-testing@9.0.0(fastify@4.28.1)(graphql@16.9.0)(mercurius@15.1.0(graphql@16.9.0)):
     dependencies:
       '@graphql-typed-document-node/core': 3.2.0(graphql@16.9.0)
       cookie: 0.5.0
