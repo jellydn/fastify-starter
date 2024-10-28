@@ -78,8 +78,8 @@ importers:
         specifier: 7.0.1
         version: 7.0.1
       fastify-plugin:
-        specifier: 4.5.1
-        version: 4.5.1
+        specifier: 5.0.1
+        version: 5.0.1
       fastify-tsconfig:
         specifier: 2.0.0
         version: 2.0.0
