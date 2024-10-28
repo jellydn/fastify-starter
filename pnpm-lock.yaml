@@ -63,8 +63,8 @@ importers:
         specifier: 0.33.17
         version: 0.33.17
       altair-fastify-plugin:
-        specifier: 7.3.6
-        version: 7.3.6(fastify@4.28.1)
+        specifier: 8.0.0
+        version: 8.0.0(fastify@4.28.1)
       close-with-grace:
         specifier: 2.1.0
         version: 2.1.0
@@ -810,10 +810,6 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@fastify/accept-negotiator@1.1.0':
-    resolution: {integrity: sha512-OIHZrb2ImZ7XG85HXOONLcJWGosv7sIvM2ifAPQVhg9Lv7qdmMBNVaai4QTdyuaqbKM5eO6sLSQOYI7wEQeCJQ==}
-    engines: {node: '>=14'}
-
   '@fastify/accept-negotiator@2.0.0':
     resolution: {integrity: sha512-/Sce/kBzuTxIq5tJh85nVNOq9wKD8s+viIgX0fFMDBdw95gnpf53qmF1oBgJym3cPFliWUuSloVg/1w/rH0FcQ==}
 
@@ -865,17 +861,11 @@ packages:
   '@fastify/rate-limit@10.1.1':
     resolution: {integrity: sha512-v6ZrDhWVjmDHWYdW2vbALyTCPz9W6Jqvf0QXbl9/atMXlZeFQw4XJkHUm5GGbJReCxaj5dHKbD+P32kkI3xzCA==}
 
-  '@fastify/send@2.1.0':
-    resolution: {integrity: sha512-yNYiY6sDkexoJR0D8IDy3aRP3+L4wdqCpvx5WP+VtEU58sn7USmKynBzDQex5X42Zzvw2gNzzYgP90UfWShLFA==}
-
   '@fastify/send@3.1.1':
     resolution: {integrity: sha512-LdiV2mle/2tH8vh6GwGl0ubfUAgvY+9yF9oGI1iiwVyNUVOQamvw5n+OFu6iCNNoyuCY80FFURBn4TZCbTe8LA==}
 
   '@fastify/sensible@5.6.0':
     resolution: {integrity: sha512-Vq6Z2ZQy10GDqON+hvLF52K99s9et5gVVxTul5n3SIAf0Kq5QjPRUKkAMT3zPAiiGvoHtS3APa/3uaxfDgCODQ==}
-
-  '@fastify/static@6.12.0':
-    resolution: {integrity: sha512-KK1B84E6QD/FcQWxDI2aiUCwHxMJBI1KeCUzm1BwYpPY1b742+jeKruGHP2uOluuM6OkBPI8CIANrXcCRtC2oQ==}
 
   '@fastify/static@8.0.2':
     resolution: {integrity: sha512-xJ+XaZVl4Y+lKztx8jGi+BE73aByhOmjMgaTx98E4XtVZxUpiaYQIMBlwACsJz+xohm0kvzV34BZoiZ+bsJtBQ==}
@@ -2484,13 +2474,13 @@ packages:
   ajv@8.17.1:
     resolution: {integrity: sha512-B/gBuNg5SiMTrPkC+A2+cW0RszwxYmn6VYxB/inlBStS5nx6xHIt/ehKRhIMhqusl7a8LjQoZnjCs5vhwxOQ1g==}
 
-  altair-fastify-plugin@7.3.6:
-    resolution: {integrity: sha512-uR9cHn43cgOyJouZdOGe+HFXXx3z6VC6l2GjRfcxAMaMogpVrQWw8kqOFguZcz0yk6kqxu57/KgvwIiCqJG9bQ==}
+  altair-fastify-plugin@8.0.0:
+    resolution: {integrity: sha512-2Q1aqvPlkd0NPcSTM8uEPigmrpuLrKiC9xtWud7EoCoO2qcVP6odM9jU3jhewyBspwzBCQ1p9AHpMy+jWmhcKQ==}
     peerDependencies:
-      fastify: ^4.0.3
+      fastify: ^5.0.0
 
-  altair-static@7.3.6:
-    resolution: {integrity: sha512-zI/6lBe7Qy+ib4s5mz5KhiwkiM3oJFnvbfgLucRbf5trIK70vT/EQ3odMDCEn3igg8hE85teNU8BZffvuEfm9g==}
+  altair-static@8.0.0:
+    resolution: {integrity: sha512-5CxsCPqGHXrSJpMzJtbBydMp8taOOak7bPBP5xTlNhNQSYJKJm+Lrd45N3fH8Nkx3elEi0odr9th/5HMhSnpBQ==}
     engines: {node: '>= 6.9.1'}
 
   ansi-escapes@7.0.0:
@@ -3030,9 +3020,6 @@ packages:
   fastify-cli@7.0.1:
     resolution: {integrity: sha512-2+ghTcw78K0LAoYoOl3l8ZyOunALjumuy9g2Kz0RdnqEnIDaHfEKOJvyo7Q707lh130RRzWSUmdtpO0dCAfp3A==}
     hasBin: true
-
-  fastify-plugin@2.3.4:
-    resolution: {integrity: sha512-I+Oaj6p9oiRozbam30sh39BiuiqBda7yK2nmSPVwDCfIBlKnT8YB3MY+pRQc2Fcd07bf6KPGklHJaQ2Qu81TYQ==}
 
   fastify-plugin@4.5.1:
     resolution: {integrity: sha512-stRHYGeuqpEZTL1Ef0Ovr2ltazUT9g844X5z/zEBFLG8RYlpDiOCIG+ATvYEp+/zmc7sN29mcIMp8gvYplYPIQ==}
@@ -5502,8 +5489,6 @@ snapshots:
   '@esbuild/win32-x64@0.24.0':
     optional: true
 
-  '@fastify/accept-negotiator@1.1.0': {}
-
   '@fastify/accept-negotiator@2.0.0': {}
 
   '@fastify/ajv-compiler@3.6.0':
@@ -5573,14 +5558,6 @@ snapshots:
       fastify-plugin: 5.0.1
       toad-cache: 3.7.0
 
-  '@fastify/send@2.1.0':
-    dependencies:
-      '@lukeed/ms': 2.0.2
-      escape-html: 1.0.3
-      fast-decode-uri-component: 1.0.1
-      http-errors: 2.0.0
-      mime: 3.0.0
-
   '@fastify/send@3.1.1':
     dependencies:
       '@lukeed/ms': 2.0.2
@@ -5598,15 +5575,6 @@ snapshots:
       http-errors: 2.0.0
       type-is: 1.6.18
       vary: 1.1.2
-
-  '@fastify/static@6.12.0':
-    dependencies:
-      '@fastify/accept-negotiator': 1.1.0
-      '@fastify/send': 2.1.0
-      content-disposition: 0.5.4
-      fastify-plugin: 4.5.1
-      glob: 8.1.0
-      p-limit: 3.1.0
 
   '@fastify/static@8.0.2':
     dependencies:
@@ -7909,14 +7877,14 @@ snapshots:
       json-schema-traverse: 1.0.0
       require-from-string: 2.0.2
 
-  altair-fastify-plugin@7.3.6(fastify@4.28.1):
+  altair-fastify-plugin@8.0.0(fastify@4.28.1):
     dependencies:
-      '@fastify/static': 6.12.0
-      altair-static: 7.3.6
+      '@fastify/static': 8.0.2
+      altair-static: 8.0.0
       fastify: 4.28.1
-      fastify-plugin: 2.3.4
+      fastify-plugin: 5.0.1
 
-  altair-static@7.3.6: {}
+  altair-static@8.0.0: {}
 
   ansi-escapes@7.0.0:
     dependencies:
@@ -8529,10 +8497,6 @@ snapshots:
       resolve-from: 5.0.0
       semver: 7.6.3
       yargs-parser: 21.1.1
-
-  fastify-plugin@2.3.4:
-    dependencies:
-      semver: 7.6.3
 
   fastify-plugin@4.5.1: {}
 
