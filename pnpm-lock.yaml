@@ -30,8 +30,8 @@ importers:
         specifier: 10.1.1
         version: 10.1.1
       '@fastify/sensible':
-        specifier: 5.6.0
-        version: 5.6.0
+        specifier: 6.0.1
+        version: 6.0.1
       '@fastify/swagger':
         specifier: 9.2.0
         version: 9.2.0
@@ -869,8 +869,8 @@ packages:
   '@fastify/send@3.1.1':
     resolution: {integrity: sha512-LdiV2mle/2tH8vh6GwGl0ubfUAgvY+9yF9oGI1iiwVyNUVOQamvw5n+OFu6iCNNoyuCY80FFURBn4TZCbTe8LA==}
 
-  '@fastify/sensible@5.6.0':
-    resolution: {integrity: sha512-Vq6Z2ZQy10GDqON+hvLF52K99s9et5gVVxTul5n3SIAf0Kq5QjPRUKkAMT3zPAiiGvoHtS3APa/3uaxfDgCODQ==}
+  '@fastify/sensible@6.0.1':
+    resolution: {integrity: sha512-D0rN0kMeZKP23f4w9MoCI9e4+n7vASFAsGoRNn9bondSbplLeIfR2HcjCbyElAM04jGrPRLi/edyThEPOyC9cQ==}
 
   '@fastify/static@6.12.0':
     resolution: {integrity: sha512-KK1B84E6QD/FcQWxDI2aiUCwHxMJBI1KeCUzm1BwYpPY1b742+jeKruGHP2uOluuM6OkBPI8CIANrXcCRtC2oQ==}
@@ -2857,6 +2857,10 @@ packages:
   dependency-graph@0.11.0:
     resolution: {integrity: sha512-JeMq7fEshyepOWDfcfHK06N3MhyPhz++vtqWhMT5O9A3K42rdsEDpfdVqjaqaAhsw6a+ZqeDvQVtD0hFHQWrzg==}
     engines: {node: '>= 0.6.0'}
+
+  dequal@2.0.3:
+    resolution: {integrity: sha512-0je+qPKHEMohvfRTCEo3CrPG6cAzAYgmzKyxRiYSSDkS6eGJdyVJm7WaYA5ECaAD9wLB2T4EEeymA5aFVcYXCA==}
+    engines: {node: '>=6'}
 
   detect-indent@7.0.1:
     resolution: {integrity: sha512-Mc7QhQ8s+cLrnUfU/Ji94vG/r8M26m8f++vyres4ZoojaRDpZ1eSIh/EpzLNwlWuvzSZ3UbDFspjFvTDXe6e/g==}
@@ -5557,11 +5561,11 @@ snapshots:
       http-errors: 2.0.0
       mime: 3.0.0
 
-  '@fastify/sensible@5.6.0':
+  '@fastify/sensible@6.0.1':
     dependencies:
       '@lukeed/ms': 2.0.2
-      fast-deep-equal: 3.1.3
-      fastify-plugin: 4.5.1
+      dequal: 2.0.3
+      fastify-plugin: 5.0.1
       forwarded: 0.2.0
       http-errors: 2.0.0
       type-is: 1.6.18
@@ -8293,6 +8297,8 @@ snapshots:
   depd@2.0.0: {}
 
   dependency-graph@0.11.0: {}
+
+  dequal@2.0.3: {}
 
   detect-indent@7.0.1: {}
 
