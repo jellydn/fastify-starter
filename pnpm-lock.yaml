@@ -36,8 +36,8 @@ importers:
         specifier: 9.2.0
         version: 9.2.0
       '@fastify/swagger-ui':
-        specifier: 4.2.0
-        version: 4.2.0
+        specifier: 5.1.0
+        version: 5.1.0
       '@hyperdx/node-opentelemetry':
         specifier: 0.8.1
         version: 0.8.1(encoding@0.1.13)
@@ -814,6 +814,9 @@ packages:
     resolution: {integrity: sha512-OIHZrb2ImZ7XG85HXOONLcJWGosv7sIvM2ifAPQVhg9Lv7qdmMBNVaai4QTdyuaqbKM5eO6sLSQOYI7wEQeCJQ==}
     engines: {node: '>=14'}
 
+  '@fastify/accept-negotiator@2.0.0':
+    resolution: {integrity: sha512-/Sce/kBzuTxIq5tJh85nVNOq9wKD8s+viIgX0fFMDBdw95gnpf53qmF1oBgJym3cPFliWUuSloVg/1w/rH0FcQ==}
+
   '@fastify/ajv-compiler@3.6.0':
     resolution: {integrity: sha512-LwdXQJjmMD+GwLOkP7TVC68qa+pSSogeWWmznRJ/coyTcfe9qA05AHFSe1eZFwK6q+xVRpChnvFUkf1iYaSZsQ==}
 
@@ -863,6 +866,9 @@ packages:
   '@fastify/send@2.1.0':
     resolution: {integrity: sha512-yNYiY6sDkexoJR0D8IDy3aRP3+L4wdqCpvx5WP+VtEU58sn7USmKynBzDQex5X42Zzvw2gNzzYgP90UfWShLFA==}
 
+  '@fastify/send@3.1.1':
+    resolution: {integrity: sha512-LdiV2mle/2tH8vh6GwGl0ubfUAgvY+9yF9oGI1iiwVyNUVOQamvw5n+OFu6iCNNoyuCY80FFURBn4TZCbTe8LA==}
+
   '@fastify/sensible@5.6.0':
     resolution: {integrity: sha512-Vq6Z2ZQy10GDqON+hvLF52K99s9et5gVVxTul5n3SIAf0Kq5QjPRUKkAMT3zPAiiGvoHtS3APa/3uaxfDgCODQ==}
 
@@ -872,8 +878,11 @@ packages:
   '@fastify/static@7.0.4':
     resolution: {integrity: sha512-p2uKtaf8BMOZWLs6wu+Ihg7bWNBdjNgCwDza4MJtTqg+5ovKmcbgbR9Xs5/smZ1YISfzKOCNYmZV8LaCj+eJ1Q==}
 
-  '@fastify/swagger-ui@4.2.0':
-    resolution: {integrity: sha512-pVutmTm49Pn98FS01E2m+eUH0WGhsHlImowWr9PXQt3rQPArSsocON8qF/8mm0dNLmilwtJZJqdsvFTnCUcapw==}
+  '@fastify/static@8.0.2':
+    resolution: {integrity: sha512-xJ+XaZVl4Y+lKztx8jGi+BE73aByhOmjMgaTx98E4XtVZxUpiaYQIMBlwACsJz+xohm0kvzV34BZoiZ+bsJtBQ==}
+
+  '@fastify/swagger-ui@5.1.0':
+    resolution: {integrity: sha512-XWb+zWz0vlP4QIXbF2xo/n9XuOjNF5aRdQ+0AiBXY9nlIuoTYU1ZXCkXNStdnM/sOdnDy8Q1vsxZ2RsN7XivQA==}
 
   '@fastify/swagger@9.2.0':
     resolution: {integrity: sha512-tuy78fW3G4z8EhTdopAu6gXbllFrQBkcYduOmPiEVESZNaLnxR8N80YVu7F6WuMwk7sd9rYGnGo9bxDQChCFjg==}
@@ -5471,6 +5480,8 @@ snapshots:
 
   '@fastify/accept-negotiator@1.1.0': {}
 
+  '@fastify/accept-negotiator@2.0.0': {}
+
   '@fastify/ajv-compiler@3.6.0':
     dependencies:
       ajv: 8.17.1
@@ -5538,6 +5549,14 @@ snapshots:
       http-errors: 2.0.0
       mime: 3.0.0
 
+  '@fastify/send@3.1.1':
+    dependencies:
+      '@lukeed/ms': 2.0.2
+      escape-html: 1.0.3
+      fast-decode-uri-component: 1.0.1
+      http-errors: 2.0.0
+      mime: 3.0.0
+
   '@fastify/sensible@5.6.0':
     dependencies:
       '@lukeed/ms': 2.0.2
@@ -5566,10 +5585,19 @@ snapshots:
       fastq: 1.17.1
       glob: 10.4.5
 
-  '@fastify/swagger-ui@4.2.0':
+  '@fastify/static@8.0.2':
     dependencies:
-      '@fastify/static': 7.0.4
-      fastify-plugin: 4.5.1
+      '@fastify/accept-negotiator': 2.0.0
+      '@fastify/send': 3.1.1
+      content-disposition: 0.5.4
+      fastify-plugin: 5.0.1
+      fastq: 1.17.1
+      glob: 11.0.0
+
+  '@fastify/swagger-ui@5.1.0':
+    dependencies:
+      '@fastify/static': 8.0.2
+      fastify-plugin: 5.0.1
       openapi-types: 12.1.3
       rfdc: 1.4.1
       yaml: 2.5.1
