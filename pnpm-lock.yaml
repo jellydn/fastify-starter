@@ -27,8 +27,8 @@ importers:
         specifier: 8.3.0
         version: 8.3.0
       '@fastify/rate-limit':
-        specifier: 9.1.0
-        version: 9.1.0
+        specifier: 10.1.1
+        version: 10.1.1
       '@fastify/sensible':
         specifier: 5.6.0
         version: 5.6.0
@@ -710,8 +710,8 @@ packages:
   '@fastify/multipart@8.3.0':
     resolution: {integrity: sha512-A8h80TTyqUzaMVH0Cr9Qcm6RxSkVqmhK/MVBYHYeRRSUbUYv08WecjWKSlG2aSnD4aGI841pVxAjC+G1GafUeQ==}
 
-  '@fastify/rate-limit@9.1.0':
-    resolution: {integrity: sha512-h5dZWCkuZXN0PxwqaFQLxeln8/LNwQwH9popywmDCFdKfgpi4b/HoMH1lluy6P+30CG9yzzpSpwTCIPNB9T1JA==}
+  '@fastify/rate-limit@10.1.1':
+    resolution: {integrity: sha512-v6ZrDhWVjmDHWYdW2vbALyTCPz9W6Jqvf0QXbl9/atMXlZeFQw4XJkHUm5GGbJReCxaj5dHKbD+P32kkI3xzCA==}
 
   '@fastify/send@2.1.0':
     resolution: {integrity: sha512-yNYiY6sDkexoJR0D8IDy3aRP3+L4wdqCpvx5WP+VtEU58sn7USmKynBzDQex5X42Zzvw2gNzzYgP90UfWShLFA==}
@@ -5254,10 +5254,10 @@ snapshots:
       secure-json-parse: 2.7.0
       stream-wormhole: 1.1.0
 
-  '@fastify/rate-limit@9.1.0':
+  '@fastify/rate-limit@10.1.1':
     dependencies:
       '@lukeed/ms': 2.0.2
-      fastify-plugin: 4.5.1
+      fastify-plugin: 5.0.1
       toad-cache: 3.7.0
 
   '@fastify/send@2.1.0':
