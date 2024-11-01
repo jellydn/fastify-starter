@@ -1,4 +1,4 @@
-import AltairFastify from 'altair-fastify-plugin'
+import { AltairFastify } from 'altair-fastify-plugin'
 import type { FastifyInstance, FastifyReply, FastifyRequest } from 'fastify'
 import mercurius from 'mercurius'
 import mercuriusCodegen from 'mercurius-codegen'
