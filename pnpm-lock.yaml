@@ -60,11 +60,11 @@ importers:
         specifier: 0.54.2
         version: 0.54.2(@opentelemetry/api@1.9.0)
       '@sinclair/typebox':
-        specifier: 0.33.21
-        version: 0.33.21
+        specifier: 0.33.22
+        version: 0.33.22
       altair-fastify-plugin:
-        specifier: 8.0.1
-        version: 8.0.1(fastify@5.1.0)
+        specifier: 8.0.2
+        version: 8.0.2(fastify@5.1.0)
       close-with-grace:
         specifier: 2.1.0
         version: 2.1.0
@@ -2084,8 +2084,8 @@ packages:
     resolution: {integrity: sha512-8iKx79/F73DKbGfRf7+t4dqrc0bRr0thdPrxAtCKWRm/F0tG71i6O1rvlnScncJLLBZHn3h8M3c1BSUAb9yu8g==}
     engines: {node: ^16.14.0 || >=18.0.0}
 
-  '@sinclair/typebox@0.33.21':
-    resolution: {integrity: sha512-1wU0VNSZQt13BmJvxYhHRVwDBnG8y5qrcyi3DnmEQzvfeRycUNneQSd6quyxrNbspM1pV/m4r4udO6o1tCuXjg==}
+  '@sinclair/typebox@0.33.22':
+    resolution: {integrity: sha512-auUj4k+f4pyrIVf4GW5UKquSZFHJWri06QgARy9C0t9ZTjJLIuNIrr1yl9bWcJWJ1Gz1vOvYN1D+QPaIlNMVkQ==}
 
   '@tapjs/after-each@4.0.0':
     resolution: {integrity: sha512-RrkYMB3SpXKFJAijbgNkOexiClX5aygkCIHKHPIfnfqsPozkwjYbtVQs6d1/tG8ytiJtH5rvybuNJMRRNDcfBQ==}
@@ -2427,13 +2427,13 @@ packages:
   ajv@8.17.1:
     resolution: {integrity: sha512-B/gBuNg5SiMTrPkC+A2+cW0RszwxYmn6VYxB/inlBStS5nx6xHIt/ehKRhIMhqusl7a8LjQoZnjCs5vhwxOQ1g==}
 
-  altair-fastify-plugin@8.0.1:
-    resolution: {integrity: sha512-SoN1O3fJhiEJbhoUSA0GZ3ZJKmMA6J8WsIj6bxBg+GZCdHjSYARTXzHoAaKdEPPn1pgqm9EyM20Mm0Y17iU7Fg==}
+  altair-fastify-plugin@8.0.2:
+    resolution: {integrity: sha512-phEJBoch1qD5z7SMjNLLlEjXxaIAEvG/oYXcNu4IlPpKSTImNlydnPyUYR46wjOsND/6cIhCW3XKPLA5201z3Q==}
     peerDependencies:
       fastify: ^5.0.0
 
-  altair-static@8.0.1:
-    resolution: {integrity: sha512-QrWwcFrcPrBQmQqOOPWMAQCE7dPJMP6aLu8/hf78vk6lqoLzNZzjyBEEMWPgTAdIN2OM3rhESdGO/2N04nQwug==}
+  altair-static@8.0.2:
+    resolution: {integrity: sha512-hJJc9e+TUgZsiWFI7jq/BIoIEW5AIAlV1QVZzLOmBmIxCQZLgf6OdIBiidVdptxRgRSDCTjjX9gNb2H8CPr/jw==}
     engines: {node: '>= 6.9.1'}
 
   ansi-escapes@7.0.0:
@@ -7243,7 +7243,7 @@ snapshots:
       '@sigstore/core': 1.1.0
       '@sigstore/protobuf-specs': 0.3.2
 
-  '@sinclair/typebox@0.33.21': {}
+  '@sinclair/typebox@0.33.22': {}
 
   '@tapjs/after-each@4.0.0(@tapjs/core@4.0.0(@types/node@22.9.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))':
     dependencies:
@@ -7721,14 +7721,14 @@ snapshots:
       json-schema-traverse: 1.0.0
       require-from-string: 2.0.2
 
-  altair-fastify-plugin@8.0.1(fastify@5.1.0):
+  altair-fastify-plugin@8.0.2(fastify@5.1.0):
     dependencies:
       '@fastify/static': 8.0.2
-      altair-static: 8.0.1
+      altair-static: 8.0.2
       fastify: 5.1.0
       fastify-plugin: 5.0.1
 
-  altair-static@8.0.1: {}
+  altair-static@8.0.2: {}
 
   ansi-escapes@7.0.0:
     dependencies:
