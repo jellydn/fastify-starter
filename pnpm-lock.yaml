@@ -36,8 +36,8 @@ importers:
         specifier: 9.4.0
         version: 9.4.0
       '@fastify/swagger-ui':
-        specifier: 5.1.0
-        version: 5.1.0
+        specifier: 5.2.0
+        version: 5.2.0
       '@hyperdx/node-opentelemetry':
         specifier: 0.8.1
         version: 0.8.1(encoding@0.1.13)
@@ -69,8 +69,8 @@ importers:
         specifier: 2.1.0
         version: 2.1.0
       dotenv:
-        specifier: 16.4.6
-        version: 16.4.6
+        specifier: 16.4.7
+        version: 16.4.7
       fastify:
         specifier: 5.1.0
         version: 5.1.0
@@ -857,8 +857,8 @@ packages:
   '@fastify/static@8.0.3':
     resolution: {integrity: sha512-GHSoOVDIxEYEeVR5l044bRCuAKDErD/+9VE+Z9fnaTRr+DDz0Avrm4kKai1mHbPx6C0U7BVNthjd/gcMquZZUA==}
 
-  '@fastify/swagger-ui@5.1.0':
-    resolution: {integrity: sha512-XWb+zWz0vlP4QIXbF2xo/n9XuOjNF5aRdQ+0AiBXY9nlIuoTYU1ZXCkXNStdnM/sOdnDy8Q1vsxZ2RsN7XivQA==}
+  '@fastify/swagger-ui@5.2.0':
+    resolution: {integrity: sha512-oxL9bcL/ad8J1zXAvG2kMmj9d9mHQSM7Mx92yUk90IhvsTns9xy+GK2wXaNyv8/DFg6HpJOL2NrBAzuUt80j8g==}
 
   '@fastify/swagger@9.4.0':
     resolution: {integrity: sha512-3hF7asqyNfu41aeDA/ATlIG0RY4XizgaDqPR0nc1Unt3EiXWjkVMiELLaH5WZKNvB4BA/5Wovxdin7N4ii7YHw==}
@@ -2824,8 +2824,8 @@ packages:
     resolution: {integrity: sha512-GopVGCpVS1UKH75VKHGuQFqS1Gusej0z4FyQkPdwjil2gNIv+LNsqBlboOzpJFZKVT95GkCyWJbBSdFEFUWI2A==}
     engines: {node: '>=12'}
 
-  dotenv@16.4.6:
-    resolution: {integrity: sha512-JhcR/+KIjkkjiU8yEpaB/USlzVi3i5whwOjpIRNGi9svKEXZSe+Qp6IWAjFjv+2GViAoDRCUv/QLNziQxsLqDg==}
+  dotenv@16.4.7:
+    resolution: {integrity: sha512-47qPchRCykZC03FhkYAhrvwU4xDBFIj1QPqaarj6mdM/hgUzfPHcpkHJOn3mJAufFeeAxAzeGsr5X0M4k6fLZQ==}
     engines: {node: '>=12'}
 
   dset@3.1.4:
@@ -5469,7 +5469,7 @@ snapshots:
       fastq: 1.17.1
       glob: 11.0.0
 
-  '@fastify/swagger-ui@5.1.0':
+  '@fastify/swagger-ui@5.2.0':
     dependencies:
       '@fastify/static': 8.0.3
       fastify-plugin: 5.0.1
@@ -7579,7 +7579,7 @@ snapshots:
 
   '@types/dotenv@8.2.3':
     dependencies:
-      dotenv: 16.4.6
+      dotenv: 16.4.7
 
   '@types/estree@1.0.6': {}
 
@@ -8149,7 +8149,7 @@ snapshots:
 
   dotenv-expand@10.0.0: {}
 
-  dotenv@16.4.6: {}
+  dotenv@16.4.7: {}
 
   dset@3.1.4: {}
 
@@ -8184,7 +8184,7 @@ snapshots:
   env-schema@6.0.0:
     dependencies:
       ajv: 8.17.1
-      dotenv: 16.4.6
+      dotenv: 16.4.7
       dotenv-expand: 10.0.0
 
   environment@1.1.0: {}
@@ -8320,7 +8320,7 @@ snapshots:
       chokidar: 4.0.1
       close-with-grace: 2.1.0
       commist: 3.2.0
-      dotenv: 16.4.6
+      dotenv: 16.4.7
       fastify: 5.1.0
       fastify-plugin: 5.0.1
       generify: 4.2.0
