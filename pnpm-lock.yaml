@@ -63,8 +63,8 @@ importers:
         specifier: 0.34.11
         version: 0.34.11
       altair-fastify-plugin:
-        specifier: 8.0.4
-        version: 8.0.4(fastify@5.1.0)
+        specifier: 8.0.5
+        version: 8.0.5(fastify@5.1.0)
       close-with-grace:
         specifier: 2.1.0
         version: 2.1.0
@@ -2463,13 +2463,13 @@ packages:
   ajv@8.17.1:
     resolution: {integrity: sha512-B/gBuNg5SiMTrPkC+A2+cW0RszwxYmn6VYxB/inlBStS5nx6xHIt/ehKRhIMhqusl7a8LjQoZnjCs5vhwxOQ1g==}
 
-  altair-fastify-plugin@8.0.4:
-    resolution: {integrity: sha512-Gz0AC1MJ6xf/tc07O3lYl8cL58mi38DCDI8BhPJbxD1D1t5wJciSCtaEbbe1kM2dVeYKJmD286nzRLrdF4LrKg==}
+  altair-fastify-plugin@8.0.5:
+    resolution: {integrity: sha512-L6FRk9evtam9IcG1+gCj0A/362JzGSK2U7Rx5KMBvRLXn0XGpif1y6yx/rXijb93vos3IyJPFuPp84+zfetJZg==}
     peerDependencies:
       fastify: ^5.0.0
 
-  altair-static@8.0.4:
-    resolution: {integrity: sha512-DQX5X8UyTVxpgTX7waARdSQgCHWpJALq2llEeP/lKieyxbkiTP8LJgY6hMSMi7/YKAz6ykqy/pK+UT66cE28Yg==}
+  altair-static@8.0.5:
+    resolution: {integrity: sha512-PO8fJ0Lh7/XA4wjOq7w/qCdd9nujq50dOHrShkQjX86OndYDUdh9k+4tLDTtdDrI5eKO0YGjb4kaUhxkJVXTRg==}
     engines: {node: '>= 6.9.1'}
 
   ansi-escapes@7.0.0:
@@ -7793,14 +7793,14 @@ snapshots:
       json-schema-traverse: 1.0.0
       require-from-string: 2.0.2
 
-  altair-fastify-plugin@8.0.4(fastify@5.1.0):
+  altair-fastify-plugin@8.0.5(fastify@5.1.0):
     dependencies:
       '@fastify/static': 8.0.3
-      altair-static: 8.0.4
+      altair-static: 8.0.5
       fastify: 5.1.0
       fastify-plugin: 5.0.1
 
-  altair-static@8.0.4: {}
+  altair-static@8.0.5: {}
 
   ansi-escapes@7.0.0:
     dependencies:
