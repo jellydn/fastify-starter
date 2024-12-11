@@ -121,8 +121,8 @@ importers:
         specifier: 6.0.4
         version: 6.0.4
       '@types/tap':
-        specifier: 15.0.12
-        version: 15.0.12
+        specifier: 18.0.0
+        version: 18.0.0(@types/node@22.10.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.7.2)
       cpy-cli:
         specifier: 5.0.0
         version: 5.0.0
@@ -2377,8 +2377,9 @@ packages:
   '@types/swagger-jsdoc@6.0.4':
     resolution: {integrity: sha512-W+Xw5epcOZrF/AooUM/PccNMSAFOKWZA5dasNyMujTwsBkU74njSJBpvCCJhHAJ95XRMzQrrW844Btu0uoetwQ==}
 
-  '@types/tap@15.0.12':
-    resolution: {integrity: sha512-QuVlxQEBOBASkirrwp0ciwO9stIzOdRMHyaYYsexeVSAYwR4sq+YIYaQbVaYXSXi8+yPf22ZZNieRCB8KAJrTA==}
+  '@types/tap@18.0.0':
+    resolution: {integrity: sha512-caqy4dfOj/mdGpMdjRIsJc0HDCMUeCLCxbf1mlfAbpDGzOOqd5yQ4hRMxiER+sR7Wx1y3gNEPqFw0ySp4uI/jQ==}
+    deprecated: This is a stub types definition. tap provides its own type definitions, so you do not need this installed.
 
   '@types/tedious@4.0.14':
     resolution: {integrity: sha512-KHPsfX/FoVbUGbyYvk1q9MMQHLPeRZhRJZdO45Q4YjvFkv4hMNghCWTvy7rdKessBsmtz4euWCWAB6/tVpI1Iw==}
@@ -7674,9 +7675,23 @@ snapshots:
 
   '@types/swagger-jsdoc@6.0.4': {}
 
-  '@types/tap@15.0.12':
+  '@types/tap@18.0.0(@types/node@22.10.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.7.2)':
     dependencies:
-      '@types/node': 22.10.2
+      tap: 21.0.1(@types/node@22.10.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.7.2)
+    transitivePeerDependencies:
+      - '@swc/core'
+      - '@swc/wasm'
+      - '@types/node'
+      - '@types/react'
+      - bluebird
+      - bufferutil
+      - monocart-coverage-reports
+      - react
+      - react-devtools-core
+      - react-dom
+      - supports-color
+      - typescript
+      - utf-8-validate
 
   '@types/tedious@4.0.14':
     dependencies:
