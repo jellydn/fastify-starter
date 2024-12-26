@@ -93,8 +93,8 @@ importers:
         specifier: 6.0.0
         version: 6.0.0(encoding@0.1.13)(fastify@5.2.0)(graphql@16.10.0)(mercurius@15.1.0(graphql@16.10.0))(prettier@3.4.2)
       mercurius-integration-testing:
-        specifier: 9.0.0
-        version: 9.0.0(fastify@5.2.0)(graphql@16.10.0)(mercurius@15.1.0(graphql@16.10.0))
+        specifier: 9.0.1
+        version: 9.0.1(fastify@5.2.0)(graphql@16.10.0)(mercurius@15.1.0(graphql@16.10.0))
       nexus:
         specifier: 1.3.0
         version: 1.3.0(graphql@16.10.0)
@@ -2739,10 +2739,6 @@ packages:
     resolution: {integrity: sha512-rcQ1bsQO9799wq24uE5AM2tAILy4gXGIK/njFWcVQkGNZ96edlpY+A7bjwvzjYvLDyzmG1MmMLZhpcsb+klNMQ==}
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
 
-  cookie@0.5.0:
-    resolution: {integrity: sha512-YZ3GUyn/o8gfKJlnlX7g7xq4gyO6OSuhGPKaaGssGB2qgDUS0gPgtTvoyZLTt9Ab6dC4hfc9dV5arkvc/OCmrw==}
-    engines: {node: '>= 0.6'}
-
   cookie@1.0.2:
     resolution: {integrity: sha512-9Kr/j4O16ISv8zBBhJoi4bXOYNTkFLOqSL3UDB0njXxCXNezjeyVrJyGOWtgfs/q2km1gwBcfH8q1yEGoMYunA==}
     engines: {node: '>=18'}
@@ -3601,15 +3597,15 @@ packages:
       mercurius: ^11.0.0 || ^12.0.0 || ^13.0.0 || ^14.0.0 || ^15.0.0
       prettier: ^3.3.3
 
-  mercurius-integration-testing@9.0.0:
-    resolution: {integrity: sha512-N2GRMPOZ2BjgnTUH3QKcv9INd3AXb7u7GYQQ8EeakBTqZ68PkWppM32RwNTRMKuxJblUBbTEOJ5diAwo0ETP9A==}
+  mercurius-integration-testing@9.0.1:
+    resolution: {integrity: sha512-AAE0slhjNPtNbRD3guczsEzlh38ClzFlvU/VnuMHqjWUDsc7pHkk8psFTxlJ6ihFiNIVBBPDIfWnBzbMJ+7IrA==}
     engines: {node: '>=14'}
     peerDependencies:
       '@mercuriusjs/federation': ^1 || ^2
       '@mercuriusjs/gateway': ^1.2.0
       fastify: ^4.0.0 || ^5.0.0
       graphql: '*'
-      mercurius: ^12 || ^13 || ^14 || ^15
+      mercurius: ^12 || ^13 || ^14 || ^15 || ^16
     peerDependenciesMeta:
       '@mercuriusjs/federation':
         optional: true
@@ -8110,8 +8106,6 @@ snapshots:
 
   convert-to-spaces@2.0.1: {}
 
-  cookie@0.5.0: {}
-
   cookie@1.0.2: {}
 
   cp-file@10.0.0:
@@ -9054,10 +9048,10 @@ snapshots:
       - encoding
       - supports-color
 
-  mercurius-integration-testing@9.0.0(fastify@5.2.0)(graphql@16.10.0)(mercurius@15.1.0(graphql@16.10.0)):
+  mercurius-integration-testing@9.0.1(fastify@5.2.0)(graphql@16.10.0)(mercurius@15.1.0(graphql@16.10.0)):
     dependencies:
       '@graphql-typed-document-node/core': 3.2.0(graphql@16.10.0)
-      cookie: 0.5.0
+      cookie: 1.0.2
       fastify: 5.2.0
       graphql: 16.10.0
       mercurius: 15.1.0(graphql@16.10.0)
