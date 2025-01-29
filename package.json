@@ -54,7 +54,7 @@
     "fastify-tsconfig": "3.0.0",
     "graphql": "16.10.0",
     "mercurius": "16.0.1",
-    "mercurius-codegen": "6.0.0",
+    "mercurius-codegen": "6.0.1",
     "mercurius-integration-testing": "9.0.1",
     "nexus": "1.3.0",
     "swagger-jsdoc": "6.2.8"
