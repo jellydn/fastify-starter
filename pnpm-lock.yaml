@@ -142,8 +142,8 @@ importers:
         specifier: 2.14.0
         version: 2.14.0
       tap:
-        specifier: 21.0.1
-        version: 21.0.1(@types/node@22.13.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.7.3)
+        specifier: 21.0.2
+        version: 21.0.2(@types/node@22.13.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.7.3)
       ts-node:
         specifier: 10.9.2
         version: 10.9.2(@types/node@22.13.1)(typescript@5.7.3)
@@ -4473,8 +4473,8 @@ packages:
     resolution: {integrity: sha512-CjMbq8hhT5TvzyvHRnzbGp00wmb4TZjSscCRCCJCdCzRb+Pb56HaMlBHNBn1/GZ6UqwUgDKdF18+9VAFnQ4F0g==}
     engines: {node: 20 || >=22}
 
-  tap@21.0.1:
-    resolution: {integrity: sha512-FE8H5Nt2mKU96DX4XgjqBkKzMcxvVkmbKhaNWOk2lUNRpqJNKqBOO5R6q7shr7JoUh1DHwdNWmppg8vWXQh2lQ==}
+  tap@21.0.2:
+    resolution: {integrity: sha512-ogAIIparOzHxZPdEWtTRdV+725XJR2ylP/gRcfCH+TPGAOXpf2RFmAvHiPMUtGgmYugt5SjYw1lC4eOxTO91uA==}
     engines: {node: 20 || >=22}
     hasBin: true
 
@@ -7731,7 +7731,7 @@ snapshots:
 
   '@types/tap@18.0.0(@types/node@22.13.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.7.3)':
     dependencies:
-      tap: 21.0.1(@types/node@22.13.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.7.3)
+      tap: 21.0.2(@types/node@22.13.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.7.3)
     transitivePeerDependencies:
       - '@swc/core'
       - '@swc/wasm'
@@ -9986,7 +9986,7 @@ snapshots:
       yaml: 2.7.0
       yaml-types: 0.4.0(yaml@2.7.0)
 
-  tap@21.0.1(@types/node@22.13.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.7.3):
+  tap@21.0.2(@types/node@22.13.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.7.3):
     dependencies:
       '@tapjs/after': 3.0.0(@tapjs/core@4.0.0(@types/node@22.13.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
       '@tapjs/after-each': 4.0.0(@tapjs/core@4.0.0(@types/node@22.13.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
