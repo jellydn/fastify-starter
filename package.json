@@ -64,7 +64,7 @@
     "@tapjs/test": "4.0.1",
     "@types/busboy": "1.5.4",
     "@types/dotenv": "8.2.3",
-    "@types/node": "22.13.5",
+    "@types/node": "22.13.8",
     "@types/swagger-jsdoc": "6.0.4",
     "@types/tap": "18.0.0",
     "cpy-cli": "5.0.0",
@@ -72,12 +72,12 @@
     "fast-json-stringify": "6.0.1",
     "husky": "9.1.7",
     "json-schema-to-typescript": "15.0.4",
-    "sort-package-json": "2.15.0",
+    "sort-package-json": "2.15.1",
     "tap": "21.1.0",
     "ts-node": "10.9.2",
     "tsup": "8.4.0",
     "tsx": "4.19.3",
-    "typescript": "5.7.3"
+    "typescript": "5.8.2"
   },
   "packageManager": "pnpm@10.5.2",
   "engines": {
