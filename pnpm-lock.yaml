@@ -12,8 +12,8 @@ importers:
         specifier: 6.1.0
         version: 6.1.0
       '@fastify/cors':
-        specifier: 10.1.0
-        version: 10.1.0
+        specifier: 11.0.0
+        version: 11.0.0
       '@fastify/env':
         specifier: 5.0.2
         version: 5.0.2
@@ -677,8 +677,8 @@ packages:
   '@fastify/busboy@3.1.1':
     resolution: {integrity: sha512-5DGmA8FTdB2XbDeEwc/5ZXBl6UbBAyBOOLlPuBnZ/N1SwdH9Ii+cOX3tBROlDgcTXxjOYnLMVoKk9+FXAw0CJw==}
 
-  '@fastify/cors@10.1.0':
-    resolution: {integrity: sha512-MZyBCBJtII60CU9Xme/iE4aEy8G7QpzGR8zkdXZkDFt7ElEMachbE61tfhAG/bvSaULlqlf0huMT12T7iqEmdQ==}
+  '@fastify/cors@11.0.0':
+    resolution: {integrity: sha512-41Bx0LVGr2a6DnnhDN/SgfDlTRNZtEs8niPxyoymV6Hw09AIdz/9Rn/0Fpu+pBOs6kviwS44JY2mB8NcU2qSAA==}
 
   '@fastify/deepmerge@2.0.2':
     resolution: {integrity: sha512-3wuLdX5iiiYeZWP6bQrjqhrcvBIf0NHbQH1Ur1WbHvoiuTYUEItgygea3zs8aHpiitn0lOB8gX20u1qO+FDm7Q==}
@@ -5197,7 +5197,7 @@ snapshots:
 
   '@fastify/busboy@3.1.1': {}
 
-  '@fastify/cors@10.1.0':
+  '@fastify/cors@11.0.0':
     dependencies:
       fastify-plugin: 5.0.1
       mnemonist: 0.40.0
