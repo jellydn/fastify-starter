@@ -57,7 +57,10 @@ void server.ready((err) => {
     'All routes loaded! Check your console for the route details.',
   )
 
-  console.log(server.printRoutes())
+  // Just for debugging purposes
+  for (const route of server.printRoutes().split('\n')) {
+    server.log.info(route)
+  }
 
   server.log.info(
     `Server listening on port ${Number(process.env.PORT ?? 3000)}`,
