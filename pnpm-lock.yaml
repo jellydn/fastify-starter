@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@fastify/autoload':
-        specifier: 6.1.0
-        version: 6.1.0
+        specifier: 6.2.0
+        version: 6.2.0
       '@fastify/cors':
         specifier: 11.0.0
         version: 11.0.0
@@ -60,8 +60,8 @@ importers:
         specifier: 0.57.2
         version: 0.57.2(@opentelemetry/api@1.9.0)
       '@sinclair/typebox':
-        specifier: 0.34.28
-        version: 0.34.28
+        specifier: 0.34.29
+        version: 0.34.29
       altair-fastify-plugin:
         specifier: 8.2.1
         version: 8.2.1(fastify@5.2.1)
@@ -671,8 +671,8 @@ packages:
   '@fastify/ajv-compiler@4.0.2':
     resolution: {integrity: sha512-Rkiu/8wIjpsf46Rr+Fitd3HRP+VsxUFDDeag0hs9L0ksfnwx2g7SPQQTFL0E8Qv+rfXzQOxBJnjUB9ITUDjfWQ==}
 
-  '@fastify/autoload@6.1.0':
-    resolution: {integrity: sha512-ltFiI5u5KETSqVXq9AIYtiTqrQn4fvuiETR8N78L119JMLJUqHZ6EqZw77syrMf1N9OMCK8z7YktntK9LaD7Pw==}
+  '@fastify/autoload@6.2.0':
+    resolution: {integrity: sha512-NcvIcAqa6z/rpENcLHEMtLMjrXgWge8MyzTaPbI+svzEzTd9vaDdC47N6WugZBrqaOTSKX4PmEAsYNOn8jPzkg==}
 
   '@fastify/busboy@3.1.1':
     resolution: {integrity: sha512-5DGmA8FTdB2XbDeEwc/5ZXBl6UbBAyBOOLlPuBnZ/N1SwdH9Ii+cOX3tBROlDgcTXxjOYnLMVoKk9+FXAw0CJw==}
@@ -1969,8 +1969,8 @@ packages:
     resolution: {integrity: sha512-8iKx79/F73DKbGfRf7+t4dqrc0bRr0thdPrxAtCKWRm/F0tG71i6O1rvlnScncJLLBZHn3h8M3c1BSUAb9yu8g==}
     engines: {node: ^16.14.0 || >=18.0.0}
 
-  '@sinclair/typebox@0.34.28':
-    resolution: {integrity: sha512-e2B9vmvaa5ym5hWgCHw5CstP54au6AOLXrhZErLsOyyRzuWJtXl/8TszKtc5x8rw/b+oY7HKS9m9iRI53RK0WQ==}
+  '@sinclair/typebox@0.34.29':
+    resolution: {integrity: sha512-xTzI0LlHZ0eahKuN+2R+yJbEIUyV/ZSdtqvR3sHukgN56nvCW1tz+Yr6fQ6/7+WJ34AhaU9ZmYcHXv8xgj2Lvg==}
 
   '@tapjs/after-each@4.0.1':
     resolution: {integrity: sha512-YkVvfszKTLm57Bju8ET4hKCPXVsd9OCkWUBD8h8g0ZrX61r99Cf6jw/D4eTppPcWryOwE7WO/7aj/toBTp2W/Q==}
@@ -5193,7 +5193,7 @@ snapshots:
       ajv-formats: 3.0.1(ajv@8.17.1)
       fast-uri: 3.0.6
 
-  '@fastify/autoload@6.1.0': {}
+  '@fastify/autoload@6.2.0': {}
 
   '@fastify/busboy@3.1.1': {}
 
@@ -7089,7 +7089,7 @@ snapshots:
       '@sigstore/core': 1.1.0
       '@sigstore/protobuf-specs': 0.3.3
 
-  '@sinclair/typebox@0.34.28': {}
+  '@sinclair/typebox@0.34.29': {}
 
   '@tapjs/after-each@4.0.1(@tapjs/core@4.0.1(@types/node@22.13.10)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))':
     dependencies:
