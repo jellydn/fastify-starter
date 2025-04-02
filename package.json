@@ -44,7 +44,7 @@
     "@opentelemetry/exporter-trace-otlp-proto": "0.200.0",
     "@opentelemetry/sdk-metrics": "2.0.0",
     "@opentelemetry/sdk-node": "0.200.0",
-    "@sinclair/typebox": "0.34.31",
+    "@sinclair/typebox": "0.34.33",
     "altair-fastify-plugin": "8.2.1",
     "close-with-grace": "2.2.0",
     "dotenv": "16.4.7",
