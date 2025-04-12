@@ -2,7 +2,10 @@
   "name": "fastify-starter",
   "version": "0.3.0",
   "description": "Fastify Typescript Starter",
-  "keywords": ["fastify", "fastify-starter"],
+  "keywords": [
+    "fastify",
+    "fastify-starter"
+  ],
   "license": "MIT",
   "author": "Huynh Duc Dung",
   "main": "app.ts",
@@ -60,7 +63,7 @@
     "swagger-jsdoc": "6.2.8"
   },
   "devDependencies": {
-    "@biomejs/biome": "1.9.4",
+    "@biomejs/biome": "2.0.0-beta.1",
     "@tapjs/test": "4.0.1",
     "@types/busboy": "1.5.4",
     "@types/dotenv": "8.2.3",
@@ -84,11 +87,16 @@
     "node": ">=18.17.0"
   },
   "tsup": {
-    "entry": ["src/**/*.ts"],
+    "entry": [
+      "src/**/*.ts"
+    ],
     "splitting": false,
     "sourcemap": true,
     "clean": true,
-    "format": ["cjs", "esm"],
+    "format": [
+      "cjs",
+      "esm"
+    ],
     "legacyOutput": true,
     "target": "es2018",
     "onSuccess": "npm run copy:assets"

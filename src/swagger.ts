@@ -1,11 +1,10 @@
 import { writeFileSync } from 'node:fs'
 import { join } from 'node:path'
-import type { FastifyInstance } from 'fastify'
-import type { SwaggerDefinition } from 'swagger-jsdoc'
-import swaggerJsdoc from 'swagger-jsdoc'
-
 import fastifySwagger from '@fastify/swagger'
 import fastifySwaggerUi from '@fastify/swagger-ui'
+import type { FastifyInstance } from 'fastify'
+import swaggerJsdoc from 'swagger-jsdoc'
+import type { SwaggerDefinition } from 'swagger-jsdoc'
 
 // Swagger definition
 // https://github.com/swagger-api/swagger-spec/blob/master/versions/2.0.md

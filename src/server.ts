@@ -3,11 +3,9 @@ import closeWithGrace from 'close-with-grace'
 import * as dotenv from 'dotenv'
 // Require the framework
 import Fastify from 'fastify'
-
+import app from './app'
 import { initGraphql } from './graphql'
 import { initSwagger } from './swagger'
-
-import app from './app'
 
 // Read the .env file.
 dotenv.config()

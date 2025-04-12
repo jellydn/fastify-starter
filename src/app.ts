@@ -1,8 +1,8 @@
 import { join } from 'node:path'
-import type { FastifyPluginAsync } from 'fastify'
+import AutoLoad from '@fastify/autoload'
 
 import type { AutoloadPluginOptions } from '@fastify/autoload'
-import AutoLoad from '@fastify/autoload'
+import type { FastifyPluginAsync } from 'fastify'
 
 export type AppOptions = {
   // Place your custom options for app below here.
