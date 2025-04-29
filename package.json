@@ -63,7 +63,7 @@
     "swagger-jsdoc": "6.2.8"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.0.0-beta.1",
+    "@biomejs/biome": "2.0.0-beta.2",
     "@tapjs/test": "4.0.1",
     "@types/busboy": "1.5.4",
     "@types/dotenv": "8.2.3",
@@ -75,11 +75,11 @@
     "fast-json-stringify": "6.0.1",
     "husky": "9.1.7",
     "json-schema-to-typescript": "15.0.4",
-    "sort-package-json": "3.0.0",
+    "sort-package-json": "3.1.0",
     "tap": "21.1.0",
     "ts-node": "10.9.2",
     "tsup": "8.4.0",
-    "tsx": "4.19.3",
+    "tsx": "4.19.4",
     "typescript": "5.8.3"
   },
   "packageManager": "pnpm@10.10.0",
