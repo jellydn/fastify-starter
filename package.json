@@ -63,11 +63,11 @@
     "swagger-jsdoc": "6.2.8"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.0.0-beta.4",
+    "@biomejs/biome": "2.0.0-beta.5",
     "@tapjs/test": "4.0.1",
     "@types/busboy": "1.5.4",
     "@types/dotenv": "8.2.3",
-    "@types/node": "22.15.19",
+    "@types/node": "22.15.21",
     "@types/swagger-jsdoc": "6.0.4",
     "@types/tap": "18.0.0",
     "cpy-cli": "5.0.0",
