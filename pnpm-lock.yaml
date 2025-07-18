@@ -69,8 +69,8 @@ importers:
         specifier: 2.2.0
         version: 2.2.0
       dotenv:
-        specifier: 16.5.0
-        version: 16.5.0
+        specifier: 17.2.0
+        version: 17.2.0
       fastify:
         specifier: 5.3.3
         version: 5.3.3
@@ -2792,6 +2792,10 @@ packages:
 
   dotenv@16.5.0:
     resolution: {integrity: sha512-m/C+AwOAr9/W1UOIZUo232ejMNnJAJtYQjUbHoNTBNTJSvqzzDh7vnrei3o3r3m9blf6ZoDkvcw0VmozNRFJxg==}
+    engines: {node: '>=12'}
+
+  dotenv@17.2.0:
+    resolution: {integrity: sha512-Q4sgBT60gzd0BB0lSyYD3xM4YxrXA9y4uBDof1JNYGzOXrQdQ6yX+7XIAqoFOGQFOTK1D3Hts5OllpxMDZFONQ==}
     engines: {node: '>=12'}
 
   dset@3.1.4:
@@ -7564,7 +7568,7 @@ snapshots:
 
   '@types/dotenv@8.2.3':
     dependencies:
-      dotenv: 16.5.0
+      dotenv: 17.2.0
 
   '@types/estree@1.0.8': {}
 
@@ -8152,6 +8156,8 @@ snapshots:
   dotenv-expand@10.0.0: {}
 
   dotenv@16.5.0: {}
+
+  dotenv@17.2.0: {}
 
   dset@3.1.4: {}
 
