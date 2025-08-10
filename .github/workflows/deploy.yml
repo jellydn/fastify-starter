@@ -20,7 +20,7 @@ jobs:
       - name: ⎔ Setup node
         uses: actions/setup-node@v4
         with:
-          node-version: 18
+          node-version: 18.20.8
 
       - name: 📥 Install pnpm
         run: npm install -g pnpm
@@ -46,7 +46,7 @@ jobs:
       - name: 🛠 Setup node
         uses: actions/setup-node@v4
         with:
-          node-version: 18
+          node-version: 18.20.8
 
       - name: 📥 Install pnpm
         run: npm install -g pnpm
