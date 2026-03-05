@@ -1,5 +1,4 @@
 import etag from '@fastify/etag'
-
 import type { FastifyEtagOptions } from '@fastify/etag'
 import fp from 'fastify-plugin'
 

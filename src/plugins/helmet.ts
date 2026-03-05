@@ -1,5 +1,4 @@
 import helmet from '@fastify/helmet'
-
 import type { FastifyHelmetOptions } from '@fastify/helmet'
 import fp from 'fastify-plugin'
 

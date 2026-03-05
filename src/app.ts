@@ -1,6 +1,5 @@
 import { join } from 'node:path'
 import AutoLoad from '@fastify/autoload'
-
 import type { AutoloadPluginOptions } from '@fastify/autoload'
 import type { FastifyPluginAsync } from 'fastify'
 

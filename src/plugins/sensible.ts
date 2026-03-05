@@ -1,5 +1,4 @@
 import sensible from '@fastify/sensible'
-
 import type { FastifySensibleOptions } from '@fastify/sensible'
 import fp from 'fastify-plugin'
 

@@ -1,5 +1,4 @@
 import cors from '@fastify/cors'
-
 import type { FastifyCorsOptions } from '@fastify/cors'
 import fp from 'fastify-plugin'
 
