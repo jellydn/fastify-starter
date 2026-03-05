@@ -26,13 +26,16 @@ void initGraphql(server)
 void initSwagger(server)
 
 // Delay is the number of milliseconds for the graceful close to finish
-const closeListeners = closeWithGrace({ delay: 500 }, async (opts: any) => {
-  if (opts.err) {
-    server.log.error(opts.err)
-  }
+const closeListeners = closeWithGrace(
+  { delay: 500 },
+  async (opts: { err?: Error; signal?: string; manual?: boolean }) => {
+    if (opts.err) {
+      server.log.error(opts.err)
+    }
 
-  await server.close()
-})
+    await server.close()
+  },
+)
 
 server.addHook('onClose', (_instance, done) => {
   closeListeners.uninstall()

@@ -1,11 +1,10 @@
 import { createMercuriusTestClient } from 'mercurius-integration-testing'
 import { test } from 'tap'
 
-import { app } from '../../src/server'
+import { build } from '../helper'
 
 void test('hello query', async (t) => {
-  t.plan(1)
-
+  const app = await build(t)
   const testClient = createMercuriusTestClient(app)
   const response = await testClient.query(
     `query {
