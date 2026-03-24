@@ -55,7 +55,7 @@
     "fastify-cli": "7.4.1",
     "fastify-plugin": "5.1.0",
     "fastify-tsconfig": "3.0.0",
-    "graphql": "16.13.1",
+    "graphql": "16.13.2",
     "mercurius": "16.8.0",
     "mercurius-codegen": "6.0.1",
     "mercurius-integration-testing": "9.0.1",
