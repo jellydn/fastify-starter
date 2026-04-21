@@ -36,8 +36,8 @@ importers:
         specifier: 9.7.0
         version: 9.7.0
       '@fastify/swagger-ui':
-        specifier: 5.2.5
-        version: 5.2.5
+        specifier: 5.2.6
+        version: 5.2.6
       '@hyperdx/node-opentelemetry':
         specifier: 0.10.3
         version: 0.10.3
@@ -741,8 +741,11 @@ packages:
   '@fastify/static@9.1.1':
     resolution: {integrity: sha512-LHxFea3qdwe0Pbbkh/yux7/k6nFNLGTNcbLKVYgmRDB6LdDE/8TFSO7qWZ0IzM/nF6iwR8W03oFlwe4v79R1Ow==}
 
-  '@fastify/swagger-ui@5.2.5':
-    resolution: {integrity: sha512-ky3I0LAkXKX/prwSDpoQ3kscBKsj2Ha6Gp1/JfgQSqyx0bm9F2bE//XmGVGj2cR9l5hUjZYn60/hqn7e+OLgWQ==}
+  '@fastify/static@9.1.3':
+    resolution: {integrity: sha512-aXrYtsiryLhRxRNaxNqsn7FUISeb7rB9q4eHUPIot5aeQBLNahnz1m6thzm7JWC1poSGXS9XrX8DvuMivp2hkQ==}
+
+  '@fastify/swagger-ui@5.2.6':
+    resolution: {integrity: sha512-OMnms0O5s9wb6wis/K5nlrAMLsgUbr1GA8uphM41IasWe3AFdgxz6r/3bA9HTxlDNUYc2FGGKeqMp3ntxmSiNA==}
 
   '@fastify/swagger@9.7.0':
     resolution: {integrity: sha512-Vp1SC1GC2Hrkd3faFILv86BzUNyFz5N4/xdExqtCgkGASOzn/x+eMe4qXIGq7cdT6wif/P/oa6r1Ruqx19paZA==}
@@ -5416,9 +5419,18 @@ snapshots:
       fastq: 1.20.1
       glob: 13.0.6
 
-  '@fastify/swagger-ui@5.2.5':
+  '@fastify/static@9.1.3':
     dependencies:
-      '@fastify/static': 9.1.1
+      '@fastify/accept-negotiator': 2.0.1
+      '@fastify/send': 4.1.0
+      content-disposition: 1.1.0
+      fastify-plugin: 5.1.0
+      fastq: 1.20.1
+      glob: 13.0.6
+
+  '@fastify/swagger-ui@5.2.6':
+    dependencies:
+      '@fastify/static': 9.1.3
       fastify-plugin: 5.1.0
       openapi-types: 12.1.3
       rfdc: 1.4.1
