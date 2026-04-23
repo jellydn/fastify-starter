@@ -63,7 +63,7 @@
     "swagger-jsdoc": "6.2.8"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.4.12",
+    "@biomejs/biome": "2.4.13",
     "@tapjs/test": "4.4.5",
     "@types/busboy": "1.5.4",
     "@types/dotenv": "8.2.3",
@@ -82,7 +82,7 @@
     "tsx": "4.21.0",
     "typescript": "5.9.3"
   },
-  "packageManager": "pnpm@10.33.1",
+  "packageManager": "pnpm@10.33.2",
   "engines": {
     "node": ">=18.17.0"
   },
