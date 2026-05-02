@@ -63,8 +63,8 @@
     "swagger-jsdoc": "6.2.8"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.4.13",
-    "@tapjs/test": "4.4.5",
+    "@biomejs/biome": "2.4.14",
+    "@tapjs/test": "4.4.6",
     "@types/busboy": "1.5.4",
     "@types/dotenv": "8.2.3",
     "@types/node": "25.6.0",
@@ -76,7 +76,7 @@
     "husky": "9.1.7",
     "json-schema-to-typescript": "15.0.4",
     "sort-package-json": "3.6.1",
-    "tap": "21.7.1",
+    "tap": "21.7.2",
     "ts-node": "10.9.2",
     "tsup": "8.5.1",
     "tsx": "4.21.0",
