@@ -64,7 +64,7 @@
   },
   "devDependencies": {
     "@biomejs/biome": "2.4.15",
-    "@tapjs/test": "4.4.6",
+    "@tapjs/test": "4.4.7",
     "@types/busboy": "1.5.4",
     "@types/dotenv": "8.2.3",
     "@types/node": "25.7.0",
@@ -76,7 +76,7 @@
     "husky": "9.1.7",
     "json-schema-to-typescript": "15.0.4",
     "sort-package-json": "3.6.1",
-    "tap": "21.7.2",
+    "tap": "21.7.3",
     "ts-node": "10.9.2",
     "tsup": "8.5.1",
     "tsx": "4.21.0",
