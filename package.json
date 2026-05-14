@@ -67,7 +67,7 @@
     "@tapjs/test": "4.4.7",
     "@types/busboy": "1.5.4",
     "@types/dotenv": "8.2.3",
-    "@types/node": "25.7.0",
+    "@types/node": "25.8.0",
     "@types/swagger-jsdoc": "6.0.4",
     "@types/tap": "18.0.0",
     "cpy-cli": "7.0.0",
@@ -79,7 +79,7 @@
     "tap": "21.7.3",
     "ts-node": "10.9.2",
     "tsup": "8.5.1",
-    "tsx": "4.21.0",
+    "tsx": "4.22.0",
     "typescript": "5.9.3"
   },
   "packageManager": "pnpm@10.33.4",
