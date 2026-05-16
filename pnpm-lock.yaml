@@ -122,7 +122,7 @@ importers:
         version: 6.0.4
       '@types/tap':
         specifier: 18.0.0
-        version: 18.0.0(@types/node@25.8.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.9.3)
+        version: 18.0.0(@types/node@25.8.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@6.0.3)
       cpy-cli:
         specifier: 7.0.0
         version: 7.0.0
@@ -143,19 +143,19 @@ importers:
         version: 3.6.1
       tap:
         specifier: 21.7.4
-        version: 21.7.4(@types/node@25.8.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.9.3)
+        version: 21.7.4(@types/node@25.8.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@6.0.3)
       ts-node:
         specifier: 10.9.2
-        version: 10.9.2(@types/node@25.8.0)(typescript@5.9.3)
+        version: 10.9.2(@types/node@25.8.0)(typescript@6.0.3)
       tsup:
         specifier: 8.5.1
-        version: 8.5.1(tsx@4.22.0)(typescript@5.9.3)(yaml@2.8.4)
+        version: 8.5.1(tsx@4.22.0)(typescript@6.0.3)(yaml@2.8.4)
       tsx:
         specifier: 4.22.0
         version: 4.22.0
       typescript:
-        specifier: 5.9.3
-        version: 5.9.3
+        specifier: 6.0.3
+        version: 6.0.3
 
 packages:
 
@@ -4757,6 +4757,11 @@ packages:
     engines: {node: '>=14.17'}
     hasBin: true
 
+  typescript@6.0.3:
+    resolution: {integrity: sha512-y2TvuxSZPDyQakkFRPZHKFm+KKVqIisdg9/CZwm9ftvKXLP8NRWj38/ODjNbr43SsoXqNuAisEf1GdCxqWcdBw==}
+    engines: {node: '>=14.17'}
+    hasBin: true
+
   ua-parser-js@1.0.41:
     resolution: {integrity: sha512-LbBDqdIC5s8iROCUjMbW1f5dJQTEFB1+KO9ogbvlb3nm9n4YHa5p4KTvFPWvh2Hs8gZMBuiB1/8+pdfe/tDPug==}
     hasBin: true
@@ -5944,6 +5949,22 @@ snapshots:
       diff: 4.0.4
       make-error: 1.3.6
       typescript: 5.9.3
+      v8-compile-cache-lib: 3.0.1
+
+  '@isaacs/ts-node-temp-fork-for-pr-2009@10.9.7(@types/node@25.8.0)(typescript@6.0.3)':
+    dependencies:
+      '@cspotcode/source-map-support': 0.8.1
+      '@tsconfig/node14': 14.1.8
+      '@tsconfig/node16': 16.1.8
+      '@tsconfig/node18': 18.2.6
+      '@tsconfig/node20': 20.1.9
+      '@types/node': 25.8.0
+      acorn: 8.16.0
+      acorn-walk: 8.3.5
+      arg: 4.1.3
+      diff: 4.0.4
+      make-error: 1.3.6
+      typescript: 6.0.3
       v8-compile-cache-lib: 3.0.1
 
   '@isaacs/which@7.0.4':
@@ -7811,6 +7832,16 @@ snapshots:
       - '@types/node'
       - typescript
 
+  '@tapjs/typescript@3.5.10(@tapjs/core@4.5.8(@types/node@25.8.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/node@25.8.0)(typescript@6.0.3)':
+    dependencies:
+      '@isaacs/ts-node-temp-fork-for-pr-2009': 10.9.7(@types/node@25.8.0)(typescript@6.0.3)
+      '@tapjs/core': 4.5.8(@types/node@25.8.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+    transitivePeerDependencies:
+      - '@swc/core'
+      - '@swc/wasm'
+      - '@types/node'
+      - typescript
+
   '@tapjs/worker@4.3.10(@tapjs/core@4.5.8(@types/node@25.8.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))':
     dependencies:
       '@tapjs/core': 4.5.8(@types/node@25.8.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -7910,9 +7941,9 @@ snapshots:
 
   '@types/swagger-jsdoc@6.0.4': {}
 
-  '@types/tap@18.0.0(@types/node@25.8.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.9.3)':
+  '@types/tap@18.0.0(@types/node@25.8.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@6.0.3)':
     dependencies:
-      tap: 21.7.4(@types/node@25.8.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.9.3)
+      tap: 21.7.4(@types/node@25.8.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@6.0.3)
     transitivePeerDependencies:
       - '@swc/core'
       - '@swc/wasm'
@@ -10216,7 +10247,7 @@ snapshots:
       yaml: 2.8.4
       yaml-types: 0.4.0(yaml@2.8.4)
 
-  tap@21.7.4(@types/node@25.8.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.9.3):
+  tap@21.7.4(@types/node@25.8.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@6.0.3):
     dependencies:
       '@tapjs/after': 3.3.10(@tapjs/core@4.5.8(@types/node@25.8.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
       '@tapjs/after-each': 4.3.10(@tapjs/core@4.5.8(@types/node@25.8.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
@@ -10235,7 +10266,7 @@ snapshots:
       '@tapjs/spawn': 4.3.10(@tapjs/core@4.5.8(@types/node@25.8.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
       '@tapjs/stdin': 4.3.10(@tapjs/core@4.5.8(@types/node@25.8.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
       '@tapjs/test': 4.4.8(@tapjs/core@4.5.8(@types/node@25.8.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/node@25.8.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@tapjs/typescript': 3.5.10(@tapjs/core@4.5.8(@types/node@25.8.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/node@25.8.0)(typescript@5.9.3)
+      '@tapjs/typescript': 3.5.10(@tapjs/core@4.5.8(@types/node@25.8.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/node@25.8.0)(typescript@6.0.3)
       '@tapjs/worker': 4.3.10(@tapjs/core@4.5.8(@types/node@25.8.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
       resolve-import: 2.4.0
     transitivePeerDependencies:
@@ -10319,7 +10350,7 @@ snapshots:
 
   ts-interface-checker@0.1.13: {}
 
-  ts-node@10.9.2(@types/node@25.8.0)(typescript@5.9.3):
+  ts-node@10.9.2(@types/node@25.8.0)(typescript@6.0.3):
     dependencies:
       '@cspotcode/source-map-support': 0.8.1
       '@tsconfig/node10': 1.0.12
@@ -10333,7 +10364,7 @@ snapshots:
       create-require: 1.1.1
       diff: 4.0.4
       make-error: 1.3.6
-      typescript: 5.9.3
+      typescript: 6.0.3
       v8-compile-cache-lib: 3.0.1
       yn: 3.1.1
 
@@ -10357,7 +10388,7 @@ snapshots:
 
   tslib@2.8.1: {}
 
-  tsup@8.5.1(tsx@4.22.0)(typescript@5.9.3)(yaml@2.8.4):
+  tsup@8.5.1(tsx@4.22.0)(typescript@6.0.3)(yaml@2.8.4):
     dependencies:
       bundle-require: 5.1.0(esbuild@0.27.7)
       cac: 6.7.14
@@ -10377,7 +10408,7 @@ snapshots:
       tinyglobby: 0.2.16
       tree-kill: 1.2.2
     optionalDependencies:
-      typescript: 5.9.3
+      typescript: 6.0.3
     transitivePeerDependencies:
       - jiti
       - supports-color
@@ -10407,6 +10438,8 @@ snapshots:
       mime-types: 3.0.2
 
   typescript@5.9.3: {}
+
+  typescript@6.0.3: {}
 
   ua-parser-js@1.0.41: {}
 
