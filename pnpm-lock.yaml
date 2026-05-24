@@ -63,8 +63,8 @@ importers:
         specifier: 0.34.49
         version: 0.34.49
       altair-fastify-plugin:
-        specifier: 8.5.2
-        version: 8.5.2(fastify@5.8.5)
+        specifier: 8.5.3
+        version: 8.5.3(fastify@5.8.5)
       close-with-grace:
         specifier: 2.5.0
         version: 2.5.0
@@ -891,9 +891,6 @@ packages:
 
   '@fastify/sensible@6.0.4':
     resolution: {integrity: sha512-1vxcCUlPMew6WroK8fq+LVOwbsLtX+lmuRuqpcp6eYqu6vmkLwbKTdBWAZwbeaSgCfW4tzUpTIHLLvTiQQ1BwQ==}
-
-  '@fastify/static@8.3.0':
-    resolution: {integrity: sha512-yKxviR5PH1OKNnisIzZKmgZSus0r2OZb8qCSbqmw34aolT4g3UlzYfeBRym+HJ1J471CR8e2ldNub4PubD1coA==}
 
   '@fastify/static@9.1.3':
     resolution: {integrity: sha512-aXrYtsiryLhRxRNaxNqsn7FUISeb7rB9q4eHUPIot5aeQBLNahnz1m6thzm7JWC1poSGXS9XrX8DvuMivp2hkQ==}
@@ -2609,13 +2606,13 @@ packages:
   ajv@8.20.0:
     resolution: {integrity: sha512-Thbli+OlOj+iMPYFBVBfJ3OmCAnaSyNn4M1vz9T6Gka5Jt9ba/HIR56joy65tY6kx/FCF5VXNB819Y7/GUrBGA==}
 
-  altair-fastify-plugin@8.5.2:
-    resolution: {integrity: sha512-bv/04fYZUQ1rzSjxWAxkcnlfVRd6om504YIEE4lg/UbhJDGKsUyStjvQcmQPLg8NuT5TbiwNlO1BJxGyCfgIrQ==}
+  altair-fastify-plugin@8.5.3:
+    resolution: {integrity: sha512-AuOwvVNykLxagYV+6spYcuW6BX6RcMCUBuRp889xaeLK7pLsgOAhmP+jZytD0tvg0hs2AJ6lijjAWxm/3zlWgg==}
     peerDependencies:
       fastify: ^5.0.0
 
-  altair-static@8.5.2:
-    resolution: {integrity: sha512-lxqytmOZba9hP+AzYQFoaeejg5H5+/mrqAONkt3vxGQ4ERW3m76g/VOT8/icPy9htGRd1G9nhMwgl9vNaiPwbg==}
+  altair-static@8.5.3:
+    resolution: {integrity: sha512-S3VEm80P9urDOl0kmmC2Q63P1h8k5zp1FIhL9tfx15PMOGRhjLMxIBdS5mpTtv0pr7KsviVwmY9tX3oHnuokHw==}
     engines: {node: '>= 6.9.1'}
 
   ansi-escapes@7.3.0:
@@ -2889,10 +2886,6 @@ packages:
 
   constant-case@3.0.4:
     resolution: {integrity: sha512-I2hSBi7Vvs7BEuJDr5dDHfzb/Ruj3FyvFyh7KLilAjNQw3Be+xgqUBA2W6scVEcL0hL1dwPRtIqEPVUCKkSsyQ==}
-
-  content-disposition@0.5.4:
-    resolution: {integrity: sha512-FveZTNuGw04cxlAiWbzi6zTAL/lhehaWbTtgluJh4/E95DqMwTmha3KZN1aAWA8cFIhHzMZUvLevkw5Rqk+tSQ==}
-    engines: {node: '>= 0.6'}
 
   content-disposition@1.1.0:
     resolution: {integrity: sha512-5jRCH9Z/+DRP7rkvY83B+yGIGX96OYdJmzngqnw2SBSxqCFPd0w2km3s5iawpGX8krnwSGmF0FW5Nhr0Hfai3g==}
@@ -5621,15 +5614,6 @@ snapshots:
       type-is: 2.1.0
       vary: 1.1.2
 
-  '@fastify/static@8.3.0':
-    dependencies:
-      '@fastify/accept-negotiator': 2.0.1
-      '@fastify/send': 4.1.0
-      content-disposition: 0.5.4
-      fastify-plugin: 5.1.0
-      fastq: 1.20.1
-      glob: 11.1.0
-
   '@fastify/static@9.1.3':
     dependencies:
       '@fastify/accept-negotiator': 2.0.1
@@ -7985,14 +7969,14 @@ snapshots:
       json-schema-traverse: 1.0.0
       require-from-string: 2.0.2
 
-  altair-fastify-plugin@8.5.2(fastify@5.8.5):
+  altair-fastify-plugin@8.5.3(fastify@5.8.5):
     dependencies:
-      '@fastify/static': 8.3.0
-      altair-static: 8.5.2
+      '@fastify/static': 9.1.3
+      altair-static: 8.5.3
       fastify: 5.8.5
       fastify-plugin: 5.1.0
 
-  altair-static@8.5.2:
+  altair-static@8.5.3:
     dependencies:
       zod: 4.4.3
 
@@ -8304,10 +8288,6 @@ snapshots:
       no-case: 3.0.4
       tslib: 2.5.3
       upper-case: 2.0.2
-
-  content-disposition@0.5.4:
-    dependencies:
-      safe-buffer: 5.2.1
 
   content-disposition@1.1.0: {}
 
