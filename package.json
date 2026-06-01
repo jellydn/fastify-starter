@@ -32,7 +32,7 @@
   "dependencies": {
     "@fastify/autoload": "6.3.1",
     "@fastify/cors": "11.2.0",
-    "@fastify/env": "5.0.3",
+    "@fastify/env": "6.0.0",
     "@fastify/etag": "6.1.0",
     "@fastify/helmet": "13.0.2",
     "@fastify/multipart": "9.4.0",
