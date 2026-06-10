@@ -53,7 +53,7 @@
     "dotenv": "17.4.2",
     "fastify": "5.8.5",
     "fastify-cli": "7.4.1",
-    "fastify-plugin": "5.1.0",
+    "fastify-plugin": "6.0.0",
     "fastify-tsconfig": "3.0.0",
     "graphql": "16.14.2",
     "mercurius": "16.9.0",
