@@ -51,7 +51,7 @@
     "altair-fastify-plugin": "8.5.9",
     "close-with-grace": "2.5.0",
     "dotenv": "17.4.2",
-    "fastify": "5.12.3",
+    "fastify": "5.12.4",
     "fastify-cli": "7.4.1",
     "fastify-plugin": "6.0.0",
     "fastify-tsconfig": "3.0.0",
@@ -63,11 +63,11 @@
     "swagger-jsdoc": "6.3.0"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.5.12",
+    "@biomejs/biome": "2.5.13",
     "@tapjs/test": "4.4.10",
     "@types/busboy": "1.5.4",
     "@types/dotenv": "8.2.3",
-    "@types/node": "25.9.5",
+    "@types/node": "25.9.6",
     "@types/swagger-jsdoc": "6.0.4",
     "@types/tap": "18.0.0",
     "cpy-cli": "7.0.0",
