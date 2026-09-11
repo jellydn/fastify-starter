@@ -82,7 +82,7 @@
     "tsx": "4.23.13",
     "typescript": "5.9.3"
   },
-  "packageManager": "pnpm@10.34.5",
+  "packageManager": "pnpm@12.4.1",
   "engines": {
     "node": ">=18.17.0"
   },
