@@ -74,7 +74,7 @@
     "cross-env": "10.1.0",
     "fast-json-stringify": "7.0.1",
     "husky": "9.1.7",
-    "json-schema-to-typescript": "15.0.4",
+    "json-schema-to-typescript": "16.0.0",
     "sort-package-json": "4.0.0",
     "tap": "21.8.0",
     "ts-node": "10.9.2",
