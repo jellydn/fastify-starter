@@ -50,7 +50,7 @@
     "@sinclair/typebox": "0.34.52",
     "altair-fastify-plugin": "8.5.9",
     "close-with-grace": "2.5.0",
-    "dotenv": "17.4.2",
+    "dotenv": "18.0.1",
     "fastify": "5.12.5",
     "fastify-cli": "7.4.1",
     "fastify-plugin": "6.0.0",
